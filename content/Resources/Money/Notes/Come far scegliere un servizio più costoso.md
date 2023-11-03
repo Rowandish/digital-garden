@@ -2,8 +2,6 @@
 tags:
   - Marketing
 ---
-
-
 Spesso durante la vendita vengono proposti vari "pacchetti" spesso con lo scopo (effetto anchoring) di far acquistare il pacchetto più costoso.
 Oltre alle normali tecniche spiegate nei [[Concetti basici di vendita]] possiamo 
 pensare ad un possibile script che da  utilizzare per portare il cliente a comprare il pacchetto "premium" di assistenza post vendita:

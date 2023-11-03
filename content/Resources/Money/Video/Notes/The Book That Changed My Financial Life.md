@@ -1,7 +1,9 @@
-- **Author**:: [[Ali Abdaal]]
-- **Topic**:: #video #PersonalFinance
-- **Link**:: https://www.youtube.com/watch?v=Gg8_TA7U0Uw
-
+---
+tags:
+  - PersonalFinance
+Author: Ali Abdaal
+Link: https://www.youtube.com/watch?v=Gg8_TA7U0Uw
+---
 ## 📺 Video
 <div class="iframe-container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/Gg8_TA7U0Uw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

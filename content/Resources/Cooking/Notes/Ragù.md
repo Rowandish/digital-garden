@@ -3,8 +3,6 @@ tags:
   - Recipe
   - PrimiPiatti
 ---
-
-
 ## Ingredienti x 10 persone
 
 * 1kg di carne misto manzo e maiale

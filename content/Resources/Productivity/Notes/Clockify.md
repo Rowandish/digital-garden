@@ -2,8 +2,6 @@
 tags:
   - TimeTracking
 ---
-
-
 Applicazione gratuita per il [[Time tracking]] consigliata da [[Mr. Rip]].
 ![[Pasted image 20220920005754.png]]
 Esistono 3 concetti fondamentali:

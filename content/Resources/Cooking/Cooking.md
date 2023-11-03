@@ -2,7 +2,6 @@
 ```dataview
 	LIST FROM "Resources/Cooking/Notes" AND #Tutorial 
 ```
-
 ## 🥓Breakfast
 ```dataview
 	LIST FROM #Recipe and #Colazione

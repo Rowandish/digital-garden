@@ -2,8 +2,6 @@
 tags:
   - PersonalFinance
 ---
-
-
 ## Budget
 
 Prima di iniziare qualsiasi operazione è ==necessario sapere quanto si guadagna, quanto si spende ogni mese e (ovviamente) spendere meno di quanto si guadagna==.

@@ -2,8 +2,6 @@
 tags:
   - RealEstateInvestment
 ---
-
-
 Abbiamo 2 diverse modalità di stima che possono essere facilmente integrate tra di loro quando si vuole valutare con precisione un immobile ed avere un quadro chiaro del suo valore commerciale:
 
 ### Stima OMI

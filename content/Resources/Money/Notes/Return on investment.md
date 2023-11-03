@@ -2,7 +2,6 @@
 tags:
   - Finance
 ---
-
 Il ritorno dell'investimento è definito come il rapporto tra il prezzo di acquisto e quello di vendita di un determinato bene diviso il prezzo di acquisto.
 $$R = \frac{C_f-C_i}{C_i}$$
 Questo valore però non tiene in considerazione il fattore tempo, che invece è determinante come spiegato in [[Interesse composto]]. Infatti avere un rendimento dell'$x\%$ in a mese non è la stessa cosa di avere lo stesso rendimento in un anno.

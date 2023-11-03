@@ -3,8 +3,6 @@ tags:
   - Recipe
   - SecondiPiatti
 ---
-
-
 ## 📺 Video
 
 <div class="iframe-container">

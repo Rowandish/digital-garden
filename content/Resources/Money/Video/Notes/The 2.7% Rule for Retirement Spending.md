@@ -1,8 +1,10 @@
-- **Author**:: [[Ben Felix]]
-- **Topic**:: #video #PersonalFinance #PublishedPosts
-- **Date**: 22-12-2022
-- **Link**:: https://www.youtube.com/watch?v=1FwgCRIS0Wg
-
+---
+tags:
+  - PersonalFinance
+Author: Ben Felix
+Date: 22-12-2022
+Link: https://www.youtube.com/watch?v=1FwgCRIS0Wg
+---
 ## 📺 Video
 <div class="iframe-container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/1FwgCRIS0Wg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

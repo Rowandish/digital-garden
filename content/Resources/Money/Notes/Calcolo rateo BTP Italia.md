@@ -3,8 +3,6 @@ tags:
   - Bond
   - Finance
 ---
-
-
 Documento: https://www.dt.mef.gov.it/it/debito_pubblico/dati_statistici/coefficienti_di_indicizzazione_btp_italia/esempi_calcolo/
 
 ## 📺 Video

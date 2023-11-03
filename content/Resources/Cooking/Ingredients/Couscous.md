@@ -2,8 +2,6 @@
 tags:
   - Ingredient
 ---
-
-
 ## Descrizione
 
 Il couscous è una tipo di pasta originaria del Nord Africa, in particolare del Marocco, Algeria e Tunisia. Si prepara a partire da semola di grano duro, che viene lavorata in modo da ottenere delle piccole palline di forma sferica. Il couscous viene solitamente servito come accompagnamento a piatti di carne o di verdure e può essere preparato in molti modi diversi.

@@ -1,8 +1,10 @@
-- **Author**:: [[The Plain Bagel]]
-- **Topic**:: #video #PersonalFinance #PublishedPosts
-- **Date**: 07-11-2022
-- **Link**:: https://www.youtube.com/watch?v=AqZbO8Ojhmw
-
+---
+tags:
+  - PersonalFinance
+Author: The plain bagel
+Date: 07-11-2022
+Link: https://www.youtube.com/watch?v=AqZbO8Ojhmw
+---
 ## 📺 Video
 <div class="iframe-container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/AqZbO8Ojhmw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

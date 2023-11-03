@@ -3,8 +3,6 @@ tags:
   - Definition
   - Finance
 ---
-
-
 ## Definizione
 
 Le growth stock sono azioni di società che sono considerate sopravvalutate dal mercato, ovvero il loro prezzo è superiore rispetto ai loro fondamentali economici, come il reddito o il valore contabile.

@@ -2,8 +2,6 @@
 tags:
   - Finance
 ---
-
-
 Utilizzare un investimento già esistente in un determinato asset come collaterale (dare questo strumento ad un intermediario finanziario che lo tiene come garanzia) per ricevere dei soldi in prestito con il quale comprare lo stesso asset.
 In questo modo sono esposto all'investimento con una cifra maggiore rispetto a quella che effettivamente ho amplificando quindi sia le perdite che i guadagni.
 Il problema di questo approccio è la [[Liquidazione del collaterale (margin call)]] che avviene in caso di notevoli drowdown dell'asset.

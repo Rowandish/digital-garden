@@ -2,8 +2,6 @@
 tags:
   - Learning
 ---
-
-
 Url: https://fs.blog/feynman-learning-technique/
 
 > [!quote] Warren Buffet - Circle of Competence

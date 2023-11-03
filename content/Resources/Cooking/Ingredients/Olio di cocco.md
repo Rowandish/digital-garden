@@ -2,8 +2,6 @@
 tags:
   - Ingredient
 ---
-
-
 ## Descrizione
 
 L'olio di cocco è un olio vegetale ottenuto dalla lavorazione delle noci di cocco. Si presenta come un solido a temperatura ambiente, ma diventa liquido a temperatura superiore ai 24°C.

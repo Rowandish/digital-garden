@@ -2,8 +2,6 @@
 tags:
   - Learning
 ---
-
-
 La "Deliberate Practice" (pratica consapevole) è un concetto chiave nell'ambito dello sviluppo delle abilità e dell'acquisizione dell'eccellenza in un determinato campo.
 Questo concetto è stato approfondito e reso ampiamente noto dallo psicologo svedese K. Anders Ericsson e reso famoso da [[Cal Newport]], il cui lavoro ha contribuito a plasmare la comprensione di come le persone diventano esperte in varie discipline.
 ==La pratica deliberata è il processo mediante il quale gli individui migliorano costantemente le loro abilità attraverso l'approfondimento mirato, il feedback costante e l'attenzione concentrata==.

@@ -2,8 +2,6 @@
 tags:
   - RealEstateInvestment
 ---
-
-
 > [!success]
 > L’obiettivo primario è far sì che il visitatore si senta a casa. 
 

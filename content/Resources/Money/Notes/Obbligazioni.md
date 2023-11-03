@@ -4,8 +4,6 @@ tags:
   - Bond
   - PublishedPosts
 ---
-
-
 > [!tip] Title
 > Calcolatore prezzo: https://docs.google.com/spreadsheets/d/1dk5C2Jsts32zPvcdMWhl_tq0601aDGWrmYmu88L67GQ/edit?usp=sharing
 ## Introduzione

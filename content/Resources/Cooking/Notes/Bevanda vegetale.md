@@ -2,8 +2,6 @@
 tags:
   - Ingredient
 ---
-
-
 Le bevande vegetali sono delle alternative al latte di origine animale, spesso utilizzate da persone che seguono una dieta vegana o vegetariana.
 Queste bevande possono essere fatte con diverse fonti di proteine vegetali, come soia, mandorle, nocciole, riso e cocco.
 Le bevande vegetali sono anche considerate più leggere del latte vaccino e possono offrire diversi benefici per la salute grazie ai nutrienti contenuti nelle piante utilizzate per produrle.

@@ -2,8 +2,6 @@
 tags:
   - Ingredient
 ---
-
-
 ## Descrizione
 
 I fiocchi d'avena sono un alimento derivato dall'avena, una pianta appartenente alla famiglia delle Poaceae. Sono ottenuti dalla lavorazione dell'avena, che viene macinata e poi pressata per eliminare l'involucro esterno, il cosiddetto "germe".

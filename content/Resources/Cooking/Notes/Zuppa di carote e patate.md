@@ -3,8 +3,6 @@ tags:
   - Recipe
   - Zuppe
 ---
-
-
 ## Ingredienti
 
 -   1 patata grande o due medie

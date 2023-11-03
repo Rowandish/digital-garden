@@ -5,8 +5,6 @@ tags:
   - Vegan
   - Light
 ---
-
-
 ## 📺 Video
 
 <div class="iframe-container">

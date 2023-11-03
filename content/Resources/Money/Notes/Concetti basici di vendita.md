@@ -2,8 +2,6 @@
 tags:
   - Marketing
 ---
-
-
 Di seguito qualche tecnica base per convincere una persona a scegliere un determinato prodotto o servizio.
 
 ## Mostrare i vantaggi

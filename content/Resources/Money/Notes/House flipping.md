@@ -2,8 +2,6 @@
 tags:
   - RealEstateInvestment
 ---
-
-
 L'house flipping (“compra-ristruttura-rivendi”) tratta di acquistare immobili, ristrutturarli, talvolta arredarli e abbellirli, per poi rivenderli a prezzi maggiorati, realizzando ottime plusvalenze. Possibilmente in tempi brevi. 
 Se lo scopo è quello di accumulare ricchezza e produrre reddito passivo la forma migliore è quella dell’acquisto finalizzato alla locazione delle unità immobiliari. Questa è una delle attività più solide e durature, permette di accrescere la propria ricchezza patrimoniale e di trasmetterla ai propri eredi.   Per chi invece cerca realizzi rapidi o non vuole mantenere il capitale fermo ma vuole farlo fruttare, c’è proprio l’house flipping che consente di investire comprando e rivendendo immobili per ottenere plusvalenze da reinvestire allo stesso modo. 
 

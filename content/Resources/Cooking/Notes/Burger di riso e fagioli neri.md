@@ -4,8 +4,6 @@ tags:
   - Vegan
   - SecondiPiatti
 ---
-
-
 ## 📺 Video
 
 <div class="iframe-container">

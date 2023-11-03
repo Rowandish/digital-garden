@@ -17,7 +17,7 @@ Per calcolare la similarità del coseno tra due vettori, è necessario eseguire 
 
 La formula per calcolare la similarità del coseno tra due vettori 𝑎 e 𝑏 è la seguente:
 ```
-similarità = 𝑎 • 𝑏 / (‖𝑎‖ × ‖𝑏‖)
+similarita' = 𝑎 • 𝑏 / (‖𝑎‖ × ‖𝑏‖)
 ```
 
 ## Casi d'uso

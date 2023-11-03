@@ -4,8 +4,6 @@ tags:
   - Aperitivo
   - Vegan
 ---
-
-
 ## 📺 Video
 
 <div class="iframe-container">

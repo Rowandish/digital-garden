@@ -3,8 +3,6 @@ tags:
   - Recipe
   - Contorno
 ---
-
-
 ## 📺 Video
 
 <div class="iframe-container">

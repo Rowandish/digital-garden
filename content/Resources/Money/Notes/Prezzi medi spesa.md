@@ -2,8 +2,6 @@
 tags:
   - PersonalFinance
 ---
-
-
 In questa nota descrivo i prezzi a cui si possono trovare determinati beni di consumo.
 Se si trovano ad un prezzo maggiore significa che o stai pagando in qualità (es. prodotti bio) oppure potresti aspettare offerte migliori
 

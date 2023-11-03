@@ -2,8 +2,6 @@
 tags:
   - Productivity
 ---
-
-
 ## Definizione
 
 Attività effettuata in uno stato di concentrazione *distraction-free* che porta le proprie abilità cognitive al loro limite.

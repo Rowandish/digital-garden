@@ -3,8 +3,6 @@ tags:
   - Recipe
   - Cocktail
 ---
-
-
 ## Ingredienti
 -   Vodka
 -   Kalhua

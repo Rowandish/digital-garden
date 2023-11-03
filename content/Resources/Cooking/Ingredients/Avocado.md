@@ -2,8 +2,6 @@
 tags:
   - Ingredient
 ---
-
-
 ## Descrizione
 
 L'avocado (Persea americana) è un frutto tropicale originario del Messico e dell'America Centrale. È anche conosciuto come "abbacchio" o "palta" in alcune parti del mondo. L'avocado è particolarmente popolare per il suo alto contenuto di grassi sani e per il suo sapore e la consistenza deliziosi.

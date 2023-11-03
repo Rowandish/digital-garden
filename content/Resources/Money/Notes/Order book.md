@@ -3,8 +3,6 @@ tags:
   - PersonalFinance
   - PublishedPosts
 ---
-
-
 ## Introduzione
 
 Il prodotti finanziari vengono scambiati principalmente all'interno dei mercati finanziari (a meno degli scambi [[Over the Counter]]).

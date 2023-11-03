@@ -4,8 +4,6 @@ tags:
   - Vegan
   - Colazione
 ---
-
-
 ## 📺 Video
 
 <div class="iframe-container">

@@ -3,8 +3,6 @@ tags:
   - Definition
   - Finance
 ---
-
-
 ## Definizione
 Nel mondo degli investimenti esistono i "[[Factor]]" che sono dei fattori che influenzano il prezzo di un prodotto o il suo andamento futuro.
 Uno dei motivi per cui l'investimento attivo (personale o tramite fondi) è meno performante sono gli **psychological factors**, cioè tutte quelle caratteristiche del cervello umano che lo portano a fare continuamente errori.

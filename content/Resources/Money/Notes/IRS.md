@@ -2,8 +2,6 @@
 tags:
   - RealEstateInvestment
 ---
-
-
 L'Irs (Interest Rate Swap) è indice per determinare il tasso da applicare ai mutui a tasso fisso.
 Quando la banca garantisce al cliente un tasso fisso deve tutelarsi in modo da evitare di rimetterci cifre da capogiro se i tassi si alzano.
 ==Ciò e possibile ricorrendo a speciali contratti (detti swap) stipulati con controparti disposte ad accollarsi il rischio di rialzi, nell’ambito di un intento speculativo==.

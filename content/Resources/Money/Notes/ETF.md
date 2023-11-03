@@ -3,8 +3,6 @@ tags:
   - Definition
   - Finance
 ---
-
-
 ## Definizione
 
 Gli ETF (exchange-traded fund) sono dei fondi di investimento, quindi di fatto un insieme di [[azioni]], [[obbligazioni]], materie prime… che hanno lo scopo di replicare un determinato indice di riferimento. Un indice esprime la variazione nel tempo dei prezzi di un paniere di titoli scelto, per esempio l’FTSE MIB indica come stanno andando i 40 titoli “migliori” della borsa italiana, l’S&P500 della borsa americana e così via. Un ETF quindi è un insieme di azioni che hanno lo scopo di comportarsi nel modo più simile possibile ad un determinato indice, nell’ottica di diversificare l’investimento (rispetto all’investimento in una singola azione) e avere una maggiore stabilità. Gli ETF sono a gestione passiva, che significa che il loro rendimento è legato alla quotazione di un indice borsistico (che può essere azionario, per materie prime, obbligazionario, monetario etc.) e non all’abilità di compravendita del gestore del fondo. L’opera del gestore si limita a verificare la coerenza del fondo con l’indice di riferimento (che può variare per acquisizioni societarie, fallimenti, crolli delle quotazioni etc.), nonché correggerne il valore in caso di scostamenti tra la quotazione del fondo e quella dell’indice di riferimento, che sono ammessi nell’ordine di pochi punti percentuali (1% o 2%). Gli ETF vengono scambiati in borsa in negoziazione continua, come le azioni (e diversamente dai fondi comuni, che valorizzano solitamente a fine giornata) e di conseguenza il loro valore varia continuativamente nell’ambito della stessa giornata di contrattazioni.

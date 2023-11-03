@@ -2,8 +2,6 @@
 tags:
   - Ingredient
 ---
-
-
 ## Descrizione
 
 I semi di chia (Salvia hispanica) sono piccoli semi neri o marroni, originari del Messico e dell'America Centrale. Sono stati a lungo utilizzati come cibo e medicina dalle popolazioni indigene di queste regioni.

@@ -2,8 +2,6 @@
 tags:
   - Ingredient
 ---
-
-
 ## Descrizione
 
 La farina di ceci è un ingrediente alimentare ottenuto dalla macinazione dei ceci, un tipo di legume appartenente alla famiglia delle Fabaceae.

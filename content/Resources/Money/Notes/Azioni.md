@@ -2,8 +2,6 @@
 tags:
   - Finance
 ---
-
-
 Un'azione è una quota di una società.
 Questa quota porta ad una serie di diritti come:
 * Diritto agli utili (chiamati dividendi)

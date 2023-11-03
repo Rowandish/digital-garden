@@ -4,8 +4,6 @@ tags:
   - Dolci
   - Vegan
 ---
-
-
 ## 📺 Video
 
 <div class="iframe-container">

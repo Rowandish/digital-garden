@@ -3,8 +3,6 @@ tags:
   - Recipe
   - SecondiPiatti
 ---
-
-
 ## Ingredienti
 
 -   400 g di petto di pollo

@@ -3,8 +3,6 @@ tags:
   - Recipe
   - SecondiPiatti
 ---
-
-
 ## Ingredienti
 
 -   300g filetto di merluzzo

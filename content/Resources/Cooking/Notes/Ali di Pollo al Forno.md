@@ -3,8 +3,6 @@ tags:
   - Recipe
   - SecondiPiatti
 ---
-
-
 ## Link
 
 https://www.cucchiaio.it/ricetta/ali-di-pollo-al-forno/

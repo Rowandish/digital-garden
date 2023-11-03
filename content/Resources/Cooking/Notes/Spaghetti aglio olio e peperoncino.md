@@ -4,8 +4,6 @@ tags:
   - PrimiPiatti
   - Pasta
 ---
-
-
 ## Ingredienti
 
 -   2 spicchi di aglio

@@ -3,8 +3,6 @@ tags:
   - Definition
   - Finance
 ---
-
-
 ## Definizione
 I factor sono delle caratteristiche delle aziende che possono influire positivamente o negativamente sull'[[Expected value]].
 In particolare questi sono delle esplicitazioni del generico concetto di "rischio": maggiore è questo ultimo maggiore è l'expected return ma maggiore sarà anche la volatilità.

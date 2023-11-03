@@ -3,8 +3,6 @@ tags:
   - Recipe
   - Cocktail
 ---
-
-
 ## Ingredienti
 -   Martini rosso
 -   Martini orange

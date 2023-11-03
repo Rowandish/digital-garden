@@ -2,8 +2,6 @@
 tags:
   - Productivity
 ---
-
-
 Questo conetto, introdotto nel libro "Make time" di Knapp e Zeratsky prevedre di individuare ==ogni giorno un obiettivo specifico che si vuole raggiungere o un'attività importante da svolgere in tale giorno e concentrarsi su di essa fino a portarla a termine==.
 In questo modo c’è una sola cosa su cui concentrarsi invece di una serie di attività.
 Non è detto che debba essere una cosa riguardante il lavoro, potrebbe essere anche uscire con gli amici o guardare un film.

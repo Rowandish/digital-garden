@@ -3,8 +3,6 @@ tags:
   - Recipe
   - Dolci
 ---
-
-
 ## 📺 Video
 
 <div class="iframe-container">

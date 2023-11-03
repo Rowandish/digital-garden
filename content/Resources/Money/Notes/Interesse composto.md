@@ -2,7 +2,8 @@
 tags:
   - Finance
 ---
-**==In finanza il tempo moltiplica il denaro.==**
+==In finanza il tempo moltiplica il denaro.==
+
 Data una linea temporale in cui oggi siamo al tempo $t_0$ con una determinata quantità di denaro $C$.
 Ora prendiamo degli istanti temporali futuri definiti come $t_1$, $t_2$, $t_3$ e nel futuro come $t_{-1}$, $t_{-2}$, $t_{-3}$; lo scopo è cercare di capire la differenza del denaro $C$ averlo al tempo $t_0$ rispetto ai tempi futuri o passati.
 A meno di situazioni particolari avere $C$ a $t_0$ è sempre meglio rispetto ad avere $C$ al tempo $t_1$ (inflazione, possibilità di investirlo, opportunità…).

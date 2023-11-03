@@ -2,8 +2,6 @@
 tags:
   - Marketing
 ---
-
-
 Il «cross-selling» è la vendita di un prodotto correlato a un cliente che sta acquistando un prodotto primario. 
 
 Il cross-selling è una strategia di vendita e marketing utilizzata dalle aziende per aumentare le vendite e massimizzare il valore percepito dai clienti.

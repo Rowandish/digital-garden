@@ -2,8 +2,6 @@
 tags:
   - Ingredient
 ---
-
-
 ## Descrizione
 
 I fagioli sono un tipo di legume a cui appartengono diverse specie di piante annuali appartenenti alla famiglia delle Fabaceae. Sono coltivati ​​per i loro semi commestibili, che sono ricchi di proteine, fibre, ferro e altri nutrienti essenziali.

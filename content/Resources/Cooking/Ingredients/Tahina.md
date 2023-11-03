@@ -2,8 +2,6 @@
 tags:
   - Ingredient
 ---
-
-
 ## Descrizione
 
 La tahina è una pasta di semi di sesamo tostati e macinati, comunemente utilizzata in cucina mediterranea e del Medio Oriente. La tahina viene prodotta a partire da semi di sesamo tostati, che vengono poi triturati fino a ottenere una pasta liscia e cremosa.

@@ -3,8 +3,6 @@ tags:
   - Recipe
   - SecondiPiatti
 ---
-
-
 ## Ingredienti
 -   1 rotolo di pasta sfoglia
 -   gr. 250 di Philadelphia

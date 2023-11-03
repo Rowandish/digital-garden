@@ -4,8 +4,6 @@ tags:
   - Tutorial
   - PublishedPosts
 ---
-
-
 [https://www.reddit.com/r/italy/wiki/guidabollettaluce](https://www.reddit.com/r/italy/wiki/guidabollettaluce)
 
 ## Mercato Tutelato e Mercato Libero

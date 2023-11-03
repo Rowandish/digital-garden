@@ -4,8 +4,6 @@ tags:
   - PrimiPiatti
   - Vegan
 ---
-
-
 ## 📺 Video
 
 <div class="iframe-container">

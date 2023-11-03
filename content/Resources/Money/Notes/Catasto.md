@@ -2,8 +2,6 @@
 tags:
   - RealEstateInvestment
 ---
-
-
 Il catasto è un registro dettagliato che raggruppa tutti gli immobili nazionali, catalogandoli in base alle caratteristiche e al posizionamento geografico”.
 E’ l’inventario dei beni immobili esistenti sul nostro territorio e presenta una duplice finalità:
 * Fiscale in quanto determina il reddito imponibile degli immobili - terreni e fabbricati, consentendone la tassazione;

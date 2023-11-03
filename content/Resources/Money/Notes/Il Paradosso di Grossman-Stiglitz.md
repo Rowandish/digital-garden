@@ -2,8 +2,6 @@
 tags:
   - Finance
 ---
-
-
 Il Paradosso di Grossman-Stiglitz si basa su un articolo del 1980 di Sanford Grossman e Joseph Stiglitz.
 Secondo loro, i mercati non possono essere perfettamente efficienti (vedi [[Mercato efficiente]]) dal punto di vista informativo, perché se lo fossero, nessuno spenderebbe le risorse necessarie per renderli tali.
 In un mercato perfettamente efficiente non ha alcun senso prendere azioni singole, dato che non ho alcun motivo per presupporre che siano sottovalutate e conseguentemente tutti acquisterebbero [[ETF]] seguendo una logia di [[Investimento passivo]].

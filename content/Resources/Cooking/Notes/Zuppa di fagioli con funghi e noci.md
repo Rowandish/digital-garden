@@ -5,8 +5,6 @@ tags:
   - Vegan
   - Zuppe
 ---
-
-
 ## 📺 Video
 
 <div class="iframe-container">

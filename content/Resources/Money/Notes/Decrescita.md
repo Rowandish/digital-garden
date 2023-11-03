@@ -2,8 +2,6 @@
 tags:
   - Finance
 ---
-
-
 ## Definizione
 La decrescita è una corrente di pensiero politico, economico e sociale favorevole alla riduzione controllata, selettiva e volontaria della produzione economica e dei consumi, con l’obiettivo di stabilire una nuova relazione di equilibrio ecologico fra l’uomo e la natura, nonché di equità fra gli esseri umani stessi.
 L’assunto della decrescita è che le risorse naturali sono limitate; per questo motivo non è matematicamente possibile basare l’economia mondiale su un concetto di crescita infinita, perché questa richiederebbe risorse infinite.

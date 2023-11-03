@@ -2,8 +2,6 @@
 tags:
   - Finance
 ---
-
-
 Gli investitori attivi (opposti all' [[Investimento passivo]]) ritengono che i mercati siano inefficienti almeno in qualche misura, a causa delle tendenze irrazionali degli investitori, dei loro pregiudizi comportamentali, delle anomalie di mercato o dell'influenza dei flussi di denaro istituzionali sui prezzi di mercato.
 
 ==Gli investitori attivi credono che i prezzi delle azioni siano spesso scambiati a prezzi più alti o più bassi rispetto al loro vero valore==.

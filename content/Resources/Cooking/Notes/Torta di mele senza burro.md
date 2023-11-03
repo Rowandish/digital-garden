@@ -4,8 +4,6 @@ tags:
   - Dolci
   - Light
 ---
-
-
 ## 📺 Video
 
 <div class="iframe-container">

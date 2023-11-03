@@ -2,8 +2,6 @@
 tags:
   - RealEstateInvestment
 ---
-
-
 L'OMI, l'Osservatorio del Mercato Immobiliare, è un organismo italiano che si occupa di ==raccogliere, elaborare e diffondere dati e informazioni sul mercato immobiliare nazionale==.
 
 ## Zone OMI

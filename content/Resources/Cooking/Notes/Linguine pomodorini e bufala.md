@@ -4,8 +4,6 @@ tags:
   - PrimiPiatti
   - Pasta
 ---
-
-
 ## Ingredienti
 
 -   Stracciatella di bufala

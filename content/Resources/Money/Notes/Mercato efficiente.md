@@ -2,8 +2,6 @@
 tags:
   - Finance
 ---
-
-
 L'efficienza di mercato è un termine coniato da Eugene Fama nel 1965 e successivamente definito formalmente nel 1970.
 Secondo Fama, un mercato ==è efficiente se i prezzi riflettono sempre completamente le informazioni disponibili==.
 Se i mercati sono efficienti, **ci si aspetta che i prezzi si adattino alle nuove informazioni molto rapidamente**.

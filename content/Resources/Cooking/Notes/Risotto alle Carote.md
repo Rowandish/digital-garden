@@ -4,8 +4,6 @@ tags:
   - PrimiPiatti
   - Riso
 ---
-
-
 ## Ingredienti
 
 -   1/2 Cipolla

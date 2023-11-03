@@ -3,8 +3,6 @@ tags:
   - Definition
   - Finance
 ---
-
-
 ## Definizione
 Il valore atteso è il prodotto tra la magnitudine di un evento e la sua probabilità.
 Se lancio moneta e se esce testa vinco 100€, il valore atteso sarà 50€.

@@ -2,8 +2,6 @@
 tags:
   - RealEstateInvestment
 ---
-
-
 Perizie tecniche effettuate caso per caso da un architetto, geometra o perito immobiliare, o da una società specializzata. In questo caso si effettua una stima diretta del bene immobile, con visita, misurazioni e rilevazioni reali.
 Conviene procedere alla perizia tecnica al momento in cui siamo sicuri di comprare proprio quell’immobile e abbiamo analizzato tutti gli aspetti che è possibile valutare con i mezzi che abbiamo a disposizione. Poi, attraverso la perizia certificheremo e confermeremo la nostra convinzione oppure, in presenza di dati e notizie negative, potremo ancora tirarci indietro. Questo lo dico perché una perizia costa (e può variare) economicamente dai 300/400 euro in su, salvo ulteriori verifiche da effettuare. Le parcelle variano a seconda del tecnico incaricato e della sua esperienza.
 La perizia deve essere corredata dei seguenti allegati:

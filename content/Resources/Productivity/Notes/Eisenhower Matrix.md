@@ -4,7 +4,6 @@ tags:
   - Productivity
 ---
 
-
 ![[matrice-eisenhower.png]]
 
 La Eisenhower Matrix, anche conosciuta come "matrice di priorità", è uno strumento di gestione del tempo e delle attività che aiuta a ==organizzare le attività in base alla loro importanza e urgenza==.

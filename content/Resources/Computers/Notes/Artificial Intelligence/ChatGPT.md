@@ -2,10 +2,6 @@
 tags:
   - LargeLanguageModels
 ---
-
-
-![[The ChatGPT Prompt Book - LifeArchitect.ai - Rev 4.pdf]]
-
 ChatGPT è una versione modificata del [[GPT Model|modello]] di linguaggio naturale GPT (Generative Pre-training Transformer) sviluppato da OpenAI. GPT è stato progettato per essere in grado di generare testo realistico e coerente in base a quanto richiesto dall'utente e inoltre è in grado di seguire una conversazione facendo backtracking in modo simile a come lo farebbe un essere umano.
 
 Uno dei vantaggi di ChatGPT è la sua capacità di imparare dalle conversazioni precedenti e di adattarsi al contesto di una conversazione specifica. Ciò significa che può fornire risposte appropriate e coerenti alle domande degli utenti anche in situazioni nuove o impreviste.

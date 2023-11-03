@@ -2,8 +2,6 @@
 tags:
   - RealEstateInvestment
 ---
-
-
 Nell'investimento immobiliare bisogna puntare alla velocità: devo comprare e vendere immobili nel giro di qualche mese e non qualche anno. Più i tempi si allungano più possono uscire dei problemi.
 Inoltre il margine di sicurezza che dobbiamo avere è di circa il 30% di cresta, in questo modo abbiamo anche un cuscinetto in caso di problemi.
 L'idea generale è comprare un immobile a sconto, effettuare delle eventuali opere di trasformazione e rivendere al miglior prezzo.

@@ -2,8 +2,6 @@
 tags:
   - Ingredient
 ---
-
-
 ## Descrizione
 
 Il latte di cocco è una [[Bevanda vegetale]] prodotta dalla spremitura della polpa di cocco matura. Si presenta come un liquido denso e cremoso, di colore bianco o leggermente giallo, con un profumo e un sapore delicato e caratteristico.

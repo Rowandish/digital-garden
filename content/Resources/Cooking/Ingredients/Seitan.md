@@ -2,8 +2,6 @@
 tags:
   - Ingredient
 ---
-
-
 ## Descrizione
 
 Il seitan, noto anche come "glutine di frumento" o "glutine vegetale", è un alimento ottenuto dal glutine di frumento, una proteina presente nella farina di grano. Il seitan viene utilizzato come sostituto della carne in molti piatti vegetariani e vegani, poiché ha una consistenza simile a quella della carne e può essere facilmente tagliato a fette sottili o a cubetti.

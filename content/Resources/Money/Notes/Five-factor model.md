@@ -2,8 +2,6 @@
 tags:
   - Finance
 ---
-
-
 ## Definizione
 Il modello di Fama & French è stato sviluppato da Eugene Fama e Kenneth French, due economisti dell'Università di Chicago, e si basa sulla loro ricerca sui rendimenti degli investimenti in azioni.
 Il modello ha dimostrato di avere un impatto significativo sulla comprensione dei rendimenti degli investimenti a lungo termine e ha contribuito a sviluppare la teoria dell'[[efficient market hypothesis]] (EMH), che sostiene che i mercati finanziari sono efficienti e che non è possibile ottenere rendim\enti superiori al mercato in modo sistematico.

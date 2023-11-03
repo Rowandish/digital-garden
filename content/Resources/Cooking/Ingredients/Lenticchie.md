@@ -2,8 +2,6 @@
 tags:
   - Ingredient
 ---
-
-
 ## Descrizione
 
 Le lenticchie sono un tipo di legume appartenente alla famiglia delle Fabaceae, originario della regione mediterranea. Sono caratterizzate da una forma tondeggiante e da un colore che varia dal verde scuro al marrone scuro.

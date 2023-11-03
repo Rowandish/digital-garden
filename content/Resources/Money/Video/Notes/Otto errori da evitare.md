@@ -1,8 +1,10 @@
-- **Author**:: [[Paolo Coletti]]
-- **Topic**:: #video #PersonalFinance #PublishedPosts
-- **Date**: 03-12-2022
-- **Link**:: https://www.youtube.com/watch?v=Xg8HhfT3Ws0
-
+---
+tags:
+  - PersonalFinance
+Author: Paolo Coletti
+Date: 03-12-2022
+Link: https://www.youtube.com/watch?v=Xg8HhfT3Ws0
+---
 ## 📺 Video
 <div class="iframe-container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/Xg8HhfT3Ws0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

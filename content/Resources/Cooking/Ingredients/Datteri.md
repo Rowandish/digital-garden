@@ -2,8 +2,6 @@
 tags:
   - Ingredient
 ---
-
-
 ## Descrizione
 
 I datteri sono dei frutti secchi, dolci e succosi, originari del Medio Oriente e del Nord Africa. Sono il frutto del datisca, una pianta appartenente alla famiglia delle Palmae. I datteri sono stati consumati per migliaia di anni come alimento e hanno una lunga storia di uso medicinale.

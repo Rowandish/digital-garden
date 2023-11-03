@@ -4,8 +4,6 @@ tags:
   - PrimiPiatti
   - Zuppe
 ---
-
-
 ## 📺 Video
 
 <div class="iframe-container">

@@ -4,8 +4,6 @@ tags:
   - PrimiPiatti
   - Pasta
 ---
-
-
 ## Ingredienti
 
 * Guanciale / pancetta

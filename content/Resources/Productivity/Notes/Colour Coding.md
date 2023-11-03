@@ -2,8 +2,6 @@
 tags:
   - Productivity
 ---
-
-
 Il Colour Coding, o codifica a colori, è una tecnica di ==organizzazione e produttività che prevede l'utilizzo di colori diversi per differenziare le attività in base alla loro importanza, urgenza o categoria==. Questa tecnica può essere applicata sia nel mondo del lavoro che nella vita quotidiana.
 
 Nel Colour Coding ogni colore rappresenta un significato specifico. Ad esempio, il rosso potrebbe essere utilizzato per indicare attività urgenti da svolgere entro breve tempo (come scadenze imminenti), mentre il verde potrebbe rappresentare attività meno importanti ma comunque necessarie da completare (come riunioni periodiche).

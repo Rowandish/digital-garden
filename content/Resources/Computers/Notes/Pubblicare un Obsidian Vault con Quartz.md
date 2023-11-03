@@ -27,10 +27,11 @@ Questo  crea un sito a partire dal contenuto della cartella `content` su `localh
 * Tagliare e incollare all'interno di `content` il contenuto del proprio vault di Obsidian
 * Modificare il file `quartz.config.ts ` con le proprie preferenze (soprattutto indicando in `ignorePatterns` le cartelle/file che non vogliamo che siano buildate nel sito)
 * Lanciare il comando `npx quartz build --serve`  fino a quando il risultato non è soddisfacente
-* Modificare il file .gitignore
+* Modificare il file `.gitignore` in modo da evitare di pushare su repo pubblica file privati
 
 ## Opzioni
 Le configurazioni di Quartz si possono trovare nei file `quartz.config.ts` mentre per il layout in `quartz.layout.ts`.
+
 ## Frontmatter
 Quartz supporta 4 frontmatter nativamente, che tipicamente possono/devono essere aggiunti a tutte le note che vogliamo gestire.
 ```

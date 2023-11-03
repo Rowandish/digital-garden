@@ -3,8 +3,6 @@ tags:
   - Houses
   - RealEstateInvestment
 ---
-
-
 ## Aste immobiliari
 
 Le aste immobiliari permettono di comprare immobili (e anche molto altro) a prezzi scontati mediamente del 30% rispetto al loro valore di mercato. Rispetto al mercato libero hanno molte più cose da sapere e differenze, le riassumo qui sotto.

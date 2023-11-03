@@ -4,7 +4,6 @@ tags:
 Author: "[[Ali Abdaal]]"
 Link: https://www.youtube.com/watch?v=5Nin1OtjOlU
 ---
-
 ## 📺 Video
 
 <div class="iframe-container">

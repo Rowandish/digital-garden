@@ -3,8 +3,6 @@ tags:
   - Recipe
   - Zuppe
 ---
-
-
 ## 📺 Video
 
 <div class="iframe-container">

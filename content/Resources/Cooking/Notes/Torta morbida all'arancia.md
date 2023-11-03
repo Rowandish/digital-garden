@@ -3,8 +3,6 @@ tags:
   - Recipe
   - Dolci
 ---
-
-
 ## Ingredienti
 
 -   190 gr di farina ’00

@@ -3,8 +3,6 @@ tags:
   - RealEstateInvestment
   - Tutorial
 ---
-
-
 Esistono due tipologie di affitto, a canone libero e a canone concordato.
 ## Canone
 

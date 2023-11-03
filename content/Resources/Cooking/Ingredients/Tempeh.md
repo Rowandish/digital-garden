@@ -2,8 +2,6 @@
 tags:
   - Ingredient
 ---
-
-
 ## Descrizione
 Il tempeh è un alimento ottenuto dai [[Fagioli]] di soia fermentati e compressi in una forma compatta. Viene originario dell'Indonesia e fa parte della tradizione culinaria di molti Paesi dell'Asia orientale. Il tempeh è una fonte di proteine vegetali completa, poiché contiene tutti gli aminoacidi essenziali di cui l'organismo umano ha bisogno. Inoltre, il tempeh è anche una buona fonte di nutrienti come il ferro, il calcio e il magnesio.
 

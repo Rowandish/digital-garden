@@ -1,7 +1,9 @@
-- **Author**:: [[The Plain Bagel]]
-- **Topic**:: #video #PersonalFinance #PublishedPosts
-- **Link**:: https://www.youtube.com/watch?v=WAXPDDnrpW4
-
+---
+tags:
+  - PersonalFinance
+Author: The Plain Bagel
+Link: https://www.youtube.com/watch?v=WAXPDDnrpW4
+---
 ## 📺 Video
 <div class="iframe-container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/WAXPDDnrpW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

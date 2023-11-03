@@ -2,8 +2,6 @@
 tags:
   - Productivity
 ---
-
-
 Il commitment device, o dispositivo di impegno, è una strategia che le persone utilizzano per aiutarsi a raggiungere i propri obiettivi, impedendo di cedere alla tentazione di abbandonare il loro proposito.
 
 In pratica, si tratta di una s==orta di "vincolo" o "promessa" che una persona si impone, in modo da aumentare la probabilità di mantenere un comportamento desiderato nel tempo==.

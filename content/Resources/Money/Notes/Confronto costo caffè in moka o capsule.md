@@ -3,8 +3,6 @@ tags:
   - PersonalFinance
   - PublishedPosts
 ---
-
-
 Sono sempre stato un avido consumatore di caffè e la comodità delle capsule rispetto alla moka è innegabile.
 Da qualche giorno ho deciso di acquistare una moka per casa in quanto volevo provare, di tanto in tanto, a gustarmi il caffè lungo che sa molto di infanzia.
 Non avrà l'aroma e l'intensità di un caffè in capsula ma chissenefrega, lasciamoci sedurre dalla tradizione ogni tanto!

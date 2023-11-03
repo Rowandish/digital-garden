@@ -3,8 +3,6 @@ tags:
   - PersonalFinance
   - PublishedPosts
 ---
-
-
 3 mesi fa ho avuto la fortuna di avere una bellissima bimba di nome Celeste.
 Le preoccupazioni prima della nascita sono state molteplici e non potrò soffermarmi su tutte tranne…
 

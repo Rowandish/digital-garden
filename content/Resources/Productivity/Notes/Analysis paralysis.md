@@ -2,8 +2,6 @@
 tags:
   - DecisionMaking
 ---
-
-
 ## Definizione
 
 L'analisi eccessiva, nota anche come "Analysis paralysis", è un problema comune che colpisce molte persone in diversi ambiti della vita, dal lavoro alla vita personale.

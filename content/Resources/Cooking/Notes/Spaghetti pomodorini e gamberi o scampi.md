@@ -4,8 +4,6 @@ tags:
   - PrimiPiatti
   - Pasta
 ---
-
-
 ## Ingredienti
 
 -   Pomodorini tagliati in 4 (circa 120g)

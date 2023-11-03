@@ -4,8 +4,6 @@ tags:
   - Cocktail
   - Coffe
 ---
-
-
 ## 📺 Video
 
 <div class="iframe-container">

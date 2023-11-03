@@ -4,8 +4,6 @@ tags:
   - Definition
   - PublishedPosts
 ---
-
-
 Una opzione è un derivato finanziario che rappresenta un contratto assicurativo tra un venditore e un contraente.
 In inglese è detto anche *warrant* ed è molto simile al [[Futures]] con la differenza che non è un obbligo simmetrico ma è un impegno solo per una delle due parti.
 
