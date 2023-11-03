@@ -1,0 +1,64 @@
+internal interface I$Product$
+{
+}
+
+internal enum $Product$Type
+{
+    Concrete$Product$A,
+    Concrete$Product$B
+}
+
+internal class Concrete$Product$A : I$Product$
+{
+}
+
+internal class Concrete$Product$B : I$Product$
+{
+}
+
+internal class $Product$FactoryOption1
+{
+    internal I$Product$ Create$Product$($Product$Type type)
+    {
+        switch (type)
+        {
+            case $Product$Type.$ConcreteProductA$:
+                return new Concrete$Product$A();
+            case $Product$Type.$ConcreteProductB$:
+                return new Concrete$Product$B();
+            default:
+                throw new System.ArgumentException("type");
+        }
+    }
+}
+
+internal abstract class Abstract$Product$FactoryOption2
+{
+    internal abstract I$Product$ Create$Product$();
+}
+
+internal class Concrete$Product$FactoryAOption2 : Abstract$Product$FactoryOption2
+{
+    internal override I$Product$ Create$Product$()
+    {
+        return new Concrete$Product$A();
+    }
+}
+
+internal class Concrete$Product$FactoryBOption2 : Abstract$Product$FactoryOption2
+{
+    internal override I$Product$ Create$Product$()
+    {
+        return new Concrete$Product$B();
+    }
+}
+
+
+// First option - swtich case
+// var factory = new $Product$Factory();
+//var Concrete$Product$A = factory.Create$Product$($Product$Type.Concrete$Product$A);
+//var Concrete$Product$B = factory.Create$Product$($Product$Type.Concrete$Product$B);
+// Second Option - inheritance
+// var factory = new Concrete$Product$FactoryAOption2();
+//var $ConcreteProductA$ = factory.Create$Product$();
+//var $ConcreteProductB$ = factory.Create$Product$();

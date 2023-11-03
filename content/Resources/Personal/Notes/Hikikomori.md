@@ -1,0 +1,6 @@
+
+L'isolamento non è solo una condizione per gli Hikikomori ma spesso coincide con l'elevata sensibilità introspettiva e un'interpretazione della realtà più elaborata rispetto alla media. Gli Hikikomori si isolano dalla società solo fisicamente, non mentalmente.
+L'Hikikomori non sceglie il ritiro come un cammino spirituale come faceva l'eremita nel passato; invece lo fa per sfuggire al disagio sperimentato nella vita sociale moderna competitiva dove temono di essere giudicati falliti dalle persone intorno a loro.
+Gli Hikikomori sviluppano una grande sfiducia nelle relazioni interpersonali e spesso hanno negatività verso la società moderna e le sue dinamiche competitive.
+Da un punto di vista cognitivo, gli Hikikimori sono spesso soggetti dotati ma la loro natura critica diventa un'arma a doppio taglio che li rende ansiosi nelle relazioni interpersonali.
+Il primo stadio dell'Hikkimorismo si manifesta quando il soggetto comincia a percepire l'impulso all'isolamento sociale senza riuscire ad elaborarlo consciamente; prova malessere quando si relaziona con altre persone e trova sollievo nella solitudine faticando nell’identificare il nesso causa-effetto tra se stesso ed i sentimenti provati.

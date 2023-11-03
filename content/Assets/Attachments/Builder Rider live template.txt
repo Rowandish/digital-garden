@@ -1,0 +1,165 @@
+/// <summary>
+///     Classe Builder astratta che si occupa di assemblare l'oggetto <see cref="$Product$" />
+/// </summary>
+public abstract class Abstract$Product$Builder
+{
+    protected $Product$ $Product$ = new();
+
+    /// <summary>
+    ///     Costruttore
+    /// </summary>
+    protected Abstract$Product$Builder()
+    {
+    }
+
+    /// <summary>
+    ///     Crea una nuova istanza di <see cref="$Product$" />
+    /// </summary>
+    public void CreateNew$Product$()
+    {
+        $Product$ = new $Product$();
+    }
+
+    /// <summary>
+    ///     Costruisco una parte dell'oggetto.
+    /// </summary>
+    public abstract void BuildPartA();
+
+    /// <summary>
+    ///     Costruisco una seconda parte dell'oggetto
+    /// </summary>
+    public abstract void BuildPartB();
+
+    /// <summary>
+    ///     Costruisco un'ultima parte dell'oggetto
+    /// </summary>
+    public abstract void BuildPartC();
+
+    /// <summary>
+    ///     Questo metodo fornisce l'oggetto <see cref="$Product$" /> costruito.
+    /// </summary>
+    public $Product$ Get$Product$()
+    {
+        var result = $Product$;
+        // Opzionalmente posso già creare un nuovo oggetto da costruire:
+        // CreateNew$Product$();
+        return result;
+    }
+}
+
+/// <summary>
+///     Costruisce e assembla le parti del prodotto implementando l'interfaccia <see cref="Abstract$Product$Builder" />
+/// </summary>
+public class Concrete$Product$Builder : Abstract$Product$Builder
+{
+    public override void BuildPartA()
+    {
+        $Product$.Add("Standard PartA1");
+    }
+
+    public override void BuildPartB()
+    {
+        $Product$.Add("Standard PartB1");
+    }
+
+    public override void BuildPartC()
+    {
+        $Product$.Add("Standard PartC1");
+    }
+}
+
+/// <summary>
+///     Costruisce e assembla le parti del prodotto implementando l'interfaccia <see cref="Abstract$Product$Builder" />
+/// </summary>
+public class Custom$Product$Builder : Abstract$Product$Builder
+{
+    public override void BuildPartA()
+    {
+        $Product$.Add("Custom PartA1");
+    }
+
+    public override void BuildPartB()
+    {
+        $Product$.Add("Custom PartB1");
+    }
+
+    public override void BuildPartC()
+    {
+        $Product$.Add("Custom PartC1");
+    }
+}
+
+/// <summary>
+///     Oggetto complesso che voglio creare
+/// </summary>
+public class $Product$
+{
+    // example, edit me
+    private readonly IList<string> _parts = new List<string>();
+
+    public void Add(string part)
+    {
+        // example, edit me
+        _parts.Add(part);
+    }
+
+    public string ListParts()
+    {
+        // example, edit me
+        return $"$Product$ parts: {string.Join(", ", _parts)}";
+    }
+}
+
+/// <summary>
+///     Costruisce un oggetto utilizzando l'interfaccia <see cref="Abstract$Product$Builder" />
+/// </summary>
+public class $Product$Director
+{
+    /// <summary>
+    ///     Costruttore: imposta il <paramref name="builder" /> iniziale
+    /// </summary>
+    public $Product$Director(Abstract$Product$Builder builder)
+    {
+        Builder = builder;
+    }
+
+    /// <summary>
+    ///     Builder impostabile dall'esterno. Obbligo il passaggio anche a costruttore in quanto è obbligatorio avere almeno un
+    ///     builder impostato
+    /// </summary>
+    public Abstract$Product$Builder Builder { get; set; }
+
+    /// <summary>
+    ///     Delega al builder la costruione di un nuovo <see cref="$Product$" />, in questo caso creando tutte le parti
+    /// </summary>
+    public void BuildFullFeatured$Product$()
+    {
+        Builder.CreateNew$Product$();
+        Builder.BuildPartA();
+        Builder.BuildPartB();
+        Builder.BuildPartC();
+    }
+
+    /// <summary>
+    ///     Delega al builder la costruione di un nuovo <see cref="$Product$" /> ma creando solo la parte A
+    /// </summary>
+    public void BuildMinimalViable$Product$()
+    {
+        Builder.CreateNew$Product$();
+        Builder.BuildPartA();
+    }
+
+    /// <summary>
+    ///     Fornisce il <see cref="$Product$" /> costruito al Client
+    /// </summary>
+    public $Product$ Get$Product$()
+    {
+        return Builder.Get$Product$();
+    }
+}
+
+// var director = new $Product$Director(new Concrete$Product$Builder());
+// director.BuildMinimalViable$Product$();
+// Console.WriteLine(director.Get$Product$().ListParts());
+// director.BuildFullFeatured$Product$();
+// Console.WriteLine(director.Get$Product$().ListParts());

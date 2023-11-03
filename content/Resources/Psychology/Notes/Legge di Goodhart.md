@@ -1,0 +1,20 @@
+---
+tags:
+  - Psychology
+---
+
+
+La legge di Goodhart è un concetto della teoria economica e sociale che afferma che ==quando un indicatore diventa un obiettivo, perde la sua efficacia come indicatore==.
+In altre parole, ==quando un parametro viene utilizzato come misura per il raggiungimento di un obiettivo, le persone tendono a adattare il proprio comportamento in modo da massimizzare quel parametro, anche se ciò può portare a risultati indesiderati o distorsioni==.
+
+La legge di Goodhart può essere applicata anche al contesto delle abitudini. Quando si cerca di creare nuove abitudini, ad esempio migliorare la propria salute, diventare più produttivi o raggiungere obiettivi personali, si tende a fissare degli indicatori o delle metriche per monitorare il progresso.
+Ad esempio, potresti fissare l'obiettivo di correre 5 chilometri al giorno come misura del tuo livello di attività fisica, o di leggere un libro per 30 minuti al giorno come misura del tuo impegno nella lettura. Tuttavia, la legge di Goodhart suggerisce che una volta che questi indicatori diventano l'obiettivo principale, potresti perdere di vista l'obiettivo reale delle nuove abitudini e concentrarti solo sulla massimizzazione di tali indicatori.
+
+Un esempio concreto potrebbe essere il monitoraggio delle calorie consumate come misura per la perdita di peso. Se fissi un obiettivo giornaliero di calorie da consumare e inizi a contarle attentamente, potresti concentrarti solo su questo indicatore, anche se potresti finire per consumare cibi poco salutari solo perché sono a basso contenuto calorico, ignorando la qualità nutrizionale complessiva del tuo regime alimentare. Inoltre, una volta raggiunto l'obiettivo di calorie giornaliere, potresti sentirti autorizzato a concederti cibi poco salutari, anche se ciò va contro l'obiettivo di perdita di peso a lungo termine.
+
+La legge di Goodhart può anche manifestarsi quando si cerca di creare abitudini come la produttività o la gestione del tempo. Ad esempio, potresti fissare l'obiettivo di lavorare per un certo numero di ore al giorno, ma potresti finire per concentrarti solo sul tempo trascorso al lavoro, piuttosto che sulla qualità del tuo lavoro o sull'effettiva realizzazione dei tuoi obiettivi.
+
+Per mitigare gli effetti della legge di Goodhart nelle nuove abitudini, è importante tenere presente che ==gli indicatori sono solo mezzi per raggiungere gli obiettivi, e non gli obiettivi stessi==. È importante stabilire obiettivi chiari e significativi che siano allineati con ciò che si vuole raggiungere a lungo termine, e ==utilizzare gli indicatori solo come strumenti per monitorare il progresso, senza farli diventare l'obiettivo finale==.
+Inoltre, è utile valutare periodicamente se gli indicatori scelti stanno ancora contribuendo all'obiettivo desiderato e se potrebbero essere necessari aggiustamenti. Ad esempio, potresti considerare di utilizzare indicatori più diversificati o di valutare la qualità delle tue azioni, anziché solo la quantità o la frequenza.
+
+Inoltre, è importante mantenere una prospettiva olistica sull'obiettivo che si sta cercando di raggiungere con la nuova abitudine. Piuttosto che focalizzarsi esclusivamente sugli indicatori, ==cerca di valutare l'efficacia dell'abitudine considerando anche altri fattori, come il tuo benessere generale, il tuo livello di soddisfazione o la tua capacità di sostenere la nuova abitudine a lungo termine==.

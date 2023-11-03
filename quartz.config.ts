@@ -8,15 +8,13 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "Paolo's Garden🪴",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
-    locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    analytics: null,
+	locale: "it-IT",
+    baseUrl: "https://rowandish.github.io/digital-garden/",
+    ignorePatterns: [".obsidian", ".git", ".trash", "Archive", "Areas", "Journal", "Projects", "Assets/Templates", "Assets/Kindle Highlights", "Resources/Books"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
