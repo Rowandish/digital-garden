@@ -10,15 +10,16 @@ Link: https://www.youtube.com/watch?v=dwPh-PAg9A8
 </div>
 ---
 
-> [!note] ## In una frase
+> [!note] In una frase
 > **Non investire in ETF tematici**.
 
-> [!tip] ### Migliori tre concetti
+> [!tip] Migliori tre concetti
 > - Gli [[ETF]] tematici offrono ritorni attesi inferiori a quelli del mercato;
 > - Tipicamente sono lanciati dopo il picco dell’hype;
 > - Questi [[ETF]] sono ottimi per far guadagnare gli emettitori di questi ultimi ma pessimi come investimento.
 
 ## 📒 Riassunto
+
 > [!quote] #quote
 > quote::*If you're excited about an investment, it's probably not a good investment*.
 

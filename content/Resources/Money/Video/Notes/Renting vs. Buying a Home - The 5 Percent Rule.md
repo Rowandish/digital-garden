@@ -11,10 +11,10 @@ Link: https://www.youtube.com/watch?v=Uwl3-jBNEd4
 
 ---
 
-> [!note] ## In una frase
+> [!note] In una frase
 > **Non sempre comprare è finanziariamente la scelta migliore e mutuo e affitto non sono due quantità paragonabili.**.
 
-> [!tip] ## Migliori tre concetti
+> [!tip] Migliori tre concetti
 > - Il costo dell’affitto e del mutuo non sono paragonabili 1:1;
 > - Il possesso di una casa possiede una serie di costi non recuperabili non trascurabili; circa il 5% del valore all’anno;
 > - Investire in immobili significa non investire in stock, con tutta la differenza che ne consegue.

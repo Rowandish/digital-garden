@@ -11,10 +11,10 @@ Link: https://www.youtube.com/watch?v=2MVSsVi1_e4
 
 ---
 
-> [!note] ## In una frase
+> [!note] In una frase
 > **Small cap e value stock possono battere il mercato**.
 
-> [!tip] ## Migliori tre concetti
+> [!tip] Migliori tre concetti
 > - Comprando un classico [[ETF]] market cap weighted investo in modo molto limitato alle small cap e alle value stock;
 > - Queste ultime hanno un rendimento tendenzialmente migliore del mercato, benché più rischiosa;
 > - Consiglia di avere una percentuale in un ETF small cap value factors stock.

@@ -12,10 +12,10 @@ Link: https://www.youtube.com/watch?v=Xg8HhfT3Ws0
 
 ---
 
-> [!note] ## In una frase
+> [!note] In una frase
 > **La maggior parte delle cose che vengono consigliate all'italiano medio sono bullshit**.
 
-> [!tip] ## Migliori tre concetti
+> [!tip] Migliori tre concetti
 > - Evitare fondi o ETF obbligazionari;
 > - Evitare polizze vita;
 > - Evitare investimenti a capitale garantito.

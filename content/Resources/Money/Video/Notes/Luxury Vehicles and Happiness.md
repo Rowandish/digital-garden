@@ -11,10 +11,10 @@ Link: https://www.youtube.com/watch?v=WbBVoe9Lr94
 
 ---
 
-> [!note] ## In una frase
+> [!note] In una frase
 > **Non conviene mai acquistare auto costose**.
 
-> [!tip] ## Migliori tre concetti
+> [!tip] Migliori tre concetti
 > - L’esperienza di guida di un auto costosa è paragonabile a quella di un auto scarsa in quanto è influenzata da altri fattori;
 > - I soldi che devo investire nell’auto li dovrò togliere da altre attività che possono aumentare la mia felicità;
 > - Non c’è alcuna differenza nella felicità di un possessore di un auto lussuosa rispetto a uno che non la possiede, anzi.

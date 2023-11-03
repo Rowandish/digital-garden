@@ -11,10 +11,10 @@ Link: https://www.youtube.com/watch?v=4iNOtVtNKuU
 
 ---
 
-> [!note] ## In una frase
+> [!note] In una frase
 > **Nella teoria il fatto che una azienda dia dividendi è irrilevante, nella pratica scegliere tali aziende può essere perfino dannoso portando ad un expected return più basso.**.
 
-> [!tip] ## Migliori tre concetti
+> [!tip] Migliori tre concetti
 > - Il fatto che una azienda fornisca dividendi non ne aumenta il valore atteso;
 > - Far sì che siano le azionde a decidere quanto e quando ritirare il denaro dal portafoglio non è saggio;
 > - Scegliere aziende che danno dividendi porta a poca diversificazione e quindi ad un rischio non compensato.

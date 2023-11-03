@@ -1,7 +1,4 @@
 Con questo topic descrivo informazioni varie sul mondo dei PC e della programmazione.
-
-[[Refactoring - Improving the design of existing code]]
-
 ## [[Software Engineering]]
 ## [[Coding interview]]
 ## [[PicoCTF]]

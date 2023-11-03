@@ -12,10 +12,10 @@ Link: https://www.youtube.com/watch?v=AqZbO8Ojhmw
 
 ---
 
-> [!note] ## In una frase
+> [!note] In una frase
 > **Non esiste un guadagno veramente passivo a meno di quello che deriva da grandi capitali investiti**.
 
-> [!tip] ## Migliori tre concetti
+> [!tip] Migliori tre concetti
 > - Il guadagno passivo per eccellenza avviene tramite l'investimento di grosse somme in uno o più asset;
 > - I guadagni passivi facili e veloci non funzionano mai;
 > - Il guadagno da impresa è estremamente impattante a livello di tempo da dedicarci.

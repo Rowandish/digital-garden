@@ -11,10 +11,10 @@ Link: https://www.youtube.com/watch?v=ViTnIebSzj4
 
 ---
 
-> [!note] ## In una frase
+> [!note] In una frase
 > **Un portafoglio basato sui factor può avere rendimenti migliori del mercato**.
 
-> [!tip] ## Migliori tre concetti
+> [!tip] Migliori tre concetti
 > - Conoscere i factors può portare a rendimenti maggiori del mercato;
 > - Non esistono [[ETF]] sui factors;
 > - Il rendimento maggiore del mercato di alcuni fondi attivi può essere spiegato con l'esposizione a determinati factor più che all'abilità del gestore.

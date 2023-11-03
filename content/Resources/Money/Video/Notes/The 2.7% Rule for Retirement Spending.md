@@ -12,10 +12,10 @@ Link: https://www.youtube.com/watch?v=1FwgCRIS0Wg
 
 ---
 
-> [!note] ## In una frase
+> [!note] In una frase
 > **La regola del 4% non è sostenibile con azioni fuori dagli USA e qualora si vivesse più di 25 anni in ritiro**.
 
-> [!tip] ## Migliori tre concetti
+> [!tip] Migliori tre concetti
 > - Non ha senso basarsi sulla regola del 4% se sono giovane e voglio andare in pensione presto;
 > - Non è detto che le performance incredibili del mercato americano negli ultimi 50 anni si ripetano;
 > - Conviene utilizzare una regola del massimo 3% per 25 anni di ritiro.

@@ -11,10 +11,10 @@ Link: https://www.youtube.com/watch?v=Gg8_TA7U0Uw
 
 ---
 
-> [!note] ## In una frase
+> [!note] In una frase
 > **Non c'è ragione di rischiare quello che hai già e di cui hai bisogno per qualcosa che non hai e di cui non hai bisogno, sii ragionevole**.
 
-> [!tip] ## Migliori tre concetti
+> [!tip] Migliori tre concetti
 > - Non trascurare la fortuna nel successo;
 > - Soldi = libertà: risparmia;
 > - Sii ragionevole invece che razionale.

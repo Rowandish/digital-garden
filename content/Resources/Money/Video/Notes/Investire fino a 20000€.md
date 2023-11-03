@@ -12,10 +12,10 @@ Link: https://www.youtube.com/embed/Av6158ezGWk
 
 ---
 
-> [!note] ## In una frase
+> [!note] In una frase
 > **Anche con budget ridotti conviene non tenere i soldi fissi sul conto ma investirli in strumenti stabili**.
 
-> [!tip] ## Migliori tre concetti
+> [!tip] Migliori tre concetti
 > - Per il fondo d'emergenza vanno bene anche i btp italia e i bot in quanto hanno un prezzo tendenzialmente stabile e conseguentemente il loro prezzo è sempre quello che ho pagato;
 > - Il conto deposito deve essere svincolabile sempre senza attese;
 > - Se rimangono dei soldi VWCE.

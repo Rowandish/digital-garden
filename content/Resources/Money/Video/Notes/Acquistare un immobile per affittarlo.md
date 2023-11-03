@@ -12,10 +12,10 @@ Link: https://www.youtube.com/watch?v=jG1LPzuKmc4
 
 ---
 
-> [!note] ## In una frase
+> [!note] In una frase
 > **Comprare una seconda casa per affittarla non conviene**.
 
-> [!tip] ## Migliori tre concetti
+> [!tip] Migliori tre concetti
 > - Non c'è solo la spesa dell'appartamento ma tutte le tasse al contorno;
 > - Non sottovalutare le rotture di scatole di avere un inquilino in casa;
 > - Il rendimento netto è bassissimo, se va benissmo un 2,6% netto annuo.

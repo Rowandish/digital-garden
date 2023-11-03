@@ -11,10 +11,10 @@ Link: https://www.youtube.com/watch?v=WAXPDDnrpW4
 
 ---
 
-> [!note] ## In una frase
+> [!note] In una frase
 > **Per diventare ricchi con gli investimenti serve moltissimo tempo**.
 
-> [!tip] ## Migliori tre concetti
+> [!tip] Migliori tre concetti
 > - I soldi si fanno con il capitale, fino a che non c'è quello si fa poco;
 > - Per diventare ricchi servono moltissimi anni senza commettere errori: privilegiare il saving rate;
 > - Gli umani sono pessimi investitori.
