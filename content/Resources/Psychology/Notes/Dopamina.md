@@ -2,8 +2,6 @@
 tags:
   - Psychology
 ---
-
-
 La dopamina è un neurotrasmettitore che agisce come un regolatore del sistema di ricompensa del cervello. La sua funzione principale è quella di ==motivare e guidare i comportamenti umani, facendo sentire le persone bene quando compiono un'azione positiva==. Questo meccanismo di ricompensa è il motivo per cui la dopamina è spesso associata a comportamenti che generano piacere, come ad esempio l'uso dei social media, la pornografia e l'alimentazione.
 
 ## Social media

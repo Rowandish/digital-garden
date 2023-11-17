@@ -1,0 +1,13 @@
+---
+tags:
+  - Productivity
+---
+Il sistema "C-C-O-R-E" è un concetto sviluppato da David Allen, autore del famoso libro "Getting Things Done: The Art of Stress-Free Productivity". Questo sistema è una parte fondamentale della sua metodologia GTD (Getting Things Done), che mira a migliorare l'organizzazione personale e la produttività.
+
+Ecco una panoramica dei cinque passaggi del sistema "C-C-O-R-E":
+
+1. **Capture (C)**: La prima fase è la cattura. In questo passaggio, ==devi raccogliere e catturare tutti i tuoi impegni, compiti, pensieri, e informazioni in un unico sistema affidabile==. Questo può includere l'uso di appunti, app per la gestione delle attività, registrazioni vocali, o qualsiasi altro mezzo che funzioni meglio per te. L'idea è quella di scaricare tutto ciò che potrebbe occupare spazio nella tua mente, liberandoti dalla necessità di tenerlo in testa.
+2. **Clarify (C)**: Una volta che hai catturato tutti i tuoi impegni e le tue informazioni, devi chiarirli. Questo significa ==analizzare ciascun elemento per determinare cosa è e cosa devi fare al riguardo==. Ad esempio, potresti dover decidere se un elemento è un compito da svolgere, un appunto da archiviare per riferimento futuro, o una decisione che richiede azione. Questa fase ti aiuta a stabilire la prossima azione da intraprendere per ogni elemento.
+3. **Organize (O)**: Dopo aver chiarito gli elementi, devi ==organizzarli in un sistema di riferimento che sia facilmente accessibile==. Puoi utilizzare liste di cose da fare, cartelle, etichette, categorie, o qualsiasi altro strumento di organizzazione che funzioni per te. L'obiettivo è mantenere tutto ordinato e accessibile in modo che tu possa trovare rapidamente ciò di cui hai bisogno.
+4. **Reflect (R)**: La riflessione è un passo importante per assicurarti che stai prendendo le decisioni giuste sulle tue attività e impegni. Periodicamente, dovresti fare un'==analisi approfondita del tuo sistema per assicurarti di avere chiaro cosa è importante, cosa richiede azione immediata, e cosa può essere pianificato per il futuro==. Questa fase ti aiuta a mantenere il controllo e a mantenere il focus sulle tue priorità.
+5. **Engage (E)**: Infine, il passaggio "Engage" riguarda l'effettiva esecuzione delle azioni necessarie. Una volta che hai chiarito cosa devi fare e hai organizzato le tue attività, devi ==impegnarti a compiere le azioni nel modo più efficiente possibile==. Questo coinvolge l'uso di un sistema di monitoraggio delle attività e la gestione del tuo tempo in modo efficace.

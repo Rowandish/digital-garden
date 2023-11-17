@@ -2,8 +2,6 @@
 tags:
   - ProjectManagement
 ---
-
-
 La certificazione PMI-ACP (Project Management Institute Agile Certified Practitioner) è un titolo rilasciato dal Project Management Institute (PMI)  (lo stesso della certificazione [[Certificazione PMP]]) che attesta le ==competenze di un professionista nel campo dell'agile project management==.
 
 Questa certificazione è molto utile per acquisire una conoscenza approfondita delle metodologie agili e come applicarle.

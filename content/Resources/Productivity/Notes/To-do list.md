@@ -2,13 +2,13 @@
 tags:
   - Productivity
 ---
-
-
 ## Definizione
-Lista di attività da fare.
-Per maggiore produttività per ogni giornata conviene segnare il [[Daily Highlight]] come l'unica cosa "to-do" mentre invece le altre cose come "might-do list" perché in effetti è così.
-E’ importante impegnarsi affinché il 100% delle cose che dobbiamo fare siano nella todo-list, altrimenti sicuramente ci si dimenticherà qualcosa.
-L’app migliore è _**Todoist.**_
+
+Si deve considerare la mia lista non come una lista delle cose da fare, ma come una lista delle cose che potrei fare. Ogni giorno scelgo cosa voglio completare in base a come va la giornata e alle mie priorità. Questo approccio riduce la pressione e mi permette di aggiungere nuovi progetti o compiti senza sentirli come un peso.
+Si può organizzare la lista in tre categorie:
+* cose da fare oggi
+* cose da fare questa settimana
+* altre cose da fare
 
 ## Caratteristiche di una buona To-Do List
 
@@ -47,6 +47,7 @@ Infine, voglio sottolineare che la semplicità è essenziale nella gestione dell
 ### Sezione delle attività completate 
 
 Un altro aspetto che trovo utile è tenere una sezione dedicata alle attività completate. Dopo averle svolte, le sposto in questa sezione. Questo mi dà una sensazione di soddisfazione e, inoltre, rende più semplice fare un riassunto del lavoro svolto in periodi più lunghi, come sei mesi, per valutazioni aziendali.
+
 
 ## Supporto tecnologico
 

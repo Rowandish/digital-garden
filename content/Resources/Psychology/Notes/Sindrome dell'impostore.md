@@ -2,8 +2,6 @@
 tags:
   - Psychology
 ---
-
-
 L'Imposter Syndrome è un fenomeno comune, soprattutto quando ci troviamo in un nuovo lavoro o in una nuova posizione: ci capita spesso di confrontarci con i nostri colleghi e sentirsi inferiori, pensando che gli altri siano tutti super esperti mentre noi ci sentiamo dei novellini.
 
 ==La chiave per gestire l'Imposter Syndrome è prendere una pausa quando ci sentiamo così e ricordarci che siamo stati selezionati per il nostro ruolo per un motivo==.

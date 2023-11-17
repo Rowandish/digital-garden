@@ -2,8 +2,6 @@
 tags:
   - Psychology
 ---
-
-
 La legge di Goodhart è un concetto della teoria economica e sociale che afferma che ==quando un indicatore diventa un obiettivo, perde la sua efficacia come indicatore==.
 In altre parole, ==quando un parametro viene utilizzato come misura per il raggiungimento di un obiettivo, le persone tendono a adattare il proprio comportamento in modo da massimizzare quel parametro, anche se ciò può portare a risultati indesiderati o distorsioni==.
 

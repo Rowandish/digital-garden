@@ -4,7 +4,7 @@ tags:
 ---
 Il commitment device, o dispositivo di impegno, è una strategia che le persone utilizzano per aiutarsi a raggiungere i propri obiettivi, impedendo di cedere alla tentazione di abbandonare il loro proposito.
 
-In pratica, si tratta di una s==orta di "vincolo" o "promessa" che una persona si impone, in modo da aumentare la probabilità di mantenere un comportamento desiderato nel tempo==.
+In pratica, si tratta di una ==sorta di "vincolo" o "promessa" che una persona si impone, in modo da aumentare la probabilità di mantenere un comportamento desiderato nel tempo==.
 
 Ad esempio, una persona potrebbe decidere di mettere in gioco una somma di denaro con un amico, impegnandosi a non fumare per un certo periodo di tempo.
 In questo modo, la persona avrà un maggiore incentivo a mantenere la propria promessa, perché in caso contrario perderebbe la somma di denaro.

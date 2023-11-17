@@ -2,8 +2,6 @@
 tags:
   - Psychology
 ---
-
-
 La ricompensa variabile è un concetto psicologico che si riferisce a un tipo di rinforzo in cui ==la ricompensa viene erogata in modo imprevedibile o casuale dopo un certo comportamento==.
 
 Nel contesto delle slot machine, la ricompensa variabile si basa sul principio del rinforzo intermittente, in cui i giocatori ricevono una ricompensa solo occasionalmente e in modo imprevedibile in cambio del loro comportamento di gioco.

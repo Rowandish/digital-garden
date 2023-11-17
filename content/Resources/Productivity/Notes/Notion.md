@@ -1,5 +1,7 @@
-
 Notion è una piattaforma che permette di organizzare note, task, eventi e così via.
+Questo collegamento tra dati condivisi, compiti, eventi del calendario, risorse informative e altri asset digitali permette di ottenere un nuovo livello di performance personale e professionale, eliminando la ridondanza dell'informazione in luoghi diversi.
+A differenza di altri strumenti, Notion non fornisce una struttura predefinita: La sua potenza e, al contempo, fonte di frustrazione per i nuovi utenti, risiede nella libertà di progettare il proprio sistema. Ciò richiede non solo di imparare il software, ma anche di padroneggiare la progettazione del sistema.
+
 Vediamo alcuni concetti:
 * **Workspace**: macrocontenitore di oggetti. Ogni account parte con un solo workspace ma mano a mano che l'ecosistema si ingrandisce si possono gestire vari workspace in base al topic (personal, work) e/o in base alle persone con cui si condividono
 * **Sidebar**: pannello di controllo laterale con varie categorie. Compaiono le pagine di top level e le pagine preferite.
@@ -117,13 +119,24 @@ Posso creare anche interi siti web in Notion usando la piattaforma [Super.so](ht
 Un'alternativa è [Simple.ink](https://www.simple.ink/).
 Per un confronto vedi [questo link](https://super.so/blog/simple-ink-alternative) e [questo](https://www.simple.ink/super-alternative).
 
-## Notion Web Clipper
+
+## Resonance Calendar
+Posso creare Database in Notion contenente una lista di cose interessanti che trovo su internet o ascolto/vedo.
+Per quello che leggo su internet posso usare il Notion Web Clipper, per quello che consumo con il cellulare posso fare `Shape -> Notion` (assumendo di avere Notion installato) e aggiungere il contenuto sempre allo stesso database.
+### Notion Web Clipper
 Questo plugin per Chrome permette di creare una pagina in Notion a partire da una pagina Web.
 Per esempio potrei creare un database contenente tutti le pagine che voglio salvare con questo plugin e linkarlo a questo ultimo, in questo modo quando leggo qualcosa di interessante posso portarlo direttamente in questo database in Notion.
 
-## Esempi
+## Youtuber
+Per quanto riguarda Notion son 3 gli youtuber principali:
+* [August Bradley](https://www.youtube.com/@augustbradley/)
+* [Ali Abdaal](https://www.youtube.com/@aliabdaal)
+* [Thomas Frank](https://www.youtube.com/@Thomasfrank)
 
-### Resonance Calendar
-Posso creare Database in Notion contenente una lista di cose interessanti che trovo su internet o ascolto/vedo.
-Per quello che leggo su internet posso usare il Notion Web Clipper, per quello che consumo con il cellulare posso fare `Shape -> Notion` (assumendo di avere Notion installato) e aggiungere il contenuto sempre allo stesso database.
+## Link utili
+
+* [Template notion di Ali Abdaal](https://aliabdaal.notion.site/Ali-Abdaal-s-Skillshare-HQ-d6c16b42c87e4581a29c4b2171c04f34)
+* [Pillars Pipeline and Vaults di August Bradley](https://lifedesignstudio.notion.site/Pillars-Pipelines-Vaults-PPV-Notion-Resources-18141b8394694b3a910dbe7c89a901b9)
+
+
 

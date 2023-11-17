@@ -2,8 +2,6 @@
 tags:
   - Psychology
 ---
-
-
 L'eye gazing, anche conosciuto come "sostegno dello sguardo" o "contatto visivo", è una pratica che coinvolge il mantenimento dello sguardo negli occhi di un'altra persona per un periodo prolungato.
 Può sembrare una semplice azione, ma il suo impatto sulla nostra psicologia e il benessere emotivo sono profondi.
 Nell'ambito del miglioramento dell'autostima, ==l'eye gazing svolge un ruolo cruciale, poiché favorisce la connessione interpersonale, l'accettazione di sé e la consapevolezza emozionale==. Questa pratica può essere sperimentata in diverse situazioni, tra cui incontri romantici, sessioni di terapia o esercizi di auto-esplorazione.

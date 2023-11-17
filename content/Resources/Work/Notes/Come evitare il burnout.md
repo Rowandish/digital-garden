@@ -2,8 +2,6 @@
 tags:
   - WorkLifeBalance
 ---
-
-
 Gestire lo stress sul lavoro è un aspetto molto personale: ognuno di noi ha il proprio modo di affrontare il carico di lavoro e le sfide quotidiane.
 
 ## Gestione delle pause

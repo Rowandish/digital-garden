@@ -2,8 +2,6 @@
 tags:
   - Interview
 ---
-
-
 Il curriculum vitae è il vostro biglietto da visita, è la prima cosa che i selezionatori vedono di voi, quindi è fondamentale presentarsi al meglio. Un CV ben strutturato dovrebbe essere chiaro, conciso e mirato al ruolo per cui si sta applicando.
 
 ## Chi lo leggerà

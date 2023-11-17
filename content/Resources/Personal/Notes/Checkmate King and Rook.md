@@ -3,7 +3,7 @@ tags:
   - Chess
   - Checkmates
 ---
-
+![[b8f81085-b922-47b8-b5de-e7bb828402ba.webp]]
 
 Questo è un matto un po' complicato in quanto prevede una forte collaborazione tra torre e re per restringere sempre di più l'area di movimento del re fino a spingerlo all'angolo.
 La mia torre identifica un rettangolo:

@@ -2,8 +2,6 @@
 tags:
   - ProjectManagement
 ---
-
-
 La certificazione PMP (Project Management Professional) è un titolo rilasciato dal Project Management Institute (PMI) (lo stesso della certificazione [[Certificazione PMI ACP]]) ed è una delle certificazioni di project management più riconosciute e rispettate a livello internazionale.
 Essa attesta le competenze e l'esperienza di un professionista nel campo della gestione dei progetti.
 

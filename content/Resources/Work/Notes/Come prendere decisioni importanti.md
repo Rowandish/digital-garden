@@ -2,7 +2,6 @@
 tags:
   - Career
 ---
-
 Come affrontare il momento in cui si deve prendere una decisione importante e come ridurre l'ansia legata alle possibili conseguenze negative?
 
 Prendere decisioni importanti è sempre difficile e non si può mai essere certi al 100% dell'esito. ==L'importante è fare un'analisi ponderata dei pro e dei contro di ogni opzione. Fate una lista di ciò che vi attira di più in ogni scelta e confrontate i rischi e i benefici==.

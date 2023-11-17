@@ -1,13 +1,8 @@
 ---
 tags:
-  - PublishedPosts
   - Productivity
   - Minimalism
 ---
-
-
-E' un po' che non scrivo in questo blog, ho un sacco di idee per la mente e sto cercando di metterle bene a fuoco.
-Vorrei produrre più contenuti e diversi dalla sola informatica e sto ancora cercando il modo migliore per farlo.
 Nel frattempo sto anche sistemando la mia vita digitale: passando almeno 10 ore al giorno al computer o YouTube diventa sempre più necessario rendere l'internet un posto migliore per me.
 Ultimamente questo sta diventando un luogo atto più a far perdere tempo e a far guadagnare i pubblicitari che uno strumento utile a creare effettivamente valore.
 Ho quindi deciso di impormi le seguenti regole, che devono valere sia su PC desktop che su mobile:

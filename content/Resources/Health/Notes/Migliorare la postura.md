@@ -219,8 +219,6 @@ Serie 1 | Ripetizioni 1 | Durata 2 minuti
 * Mettetevi in piedi con la schiena contro un parete e con i piedi e le ginocchia divaricati a una distanza pari alla larghezza delle anche. I piedi devono essere rivolti in avanti
 * Allontanate i piedi dalla parete e allo stesso tempo fate scorrere il corpo verso il basso finché le ginocchia sono piegate a 90 gradi. Assicuratevi che le caviglie siano leggermente più avanti delle ginocchia. La parte inferiore della schiena deve aderire completamente alla parete. Le braccia possono penzolare lungo i fianchi oppure potete appoggiare con delicatezza le mani sulle ginocchia. Mantenete il peso sui talloni e non premete in avanti verso le dita dei piedi.
 * Mantenete questa posizione per due minuti.
-
-
 ## Calzature
 
 ![[Pasted image 20230822155340.png]]

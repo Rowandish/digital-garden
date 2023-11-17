@@ -1,13 +1,11 @@
 ---
 tags:
-  - Journaling
+  - Productivity
 ---
-
-
 Per pianificare la propria vita, le proprie attività è necessario pensare ad una struttura oggettiva.
 
 ## Mr. Rip
-[[Mr. Rip]] [in questo video](https://www.youtube.com/watch?v=QRZmr9QvrMI) descrive il suo concetto di pianificazione.
+Mr. Rip [in questo video](https://www.youtube.com/watch?v=QRZmr9QvrMI) descrive il suo concetto di pianificazione.
 Vengono effettuate delle ==review di quanto fatto a vari orizzonti temporali==:
 * **Annuale**: ==Review di quello che è stato fatto in questo anno confrontandolo con i propri valori==, per capire se quello che sto facendo è coerente con quello che voglio fare nella vita. Al termine di questo processo venivano definiti gli obiettivi per l'anno successivo;
 * **Quarter**: all'inizio di ogni quarter viene fatta una ==review di tutte le aree e i progetti di [[P.A.R.A]]==. Ogni progetto viene guardato per capire se è stato abbandonato o eventualmente è necessario aggiornarne lo stato;
@@ -16,7 +14,7 @@ Vengono effettuate delle ==review di quanto fatto a vari orizzonti temporali==:
 * **Giornalmente**: [[Deep work - Concentrati al massimo]] la mattina, [[Shallow work]] il pomeriggio, sport e famiglia fino alle 21 e tutto il resto fino a mezzanotte. Inoltre viene effettuato ==[[Time tracking]] con l'applicazione [[Clockify]]==.
 
 ### Giornaliera
-Ha una nota su [[Roam Research]] che descrive tutto quello che dovrebbe fare ogni giorno. 
+Ha una nota su Roam Research che descrive tutto quello che dovrebbe fare ogni giorno. 
 Utilizza la tecnica del [[Journaling]] per descrivere tutte le attività che fa ogni giorno.
 
 #### Ad inizio giornata:

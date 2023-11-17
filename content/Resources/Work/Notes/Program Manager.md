@@ -2,8 +2,6 @@
 tags:
   - Role
 ---
-
-
 Questo testo è la trascrizione sistemata di [questo video](https://www.youtube.com/watch?v=To5KtOBboKQ).
 
 ==Un Program Manager è responsabile di un team o di un programma specifico==.

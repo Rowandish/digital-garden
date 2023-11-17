@@ -2,8 +2,6 @@
 tags:
   - Psychology
 ---
-
-
 La legge del minimo sforzo è un principio comportamentale che afferma che ==gli individui tendono a scegliere il percorso di minore resistenza e sforzo per raggiungere un obiettivo o soddisfare un bisogno: dovendo scegliere tra due opzioni simili, le persone opteranno naturalmente per quella che richiede la minore quantità di impegno==. Questa legge si basa sull'idea che l'essere umano è un animale razionale, ma anche pigro, che cerca di evitare lo stress e di risparmiare energia.
 
 Nel contesto delle abitudini, la legge del minimo sforzo può essere applicata in due modi principali. In primo luogo, ==gli individui tendono ad adottare abitudini che richiedono il minimo sforzo possibile==. Questo può manifestarsi, ad esempio, nella scelta di cibi pronti o fast food piuttosto che cucinare in casa, o nella scelta di una sedentarietà piuttosto che praticare attività fisica regolare.

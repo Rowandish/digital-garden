@@ -2,8 +2,6 @@
 tags:
   - Posture
 ---
-
-
 La **postura** è la posizione che il corpo assume mentre è in piedi, seduto o in movimento. Una buona postura è essenziale per il benessere generale e può influenzare la salute muscoloscheletrica, la funzione dei sistemi corporei e persino l'aspetto esteriore.
 
 ### Importanza della Postura

@@ -2,8 +2,6 @@
 tags:
   - Psychology
 ---
-
-
 Il principio di minima resistenza spiega ==perché le persone tendono a scegliere l'opzione più facile o meno impegnativa==.
 
 Secondo questo principio, gli individui tendono ad evitare lo sforzo mentale o fisico quando possibile e cercano invece di risparmiare energia e tempo. Ad esempio, se una persona ha due opzioni tra cui scegliere per raggiungere un obiettivo (ad esempio fare attività fisica), probabilmente sceglierà quella che richiede meno sforzo.

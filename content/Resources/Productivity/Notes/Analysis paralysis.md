@@ -1,9 +1,7 @@
 ---
 tags:
-  - DecisionMaking
+  - Productivity
 ---
-## Definizione
-
 L'analisi eccessiva, nota anche come "Analysis paralysis", è un problema comune che colpisce molte persone in diversi ambiti della vita, dal lavoro alla vita personale.
 Questa paralisi si manifesta quando ci concentriamo troppo sulla raccolta di informazioni e sull'analisi di un problema, fino a quando non siamo più in grado di agire o di prendere una decisione.
 In altre parole, ==la paralisi dell'analisi ci impedisce di fare cose prima di aver terminato l'analisi del problema, analisi che però non terminerà mai==.

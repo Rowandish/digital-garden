@@ -2,8 +2,6 @@
 tags:
   - Dialettica
 ---
-
-
 La "Critica sandwich" è una strategia dialettica utilizzata nella comunicazione per fornire un feedback negativo senza sembrare accusatrorio e mascherandolo con informazioni positive.
 Questa tecnica prende il nome dalla sua analogia con un panino: il feedback negativo è "racchiuso" tra due strati di feedback positivo.
 

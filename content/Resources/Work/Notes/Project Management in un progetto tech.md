@@ -2,8 +2,6 @@
 tags:
   - ProjectManagement
 ---
-
-
 Questo testo è la trascrizione sistemata di [questo video](https://www.youtube.com/watch?v=daqUM9hR_9E).
 
 Il lancio di una nuova funzionalità per un prodotto già esistente all'interno di un'azienda tech è un processo complesso che ora andremo a spiegare nei dettagli.

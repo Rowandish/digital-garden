@@ -2,8 +2,6 @@
 tags:
   - Psychology
 ---
-
-
 Il principio di Premack è una teoria comportamentale sviluppata dallo psicologo David Premack negli anni '60. Questo principio afferma che ==un comportamento che si verifica con una frequenza maggiore può essere utilizzato come rinforzo per un comportamento che si verifica con una frequenza minore==.
 
 Ad esempio, se un bambino preferisce giocare con i video giochi piuttosto che fare i compiti, i genitori possono utilizzare il principio di Premack per incoraggiare il bambino a fare i compiti. Possono dire al bambino che può giocare con i video giochi solo dopo aver completato i compiti. In questo modo, il gioco diventa un rinforzo per il comportamento del bambino di fare i compiti.

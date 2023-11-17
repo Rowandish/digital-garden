@@ -2,8 +2,6 @@
 tags:
   - ProjectManagement
 ---
-
-
 Quando si viene invitati in un meeting è fondamentale capire le aspettative riguardo al proprio ruolo e responsabilità in tale meeting.
 Questo può essere ottenuto tramite una ==chiara comunicazione con il proprio manager e l'essere proattivi nella pianificazione e nell'esecuzione delle riunioni==.
 

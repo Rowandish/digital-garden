@@ -2,8 +2,6 @@
 tags:
   - ProjectManagement
 ---
-
-
 Questo testo è la trascrizione sistemata di [questo video](https://www.youtube.com/watch?v=KKJ_oX3n2Ww).
 
 In questo post, discuteremo degli OKRs (Obiettivi e Risultati Chiave) e come possono essere utilizzati come metodologia per impostare e monitorare gli obiettivi.

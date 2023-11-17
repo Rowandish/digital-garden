@@ -2,8 +2,6 @@
 tags:
   - Psychology
 ---
-
-
 > [!tip] 
 > Sei la persona che sei in questo preciso momento a causa delle tue abitudini di pensiero. Non sono le circostanze esterne che ti fanno provare ciò che senti o essere ciò che sei, sono i tuoi pensieri ad averti condizionato.
 

@@ -2,8 +2,6 @@
 tags:
   - Psychology
 ---
-
-
 La Long-Term Potentiation, o LTP, è un fenomeno di plasticità sinaptica che riguarda ==l'aumento a lungo termine dell'efficacia della comunicazione tra neuroni adiacenti==. Questo processo è essenziale per l'apprendimento e la memoria, ma può anche avere un **ruolo importante nella formazione di nuove abitudini e nel consolidamento dei comportamenti ripetuti**.
 
 Quando un neurone invia un impulso a un altro neurone attraverso una sinapsi, la comunicazione tra i neuroni è mediata da sostanze chimiche chiamate neurotrasmettitori. La LTP si verifica quando l'attività ripetuta di un neurone innesca una serie di eventi che aumentano la quantità di neurotrasmettitori rilasciati dalla sinapsi. Questo aumento nell'efficacia della comunicazione sinaptica può durare per giorni o anche settimane, e può portare alla creazione di nuove connessioni sinaptiche o al rafforzamento di quelle esistenti.

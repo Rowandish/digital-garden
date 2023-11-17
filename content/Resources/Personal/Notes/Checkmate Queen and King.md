@@ -3,7 +3,7 @@ tags:
   - Chess
   - Checkmates
 ---
-
+![[f104a063-c540-4c7b-8e34-d0a276a364ff.webp]]
 
 Per prima cosa è necessario portare il re all'angolo permettendogli di andare solo in due case possibili. Occhio a non dargli nessuna casa disponibile senza scacchi altrimenti è stalemate.
 Per farlo bisogna muovere la regina di una casella alla volta senza mai dare scacco al re in modo che sia sempre a distanza 2 dal re (un po' come se lo attaccasse se fosse un cavallo).

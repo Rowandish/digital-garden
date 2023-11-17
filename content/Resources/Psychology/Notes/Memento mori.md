@@ -2,8 +2,6 @@
 tags:
   - Psychology
 ---
-
-
 > [!quote] Confucio
 > quote::“*Abbiamo due vite, e la seconda inizia quando ci rendiamo conto di averne solo una*“
 

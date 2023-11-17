@@ -2,8 +2,6 @@
 tags:
   - Psychology
 ---
-
-
 Alan Watts è stato un noto filosofo e scrittore inglese del XX secolo che si è dedicato allo studio delle religioni orientali, in particolare del buddhismo e del taoismo.
 
 Uno dei concetti più interessanti proposti da Watts è la sua =="legge dell'inversione". Secondo questa legge, molte delle verità che consideriamo scontate e che ci sembrano ovvie, in realtà possono essere viste sotto una luce completamente diversa se le si invertono==.
@@ -24,4 +22,3 @@ Watts ci invita a superare l'illusione dell'ego e a coltivare una consapevolezza
 Più ti sforzi di stare continuamente bene, meno sarai soddisfatto, come se inseguire qualcosa non facesse che rinforzare la consapevolezza della sua mancanza.
 Quanto più disperatamente desideri essere ricco, tanto più ti sentirai povero e immeritevole, a prescindere da quali siano effettivamente i tuoi guadagni.
 Quanto più vuoi essere attraente e desiderato, tanto più inizi a vederti brutto, a prescindere dal tuo effettivo aspetto fisico.
-

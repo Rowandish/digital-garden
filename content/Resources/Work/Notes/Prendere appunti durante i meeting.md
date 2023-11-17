@@ -2,8 +2,6 @@
 tags:
   - ProjectManagement
 ---
-
-
 Si tratta di un argomento importante, sia per i project manager e program manager, ma anche per chiunque partecipi a riunioni in ruoli tecnici o di altro genere.
 Spesso, molte persone si trovano a disagio nell'affrontare questa pratica, ma è fondamentale per garantire l'allineamento e la chiarezza tra tutti i partecipanti.
 
