@@ -1,10 +1,12 @@
-![[3c0babd3-d4b8-4726-ba0c-7aeed6116e87.webp]]
+![[DALL·E 2023-11-19 00.12.56 - An Irish man with pale skin and glasses, without a beard, is sitting in a cozy living room using a PC. The room is filled with relaxing plants, adding.png]]
 
 La produttività è una disciplina che mi interessa non tanto per l'idea capitalistica del "fare il maggior numero di cose possibili al fine di fare soldi" ma seguendo l'idea di Tim Ferriss di focalizzarsi sul ridurre il tempo per fare quello che siamo obbligati a fare per guadagnare al fine aumentare il tempo da dedicare a quello che ci fa stare bene.
 
 Possiamo definire la produttività come il rapporto tra quanto produciamo di utile e il tempo che impieghiamo per farlo, il tutto moltiplicato per il fattore "divertimento", che significa piacere nel farlo.
 L'obiettivo è ovviamente massimizzare il risultato, quindi aumentando l'output utile, diminuendo il tempo impiegato e aumentando il piacere nel farlo.
+
 $$Productivity = \frac{UsefulOutput}{Time}*Fun$$
+
 > [!note]
 > **La cosa più importante è definire i propri obiettivi, i passi per portarli a termine e la riflessione periodica per capire se si sta andando verso la direzione giusta**.
 
@@ -186,12 +188,14 @@ Tecnicamente cerchiamo a fine settimana di non avere niente lasciato in sospeso,
 * Rivedere i progetti che non hanno una deadline ma che, se non vengono continuamente rivisti, rischiano di non essere fatti mai. O si lasciano andare o si portano avanti
 
 #### Annual review
+
 In questo review cerchiamo di fare zoom out di quanto è successo durante l'anno, quindi un'analisi sulle cose che sono andate bene o male, eventi per cui sono grato, cose che ho imparato e progetto per l'anno successivo.
 Ogni anno è carino fare la "12 month celebrating" che consiste nel festeggiare i traguardi raggiunti nelle 3 categorie principali della nostra vita nell'ultimo anno.
 Queste categorie sono:
 * Salute
 * Lavoro
 * Relazioni
+
 Per approfondire vedi [questo video](https://www.youtube.com/watch?v=Ck5JOj4TlM4), [questo](https://www.youtube.com/watch?v=ERGbgvvCJ8o) e [questo](https://www.youtube.com/watch?v=bnoV0Gepg2w&pp=ygUNYW5udWFsIHJldmlldw%3D%3D).
 
 ## Fun

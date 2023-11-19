@@ -1,8 +1,6 @@
 ---
-tags:
-  - Marketing
+tags: []
 ---
-## Definizione
 Il dropshipping è una ==modalità di vendita che consiste nel non avere un magazzino che contiene i beni che vendo ma tali beni vengono costruiti o recuperati al momento dell'ordine==.
 In particolare nel mondo del marketing il dropshipping è l'acquisto di un bene su un sito cinese a pochi euro (Ali Express) e la rivendita di tale bene su Amazon ad un prezzo 10x sfruttando il fatto che la gente si fida di più (o conosce solo) di Amazon rispetto al sito cinese.
 Questa è una forma di [[Arbitraggio]] in quanto sto facendo soldi sfruttando la differenza di prezzo dello stesso bene su due mercati diversi.

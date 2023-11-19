@@ -8,7 +8,7 @@ Il lancio di una nuova funzionalità per un prodotto già esistente all'interno 
 
 ## Operazioni preliminari
 
-### Da Dove Inizia il Progetto?
+### Da dove inizia il progetto?
 
 Prima di tutto, dobbiamo capire da dove nasce la richiesta per questa nuova funzionalità. Ci sono tre possibili casi:
 
@@ -38,8 +38,6 @@ Anche se i costi non devono essere precisi al centesimo, è importante avere un'
 Una volta compreso il valore e i costi dell'iniziativa, è il momento di formalizzare tutto in un business case.
 Questo documento mette nero su bianco le ragioni e le aspettative del progetto, rendendolo chiaro per tutti i membri del team e per le parti interessate esterne.
 
-
-
 ### Best practices aziendali
 Ogni azienda ha le proprie procedure e strumenti per_
 * gestire l'escalation
@@ -50,7 +48,6 @@ Allinearsi a queste best practice consentirà di ottenere risultati migliori e r
 
 Ovviamente, ci sono molte altre best practice in diverse aree della gestione dei progetti, ma il segreto è ==iniziare con ciò che è già conosciuto e funziona bene all'interno dell'azienda==.
 Ciò consentirà di evitare errori comuni e di focalizzare gli sforzi su ciò che è più rilevante per il progetto in questione.
-
 
 ## Fasi del Progetto
 

@@ -3,7 +3,7 @@ tags:
   - Chess
   - Basics
 ---
-
+![[DALL·E 2023-11-18 23.41.02 - An artistic depiction of a chess pawn dressed as a poor person, gradually transforming into a beautiful queen, representing the concept of pawn promot.png]]
 
 Di seguito quattro regole da seguire per vincere contro la maggior parte degli avversari.
 * **Controllare il centro**: avere sempre pedoni o controllo sulle 4 case centrali

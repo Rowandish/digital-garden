@@ -1,11 +1,6 @@
----
-tags:
-  - YouTuberGuide
----
-## Template Notion
-* https://aliabdaal.notion.site/YouTube-Notion-Templates-Repository-d27debcf0ded49698882579b9529d488
+![[DALL·E 2023-11-19 01.19.15 - A painting in the style of Caravaggio depicting a YouTuber at work. The scene should be illuminated with dramatic chiaroscuro lighting, a hallmark of  1.png]]
 
-To begin with, if you’re not fully convinced YouTube can utterly change your life, here’s how it’s changed mine:
+# Motivi
 
 ##  **![💰](https://fonts.gstatic.com/s/e/notoemoji/15.0/1f4b0/32.png) 1: Money**
 
@@ -55,6 +50,8 @@ It’s scary initially, but you learn so much with each video, and when you hit 
 
 You find yourself improving over time, you start getting messages from friends saying they saw your video and they thought it was cool. It’s all pretty fun.
 
+
+# Miti
 ##  **![⌛️](https://fonts.gstatic.com/s/e/notoemoji/15.0/231b_fe0f/32.png) Myth 1: It’s Too Late To Get Started**
 
 For a fairly new platform, it feels like YouTube’s been around for a while. We’ve already seen the rise and fall of a bunch of YouTubers. Half of your favourites might be people with millions of subscribers. It’s easy to see all that, not know where the ‘upload video’ button is and think ‘_this ship’s sailed’, ‘why would someone watch me’, ‘I can’t compete’._
@@ -133,6 +130,9 @@ I’m a huge fan of [side hustles](https://click.convertkit-mail2.com/wvu39vnkog
 
 Finding content ideas, planning out videos, filming and editing - these can seem like an endless amount of work. But it really doesn’t need to take over your life, and you can very well manage it alongside everything else. Here are 5 techniques for doing just that:
 
+
+# Tecniche
+
 ##  **![🧱](https://fonts.gstatic.com/s/e/notoemoji/15.0/1f9f1/32.png) 1: Batching**
 
 If you’re anything like me, your room probably isn’t always camera-ready. If you’re someone who tries to look presentable, _you_ might not always be ready either. Whether it’s getting into the headspace to film a video, making sure the background looks ok or making sure your camera settings are ok, there’s always just so much friction to getting started. And when you’re filming multiple videos in a week you can waste just so much time ‘getting ready’ to film.
@@ -210,6 +210,9 @@ If this is a feeling you’ve ever suffered from, hopefully you’ll find this e
 
 It’s some of the stuff I remind myself of when the _Imposter Syndrome_ beast rears its ugly head ![🐺](https://fonts.gstatic.com/s/e/notoemoji/15.0/1f43a/32.png)
 
+
+# Note
+
 ##  **![💀](https://fonts.gstatic.com/s/e/notoemoji/15.0/1f480/32.png) 1: The Curse of Knowledge**
 
 If you’re waiting to become an ‘expert’ (whatever that means) before you get started on YouTube, you’re approaching it all wrong.
@@ -275,6 +278,8 @@ Getting your phone out and hitting record is great for getting started but there
 
 Today I want to take you through **the Top 5 things I think it takes to succeed**.
 
+
+# Mindset
 ##  **![🔁](https://fonts.gstatic.com/s/e/notoemoji/15.0/1f501/32.png) 1: Consistency**
 
 This is perhaps the single, most non-negotiable, biggest determinant of your success on YouTube. And it’s not glamorous.
@@ -365,6 +370,34 @@ Being super-pumped about something only to drop it after a short while is someth
 
 In a game where consistency is everything, you don’t want to be depending on your fickle motivation to succeed. Here’s two ways you can make sure you don’t let yourself slack.
 
+
+# Fare video senza mollare
+<div class="iframe-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/7P6RArpBwDk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+**Prima di vedere i primi risultati come YouTube ci vuole molto più tempo di quanto possa sembrare**: nel suo caso sono serviti 85 video e 9 mesi prima di vedere dell’entrata economica dai video.
+
+I video sono come un asset: una volta fatti portano sempre del valore senza che tu non faccia nulla, come se fossero un investimento.
+
+La rendita dalle inserzioni dipende da quanti soldi hanno gli inserzionisti: nei video di finanza gli inserzionisti hanno molti soldi e conseguentemente sono disposti a pagare di più che i video, per esempio, per studenti dove invece i soldi che girano sono pochi.
+
+**Il guadagno quindi non è solo dovuto alle visualizzazioni ma anche all’argomento portato.**
+
+### Quante visualizzazioni servono per avere i primi soldi?
+
+Per poter riceve del cash da YouTube sono necessari almeno 1000 iscritti e 4000 ore visualizzate complessive: per ottenere questi valori possono essere necessari molti video e molto tempo. Nel suo caso 52 video e 6 mesi di lavoro ma in altri casi sono stati necessari anche 200 video. ==La media è circa 152 video.==
+
+Questo potrebbe portare circa 15000 visualizzazioni al mese che sono circa 5-10€ al giorno: assumendo un video a settimana significa che ogni video deve fare circa 4000 visualizzazioni.
+
+### Quante visualizzazioni servono per lavorare part time?
+
+Assumiamo di volere fare da YouTube 600€ per poter lavorare part time: assumendo un RPM medio di 3$ servono 200k visualizzazioni al mese.
+
+### Quante visualizzazioni servono per lasciare il lavoro?
+
+Per ottenere questo valore possono servire indicativamente 500k visualizzazioni al mese.
+
 ##  **![🤝](https://fonts.gstatic.com/s/e/notoemoji/15.0/1f91d/32.png) 1 - Accountability**
 
 One thing stronger than the desire to procrastinate may just be the embarrassment of not sticking to a promised schedule. Finding an accountability partner to hold you to account is absolutely game changing.
@@ -387,17 +420,17 @@ But this is hard to find.
 
 We’ve built a community like this in the Part Time YouTuber Academy. We’ve now taught over 1500 students, and previously cohort spaces have sold out in just a couple of hours. I’ll send you an email before the next cohort opens if you’re interested in joining.
 
-## how to structure your videos
+
+
+# Costruzione video
+## How to structure your videos
 
 The way we can get that structure is through a simple tool that I call the **HIVEs Framework**. That is:
 
-🎣 **H**ook
-
-👋 **I**ntro
-
-🤑 **V**alue
-
-👉 **E**nd **S**creen Sales Pitch
+* 🎣 **H**ook
+* 👋 **I**ntro
+* 🤑 **V**alue
+* 👉 **E**nd **S**creen Sales Pitch
 
 Using this framework you can turn every video (and video script) into a cohesive piece of film to guarantee your content performs well.
 
@@ -408,3 +441,62 @@ Then you move on to the 👋 **Intro**. Once they’ve decided to watch your vid
 Next is 🤑 **Value**. Throughout the whole video, you want to show the value of your production through elements of writing (video script) and branding (video editing). The point is to make it memorable and to stand out compared to the rest of the productions in the same niche. Here’s where you make them say “Wow, they really took time to make this video special.”
 
 And you want to finish it off with the 👉 **End Screen Sales Pitch**. You don’t want to leave your viewers with just a blank “goodbye”. The best thing you can do is relate the end bit of a video with another video on that correlating topic. Take a look at [this video](https://click.convertkit-mail2.com/xmunrwml3eh6hrnrooda5/p8heh9hzk52n3dtr/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj1saHBZMWZyTnFkQQ==) as an example. This way you’ll keep them in a loop and you create a situation where people genuinely want to check out your next video. And given that they’ve already watched one of your videos until the end, chances are that they’ll like to watch the next one.
+
+
+
+
+## Style guide
+![[Pasted image 20231102182129.png]]
+![[Pasted image 20231102182215.png]]
+![[Pasted image 20231102182229.png]]
+![[Pasted image 20231102182250.png]]
+![[Pasted image 20231102182305.png]]
+![[Pasted image 20231102182319.png]]
+![[Pasted image 20231102182349.png]]
+![[Pasted image 20231102182412.png]]
+![[Pasted image 20231102182430.png]]
+
+
+## How to Film YouTube Videos on Your Phone
+### 📺 Video
+<div class="iframe-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/JwhsPdN2RNg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+### Video
+
+La app integrata per cellulare non va benissimo, meglio usare una app dedicata come Filmic Pro, questa permette di impostare dei setting particolari per esempio:
+
+-   25 fps. 30 fps o più rendono il video un po’ più artefatto.
+-   16:9; 4k 2160p e bitrate al più alto possibile
+-   Shutter speed: 1/50 (deve essere il doppio degli fps, 18°C rule)
+-   White balance: 6125k +0 to +2 tint
+
+### Audio
+
+L’audio è importante come il video con la differenza che l’audio integrato negli smartphone non è il massimo della vita.
+
+Esistono delle soluzioni intermedie come il RØDE VideoMicro che permettono di avere un audio decente con 50€.
+
+### Luce
+
+Anche la luce è molto importante ma senza spendere soldi per ring light e similari va bene sedersi vicino ad una finestra molto grande per avere molta luce naturale che va bene.
+
+### Framing
+
+E’ comodo avere uno schermo dove vedere quello che si sta riprendendo: usare la fotocamera anteriore del cellulare è molto LQ e, senza spendere soldi in un monitor esterno, conviene collegare il cellulare al PC in modo da vedere in diretta quello che sto vedendo (per esempio con QuickTime player).
+
+### Treppiede
+
+Va bene qualsiasi di Amazon basta che sopra abbia un attacco per microfono, tipo il RØDE di cui sopra. Ancora meglio se è compatibile con il GorrillaPod in modo da poter connettere qualsiasi treppiede al telefono
+
+### Wide lenses
+
+Acquistare una lente grandangolare per cellulare permette di avvicinarsi molto al dispositivo ottenendo un risultato analogo al non usarla.
+
+Il vantaggio è che avvicinandosi molto sono più vicino al microfono e conseguentemente l’audio è migliore. Non indispensabile ma comunque un buon trucco.
+
+# Template Notion
+
+https://aliabdaal.notion.site/YouTube-Notion-Templates-Repository-d27debcf0ded49698882579b9529d488
+

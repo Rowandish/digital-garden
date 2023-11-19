@@ -3,7 +3,7 @@ tags:
   - Chess
   - Checkmates
 ---
-
+![[DALL·E 2023-11-19 00.12.10 - A dramatic portrayal of a chess king in a state of despair, surrounded only by his pawns and facing imminent checkmate. The king, wearing a crown, is .png]]
 
 Questo matto è abbastanza complicato in quanto è molto semplice fare stalemate.
 Per prima cosa bisogna portare il re avversario in un angolo; per farlo bisogna per prima cosa avvicinare il nostro re al re avversario.

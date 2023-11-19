@@ -15,11 +15,3 @@ LIST FROM "Resources/Money/Notes" AND #PersonalFinance
 ```dataview
 LIST FROM "Resources/Money/Notes" AND #RealEstateInvestment 
 ```
-
-## Marketing
-
-```dataview
-LIST FROM "Resources/Money/Notes" AND #Marketing 
-```
-
-

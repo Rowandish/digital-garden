@@ -1,5 +1,5 @@
 {
-  "name": "@jackyzha0/quartz",
+  "name": "yargs",
   "description": "🌱 publish your digital garden and notes as a website",
   "private": true,
   "version": "4.2.3",
@@ -9,7 +9,7 @@
   "homepage": "https://quartz.jzhao.xyz",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jackyzha0/quartz.git"
+    "url": "git+https://github.com/jackyzha0/quartz.git"
   },
   "scripts": {
     "docs": "npx quartz build --serve -d docs",
@@ -31,7 +31,7 @@
     "quartz"
   ],
   "bin": {
-    "quartz": "./quartz/bootstrap-cli.mjs"
+    "quartz": "quartz/bootstrap-cli.mjs"
   },
   "dependencies": {
     "@clack/prompts": "^0.7.0",

@@ -3,7 +3,8 @@ tags:
   - Chess
   - Checkmates
 ---
-![[9a41019c-71e9-4056-8b41-f8094cfd35d8.webp]]
+![[DALL·E 2023-11-18 23.40.31 - A dramatic portrayal of a chess king surrounded only by his pawns, facing imminent checkmate. The king is depicted in a state of despair, with a drama.png]]
+
 Il matto del barbiere si ha iniziando con **1. e4 e5 2. Dh5 Cc6 3.Ac4 con Dxf7#** alla mossa successiva.
 
 ![[board(1).gif]]

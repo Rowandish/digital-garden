@@ -1,7 +1,9 @@
 ---
 tags:
-  - ProjectManagement
+  - Career
 ---
+![[DALL·E 2023-11-19 01.21.00 - A stained glass window depicting an archer hitting a bullseye. The design should showcase the archer in a dynamic pose, with the arrow in mid-flight a.png]]
+
 Questo testo è la trascrizione sistemata di [questo video](https://www.youtube.com/watch?v=KKJ_oX3n2Ww).
 
 In questo post, discuteremo degli OKRs (Obiettivi e Risultati Chiave) e come possono essere utilizzati come metodologia per impostare e monitorare gli obiettivi.
