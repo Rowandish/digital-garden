@@ -2,8 +2,6 @@
 tags:
   - Definition
 ---
-
-
 Le **calorie** sono una misura dell'energia contenuta negli alimenti e vengono utilizzate per valutare l'apporto energetico fornito dalla dieta. 
 
 ### Cos'è una Caloria?

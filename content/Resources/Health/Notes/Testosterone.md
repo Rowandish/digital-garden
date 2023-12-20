@@ -2,8 +2,6 @@
 tags:
   - Definition
 ---
-
-
 Il testosterone è un ormone steroideo appartenente alla classe degli androgeni, prodotto principalmente nei testicoli degli uomini e nelle ovaie delle donne, sebbene in quantità molto minori.
 È spesso associato alla virilità e alle caratteristiche sessuali maschili, ma svolge un ruolo estremamente importante in molti aspetti della fisiologia umana, oltre a influenzare il comportamento e la salute.
 

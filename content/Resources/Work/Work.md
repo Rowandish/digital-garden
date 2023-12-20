@@ -4,12 +4,16 @@ I temi trattati sono:
     - [[Come chiedere un aumento dopo una altra offerta]]
     - [[Come prendere decisioni importanti]]
     - [[OKRs (Objective and Key Results)]]
+    - [[Sindrome dell'impostore]]
 - **[[Work-Life Balance]]**
 - **Ruoli e Responsabilità**:
     - [[Program Manager]]
 - **[[Project Management]]**
 - **[[Marketing]]**
+- Dialettica
+	- [[Critica sandwich]]
 - **[[Processo di selezione di un candidato|Processi di selezione]]**
+	- [[Coding interview]]
 - **[[Side Hustle]]**
 	- [[Youtuber]]
 	- [[Dropshipping]]

@@ -35,13 +35,17 @@ Potete suddividere i vostri obiettivi in tre categorie che si distinguono entro 
 * **medio termine** (3-5 anni):
 * **breve termine** (1 anno):
 
+#### Decidere gli obiettivi
+Il tempo che abbiamo a disposizione è finito e non avremo mai tempo di fare tutto quello che potenzialmente abbiamo in mente di fare.
+E' importante quindi scegliere bene i nostri obiettivi perché scegliendone uno si sta per forza non scegliendone altri.
+Un'interessante libro a riguardo è il famoso [[4000 Weeks]].
+
 #### Scomposizione degli obiettivi
 
 Avere degli obiettivi è importante, ma non basta per progredire verso di essi. ==Dovete scomporre i vostri obiettivi in azioni concrete che vi aiuteranno a progredire verso il risultato desiderato==.
 Non è necessario complicare e scomporre gli obiettivi in migliaia di passaggi diversi, concentratevi invece su ==cosa dovete fare settimanalmente per avvicinarvi al vostro obiettivo==.
 
 In una frase: quali sono le attività che devo fare ogni settimana per fare progressi relativamente al mio obiettivo?
-
 
 La fase di [[pianificazione]] avviene tipicamente la mattina, come per esempio scrivendo delle [[Morning pages]] o facendo [[Journaling]].
 Una volta sgombrata la mente si guarda il mio calendario e le liste di cose da fare nell'ottica di capire cosa fare effettivamente durante il giorno, e quindi al mattino sto stabilendo l'intenzione per il resto della giornata.
@@ -231,3 +235,8 @@ Se il lavoro che si sta facendo è veramente senza significato per noi, nonostan
 Come fare quindi per trovare qualcosa che sia veramente *meaningful* per noi?
 
 
+
+
+## Systems
+Ogni persona ha il suo ecosistema che cerca di rispondere alle varie problematiche evidenziate qui sopra.
+Il metodo più completo, basato su Notion, è il [[Pillars Pipelines and Vaults]] che sto cercando di implementare.

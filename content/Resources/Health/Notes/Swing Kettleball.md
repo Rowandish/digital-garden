@@ -1,10 +1,8 @@
 ---
 tags:
   - Exercise
-  - TotalBody
+  - Booty
 ---
-
-
 > [!quote]
 > quote::“Se puoi fare un solo movimento per il resto della tua vita, fai lo swing con il kettlebell.“
 

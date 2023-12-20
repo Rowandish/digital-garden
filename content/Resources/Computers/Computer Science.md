@@ -1,53 +1,52 @@
-Con questo topic descrivo informazioni varie sul mondo dei PC e della programmazione.
-## [[Software Engineering]]
-## [[Coding interview]]
-## [[PicoCTF]]
-## [[C Sharp e .NET]]
-## [[Artificial Intelligence]]
+Anche se lavoro nell'ambito del [[Digital Image Processing]] mi occupo principalmente di scrivere codice pulito, manutenibile e scalabile usando tecniche di [[Software Engineering]].
+Nell'ultimo anno sto sempre più studiando il mondo dell'[[artificial Intelligence]], sia lato visione industriale che modelli di linguaggio e aiuto alla produttività.
+Di seguito una categorizzazione di tutte le note che ho preso negli anni sui vari ambiti che ho approfondito.
+## Languages
 
-## Python
-```dataview
-LIST FROM #Python
-```
+* [[C Sharp e .NET]]
+* [[Python]]
+* [[Ruby On Rails]]
+* [[Regexp]]
+## Database
+
+### Basics
+* [[COALESCE]]
+* [[Transazioni]]
+* [[Indici]]
+* [[Window function]]
+
+### DBMS
+
+* [[SQL Server]]
+
+### Scalability
+
+* [[Database sharding]]
+
+## Tools
+* [[Git]]
+* [[Blender]]
+## Operating system
+
+* [[Windows]]
+* [[Linux]]
 ## PaaS
-```dataview
-LIST FROM #PaaS
-```
+* [[Firebase]]
+* [[Azure]]
 
+## Data Science
 
-## Blender
-```dataview
-LIST FROM #Blender 
-```
-## Git
-```dataview
-LIST FROM #Git
-```
+* [[Normalizzazione e standardizzazione]]
+* [[One hot encoding]]
+### Packages
+* [[Pandas]]
 
-## Sql Server
-```dataview
-LIST FROM #SqlServer
-```
+## Container
+* [[Container]]
+## Web
+* [[Scss]]
+* [[Elementor]]
+## Hacking
 
-## Ruby on Rails
-```dataview
-LIST FROM #RubyOnRails
-```
-
-## Tutorial Windows
-```dataview
-LIST FROM #Tutorial and #Windows
-```
-## Networking
-```dataview
-LIST FROM #Tutorial and #Networking 
-```
-## Linux
-```dataview
-LIST FROM #Linux
-```
-## Digital Image Processing
-```dataview
-LIST FROM #DigitalImageProcessing
-```
-
+* [[PicoCTF]]
+* [[Perché non dovresti usare md5]]

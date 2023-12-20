@@ -46,7 +46,7 @@ La scala anchoring può essere utilizzata in molte forme diverse, ad esempio pro
 
 ### Urgenza e scarsità
 
-L'urgenza è uno dei [[bias]] più forti nella vendita e ==sfrutta la paura di perdere qualcosa se non si agisce subito==. Ad esempio, un'azienda potrebbe offrire uno sconto a tempo limitato o un'offerta speciale per un numero limitato di acquisti.
+L'urgenza è uno dei [[Bias]] più forti nella vendita e ==sfrutta la paura di perdere qualcosa se non si agisce subito==. Ad esempio, un'azienda potrebbe offrire uno sconto a tempo limitato o un'offerta speciale per un numero limitato di acquisti.
 Ad esempio, se viene offerto uno ==sconto sul pacchetto più costoso se acquistato entro un determinato periodo di tempo==, il cliente potrebbe essere incoraggiato a scegliere il pacchetto più costoso per non perdere l'opportunità di risparmiare.
 La scarsità invece ==sfrutta la psicologia umana di voler possedere qualcosa che è raro o che sta per diventare esaurito==. Ad esempio, un'azienda potrebbe annunciare che un prodotto è disponibile solo per un periodo limitato o che c'è un numero limitato di pezzi a disposizione. Questo crea un senso di urgenza nei consumatori di acquistarlo prima che sia troppo tardi.
 

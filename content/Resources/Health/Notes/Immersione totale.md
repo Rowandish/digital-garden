@@ -2,13 +2,10 @@
 tags:
   - Swim
 ---
-
-
 ## 📺 Video
 <div class="iframe-container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/XVtxoBgTYQQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-
 
 Al primo allenamento, senza un istruttore, ridussi la resistenza all’acqua del 50%, facendo più vasche di quante ne avessi mai fatte in tutta la mia vita.
 Coprivo più del doppio della distanza con lo stesso numero di bracciate (facendo perciò la metà dello sforzo) e senza panico né stress. 

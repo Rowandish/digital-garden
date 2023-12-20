@@ -13,7 +13,6 @@ Il processo di assunzione in una grande azienda può essere piuttosto articolato
 9. **Offerta di Lavoro**: Se il candidato supera con successo tutti i passaggi precedenti, riceve un'offerta di lavoro. Questa può richiedere negoziazioni riguardo stipendio, benefici, orari di lavoro, ecc.
 10. **Onboarding**: Una volta accettata l'offerta, inizia il processo di onboarding, durante il quale il nuovo dipendente viene introdotto nell'azienda, nei suoi processi e nella cultura aziendale.
 
-
 ## Trucchi vari
 
 * Per far capire di essere leader e propenso al lavoro di gruppo utilizzare il "noi" e non l'"io". Tipo invece di dire "io fare X, Y, Z" meglio dire "io insieme al mio gruppo" o "noi faremo" e così via;

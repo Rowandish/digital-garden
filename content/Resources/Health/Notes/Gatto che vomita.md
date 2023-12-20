@@ -3,8 +3,6 @@ tags:
   - Exercise
   - Abs
 ---
-
-
 ![[Pasted image 20230811140907.png]]
 
 1. Mettetevi a quattro zampe e tenete lo sguardo puntato direttamente sotto la testa o leggermente davanti. Non curvate la schiena e non tendete il collo.

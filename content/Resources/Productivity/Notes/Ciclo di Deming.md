@@ -1,6 +1,5 @@
 ---
-tags:
-  - Psychology
+tags: []
 ---
 Il "Ciclo di Deming", noto anche come PDCA (Plan-Do-Check-Act) o Ciclo di miglioramento continuo, è un modello concettuale sviluppato dal famoso consulente di gestione e statistico, William Edwards Deming. Questo ciclo è uno strumento fondamentale nel contesto del miglioramento continuo delle attività e dei processi all'interno di un'organizzazione.
 

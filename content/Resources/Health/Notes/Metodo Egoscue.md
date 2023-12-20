@@ -2,8 +2,6 @@
 tags:
   - Definition
 ---
-
-
 Il Metodo Egoscue è un approccio non convenzionale alla salute e al benessere che si concentra sul ripristino dell'allineamento e dell'equilibrio del corpo attraverso una serie di esercizi e posture specifiche.
 Sviluppato da Pete Egoscue negli anni '70, il metodo si basa sull'idea che ==molti problemi fisici e dolori cronici siano il risultato di squilibri posturali e muscolari==. L'obiettivo principale del Metodo Egoscue è quello di riportare il corpo in uno stato di equilibrio biomeccanico naturale, riducendo così il dolore e migliorando la funzionalità.
 

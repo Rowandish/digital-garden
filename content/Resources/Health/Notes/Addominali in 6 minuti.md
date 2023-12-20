@@ -1,5 +1,5 @@
 Per avere gli addominali scolpiti sono necessarie due condizioni:
-* Seguire una dieta che permetta di avere stabilmente il 12% o meno di grasso corporeo. Io suggerisco la dieta [[slow carb]], quella che sono riuscito a seguire con maggiore costanza, ma tra le altre opzioni disponibili ci sono la dieta chetogenica (soprattutto la dieta chetogenica ciclica) e il digiuno intermittente (DI).
+* Seguire una dieta che permetta di avere stabilmente il 12% o meno di grasso corporeo. Io suggerisco la dieta [[Dieta slow carb]], quella che sono riuscito a seguire con maggiore costanza, ma tra le altre opzioni disponibili ci sono la dieta chetogenica (soprattutto la dieta chetogenica ciclica) e il digiuno intermittente (DI).
 * Fare esercizi
 
 L'obiettivo è fare gli esercizi che forniscono la maggior risposta possibile nel minore tempo.

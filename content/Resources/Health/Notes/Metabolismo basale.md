@@ -2,8 +2,6 @@
 tags:
   - Definition
 ---
-
-
 Il **Metabolismo Basale (BMR)** è ==l'energia minima necessaria affinché il nostro corpo possa svolgere le funzioni vitali fondamentali==, quali la respirazione, la circolazione sanguigna, la regolazione della temperatura corporea e il funzionamento del cervello, durante il riposo assoluto e in uno stato di digiuno.
 
 ### Cos'è il Metabolismo Basale (BMR)?

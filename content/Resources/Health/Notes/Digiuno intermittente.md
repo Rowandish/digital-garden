@@ -2,8 +2,6 @@
 tags:
   - Definition
 ---
-
-
 Il digiuno intermittente è un approccio dietetico che alterna periodi di consumo di cibo con periodi di digiuno.
 Questo metodo ha guadagnato popolarità negli ultimi anni come strategia per la perdita di peso, il miglioramento della salute metabolica e persino per alcuni benefici per la longevità.
 Il concetto fondamentale alla base del digiuno intermittente è quello di ==limitare l'orario in cui si consumano calorie, consentendo al corpo di entrare in uno stato di digiuno e di promuovere una serie di risposte fisiologiche==.

@@ -2,8 +2,6 @@
 tags:
   - Habits
 ---
-
-
 Fate una doccia fredda di 5-10 minuti prima di colazione e/o prima di andare a dormire.
 * Usate acqua calda su tutto il corpo per 1-2 minuti, poi uscite dal getto e mettetevi shampoo e sapone sui capelli e sulla faccia.
 * Girate la manopola dell’acqua sul freddo e sciacquatevi solo faccia e capelli.

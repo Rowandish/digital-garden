@@ -12,6 +12,9 @@ Il giardino è in continua evoluzione, le pagine possono essere "coltivate" e mi
 Ecco alcuni punti di ingresso che potrebbero risultare interessanti:
 
 * [[Produttività]]: un articolo onnicomprensivo sulla produttività
-* [[Work]]
+* [[Work]]: note che riguardano il mondo del lavoro, dalle interview fino alla gestione dei processi aziendali e al marketing
+* [[Personal Finance]]: articolo onnicomprensivo sulla gestione delle proprie finanze nel modo più efficiente possibile.
+* [[Health]]: note varie che riguardano quanto imparo su salute mentale e fisica
+* [[Personal]]: tutto quanto non è in una delle sezioni sopra, dagli scacchi all'INPS passando per l'elettronica.
 
 

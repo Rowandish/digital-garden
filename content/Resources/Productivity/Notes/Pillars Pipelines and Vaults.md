@@ -19,7 +19,6 @@ Il pensiero sistemico ==richiede di definire gli input, gli output e i movimenti
 Inoltre, è essenziale distinguere gli elementi lineari da quelli circolari, poiché i componenti fondamentali dei sistemi tendono ad avere un carattere circolare. Questo aiuta a ==individuare i pattern che sono centrali per il funzionamento del sistema==.
 Una volta individuato il pattern è possibile analizzarlo per capire se influenza altri sistemi.
 
-📈 Marketing
 ### Feedback loop
 
 Un feedback llop è un modello che si auto-ingrandisce o si auto-diminuisce nel tempo, aumentando o diminuendo sistematicamente ad ogni iterazione. riconoscerli è fondamentale.
@@ -59,3 +58,69 @@ I database nei pipeline sono soggetti a *n* cicli di review, dalla giornaliera a
 
 ![[Pasted image 20231109180826.png]]
 
+### Pipelines
+Ad alto livello ci sono i goal, quindi quello che vogliamo diventare o ottenere. A livello più basso i projects, quindi tutti quei progetti che mi permettono di avvicinarmi ai miei goal.
+A livello ancora più basso i task, quindi tutti i singoli piccoli task quotidiani che sommati permettono di completare i progetti che mi permettono di avvicinarmi ai miei goal.
+
+### Recurring task
+Per i task che si ripetono ogni tot tempo ci sono due approcci:
+* Creare il task con Status "Remember" con Do Date la prossima data dove dovrò fare la cosa. Quando sarà tale data e avrò fatto quella cosa invece di metterlo come "Done" basterà spostare la Do Date alla data successiva dove dovrà essere fatto quel task.
+* Creare il task con Status a scelta e Do Date la data dove dovrò fare il task come sopra. Poi duplico il task e la copia la assegno alla data successiva e così via continuando a duplicare. Non sarà bellissimo ma comunque in qualche minuto si schedula tutto. Questo ha senso per i task molto grossi.
+
+### Review
+
+![[Pasted image 20231207115959.png]]
+#### Daily
+Nella daily review banalmente guardo i task che non sono riuscito a fare oggi e eventualmente sposto la Do Date di quelli mancanti ad un giorno successivo
+#### Weekly
+Nella weekly review guardo invece a livello di Projects, allineo ogni task ad un project e verifico che quindi ogni progetto abbia i suoi task assegnati e pronti
+
+#### Monthly
+Nella monthly review invece ragiono a livello ancora superiore, quindi di Goal Outcomes, valutando se ogni progetto è allineato con i miei goal outcome.
+
+## Differenze tra project e goal
+
+In GTD (Getting Things Done), e analogamente in PPV, i concetti di "projects" (progetti) e "goals" (obiettivi) sono distinti e servono a organizzare e strutturare il lavoro in modo più efficiente.
+I progetti sono azioni specifiche e concrete necessarie per completare un compito più ampio, mentre gli obiettivi rappresentano le direzioni di lungo termine e più ampie verso cui si tende nel contesto generale della propria vita o del proprio lavoro.
+
+1. **Projects (Progetti)**:
+   - I progetti in GTD sono attività o risultati che richiedono più azioni e impegni per essere completati.
+   - Un progetto può essere suddiviso in varie azioni concrete e specifiche necessarie per raggiungere l'obiettivo finale. Queste azioni vengono elencate e trattate come attività distinte.
+   - Un progetto può includere diverse attività, decisioni, passaggi o risultati intermedi, ma tutte queste componenti concorrono a realizzare un unico obiettivo finale.
+   - I progetti vengono revisionati una volta a settimana
+
+2. **Goals (Obiettivi)**:
+   - Gli obiettivi in GTD rappresentano i risultati o le condizioni desiderate a cui si mira nel lungo termine. ==Sono le direzioni generali che si vogliono raggiungere e possono comprendere più progetti==.
+   - Gli obiettivi sono ==più ampi e strategici rispetto ai progetti== e possono richiedere diversi progetti per essere raggiunti.
+   - Sono solitamente collegati ai valori personali o alle priorità di una persona e forniscono la bussola generale per guidare le azioni e le decisioni quotidiane.
+   - I goal vengono revisionati una volta al mese/quarter
+
+### Esempio
+
+Ecco un esempio di come potresti strutturare l'obiettivo di leggere 5 libri di crescita personale nel corso del 2024 utilizzando GTD, suddividendolo in progetti specifici con relative attività.
+
+#### Obiettivo (Goal):
+- **Obiettivo di Lettura per il 2024**:
+  - **Priorità:** Alta
+  - **Descrizione:** Leggere 5 libri di crescita personale entro il 31 dicembre 2024 per acquisire nuove conoscenze e promuovere lo sviluppo personale.
+
+#### Progetto 1: "Mindset" di Carol S. Dweck
+- **Priorità:** Alta
+- **Descrizione:** Leggere il libro "Mindset" di Carol S. Dweck per comprendere meglio l'importanza delle mentalità flessibili.
+- **Due Date:** 28 febbraio 2024
+- **Deadline:** 31 marzo 2024
+  - **Task/Attività**:
+    1. **Ricerca e Acquisto**:
+       - Trovare una copia del libro "Mindset" online o in libreria.
+       - Acquistare il libro.
+       - **Due Date:** 15 gennaio 2024
+    2. **Pianificazione della Lettura**:
+       - Stabilire un piano di lettura per il libro, pianificando il tempo di lettura settimanale.
+       - Preparare un elenco di note o punti chiave da osservare durante la lettura.
+       - **Due Date:** 15 febbraio 2024
+    3. **Lettura Attiva**:
+       - Iniziare e completare la lettura del libro "Mindset".
+       - Prendere appunti e riflessioni importanti durante la lettura.
+       - **Deadline:** 31 marzo 2024
+
+#### Progetto 2-5: Altri libri come sopra
