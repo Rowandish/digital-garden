@@ -56,7 +56,7 @@ Un trucco potrebbe essere scrivere in una lista tutte le cose che vorremmo fare 
 
 E’ necessario concentrarsi solo sulla closed list e aggiungere un elemento dalla lista open solo quando una di quelle di closed è stata completata.
 
-In questo modo siamo più concentrati su cosa è veramente importante senza farci distrarre dalle attività non veramente importanti (**[[Prioritizzazione]]**).
+In questo modo siamo più concentrati su cosa è veramente importante senza farci distrarre dalle attività non veramente importanti (**[[prioritizzazione]]**).
 
 ### Serializzazione
 

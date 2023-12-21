@@ -2,8 +2,6 @@
 tags:
   - PersonalKnowledgeManagement
 ---
-
-
 In questo metodo **la priorità è la scrittura della singola nota**, invece di pensare ai tag o ai notebook.
 Le note sono come degli **atomi** che sono pronte ad essere assemblate in elementi e composti complessi.
 

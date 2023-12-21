@@ -2,8 +2,6 @@
 tags:
   - DichiarazioneDeiRedditi
 ---
-
-
 Tutte le fatture elettroniche intestate al proprio codice fiscale sono accessibili online.
 
 Per farlo è necessario andare sul sito dell’Agenzia delle Entrate nella sezione per [la dichiarazione precompilata](https://spid.sogei.it/SPIDManagerWeb/loginPrecompilata.html).

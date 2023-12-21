@@ -22,6 +22,6 @@ Link: https://www.youtube.com/watch?v=2MVSsVi1_e4
 ## 📒 Riassunto
 Il modo standard di investire passivamente è comprare ETF **market cap weighted** che significa che ogni azienda è presente nell'indice in una percentuale uguale alla sua capitalizzazione rispetto a quella del mercato.
 Come conseguenza avremo che la maggior parte dei nostri soldi sarà investita in **[[Large cap stock]]*** in quanto sono la maggior parte del mercato, poi ci saranno in egual misura [[Growth stock]] e [[Value stock]].
-E' stato studiato che le [[Small cap stock]] e le value stock hanno un [[Expected value]] maggiore rispetto al mercato (questi sono due factor che compongono il [[Five-factor model]]).
+E' stato studiato che le [[Small cap stock]] e le value stock hanno un [[Expected value]] maggiore rispetto al mercato (questi sono due factor che compongono il [[Factors|Five-factor model]]).
 Per essere esposto a questi fattori (**small cap value ETF**) è necessario prendere un ETF ad hoc in quanto quelli market-cap weighted (che sono la maggior parte) non riescono a tenerle con la dovuta considerazione dato che sono, per l'appunto, small cap.
 Consiglia infine in tutti i portafogli di avere una percentuale in un ETF small cap value factors stock.

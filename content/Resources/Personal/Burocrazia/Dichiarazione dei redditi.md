@@ -2,8 +2,6 @@
 tags:
   - DichiarazioneDeiRedditi
 ---
-
-
 ## Quadro B - Redditi dei fabbricati e altri dati
 
 ### Sezione I - Redditi dei fabbricati

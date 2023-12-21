@@ -2,7 +2,6 @@
 tags:
   - PersonalKnowledgeManagement
 ---
-## Definizione
 Obsidian è un tool per prendere note (fratello di RoamResearch) che ha come caratteristica principale la non gerarchicità delle note e la loro interconnessione.
 Non è obbligatoria una struttura a cartelle, anzi è scoraggiata: tutte le note dovrebbero essere nella stessa cartella (un po' come il nostro cervello) e la navigazione avviene tramite i link tra le stesse (Obsidian è un tool **note first**).
 
@@ -15,10 +14,6 @@ Esistono comunque molti link che spiegano i vari approcci:
 * https://forum.obsidian.md/t/advantages-using-folders/10660/26
 * https://forum.obsidian.md/t/example-workflows-in-obsidian/1093/24
 
-## Plugin
-```dataview
-LIST FROM #obsidianPlugin
-```
 ## Formatting
 
 ### Resizing images

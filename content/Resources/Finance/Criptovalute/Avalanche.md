@@ -4,8 +4,6 @@ tags:
   - Coin
   - PublishedPosts
 ---
-
-
 [Avalanche](https://www.avax.network/) è stata lanciata nel settembre 2020 dal team di Ava Labs negli Stati Uniti. L'obiettivo è migliorare la scalabilità, ridurre le commissioni ma senza compromettere la decentralizzazione.
 
 Questa è una piattaforma open source che permette di fare le stesse cose che permette Ethereum, quindi **creare nuovi token, NFT, smart contract e DApp ma risolvendo i grossi problemi che ultimamente affliggono Ethereum**.

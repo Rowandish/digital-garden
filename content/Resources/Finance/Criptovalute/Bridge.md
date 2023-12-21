@@ -4,8 +4,6 @@ tags:
   - Definition
   - PublishedPosts
 ---
-
-
 ## Blockchain EVM e non EVM
 
 Negli ultimi anni sono nate numerose blockchain diverse, ognuna con la sue caratteristiche e compatibilità.

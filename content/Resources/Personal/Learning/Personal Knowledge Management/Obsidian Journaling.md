@@ -3,16 +3,12 @@ tags:
   - PersonalKnowledgeManagement
   - Journaling
 ---
-
-
 Per il [[Journaling]] Obsidian possiede sia una plugin core chiamato "Daily notes" ma dalle funzionalità molto limitate, sia un community plugin molto evoluto chiamato Periodic notes.
 
 ## Daily notes
 Questo è un plugin core di Obsidian e permette di creare delle note ogni giorno nel formato YYYY-MM-DD.
 Per aprire la nuova nota giornaliera utilizzare lo shortcut: `ctrl +shift + d` o premere l'icona.
 E' possibile creare un template da utilizzare tutti i giorni nel seguente modo:
-
-
 
 ## Periodic notes
 Questo plugin permette di creare sia daily notes ma anche note settimanali, mensili o annuali.

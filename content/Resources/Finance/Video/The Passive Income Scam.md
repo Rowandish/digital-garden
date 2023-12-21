@@ -28,7 +28,7 @@ Tipicamente questo tipo di guadagno è uno dei due:
 
 ### Guadagno da investimenti
 Questo guadagno deriva da dei prodotti che danno dei dividendi o delle plusvalenze e possono essere, per esempio:
-* [[Azioni]]
+* [[azioni]]
 * [[Obbligazioni]]
 * Immobiliare
 Il problema principale di questo tipo di guadagno è che ==**è necessario avere un grande patrimonio**==.

@@ -4,7 +4,6 @@ Le pagine con i problemi risolti hanno il tag `#Interview` mentre quelle con i "
 ## Problemi
 
 - [[Invertire un numero senza usare le stringhe]]
-- [[Ottenere la n-esima cifra più significativa di un numero]]
 - [[Rimuovere le parentesi invalide]]
 - [[Sommare due numeri rappresentati da due liste concatenate]]
 - [[Trovare la sottosequenza palindroma più lunga all'interno di una stringa]]

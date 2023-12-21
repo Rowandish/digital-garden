@@ -61,7 +61,7 @@ Gli investimenti a lungo termine sono tutti quelli investimenti che hanno un ori
 Bisogna investire in questi strumenti sono quando siamo a posto con gli altri 3 pilastri, quindi ho della liquidità, un fondo di emergenza e un fondo per le spese previste: tutto quello che avanza va qui.
 L'asset class principe per questi investimenti sono le [[azioni]] e in particolare gli [[ETF]] azionari.
 Posso anche investire in materie prime con gli ETC o a strumenti complessi come le criptovalute con gli ETP.
-Sempre in questo ambito indichiamo solo per completezza anche i [[futures]], gli [[investimenti a leva]], le [[criptovalute]] e le [[opzioni]] anche se queste ultime sono uno strumenti avanzato da utilizzare con cautela.
+Sempre in questo ambito indichiamo solo per completezza anche i [[Futures]], gli [[investimenti a leva]], le [[criptovalute]] e le [[opzioni]] anche se queste ultime sono uno strumenti avanzato da utilizzare con cautela.
 Questo investimento deve avere le seguenti caratteristiche:
 - Sicuro (no derivati, no cripto, no trading);
 - Controllato (controllare sempre gli asset dove si investe);
@@ -120,7 +120,7 @@ Questo scambio avviene attraverso un meccanismo semplice: quando c'è molta doma
 
 Un elemento chiave nel funzionamento della borsa è l'[[Order book]].
 L'**order book** è un elenco elettronico di ordini di acquisto e vendita per un particolare titolo finanziario, organizzato per livello di prezzo.
-Un altro attore fondamentale nel funzionamento della borsa è il [[Market maker]]: questo è un intermediario finanziario che pubblica i prezzi di acquisto e di vendita dei titoli quotati in borsa e di suo possesso, permettendo a tutti gli altri investitori di comprare o vendere a quei prezzi. I **market maker** forniscono liquidità e profondità ai mercati e traggono profitto dalla differenza tra il prezzo di offerta e il prezzo di domanda, sfruttando così l'[[Arbitraggio]].
+Un altro attore fondamentale nel funzionamento della borsa è il [[Market maker]]: questo è un intermediario finanziario che pubblica i prezzi di acquisto e di vendita dei titoli quotati in borsa e di suo possesso, permettendo a tutti gli altri investitori di comprare o vendere a quei prezzi. I **market maker** forniscono liquidità e profondità ai mercati e traggono profitto dalla differenza tra il prezzo di offerta e il prezzo di domanda, sfruttando così l'[[arbitraggio]].
 
 ### Conto titoli
 Il conto titoli è un deposito per strumenti finanziari come obbligazioni e azioni o fondi.
@@ -163,7 +163,7 @@ In altre parole, se tutti gli investitori adottassero un approccio passivo, non 
 
 ## Real Estate
 L'investimento immobiliare è un investimento complesso in quanto è un investimento molto costoso, poco liquido e che comporta notevoli rischio.
-Le due macrocategorie di investimenti quando si parla di immobili sono l'acquisto e l'[[Affitto]].
+Le due macrocategorie di investimenti quando si parla di immobili sono l'acquisto e l'[[affitto]].
 La scelta tra le due non è semplice ne scontata ma esistono dei criteri abbastanza matematici come la [[Renting vs. Buying a Home - The 5 Percent Rule|5 percent rule]].
 Una casa può essere acquistata da un privato o ditta costruttrice, mediante [[Aste immobiliari]] oppure tramite il cosiddetto [[Saldo e stralcio]].
 Qualora non si disponesse tutta la liquidità è necessario prendere in prestito i soldi mediante un [[Mutuo]] che può essere a tasso fisso (con il tasso che dipende dall'[[IRS]]) oppure variabile (con il tasso che dipende dall'[[Euribor]]).
@@ -180,6 +180,8 @@ Quasi sempre [[Acquistare un immobile per affittarlo|comprare una seconda casa p
 L'[[House flipping]] è un tipo di investimento per cui l'investitore acquista una casa da ristrutturare, la sistema (magari sfruttando agevolazioni fiscali), magari la [[Frazionamento immobiliare|fraziona]], la arreda con l'[[Home staging]] e la rivende generando una plusvalenza.
 Questa procedura fa parte del concetto più ampio di [[Speculazione immobiliare]].
 
+## Libri
+* [[The Book That Changed My Financial Life|La psicologia dei soldi]]
 ## Altro
 
 * [[Quanto costa fare un figlio]]

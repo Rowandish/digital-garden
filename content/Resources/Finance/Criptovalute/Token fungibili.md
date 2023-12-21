@@ -7,7 +7,7 @@ tags:
 
 Un [[Token]] fungibile è un **token interscambiabile con un altro token dello stesso tipo**.
 Ogni token ha lo stesso valore, dona lo stesso diritto, ed è interscambiabile.
-Il bene fungibile per eccellenza è il denaro (o le criptovalute in generale) e sono solitamente fungibili tutte le cose prodotte in serie: un esempio di bene fungibile, nel mondo reale, è una azione di una azienda, una banconota, delle [[Opzioni]], un [[ETF]], un buono Esselunga da 100€.
+Il bene fungibile per eccellenza è il denaro (o le criptovalute in generale) e sono solitamente fungibili tutte le cose prodotte in serie: un esempio di bene fungibile, nel mondo reale, è una azione di una azienda, una banconota, delle [[opzioni]], un [[ETF]], un buono Esselunga da 100€.
 
 Ogni banconota da 5€ ha lo stesso valore, posso scambiare la banconota X per la banconota Y senza che vi sia alcuna differenza.
 

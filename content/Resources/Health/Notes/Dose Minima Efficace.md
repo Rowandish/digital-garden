@@ -2,8 +2,6 @@
 tags:
   - Definition
 ---
-
-
 La definizione di dose minima efficace (DME) è la dose minima necessaria a produrre l’effetto desiderato.
 L'idea di usare la DME è ottenere risultati strabilianti nel minor tempo possibile.
 

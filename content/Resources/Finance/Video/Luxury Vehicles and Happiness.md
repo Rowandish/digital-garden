@@ -24,7 +24,7 @@ I veicoli sono servono solo per spostarsi ma anche per aumentare il proprio stat
 
 I problemi di questi beni sono due:
 
-- **[[Adattamento edonistico]]**: ci si adatta rapidamente agli oggetti e nel giro di poco tempo l’eccitazione verrà meno
+- **[[adattamento edonistico]]**: ci si adatta rapidamente agli oggetti e nel giro di poco tempo l’eccitazione verrà meno
 - Il loro valore dipende da quello che fanno gli altri: se un vicino compra un auto migliore della nostra, questa automaticamente diminuirà il suo valore
 
 Alcune ricerche hanno dimostrato che l’esperienza di guida sul lungo termine non è correlata al prezzo dell’auto.

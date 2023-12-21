@@ -21,7 +21,7 @@ Link: https://www.youtube.com/watch?v=mWQTgSt7GeU
 
 ## 📒 Riassunto
 
-L'overthinking fa parte della stessa categoria dell'[[Analysis paralysis]] per cui continua a pensare a tutto ciò che riguarda un problema o evento passato o futuro. 
+L'overthinking fa parte della stessa categoria dell'[[analysis paralysis]] per cui continua a pensare a tutto ciò che riguarda un problema o evento passato o futuro. 
 Nel caso di un evento o decisione futura questa sovra analisi può portare a non prendere delle decisioni che invece sarebbero state importanti, portando quindi a rimorsi nel futuro.
 Tipicamente questo avviene per ansia o paura, ma non nel senso di minaccia per la sopravvivenza ma di social risk, cosa direbbero i miei amici/parenti se la scelta che sto per fare è sbagliata?
 Per superare il blocco vi sono varie strategie:

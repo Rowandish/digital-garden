@@ -4,8 +4,6 @@ tags:
   - Openings
   - e4
 ---
-
-
 L'apertura italiana è una delle più semplici e comuni, anche se ottimo a tutti i livelli ed la seguente: **1.e4 e5 2.Nf3 Nc6 3.Bc4**.
 
 ![[board.gif|320]]

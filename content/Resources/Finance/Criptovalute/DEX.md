@@ -4,8 +4,6 @@ tags:
   - Definition
   - PublishedPosts
 ---
-
-
 Un DEX (Decentralized Exchange) è un exchange decentralizzato che permette lo scambio di coin senza un intermediario.
 
 Ho due tipologie di DEX, l'**Automatic Market Maker (AMM)** che funziona con i pool di liquidità (la maggioranza dei DEX funziona così) oppure i più moderni **Order Book based** che hanno le stesse caratteristiche fornite da un CEX, quindi limit order, stop loss e così via.

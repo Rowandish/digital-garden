@@ -4,8 +4,6 @@ tags:
   - Interview
   - PublishedPosts
 ---
-
-
 ## Problema
 
 L'obiettivo di questo problema è invertire un numero (es. 123 -> 321) senza usare le stringhe (altrimenti la soluzione sarebbe banalmente `number.ToString().Reverse()`).

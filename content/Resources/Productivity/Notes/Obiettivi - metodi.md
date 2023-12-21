@@ -2,8 +2,6 @@
 tags:
   - Productivity
 ---
-
-
 > [!quote]
 > quote::“*Se vogliamo risultati migliori, dimentichiamoci di stabilire degli obiettivi e concentriamoci invece sul metodo.*“
 

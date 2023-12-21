@@ -2,8 +2,6 @@
 tags:
   - PersonalGrowth
 ---
-
-
 Il concetto di growth mindset (mentalità di crescita) e fixed mindset (mentalità fissa) è stato introdotto dalla psicologa Carol Dweck nel libro *Mindset. Cambiare forma mentis per raggiungere il successo* e si riferisce alla prospettiva o all'atteggiamento mentale che una persona ha nei confronti delle sfide, degli errori e del proprio potenziale di sviluppo.
 
 In questo testo si afferma che la maggior parte delle cose che pensiamo riguardo il nostro carattere deriva invece dal nostro *mindset*.

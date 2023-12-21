@@ -2,8 +2,6 @@
 tags:
   - AgevolazioniFiscali
 ---
-
-
 ## Enea
 
 L’enea è un ente che ha lo scopo di dichiarare allo stato i propri interventi sulla casa detraibili. In particolare gli interventi possibili sono di due tipi: - Ristrutturazioni edilizie (Art. 16 bis del DPR 917/86) - Riqualificazione energetica (ex legge 296/2006)

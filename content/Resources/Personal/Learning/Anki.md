@@ -50,4 +50,3 @@ Se una card viene marcata come easy significa che probabilmente non ha senso nem
 ![[Pasted image 20231113182644.png]]![[Pasted image 20231113183136.png]]
 ![[Pasted image 20231113183146.png]]
 
-## Quando usare le flashcards

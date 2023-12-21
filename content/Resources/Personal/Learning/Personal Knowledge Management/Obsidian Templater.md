@@ -2,8 +2,6 @@
 tags:
   - PersonalKnowledgeManagement
 ---
-
-
 Questo plugin permette di estendere la funzionalità del plugin core "Template" aggiungendo delle funzionalità ulteriori complesse.
 Per l'utilizzo normale dei template il plugin del core è sufficiente, questo serve per utilizzi complessi dove c'è di messo del codice.
 Un suo utilizzo classico sono le note di journaling dove ho bisogno di template che ogni giorno siano diversi in base a quanto vengono creati.

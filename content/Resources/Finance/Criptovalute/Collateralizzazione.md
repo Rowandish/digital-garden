@@ -3,8 +3,6 @@ tags:
   - Crypto
   - Definition
 ---
-
-
 Collateralizzazione deriva dall'inglese "collateral" che significa "garanzia": esso si riferisce a un **asset che un prestatore accetta come garanzia per un prestito**.
 
 La garanzia può assumere la forma di beni immobili, strumenti finanziari, oro, terreni o altri tipi di attività, a seconda dello scopo del prestito. Tale oggetto viene chiamato **sottostante.** La garanzia funge da forma di protezione per il creditore. Cioè, se il mutuatario non rispetta i pagamenti del prestito, il prestatore può sequestrare la garanzia e venderla per recuperare parte o tutte le sue perdite.

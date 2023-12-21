@@ -1,4 +1,3 @@
-
 L'"Odyssey Plan" è un concetto presentato nel libro "Designing Your Life: How to Build a Well-Lived, Joyful Life" scritto da Bill Burnett e Dave Evans.
 
 L'"Odyssey Plan" è un metodo specifico proposto nel libro per aiutare le persone a esplorare diverse possibilità di vita e carriera in modo più approfondito. Si basa su porsi tre domande:

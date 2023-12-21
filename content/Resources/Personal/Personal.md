@@ -25,7 +25,7 @@ Per verificare e testare circuiti elettrici, il [[tester]] permette di fornire i
 
 Per quanto riguarda l'ambito domestico, la serie [[Bticino Living Now]] offre soluzioni avanzate e moderne per il controllo degli impianti elettrici, includendo [[interruttori]], [[relè]] e [[morsetti]], consentendo un controllo intuitivo e tecnologicamente avanzato degli apparecchi elettrici.
 
-Allo stesso tempo, comprendere i [[Colori cavi elettrici|colori dei Cavi Elettrici]] è fondamentale per garantire una corretta installazione e manutenzione degli impianti, mentre la comprensione dello [[schema Elettrico]] fornisce un quadro visivo e informativo della disposizione dei componenti elettrici.
+Allo stesso tempo, comprendere i [[colori cavi elettrici|colori dei cavi elettrici]] è fondamentale per garantire una corretta installazione e manutenzione degli impianti, mentre la comprensione dello [[schema elettrico]] fornisce un quadro visivo e informativo della disposizione dei componenti elettrici.
 
 Questo universo di strumenti, apparecchiature e concetti elettronici si interseca in un intricato ma integrato sistema di controllo, monitoraggio e analisi, facilitando la gestione e il funzionamento degli impianti elettrici e delle reti informatiche.
 

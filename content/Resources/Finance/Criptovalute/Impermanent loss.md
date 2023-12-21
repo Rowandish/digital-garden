@@ -3,8 +3,6 @@ tags:
   - Crypto
   - Definition
 ---
-
-
 ![[impermanent-loss-chart-1024x575-1.webp]]
 
 Fornendo liquidità a dei pool con due (o più) monete posso soffrire di **impermanent loss, che è una perdita ipotetica che viene calcolata in percentuale rispetto all'holdare i due asset** con la stessa proporzione (50/50).

@@ -4,4 +4,3 @@ Il drag curl, al contrario, solleva verticalmente la barra anziché fare un movi
 Le foto mostrano un normale drug curl con i palmi rivolti verso l’alto.
 ![[Pasted image 20230820011131.png]]
 Per fare quello inverso, come suggerisco io, assicuratevi che i palmi siano a una distanza pari a quella delle spalle e rivolti verso il basso.
-

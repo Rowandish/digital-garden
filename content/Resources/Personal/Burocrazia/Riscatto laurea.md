@@ -9,5 +9,3 @@ Per avere i moduli da pagare e sapere lo stato dei propri pagamenti per quanto r
 inserire il mio codice fiscale e il numero pratica, che è: 32028806.
 
 Una volta entrati è possibile verificare lo stato dei pagamenti e scaricare eventuali bollettini da pagare.
-
-![[Riscatto laurea.pdf]]

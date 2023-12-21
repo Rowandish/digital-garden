@@ -4,8 +4,6 @@ tags:
   - Interview
   - PublishedPosts
 ---
-
-
 ## Problema
 
 Il problema è il seguente: ti vengono dati due numeri rappresentati come liste concatenate di cifre, dove ogni cifra è rappresentata da un nodo della lista.

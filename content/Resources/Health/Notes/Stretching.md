@@ -1,5 +1,3 @@
-#Stretching 
-
 Lo stretching è una pratica essenziale per mantenere la flessibilità e la mobilità delle articolazioni e dei muscoli. Esistono diversi tipi di stretching, tra cui lo stretching dinamico e lo stretching statico, ognuno con caratteristiche e benefici distinti.
 
 ## Stretching dinamico 

@@ -4,8 +4,6 @@ tags:
   - Interview
   - PublishedPosts
 ---
-
-
 Con questo post inauguro una serie di post sulla risoluzione di problemi algoritmici che vengono spesso richiesti durante le interview.
 Il primo problema che affronto è scrivere un algoritmo per sapere se un numero è pandigitale che un numero che contiene tutte le cifre da 0 a 9 senza ripetizioni.
 Propongo varie soluzioni, tutte in C# in quanto è il linguaggio che mi è più comodo anche se la logica può essere facilmente implementabile anche in altri linguaggi senza alcun problema.

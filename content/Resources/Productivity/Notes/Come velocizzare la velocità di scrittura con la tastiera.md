@@ -37,7 +37,7 @@ Le dita dovrebbero muoversi il meno possibile e il top sarebbe usare più dita p
 ### 3. Allenarsi con siti
 
 * [10fastfingers](https://10fastfingers.com/typing-test/italian) permette di allenarsi e costruire la memoria muscolare.
-Questo è il modo migliore per fare [[deliberate practice]] e allenarsi, anche 10 minuti al giorno per 30 giorni possono incrementare la velocità del 50%.
+Questo è il modo migliore per fare [[deliberate Practice]] e allenarsi, anche 10 minuti al giorno per 30 giorni possono incrementare la velocità del 50%.
 * [Keybr](https://www.keybr.com/): tramite dei test capisce queli sono i punti di debolezza nella nostra scrittura e poi struttura dei test e degli allneamenti specifici (per esempio su una specifica lettera)
 
 ### 4. Evitare di usare i mouse

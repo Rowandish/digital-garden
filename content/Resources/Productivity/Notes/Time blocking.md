@@ -11,7 +11,7 @@ Avere un buco nel proprio calendario può portare a non sapere effettivamente co
 
 **Auto committarsi anche solo con se stesso aumenta la probabilità che l'azione venga fatta.**
 
-Inoltre committarsi con una schedule prefissata che non ammette deroghe o straordinari ti porta al mindset della scarsità di tempo: ogni attività che distrae, fa perdere tempo e in generale il [[Shallow work]] diventa doloroso.
+Inoltre committarsi con una schedule prefissata che non ammette deroghe o straordinari ti porta al mindset della scarsità di tempo: ogni attività che distrae, fa perdere tempo e in generale il [[shallow work]] diventa doloroso.
 
 Farlo per veramente tutto è difficile in quanto si rischia di perdere troppo tempo nel gestire il tempo rispetto che nel fare le cose, però una buona idea potrebbe essere aggiungere solo il “[[Daily Highlight]]” come evento schedulandolo in qualche orario possibile.
 
@@ -39,4 +39,4 @@ La pianificazione non deve essere restrittiva. Non significa che devo assolutame
 
 ## Batching
 
-E' molto utile creare un time block per [[Batching|accorpare task simili]] in modo da evitare il più possibile il context switch.
+E' molto utile creare un time block per [[batching|accorpare task simili]] in modo da evitare il più possibile il context switch.

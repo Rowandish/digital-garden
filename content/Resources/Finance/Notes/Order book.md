@@ -3,8 +3,6 @@ tags:
   - PersonalFinance
   - PublishedPosts
 ---
-## Introduzione
-
 Il prodotti finanziari vengono scambiati principalmente all'interno dei mercati finanziari (a meno degli scambi Over the Counter).
 I mercati finanziari funzionano con un sistema chiamato *order book* dove vengono indicati da una parte gli ordini di vendita e dall'altra gli ordini di acquisto (entrambi limit order, che vedremo successivamente).
 Quando si vuole vendere qualcosa si inserisce il rispettivo *ordine di vendita* indicando al mercato la propria disponibilità a vendere *x* quantità del bene *y* al prezzo *z*.

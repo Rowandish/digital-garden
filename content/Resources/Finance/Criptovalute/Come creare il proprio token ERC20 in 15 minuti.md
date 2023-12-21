@@ -4,8 +4,6 @@ tags:
   - Coding
   - PublishedPosts
 ---
-
-
 L'obiettivo di oggi è creare un nuovo [[Token]] [[ERC20]] con [[Solidity]] sulla [[Blockchain]] Ethereum.
 
 _Figo! Potremmo fare il token dedicato a Squid Game!_

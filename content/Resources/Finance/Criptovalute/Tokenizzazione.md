@@ -15,7 +15,7 @@ Con l'avvento di Ethereum si è superato il concetto di valuta, infatti si parla
 
 Una volta che sviluppo la possibilità di creare del codice all'interno della [[Blockchain]] le possibilità sono infinite!
 
-Gli asset digitali gestiti da uno o più smart contract vengono chiamati _[[Token]]_, che possono rappresentare qualsiasi cosa: soldi, servizi, tempo, [[Azioni]], [[Obbligazioni]], bene virtuale, un gioco…
+Gli asset digitali gestiti da uno o più smart contract vengono chiamati _[[Token]]_, che possono rappresentare qualsiasi cosa: soldi, servizi, tempo, [[azioni]], [[Obbligazioni]], bene virtuale, un gioco…
 
 La comodità di rappresentare qualcosa come token è che possiamo permettere agli smart contract di interagire con loro, quindi scambiarli, crearli o distruggerli in modo completamente virtuale e decentralizzato.
 

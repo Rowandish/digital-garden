@@ -1,5 +1,5 @@
 Per avere gli addominali scolpiti sono necessarie due condizioni:
-* Seguire una dieta che permetta di avere stabilmente il 12% o meno di grasso corporeo. Io suggerisco la dieta [[Dieta slow carb]], quella che sono riuscito a seguire con maggiore costanza, ma tra le altre opzioni disponibili ci sono la dieta chetogenica (soprattutto la dieta chetogenica ciclica) e il digiuno intermittente (DI).
+* Seguire una dieta che permetta di avere stabilmente il 12% o meno di grasso corporeo. Io suggerisco la dieta [[dieta slow carb]], quella che sono riuscito a seguire con maggiore costanza, ma tra le altre opzioni disponibili ci sono la dieta chetogenica (soprattutto la dieta chetogenica ciclica) e il digiuno intermittente (DI).
 * Fare esercizi
 
 L'obiettivo è fare gli esercizi che forniscono la maggior risposta possibile nel minore tempo.
@@ -8,7 +8,7 @@ Tim Ferriss dopo aver provato tutti i tipi di crunch ne consiglia principalmente
 * [[Gatto che vomita]] (10 reps)
 
 Come esercizio addizionale non è male il [[Plank]] (30 secondi per lato e 30 secondi frontali, totale 90 secondi).
-Come stretching finale consiglia il [[Allungamento del flessore dell'anca]] per 30 secondi su ciascun lato.
+Come stretching finale consiglia il [[allungamento del flessore dell'anca]] per 30 secondi su ciascun lato.
 
 Il crunch normale è molto più inefficace rispetto ad altri esercizi.
 Ecco come se la cava rispetto agli altri esercizi se si misura l’attivazione del retto dell’addome con gli elettrodi e l’EMG (elettromiografia).

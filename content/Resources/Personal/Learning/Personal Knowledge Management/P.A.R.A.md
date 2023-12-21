@@ -168,7 +168,7 @@ Un altro esempio di progetto è il seguente
 ## Root
 Rip ha definito una area fake chiamata "root" che è una pagina con lo scopo di contenere la lista delle altre aree e il link ad una pagina contenente la lista dei progetti attivi.
 ![[Pasted image 20220920003045.png]]
-Questa pagina è comoda per avere una visualizzazione riassuntiva di tutto il proprio sistema PARA, per esempio nella routine annuale descritta nella pagina dedicata alla [[Pianificazione]] c'è una review di tutte le aree a partire da questa pagina.
+Questa pagina è comoda per avere una visualizzazione riassuntiva di tutto il proprio sistema PARA, per esempio nella routine annuale descritta nella pagina dedicata alla [[pianificazione]] c'è una review di tutte le aree a partire da questa pagina.
 
 ## Project list
 In questa pagina ho una visualizzazione, con dei commenti, di tutti i progetti attivi. Questo è un comodo entry point per capire su cosa sto lavorando e cosa mi aspetta prossimamente.

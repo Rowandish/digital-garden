@@ -47,4 +47,10 @@ The rest of your content lives here. You can use **Markdown** here :)
 
 ## Cose da sapere
 * Quartz non supporta file con emoji nel nome
-* 
+
+### Upgrading
+Per aggiornare all'ultima versione di Quartz fare un merge del branch `upstream/v4` e poi fare `npm install` per aggiornare i pacchetti di nodejs.
+
+### Troubleshooting
+Quartz è case sensitive a differenza di Obsidian quindi se il nome di un file è con la lettera maiuscola e io lo punto in Obsidian con un link con la lettera minuscola avrò un 404 su Quartz (anche se Obsidian funzionerà perfettamente).
+Se per esempio su Obsidian ho un link `[[nota]]` questo funzionerà su Quartz se esiste il file `nota.md` ma non se il file si chiama `Nota.md`.

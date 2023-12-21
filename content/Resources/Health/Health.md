@@ -13,27 +13,27 @@
 ## Mentale
 
 Mi affascinano i [[mental model]], strumenti che aiutano a comprendere la realtà e a evitare giudizi influenzati dai [[bias]].
-Studio le [[Abitudine|abitudini]] e come si formano, considerando la [[legge del minimo sforzo]], il [[Principio di Premack]] e la [[Legge di Yerkes e Dodson]], per evitare di dipendere solo dalla limitata forza di volontà nel tempo. La [[dopamina]] può ingannare offrendo piacere limitato nel tempo, preferisco invece un approccio a lungo termine.
+Studio le [[abitudine|abitudini]] e come si formano, considerando la [[legge del minimo sforzo]], il [[principio di Premack]] e la [[legge di Yerkes e Dodson]], per evitare di dipendere solo dalla limitata forza di volontà nel tempo. La [[dopamina]] può ingannare offrendo piacere limitato nel tempo, preferisco invece un approccio a lungo termine.
 
-Nonostante l'[[adattamento edonistico]] e l'[[Effetto Diderot]] influenzino temporaneamente il benessere e le aspettative, la [[Piramide di Maslow]] indica che l'autorealizzazione e la crescita personale sono chiavi per una soddisfazione duratura. Questi concetti riflettono la complessità del benessere psicologico e la ricerca di realizzazioni più profonde per una felicità duratura.
+Nonostante l'[[adattamento edonistico]] e l'[[effetto Diderot]] influenzino temporaneamente il benessere e le aspettative, la [[piramide di Maslow]] indica che l'autorealizzazione e la crescita personale sono chiavi per una soddisfazione duratura. Questi concetti riflettono la complessità del benessere psicologico e la ricerca di realizzazioni più profonde per una felicità duratura.
 
 Mi interesso di tecniche per migliorare il rapporto con gli altri e l'autostima, come l'[[eye gazing]].
 
 ### Consapevolezza
 
-L'obiettivo è vivere nel [[Qui e ora]], apprezzando il momento presente senza preoccuparsi del passato o del futuro. Questa consapevolezza si unisce al [[Memento mori]], ricordandoci la transitorietà della vita e l'inevitabilità della morte. Nonostante questa consapevolezza, cerchiamo di vivere pienamente ogni istante, apprezzando il tempo concesso e la vita stessa.
+L'obiettivo è vivere nel [[qui e ora]], apprezzando il momento presente senza preoccuparsi del passato o del futuro. Questa consapevolezza si unisce al [[memento mori]], ricordandoci la transitorietà della vita e l'inevitabilità della morte. Nonostante questa consapevolezza, cerchiamo di vivere pienamente ogni istante, apprezzando il tempo concesso e la vita stessa.
 
 ### Altro
 
-* [[Legge dell'attrazione]]
-* [[Legge di Goodhart]]
-* [[Effetto Zeigarnik]]
+* [[legge dell'attrazione]]
+* [[legge di Goodhart]]
+* [[effetto Zeigarnik]]
 
 ## Fisica
 
-Questa sezione offre informazioni utili per la salute e il benessere personale. Il mio lavoro al PC ha influenzato le note sulla [[Postura corretta davanti al PC]] e gli esercizi per [[migliorare la postura]], anche seguendo il [[Metodo Egoscue]].
+Questa sezione offre informazioni utili per la salute e il benessere personale. Il mio lavoro al PC ha influenzato le note sulla [[postura corretta davanti al PC]] e gli esercizi per [[migliorare la postura]], anche seguendo il [[Metodo Egoscue]].
 Troverai anche suggerimenti su come affrontare problematiche come il [[Compulsive Picking Disorder]] e abitudini salutari da adottare, come la [[doccia fredda]], la [[skincare]] e il [[NoSurf]], soprattutto di sera.
-Ho scritto una nota sullo  e su degli hack
+Ho scritto una nota sullo sull'[[immersione totale]] prendendo spunto dal libro 4 hour body di Tim Ferriss.
 
 Per migliorare la condizione fisica, condivido informazioni sul [[digiuno intermittente]], la [[dieta slow carb]] di Tim Ferriss e altre nozioni utili, come la [[Dose Minima Efficace]].
 Questi approcci mirano a ottenere la massima [[ricomposizione]] corporea con il minor sforzo possibile, offrendo strategie pratiche per migliorare la salute generale e il benessere fisico.
@@ -75,7 +75,7 @@ Si possono seguire dei canali YouTube  (come per esempio [questo](https://www.yo
 ### 💪Esercizi
 Questi esercizi sono tutti consigliati dal libro 4 hour work body di Tim Ferriss, in particolare:
 
-* **Stretching**: [[Allungamento del flessore dell'anca]]
+* **Stretching**: [[allungamento del flessore dell'anca]]
 * **Glutei**
 	* [[Swing Kettleball]]
 	* [[Cane volante]]

@@ -4,8 +4,6 @@ tags:
   - Coin
   - PublishedPosts
 ---
-
-
 Crypto.com è una piattaforma di gestione di criptovalute fondata nel 2016 formata da un'[app](https://play.google.com/store/apps/details?id=co.mona.android&hl=it&gl=US), un [exchange](https://shortener.punto-informatico.it/vd783xnecf) e eventualmente un [wallet non custodial per la [[DeFi]]](http://crypto.com/eea/defi-wallet).
 
 Può essere quindi definito un ecosistema, in quanto fornisce tutti gli strumenti per poter operare in questo mondo.

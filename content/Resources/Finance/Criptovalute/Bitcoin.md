@@ -4,8 +4,6 @@ tags:
   - Coin
   - PublishedPosts
 ---
-
-
 Bitcoin è stata la prima criptovaluta inventata nel 2009 da Satoshi Nakamoto. A differenza delle normali valute Bitcoin non ha un ente centrale che lo stampa o ne definisce il valore, questo è invece determinato unicamente dalla leva domanda e offerta.
 
 Esso di basa su una tipologia di [[Distributed Ledger]], chiamato [[Blockchain]], per tenere traccia delle transazioni. Utilizza inoltre la crittografia per l'attribuzione della proprietà di un bitcoin e la generazione di nuova moneta.

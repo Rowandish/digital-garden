@@ -2,8 +2,6 @@
 tags:
   - RealEstateInvestment
 ---
-
-
 Quando una persona - dopo aver acquistato una casa accendendo un mutuo - non riesce a far fronte al pagamento delle rate e la banca avvia i procedimenti per recuperare il credito.
 Qualora la banca non dovesse riuscire a recuperare la somma, darà avvio a procedure che portano al pignoramento dell’immobile e alla vendita all’asta.
 In questa tipo di operazioni ci si mette d'accordo privatamente con la banca per stralciare il mutuo senza passare per aste ne nulla ad un determinato prezzo.

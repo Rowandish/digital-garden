@@ -30,7 +30,7 @@ Si dice che dedicare ogni giorno 5 minuti a fare journaling su cosa si è grati 
 
 ## Livello 3 - Scrivere su ciò che vorresti fare
 Questo è il terzo livello in quanto si scrive non sul presente ma sui propri progetti futuri, quali decisioni vuoi prendere e quali azioni dovresti intraprendere qui e ora.
-Un idea è scrivere un  [[odyssey plan]] per i piani importanti, una seconda è usare la [[wheel of life]] per visualizzare dove si può migliorare.
+Un idea è scrivere un  [[Odyssey plan]] per i piani importanti, una seconda è usare la [[wheel of life]] per visualizzare dove si può migliorare.
 In caso in cui siamo preoccupati nel fare qualcosa (di grande o piccolo che sia) possiamo fare il "fear setting excercise" descritto da Tim Ferriss in [[4 ore alla settimana]] e prevede porsi le seguenti domande:
 * Cosa è la cosa peggiore che può succedere se faccio la cosa che ho paura a fare?
 * Cosa posso fare per prevenire gli scenari detti sopra?

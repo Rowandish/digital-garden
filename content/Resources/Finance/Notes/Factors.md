@@ -36,7 +36,7 @@ Si riferisce alle variazioni delle condizioni economiche nel tempo. Le società 
 Esistono altri "factor" che influenzano il prezzo di una stock senza che vi sia del valore sottostante (portando quindi a degli *uncompensated risk*) come i Psychological factors.
 Uno dei motivi per cui l'investimento attivo (personale o tramite fondi) è meno performante sono gli **psychological factors**, cioè tutte quelle caratteristiche del cervello umano che lo portano a fare continuamente errori.
 * **Retention rate bassa**: La retention rate indica per quanto tempo una persona rimane con un fondo o una azione. Per i fondi la media è 3.8 anni, bassissima. Dato che il guadagno si ha sempre sul lungo termine, avere bassa retention rate porta a rendimenti attesi inferiori.
-* [[Loss Aversion Bias]];
-* [[Anchoring Bias]];
-* [[Herding]];
-* [[Regret Aversion]];
+* [[loss Aversion Bias]];
+* [[anchoring Bias]];
+* [[herding]];
+* [[regret Aversion]];

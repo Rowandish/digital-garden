@@ -3,12 +3,12 @@ tags:
   - Definition
   - Finance
 ---
-Gli ETF (exchange-traded fund) sono dei fondi di investimento, quindi di fatto un insieme di [[Azioni]], [[Obbligazioni]], materie prime… che hanno lo scopo di ==replicare un determinato indice di riferimento==.
+Gli ETF (exchange-traded fund) sono dei fondi di investimento, quindi di fatto un insieme di [[azioni]], [[Obbligazioni]], materie prime… che hanno lo scopo di ==replicare un determinato indice di riferimento==.
 Un indice esprime la variazione nel tempo dei prezzi di un paniere di titoli scelto, per esempio l’FTSE MIB indica come stanno andando i 40 titoli “migliori” della borsa italiana, l’S&P500 della borsa americana e così via.
 Gli ETF sono a [[Investimento passivo|gestione passiva]], che significa che il loro rendimento è legato alla quotazione di un indice borsistico (che può essere azionario, per materie prime, obbligazionario, monetario etc.) e non dall’[[Investimento attivo|abilità di compravendita]] del gestore del fondo: il fatto che siano strumenti passivi permette di avere dei costi molto inferiori rispetto ai fondi comuni.
 
 L’opera del gestore si limita a verificare la coerenza del fondo con l’indice di riferimento (che può variare per acquisizioni societarie, fallimenti, crolli delle quotazioni etc.), nonché correggerne il valore in caso di scostamenti tra la quotazione del fondo e quella dell’indice di riferimento, che sono ammessi nell’ordine di pochi punti percentuali (1% o 2%).
-==La caratteristica principale degli ETF è quindi la loro diversificazione che permette di avere lo stesso [[Expected value]] delle [[Azioni]] ma con una minore [[Rischio|volatilità]]==.
+==La caratteristica principale degli ETF è quindi la loro diversificazione che permette di avere lo stesso [[Expected value]] delle [[azioni]] ma con una minore [[Rischio|volatilità]]==.
 Il sito principale dove andare a confrontare i vari ETF è [JustETF](https://www.justETF.com/servlet/download?isin=IE00B466KX20&documentType=MR&country=DE&lang=it).
 
 ## Caratteristiche

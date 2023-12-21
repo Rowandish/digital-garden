@@ -2,8 +2,6 @@
 tags:
   - PersonalKnowledgeManagement
 ---
-
-
 Questa tecnica è descritta da [[Tiago Forte]] nel corso e libro [[Building a Second Brain]]: l'articolo gratis più completo a riguardo lo troviamo nel suo blog [nella parte I](https://fortelabs.com/blog/progressive-summarization-a-practical-technique-for-designing-discoverable-notes/), [parte II](https://fortelabs.com/progressive-summarization-ii-examples-and-metaphors-5f9b8b7108df) e [parte III](https://fortelabs.com/blog/progressive-summarization-iii-guidelines-and-principles/).
 Trasferire informazioni da un medium (internet, video, audio…) ad un altro (Obsidian) è facile, il problema è mantenere questa conoscenza e informazioni **nel tempo**.
 Per esempio finisco un libro, nei primi giorni provo ad applicare le tecniche apprese ma nel tempo ci saranno altre attività e cose da fare e tenderò a dimenticare quanto appreso.

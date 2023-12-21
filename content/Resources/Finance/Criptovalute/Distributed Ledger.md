@@ -4,10 +4,6 @@ tags:
   - Definition
   - PublishedPosts
 ---
-
-
-## Introduzione
-
 Distributed Ledger significa letteralmente registro distribuito e, di fatto, è un database contenente delle **informazioni che è sincronizzato e distribuito in più nodi su una rete peer-to-peer, senza che vi sia un nodo o ente centrale che fa da garante**.
 Ogni nodo possiede quindi una copia dell'intero database (l'informazione è quindi volutamente ridondante).
 Quando un nodo effettua una modifica, tale modifica viene riflessa a tutti i nodi della rete qualora vengano rispettate le regole imposte dalla stessa rete. In italiano sarebbe più corretto definirli "libro mastro" in quanto il database contiene la lista delle transazioni effettuate dalla sua creazione ad oggi.

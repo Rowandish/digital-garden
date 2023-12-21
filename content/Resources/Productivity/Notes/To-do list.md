@@ -2,8 +2,6 @@
 tags:
   - Productivity
 ---
-## Definizione
-
 Si deve considerare la mia lista non come una lista delle cose da fare, ma come una lista delle cose che potrei fare. Ogni giorno scelgo cosa voglio completare in base a come va la giornata e alle mie priorità. Questo approccio riduce la pressione e mi permette di aggiungere nuovi progetti o compiti senza sentirli come un peso.
 Si può organizzare la lista in tre categorie:
 * cose da fare oggi
@@ -12,7 +10,7 @@ Si può organizzare la lista in tre categorie:
 
 ## Caratteristiche di una buona To-Do List
 
-### [[Prioritizzazione]]
+### [[prioritizzazione]]
 
 Prima di tutto, deve essere prioritizzata. La priorità ci permette di lavorare in modo ordinato, affrontando le attività più importanti prima di quelle meno urgenti.
 Inoltre, una To-Do List deve essere finita. Non può essere infinita, altrimenti rischiamo di non completare mai tutte le attività elencate, lasciando un senso di frustrazione.

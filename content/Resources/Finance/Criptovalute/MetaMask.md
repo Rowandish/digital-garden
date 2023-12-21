@@ -3,8 +3,6 @@ tags:
   - Crypto
   - DeFi
 ---
-
-
 [**MetaMask**](https://metamask.io/) è un'estensione del browser e wallet che consente agli utenti di interagire facilmente con gli smart contract della blockchain, quindi le DApp. Potremmo dire che MetaMask connette il web tradizionale con Web3.
 
 **MetaMask è [[Ethereum Virtual Machine (EVM)]] compatibile, quindi compatibile Ethereum e tutte le chain "simili" a Ethereum** (come [[Binance Smart Chain (BSC)]] o [[Avalanche]]. Non è quindi compatibile con Solana, Terra, Cardano, Atom…

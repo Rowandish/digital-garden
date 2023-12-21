@@ -23,7 +23,3 @@ In generale i daily highlight possono essere utilizzati come parte integrante de
 * "Make time" di Knapp e Zeratsky
 * "The one thing" di Keller (lo chiama "The One Thing)
 * "Eat that frog" di Tracy
-
-
-
-

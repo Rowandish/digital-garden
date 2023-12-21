@@ -244,7 +244,7 @@ Il problema di questa mossa è che il pedone in `g7` non può difendere sia la c
 - [[Checkmate Queen and King]]
 - [[Checkmate two rooks - Rook roller]]
 - [[Matto del barbiere]]
-- [[Matto del corridoio
+- [[Matto del corridoio]]
 ### Matti di donna difesa
 
 Uno dei matti più comuni è una donna difesa che fa in una casa di fronte al re che è in prima traversa.

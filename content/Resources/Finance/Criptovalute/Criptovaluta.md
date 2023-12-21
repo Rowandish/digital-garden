@@ -14,7 +14,7 @@ L'architettura software su cui si basano tutte le criptovalute sono è la blockc
 Tipicamente ogni nodo possiede tutti i dati (quindi il registro completo), sincronizza i nuovi dati in tempo reale e valida le nuove transazioni.
 Maggiore è il numero dei nodi maggiore è la decentralizzazione.
 
-## I [[wallet]]
+## I [[Wallet crypto|wallet]]
 
 Una ulteriore differenza rispetto ai soldi fisici a cui siamo abituati è dove questi sono collocati.
 Nella valuta tradizionale i soldi sono o in qualche deposito (cassaforte, cassetta di sicurezza) o virtuali gestiti da una banca (fornisco i miei soldi alla banca con la speranza che, al momento del bisogno, potrò convertirli in denaro reale.

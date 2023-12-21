@@ -17,6 +17,7 @@ Cercando su internet si trovano varie risorse che **dovrebbero** aiutare i futur
 Indicativamente si parla da un minimo di 7000€ a oltre 15000€.
 In un suo articolo Moneyfarm indica che una coppia di futuri genitori deve mettere in conto **di dover spendere, prima della nascita del bambino, una cifra che oscilla tra i 5.690,11 e i  19.379,00 euro** indicando anche puntualmente i vari punti di spesa.
 Queste sono cifre che sono anni luce distanti dalla realtà, o almeno dalla mia realtà; ho pensato quindi di analizzare punto per punto in rapporto alla mia recente esperienza.
+
 |                          | Fascia media (€) | Fascia alta (€) | Io (€) |
 | ------------------------ | ---------------- | --------------- | ------ |
 | Visite/esami infertilità | 245              | 1600            | 0      |
@@ -35,6 +36,7 @@ Queste sono cifre che sono anni luce distanti dalla realtà, o almeno dalla mia 
 | Corredo                  | 149              | 255             | 50*    |
 | -                        | -                | -               | -      |
 | Somma                    | 5690,11          | 19379           | 970    |                         |                  |                 |        |
+
 I valori con asterisco sono spese non effettuate in quanto stiamo utilizzando oggetti prestati da amici.
 
 Beh direi che c'è una bella differenza con i 5690€ minimi!
@@ -52,6 +54,7 @@ Ecco qualche trucco per risparmiare:
 * Corredo: qualora non abbiate amici che vi possano prestare il corredo consiglio di prendere tutto usato su Vinted: spesso sono capi che vengono indossati un paio di volte, non ha senso acquistarli nuovi.
 
 Una volta tornati a casa arrivano altre spese! Vediamo cosa serve per davvero:
+
 |                                 | Prezzo             |
 | ------------------------------- | ------------------ |
 | Swaddle                         | 30                 |

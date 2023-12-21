@@ -3,8 +3,6 @@ tags:
   - Exercise
   - Abs
 ---
-
-
 Questo crunch è chiamato così perché sfrutta la posizione distesa e il conseguente riflesso (riflesso miotatico o riflesso da stiramento) per produrre una contrazione più forte di quella che si riesce a ottenere con altri metodi. 
 Se non avete a disposizione una palla BOSU, usate una piccola palla svizzera (45-55 centimetri di diametro) o una pila di cuscini ben saldi.
 
