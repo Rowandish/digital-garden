@@ -2,7 +2,9 @@
 tags:
   - MachineLearning
 ---
-La L1 e la L2 regularization sono tecniche utilizzate nell'addestramento delle reti neurali per prevenire l'[[Overfitting]]. Queste tecniche ==aggiungono un termine di regolarizzazione alla funzione di costo del modello==, il che aiuta a limitare i valori dei pesi della rete.
+Un modo per trovare un buon compromesso fra bias e varianza consiste nell’ottimizzare la complessità del modello tramite la regolarizzazione.
+La regolarizzazione è un metodo molto utile per gestire la colinearità (elevata correlazione fra le caratteristiche), per eliminare il rumore dai dati e per, alla fine, prevenire il problema dell’overfitting.
+==Il concetto su cui si basa la regolarizzazione consiste nell’introdurre delle informazioni aggiuntive (bias), tipicamente alla funzione di costo, per penalizzare i pesi estremi del parametro==. La forma più comune di regolarizzazione è chiamata regolarizzazione L2 (chiamata anche riduzione L2 o decadimento dei pesi)
 
 La L1 regularization (o "Lasso regularization") aggiunge un termine alla funzione di costo equivalente alla somma assoluta dei valori dei pesi moltiplicati da una costante lambda. In pratica questo porta ad avere molti parametri vicini allo zero, ottenendo una sorta di selezione automatica delle feature più importanti.
 

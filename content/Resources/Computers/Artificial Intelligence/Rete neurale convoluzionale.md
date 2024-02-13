@@ -1,6 +1,6 @@
 ---
 tags:
-  - MachineLearning
+  - DeepLearning
 ---
 Una rete neurale convoluzionale (CNN) ==è un tipo di rete neurale artificiale che si basa sull'apprendimento automatico supervisionato==. Questo tipo di rete viene utilizzato principalmente per l'elaborazione delle immagini e del video, ma può essere applicato anche ad altri tipi di dati come il suono o i testi.
 

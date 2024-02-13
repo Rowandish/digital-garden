@@ -98,15 +98,19 @@ Di seguito tutte le tasse che bisogna conoscere quando si parla di strumenti fin
 	* Gli interessi sui conti correnti e conti deposito
 	* ETF venduti in guadagno
 	Questi sono tassati al 26%, ma c'è una riduzione al 12,5% per cedole di obbligazioni governative di paesi in white list e ETF obbligazionari con obbligazioni governative. Attenzione che per i dividendi esteri c'è la doppia imposizione. Questi redditi non sono compensabili con le minusvalenze.
-3. **Redditi diversi:** queste sono le plusvalenze e minusvalenze. Se il ricavo meno il costo è positivo ho una plusvalenza altrimenti una minusvalenza.  Le plusvalenze sono tassate al 26%, ma possono essere ridotte utilizzando le minusvalenze generate da vendite in perdita. L'ammontare delle minusvalenze è detto Zainetto Fiscale e queste ultime possono essere utilizzate entro 4 anni dalla loro generazione. Le plusvalenze sono compensabili dalle minus anche se sono prodotti diversi, per esempio potrei usare una obbligazione per compensare una minusvalenza di un'azione e così via. Le minusvalenze sono certificabili, nel senso che se trasferisco i miei titoli da un broker all'altro posso portarmi dietro anche le minusvalenze. Attenzione che il rendimento delle obbligazioni Zero Coupon (anche se dovrebbe intuitivamente) in quanto per la tassazione di obbligazioni che non sono state emesse a 100 viene effettuato un calcolo ad hoc estremamente complicato, compensare le minus con obbligazioni invece funziona se queste sono state emesse a 100. Se per esempio ho una ZC emessa a 90 che ora quota 95 non posso usarla per compensare, se invece ho un'obbligazione normale emessa a 100 che ora quota 95 posso usarla per compensare.
-4. **Tassazione su ETF**: Gli ETF (solo ETF, non ETC, ETP, ETN) venduti in guadagno sono soggetti a tassazione come reddito da capitale (26%), mentre se venduti in perdita generano minusvalenze. Quindi le plusvalenze di ETF non compensano mai nulla. Se voglio quindi compensare delle minus sono purtroppo costretto a comprare azioni singole.
+3. **Redditi diversi:** queste sono le plusvalenze e minusvalenze. Se il ricavo meno il costo è positivo ho una plusvalenza altrimenti una minusvalenza.  Le plusvalenze sono tassate al 26%, ma possono essere ridotte utilizzando le minusvalenze generate da vendite in perdita. Le plusvalenze sono compensabili dalle minus anche se sono prodotti diversi, per esempio potrei usare una obbligazione per compensare una minusvalenza di un'azione e così via. Le minusvalenze sono certificabili, nel senso che se trasferisco i miei titoli da un broker all'altro posso portarmi dietro anche le minusvalenze. Attenzione che il rendimento delle obbligazioni Zero Coupon (anche se dovrebbe intuitivamente) in quanto per la tassazione di obbligazioni che non sono state emesse a 100 viene effettuato un calcolo ad hoc estremamente complicato, compensare le minus con obbligazioni invece funziona se queste sono state emesse a 100. Se per esempio ho una ZC emessa a 90 che ora quota 95 non posso usarla per compensare, se invece ho un'obbligazione normale emessa a 100 che ora quota 95 posso usarla per compensare.
+5. **Tassazione su ETF**: Gli ETF (solo ETF, non ETC, ETP, ETN) venduti in guadagno sono soggetti a tassazione come reddito da capitale (26%), mentre se venduti in perdita generano minusvalenze. Quindi le plusvalenze di ETF non compensano mai nulla. Se voglio quindi compensare delle minus sono purtroppo costretto a comprare azioni singole o ERC/ETN.
 
 #### Compensare le minusvalenze 
 
-In questo momento in Italia ci sono 3 modi per compensare le minusivalenze:
-* compare azioni singole e sperare che salgano
+In questo momento in Italia ci sono 3 modi per compensare le minusvalenze:
+* compare azioni singole/ETC/ETN e sperare che salgano
 * comprare certificati (anche le cedole dei certificati compensano) 
 * comprare obbligazioni comprandole sotto 100 ma emesse a 100.
+
+#### Zainetto fiscale
+L'ammontare delle minusvalenze è detto Zainetto Fiscale e queste ultime possono essere utilizzate entro 4 anni dalla loro generazione (su Directa si trovano in Conto -> Zainetto Fiscale -> Minusvalenze accumulate).
+Lo zainetto fiscale non si aggiorna istantaneamente ma dopo 2 giorni lavorativi a mercati chiusi.
 ### Regimi di Tassazione in Italia
 Esistono tre regimi principali:
    - **Regime Amministrato:** L’intermediario gestisce e paga direttamente le tasse relative alle operazioni finanziarie.

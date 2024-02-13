@@ -1,0 +1,13 @@
+Le Support Vector Machines sono un potente algoritmo di apprendimento automatico utilizzato per la [[Classificazione]] e la [[Regressione]]. L'idea di base delle SVM è quella di trovare ==il miglior iperpiano che separa due classi di dati nello spazio delle caratteristiche==.
+
+Immagina di avere un insieme di dati rappresentati da punti nello spazio, dove ogni punto ha alcune caratteristiche o attributi associati ad esso. L'obiettivo delle SVM è quello di trovare un iperpiano (una superficie di dimensione inferiore rispetto allo spazio di origine) che separa al meglio i dati appartenenti a due classi diverse. Questo iperpiano è scelto in modo che la distanza tra l'iperpiano e i punti più vicini (chiamati vettori di supporto) sia massimizzata.
+
+Ma come funziona questo processo? Immagina di avere un insieme di dati bidimensionali e due classi di punti che devono essere separate. L'iperpiano che meglio separa queste due classi sarà quello che massimizza la distanza tra i punti più vicini di ciascuna classe.
+
+Se i dati non sono linearmente separabili nello spazio originale, ovvero non possono essere separati da un singolo iperpiano, le SVM possono utilizzare un trucco matematico chiamato "kernel trick". Questo trucco consente alle SVM di trasformare i dati in uno spazio di dimensioni superiori in cui possono essere separati linearmente da un iperpiano. I kernel più comuni utilizzati nelle SVM includono il kernel lineare, il kernel polinomiale e il kernel gaussiano (o RBF).
+
+Una volta trovato l'iperpiano ottimale, le SVM possono essere utilizzate per fare previsioni su nuovi dati. Basta calcolare su quale lato dell'iperpiano cada il nuovo punto e assegnargli la classe corrispondente. Se il punto cade a sinistra dell'iperpiano, verrà classificato come una classe, se cade a destra verrà classificato come l'altra classe.
+
+Le SVM sono molto potenti perché, una volta addestrate, sono in grado di generalizzare bene su nuovi dati e sono robuste contro l'overfitting, specialmente in spazi di alta dimensionalità. Inoltre, grazie al kernel trick, possono gestire con successo dati non linearmente separabili.
+
+Tuttavia, le SVM possono essere computazionalmente costose, specialmente quando si lavora con grandi quantità di dati, e possono richiedere un'accurata selezione dei parametri come il parametro di regolarizzazione C e la scelta del kernel. Inoltre, sono più adatti per dataset di dimensioni medio-grandi e possono non performare bene con dataset molto grandi o con molte caratteristiche.

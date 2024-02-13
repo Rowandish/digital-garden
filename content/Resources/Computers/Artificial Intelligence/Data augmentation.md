@@ -1,7 +1,7 @@
 ---
 tags:
-  - MachineLearning
   - ComputerVision
+  - DeepLearning
 ---
 La data augmentation è una tecnica utilizzata nell'addestramento delle reti neurali per aumentare la quantità di dati disponibili e migliorare le prestazioni del modello. Consiste nel creare nuovi esempi di addestramento a partire dai campioni originali, applicando trasformazioni casuali come rotazione, zoom, shift orizzontale o verticale, flip orizzontale o verticale e altri tipi di manipolazioni.
 

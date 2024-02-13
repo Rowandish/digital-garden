@@ -2,17 +2,15 @@
 tags:
   - MachineLearning
 ---
-# Regressione lineare semplice
-
 La regressione lineare è una tecnica di machine learning che ci aiuta a capire come una variabile dipendente (Y) è influenzata da una o più variabili indipendenti (X).
-In termini molto semplici, cerca di trovare una linea retta che migliori descriva la relazione tra le variabili.
+Data una variabile predittiva x e una variabile risposta y, tracciamo una linea retta attraverso questi dati in modo da minimizzare la distanza (si parla infatti di distanza quadratica media) fra i punti del campione e la linea.
 
 ![[Normdist_regression.png]]
 
 Immagina di avere dati che mostrano il numero di ore studiate (X) e i risultati dei test (Y) di alcuni studenti.
 La regressione lineare può aiutarci a stabilire quanto il tempo di studio influenzi i risultati dei test. Se tracciamo una linea retta attraverso questi punti, otteniamo una stima approssimativa di come i risultati dei test cambino al variare delle ore di 
 studio.
-## Definizione matematica
+### Definizione matematica
 Ecco la formula matematica in LaTeX per la regressione lineare semplice:
 
 $$Y = \beta_0 + \beta_1X + \varepsilon$$
@@ -24,7 +22,7 @@ Nella formula:
 - $\beta_1$ è il coefficiente di regressione associato a $X$ (peso).
 - $\varepsilon$ rappresenta l'errore residuo, che è la differenza tra i valori previsti da questo modello e i valori osservati (bias).
 
-## Esempio con Keras
+### Esempio con Keras
 
 Ecco un semplice esempio in Python per calcolare una regressione lineare: abbiamo addestrato un modello di regressione lineare per prevedere i risultati del test in base alle ore di studio.
 
@@ -77,7 +75,7 @@ plt.ylabel('Risultati dei Test')
 plt.legend()  
 plt.show()
 ```
-In questo esempio, abbiamo utilizzato Keras per creare un modello di regressione lineare con un singolo neurone. Abbiamo compilato il modello specificando l'ottimizzatore "sgd" (discesa del gradiente stocastica) e la funzione di costo "mean_squared_error" ([[Errore quadratico medio]]). Quindi abbiamo addestrato il modello per 1000 epoche con i dati di studio e risultati dei test.
+In questo esempio, abbiamo utilizzato Keras per creare un modello di regressione lineare con un singolo neurone. Abbiamo compilato il modello specificando l'[[Algoritmi di ottimizzazione|ottimizzatore]] "sgd" (discesa del gradiente stocastica) e [[Loss function]] "mean_squared_error". Quindi abbiamo addestrato il modello per 1000 epoche con i dati di studio e risultati dei test.
 
 ### keras.Sequential
 
@@ -100,7 +98,7 @@ Ora, una volta che abbiamo capito cosa fa questa riga, vediamo alcune alternativ
    ])
    ```
    Qui, abbiamo aggiunto un secondo strato denso con 64 neuroni e una funzione di attivazione "relu". Questo può essere utile per problemi più complessi.
-2. **Funzione di attivazione**: Nell'esempio precedente, ho menzionato la "funzione di attivazione". In un modello di regressione lineare, la funzione di attivazione può essere lineare (che è l'opzione predefinita). Tuttavia, per problemi più complessi, potresti voler utilizzare funzioni di attivazione non lineari come "relu" o "sigmoid" per catturare relazioni più intricate nei dati.
+2. **[[Funzione di attivazione]]**: Nell'esempio precedente, ho menzionato la "funzione di attivazione". In un modello di regressione lineare, la funzione di attivazione può essere lineare (che è l'opzione predefinita). Tuttavia, per problemi più complessi, potresti voler utilizzare funzioni di attivazione non lineari come "relu" o "sigmoid" per catturare relazioni più intricate nei dati.
    ```python
    modello = keras.Sequential([
        layers.Dense(units=1, activation='relu', input_shape=[1])

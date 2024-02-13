@@ -1,6 +1,6 @@
 ---
 tags:
-  - MachineLearning
+  - DeepLearning
 ---
 ==Le epoche nell'addestramento di una rete neurale indicano il numero di volte che l'intero [[Dataset]] viene presentato al modello durante la fase di addestramento==.
 
@@ -13,3 +13,11 @@ Tuttavia, scegliere quante epoche fare dipende dalle specifiche del problema e d
 D'altra parte, se si utilizza un set di dati relativamente piccolo o semplice, potrebbe non essere necessario eseguire troppe epoche per evitare l'[[Overfitting]] (ovvero quando il modello memorizza troppo bene i dati dell'insieme di addestramento ma generalizza male su nuovi dati).
 
 In generale è consigliabile monitorare costantemente le metriche delle prestazioni del modello durante l'addestramento e fermarlo quando queste smettono di migliorare significativamente anche aumentando ulteriormente il numero delle epoche.
+
+## TensorFlow
+
+In TensorFlow posso definire la dimensione del batch nel metodo `fit`.
+```python
+num_epochs = 100
+model.fit(train_data, train_labels, batch_size=batch_size, epochs=num_epochs)
+```

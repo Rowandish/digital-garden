@@ -4,8 +4,6 @@ tags:
   - SemanticKernel
   - MachineLearning
 ---
-
-
 ![[221739773-cf43522f-c1e4-42f2-b73d-5ba84e21febb.png]]
 Una plugin (ex skill) si riferisce a un dominio di competenza messo a disposizione del kernel come ==una singola funzione o come un gruppo di funzioni correlate al plugin==.
 Il design delle competenze SK ha dato la priorità alla massima flessibilità per lo sviluppatore per essere sia leggero che estensibile.

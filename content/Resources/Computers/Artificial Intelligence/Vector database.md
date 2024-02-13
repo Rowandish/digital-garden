@@ -1,6 +1,7 @@
 ---
 tags:
   - MachineLearning
+  - LargeLanguageModels
 ---
 Un database vettoriale è un ==tipo di database pensato per memorizzare vettori ad alta dimensione, tipicamente degli [[Embeddings]]==.
 Ogni vettore ha un certo numero di dimensioni, che possono variare da decine a migliaia, a seconda della complessità e granularità dei dati.

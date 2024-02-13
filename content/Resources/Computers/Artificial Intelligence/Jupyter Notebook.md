@@ -1,6 +1,5 @@
 ---
 tags:
-  - Python
   - MachineLearning
 ---
 Jupyter Notebook è un ambiente di sviluppo interattivo ampiamente utilizzato nel campo della scienza dei dati, dell'analisi statistica, della ricerca scientifica e dell'insegnamento. 

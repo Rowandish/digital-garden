@@ -1,7 +1,11 @@
 ---
 tags:
-  - MachineLearning
+  - DeepLearning
 ---
+La loss function (o funzione di costo) rappresenta quanto il nostro modello si sbaglia nelle sue previsioni rispetto ai dati di addestramento. L'obiettivo durante l'addestramento è minimizzare questa funzione di costo, tramite gli [[Algoritmi di ottimizzazione]] cercando di rendere le previsioni del modello il più accurate possibile.
+
+## Errore quadratico medio 
+
 L'errore quadratico medio (MSE, Mean Squared Error) è una misura comune di quanto un modello di machine learning si discosti dalla verità nei suoi output predetti.
 Viene utilizzato per valutare la precisione di un modello rispetto ai dati di addestramento o di test.
 L'MSE calcola ==la media dei quadrati delle differenze tra i valori predetti dal modello e i valori effettivi nei dati==.
@@ -46,7 +50,7 @@ mse = np.mean((predictions - y) ** 2)
 print("Mean Squared Error:", mse)
 ```
 
-## MSE standardizzato
+### MSE standardizzato
 L'MSE standardizzato, noto come coefficiente di determinazione $(R^2$), misura la frazione della varianza nei dati che è spiegata dal modello.
 Un valore più alto di $R^2$ indica che il modello si adatta meglio ai dati. La formula per $R^2$ è la seguente in formato LaTeX:
 
@@ -63,3 +67,13 @@ print("R-squared (R^2):", r2)
 ```
 
 Un valore di $R^2$ vicino a 1 indica che il modello spiega una grande parte della varianza nei dati, mentre un valore vicino a 0 indica che il modello non spiega la varianza nei dati ed è conseguentemente inutile.
+
+ l'[[Errore quadratico medio]] (MSE)
+
+
+## Altre
+- **Errore assoluto medio (Mean Absolute Error - MAE):** MAE calcola la media delle differenze assolute tra le previsioni del modello e i valori reali. Anch'essa è utilizzata in problemi di regressione.
+- **Entropia incrociata (Cross-Entropy o Log Loss):** Questa funzione di costo è comune nei problemi di classificazione. Misura la discrepanza tra le previsioni del modello e le etichette reali assegnando penalità più alte per le previsioni errate.
+- **Hinge Loss (o Support Vector Machine Loss):** Utilizzata spesso in problemi di classificazione binaria, è associata ai support vector machines e misura la classificazione errata dei campioni.
+- **Huber Loss:** Una combinazione di MSE e MAE, che è meno sensibile agli outlier rispetto all'errore quadratico medio.
+- **Log-Cosh Loss:** Simile all'errore quadratico medio, ma con una penalità più morbida per i valori di errore elevati.

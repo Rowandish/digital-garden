@@ -6,7 +6,6 @@ Date: 2023-07-24
 Done: true
 ---
 Gli embeddings sono dei dati di qualsiasi genere che sono stati convertiti (da un embedding model) in degli array di numeri. Consentono ai computer di ==comprendere il significato delle parole in modo più sofisticato, rappresentandole come vettori ad alta dimensionalità anziché semplici stringhe di caratteri==.
-
 ![[Pasted image 20230717151712.png]]
 
 Gli embeddings funzionano ==mappando un oggetto in ingresso (per esempio una parola) in un punto in uno spazio ad alta dimensionalità mediante un vettore==.

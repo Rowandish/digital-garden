@@ -9,6 +9,7 @@ Per essere un buon programmatore è per prima cosa seguire i [[principi di buona
 ### Comportamentali
 
 * [[Pattern State]]
+* [[Special Case Pattern]]
 
 ## Principi SOLID
 
@@ -17,3 +18,6 @@ Per essere un buon programmatore è per prima cosa seguire i [[principi di buona
 * [[Principi SOLID. Interface segregation principle|Interface segregation principle]]
 * [[Principi SOLID. Liskov Substitution Principle|Liskov Substitution Principle]]
 * [[Principi SOLID. Open-closed principle|Open-closed principle]]
+
+## Altro
+* [[Dependency Injection]]

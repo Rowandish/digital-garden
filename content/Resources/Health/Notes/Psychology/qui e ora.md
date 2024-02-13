@@ -2,9 +2,12 @@
 tags:
   - Psychology
 ---
-Alan Watts è stato un noto filosofo e scrittore inglese del XX secolo che si è dedicato allo studio delle religioni orientali, in particolare del buddhismo e del taoismo.
+> [!quote] Naval Ravikant
+> quote::“*In ogni dato momento, quando camminiamo per strada, una piccola parte del nostro cervello è focalizzata sul presente. La parte restante sta pianificando il futuro oppure rimpiangendo il passato; questo ci impedisce di avere un’esperienza meravigliosa. Ci impedisce di vedere la bellezza in ogni cosa e di essere grati per dove siamo. Possiamo letteralmente fare a pezzi la felicità se trascorriamo tutto il tempo a vivere nell’illusione di un futuro.*“
 
-Uno dei concetti più interessanti proposti da Watts è la sua "legge dell'inversione". Secondo questa legge, molte delle verità che consideriamo scontate e che ci sembrano ovvie, in realtà possono essere viste sotto una luce completamente diversa se le si invertono.
+Dio voleva che Mosè fosse sulla montagna per godersi il momento. Il che è impossibile quando siamo bloccati in uno stato di pianificazione perenne. O di perenne preoccupazione. O di qualunque cosa perenne. 
+Se ci fermiamo per un momento possiamo apprezzare quel momento. Richiede uno sforzo enorme raggiungere la cima di una montagna, quindi dovremmo fermarci a godercela, anche se solo per un attimo. La pausa è importante quanto l’azione. Senza di essa, stiamo semplicemente scorrendo in fretta un elenco di cose da fare.
+
 
 ### Tempo
 

@@ -3,8 +3,6 @@ tags:
   - DigitalImageProcessing
   - PublishedPosts
 ---
-
-
 ## 1.Normalizzazione
 ### 1.1 Introduzione
 La normalizzazione è una semplice tecnica di miglioramento di un'immagine che cerca di migliorarne il contrasto eseguendo una **"stiratura" dei valori dei pixel in modo che siano distribuiti su un range noto**, come per esempio, tutto il range dei valori assumibili dai pixel: 0-255.

@@ -11,6 +11,13 @@ Nei dipendenti la percentuale della RAL che viene versata all'INPS è il 33%, in
 In partita iva invece ci sono percentuali variabili e inoltre si possono accedere a sconti contributivi se serve (per un periodo di tempo versare di meno).
 Questo montante viene rivalutato secondo la media degli ultimi 5 anni di PIL: più la speranza di vita aumenta più si abbassano le pensioni in quanto la cifra mensile dovrà, probabilisticamente, essere mantenuta più a lungo.
 
+Possiamo dividere la pensione in pilastri un po' come avviene in Svizzera:
+* 1° Pilastro: quello che viene versato automaticamente all'INPS a partire dalla RAL
+* 2° Pilastro: il [[TFR]] (che hanno solo i dipendenti)
+* 3° Pilastro: i versamenti volontari o del datore di lavoro
+
+==Il secondo è terzo pilastro vanno in un calderone unico chiamato [[Fondi pensione|Fondo pensione]]== regolato dalla legge sui fondi pensione
+
 ## Età pensionabile
 
 Si può andare in pensione secondo due condizioni:

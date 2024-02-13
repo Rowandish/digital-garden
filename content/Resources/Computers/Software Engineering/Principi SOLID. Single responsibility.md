@@ -1,11 +1,9 @@
-
 ---
 tags:
   - Coding
   - SOLID
   - PublishedPosts
 ---
-
 
 L'open-closed principle è il primo principio di SOLID.
 
@@ -36,6 +34,14 @@ Per evitare tutti questi problemi è indispensabile che ogni classe abbia una e 
 Alcuni programmatori prendono il principio all'estremo e arrivano al punto di implementare classi con una sola funzione. Questo ovviamente porta ad una proliferazione di classi che porta solo confusione all'interno del codice.
 
 Il principio di singola responsabilità deve essere usato con criterio secondo la propria esperienza.
+
+
+## Come capire se una classe viola il SRP
+Ci sono varie euristiche per capire se una classe viola il SRP:
+* Il nome della classe contiene parole come `Manager` o `Processor` o comunque nomi che indicano che tale classe gestisce varie cose;
+* Non è semplice definire il nome della classe stessa (che dovrebbe invece descrivere l'unica responsabilità della classe) o il nome che vorremmo dare contiene `and`;
+* Presenta dei metodi privati che si applicano solo ad un piccolo sottoinsieme di metodi della classe;
+* La classe non è [[Clean Code#^b19092|coesa]];
 
 ## Esempio
 

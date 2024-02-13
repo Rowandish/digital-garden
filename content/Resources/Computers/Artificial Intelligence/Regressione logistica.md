@@ -3,6 +3,7 @@ tags:
   - MachineLearning
 ---
 La regressione logistica è un tipo di [[Regressione]] utilizzato per affrontare problemi di classificazione binaria, in cui ==l'obiettivo è prevedere l'appartenenza di un'osservazione a una delle due classi possibili== (ad esempio, "1" o "0", "vero" o "falso", "positivo" o "negativo").
+Notate che, nonostante il suo nome, l’algoritmo a regressione logistica è un modello di classificazione e non di regressione. 
 La regressione logistica si basa sulla funzione logistica (o sigmoide) per stimare la probabilità che un'osservazione appartenga a una delle due classi. Questa probabilità viene quindi mappata a una classe utilizzando una soglia di decisione (ad esempio, 0.5).
 
 ![[Pasted image 20231026173058.png]]

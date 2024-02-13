@@ -1,9 +1,9 @@
 ---
 tags:
-  - MachineLearning
   - ComputerVision
+  - DeepLearning
 ---
-Un modello ONNX (Open Neural Network Exchange) nel mondo del machine learning è un ==formato di scambio aperto e interoperabile per rappresentare reti neurali artificiali e modelli di apprendimento automatico==.
+Un modello ONNX (Open Neural Network Exchange) nel mondo del deep learning è un ==formato di scambio aperto e interoperabile per rappresentare reti neurali artificiali e modelli di apprendimento automatico==.
 Questo formato è stato sviluppato per consentire la portabilità dei modelli tra diversi framework di machine learning, rendendo più agevole la creazione, l'addestramento e la distribuzione di modelli su diverse piattaforme e architetture hardware.
 ==Un modello ONNX è un file che contiene le informazioni necessarie per descrivere l'architettura di una rete neurale, i pesi, i parametri, le operazioni e altro ancora==.
 

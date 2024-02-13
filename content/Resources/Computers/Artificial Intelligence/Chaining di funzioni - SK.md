@@ -4,8 +4,6 @@ tags:
   - SemanticKernel
   - MachineLearning
 ---
-
-
 SK è stato sviluppato con lo spirito delle pipeline di UNIX per prendere un comando e effettuare lo streaming del suo output al comando successivo.
 Questo concetto si vede dall'uso del parametro `$INPUT`.
 

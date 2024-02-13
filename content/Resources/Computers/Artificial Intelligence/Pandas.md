@@ -1,7 +1,6 @@
 ---
 tags:
   - DataScience
-  - Python
 ---
 Pandas è una potente libreria open-source per la ==manipolazione e l'analisi dei dati in Python==.
 È ampiamente utilizzata nel mondo dell'analisi dati, del machine learning e della data science per la gestione di dati strutturati e tabellari.

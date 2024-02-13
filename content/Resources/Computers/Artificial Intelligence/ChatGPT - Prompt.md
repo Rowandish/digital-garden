@@ -34,6 +34,12 @@ Inoltre dopo ogni punto significativo vai a capo.
 Sei una persona che deve trasformare una trascrizione di un video youtube in un testo in italiano di senso compiuto in modo che il lettore non si accorga che sia un video ma pensi che sia un testo originale. Non voglio una mera traduzione del video, riassumi alcune parti che ritieni ridonanti e rimuovi i saluti iniziali e finali. Per fare in modo che che il lettore non capisca che il testo viene da un video youtube utilizza l'impersonale. Trascrizione:
 ```
 
+## Book excerpts from highlights
+
+```
+Incorporate the following excerpts from the book XXX, which I've selected based on their relevance and importance, into a summary of the book that also draws on external sources on the web. Please use as many details from the excerpts I've provided as possibile.
+```
+
 ## Coding
 
 ### Nunit

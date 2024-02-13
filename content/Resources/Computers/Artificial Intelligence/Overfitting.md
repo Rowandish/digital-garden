@@ -2,8 +2,8 @@
 tags:
   - MachineLearning
 ---
-L'overfitting è un problema comune nell'addestramento delle reti neurali, che si verifica quando ==il [[GPT Model|modello]] impara troppo bene i dati dell'insieme di addestramento e non generalizza correttamente su nuovi dati==.
-
+L'overfitting è un problema comune nell'addestramento di algoritmi di machine learning, che si verifica quando ==il modello impara troppo bene i dati dell'insieme di addestramento e non generalizza correttamente su nuovi dati==.
+Questo significa che il modello si è adattato con grande precisione alle specifiche osservazioni avvenute nel dataset di addestramento, ma fallisce nella generalizzazione con i dati reali, ovvero il modello ha una elevata varianza.
 In altre parole, l'overfitting si verifica quando il modello diventa troppo complesso per la quantità di dati disponibili. Il modello ==memorizza le caratteristiche specifiche dei dati dell'insieme di addestramento invece di apprendere le relazioni più generalizzate tra i dati==. Ciò significa che il modello può avere prestazioni molto elevate sui dati utilizzati durante l'addestramento ma prestazioni scarse su nuovi dati.
 
 ### Cause
@@ -16,7 +16,11 @@ Ci sono diverse cause dell'overfitting:
 ### Come evitarlo
 
 Per evitare l’overfitting, è possibile utilizzare tecniche come
-* la regolarizzazione (come [[L1 - L2 regularization]]),
+* Raccogliere più dati di addestramento;
+* la regolarizzazione (come [[L1 - L2 regularization]]) che introduce una penalità per la complessità;
+* Scegliere un modello più semplice, con un minor numero di parametri
 * aumentando il numero di esempi nel training set attraverso tecniche come [[Data augmentation]] (creazione artificiale di varianti dei campioni originali)
-* ridimensionando / modificando lo stesso insieme originale in modo casuale;
-* Monitorare costantemente le metriche delle performance del modello sia sull’insieme usato per allenarlo che su uno "validation" set separato dal primo permettono anche un controllo sulla presenza o meno dell’overfitting.
+* [[Riduzione della Dimensionalità|Ridurre la dimensionalità]] dei dati tramite selezione o estrazione delle caratteristiche
+
+Dobbiamo notare che la raccolta di una maggiore quantità di dati di addestramento riduce le probabilità di un overfitting. Tuttavia, non sempre questo potrebbe essere utile, per esempio quando i dati di addestramento sono estremamente rumorosi o il modello è già piuttosto vicino a quello ottimale.
+

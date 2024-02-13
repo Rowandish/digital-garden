@@ -1,6 +1,6 @@
 ---
 tags:
-  - MachineLearning
+  - DeepLearning
 ---
 Keras è una libreria open-source ampiamente utilizzata in Python per il deep learning e lo sviluppo di reti neurali artificiali.
 ==È stata creata con l'obiettivo di semplificare la progettazione, l'addestramento e la valutazione delle reti neurali, fornendo un'interfaccia ad alto livello e facile da usare che gira su framework di deep learning sottostanti come TensorFlow, Theano e Microsoft Cognitive Toolkit (CNTK)==.

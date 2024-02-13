@@ -4,8 +4,6 @@ tags:
   - BehaviouralDesignPattern
   - PublishedPosts
 ---
-
-
 ## Introduzione
 
 Il pattern state consente ad un oggetto di cambiare il proprio comportamento a run-time in funzione dello stato in cui si trova. Esso è un pattern comportamentale.

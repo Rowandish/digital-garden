@@ -1,7 +1,7 @@
 ---
 tags:
-  - MachineLearning
   - ComputerVision
+  - DeepLearning
 ---
 In una rete neurale [[YOLO]] (You Only Look Once), il bounding box è un rettangolo che definisce la posizione e le dimensioni di un oggetto all'interno di un'immagine.
 

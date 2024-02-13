@@ -20,6 +20,7 @@ Un dataset è generalmente suddiviso in due componenti principali:
 I dataset possono essere classificati in base a diversi criteri:
 
 ### Esistenza di label
+Questa categoria richiama esattamente le tipologie di machine learning.
 
 1. **Supervisionato:** ==In un dataset supervisionato, sia le caratteristiche che le etichette sono presenti==. Questo tipo di dataset è utilizzato per l'allenamento e la valutazione dei modelli di machine learning, poiché contiene esempi con cui il modello può apprendere le relazioni tra le caratteristiche e le etichette.
 2. **Non Supervisionato:** In un dataset non supervisionato, ==solo le caratteristiche sono presenti, e il modello deve scoprire autonomamente modelli o strutture nei dati==. Questo è spesso utilizzato per il clustering e la riduzione della dimensionalità.
@@ -49,7 +50,7 @@ I dataset sono fondamentali in tutte le fasi del ciclo di vita del machine learn
 	* puliti
 	* normalizzati
 	* pre-processati
-2. **Addestramento del Modello:** I dataset supervisionati vengono suddivisi in [[Train set e Test set]]. ==Il set di allenamento viene utilizzato per addestrare il modello, mentre il set di test viene utilizzato per valutarne le prestazioni==. Il modello apprende le relazioni tra le caratteristiche e le etichette dal set di allenamento.
+2. **Addestramento del Modello:** Per determinare se il nostro algoritmo di apprendimento automatico non solo si comporta bene sul set di addestramento, ma esegue generalizzazioni corrette sui nuovi dati, potremmo voler suddividere in modo casuale il dataset in due set distinti: [[Train set e Test set]]. Utilizziamo il set di addestramento per informare e ottimizzare il modello di apprendimento automatico, mentre teniamo da parte fino all’ultimo il set di test, per valutare il modello finale. 
 3. **Validazione e Ottimizzazione:** Dopo l'addestramento, è necessario ==validare il modello su un set di dati separato (set di validazione)== per valutare le prestazioni e ottimizzare i parametri del modello. Il dataset di validazione è essenziale per evitare l'[[Overfitting]].
 4. **Valutazione e Test Finale:** Dopo la fase di addestramento e validazione, il modello viene testato sul set di test indipendente per valutare le prestazioni reali. Questo offre una misura oggettiva delle capacità del modello.
 5. **Deployment in Produzione:** Una volta che il modello è stato addestrato e testato con successo, può essere distribuito in produzione per compiere previsioni o decisioni automatizzate.
@@ -57,65 +58,65 @@ I dataset sono fondamentali in tutte le fasi del ciclo di vita del machine learn
 ## Pandas
 [[Pandas]] è la libreria fondamentale per Python per l'analisi di dati e quindi l'esplorazione dei dataset.
 
-## Esempio con Keras
-
-Ecco come utilizzare dataset in [[Keras]] per un semplice problema di classificazione: riconoscere cifre scritte a mano utilizzando il dataset MNIST.
-In applicazioni reali, i dataset possono variare notevolmente in complessità e dimensioni, ma il processo di raccolta, preparazione e utilizzo dei dati rimane fondamentalmente lo stesso.
-
-**1. Importazione delle Librerie:**
-
-```python
-import numpy as np
-from keras.models import Sequential
-from keras.layers import Dense
-from keras.datasets import mnist
-```
-
-**2. Caricamento del Dataset:**
-Utilizzeremo il dataset MNIST, un dataset di immagini di cifre scritte a mano. Carichiamolo utilizzando Keras:
-
-```python
-(train_images, train_labels), (test_images, test_labels) = mnist.load_data()
-```
-
-**3. Preprocessing dei Dati:**
-Le immagini vengono preprocessate normalizzandole e ridimensionandole:
-```python
-train_images = train_images.reshape((60000, 28 * 28))
-train_images = train_images.astype('float32') / 255
-
-test_images = test_images.reshape((10000, 28 * 28))
-test_images = test_images.astype('float32') / 255
-```
-
-**4. Creazione del Modello:**
-Definiamo un modello di rete neurale semplice:
-```python
-model = Sequential()
-model.add(Dense(512, activation='relu', input_shape=(28 * 28,)))
-model.add(Dense(10, activation='softmax'))
-```
-
-**5. Addestramento del Modello:**
-Compiliamo il modello e addestriamolo utilizzando il set di allenamento:
-```python
-model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
-model.fit(train_images, train_labels, epochs=5, batch
-
-_size=64)
-```
-
-**6. Valutazione del Modello:**
-Valutiamo le prestazioni del modello utilizzando il set di test:
-```python
-test_loss, test_accuracy = model.evaluate(test_images, test_labels)
-print(f'Test accuracy: {test_accuracy}')
-```
-
-
-
-## Sorgenti di Dataset
+## Dataset famosi
 
 Esistono vari siti dove poter scaricare dei dataset per i propri progetti.
 * [Kaggle](https://www.kaggle.com/datasets)
 * [UCI](https://archive.ics.uci.edu/datasets)
+
+### MNIST
+
+Il dataset MNIST (Modified National Institute of Standards and Technology) è un famoso set di dati utilizzato comunemente per l'allenamento e la valutazione di algoritmi di riconoscimento di cifre scritte a mano. Contiene un insieme di immagini in scala di grigi di dimensioni 28x28 pixel, ciascuna rappresentante un singolo cifra da 0 a 9. Il dataset è composto da 60.000 immagini di allenamento e 10.000 immagini di test.
+
+Ecco un esempio di come puoi utilizzare il dataset MNIST in Python utilizzando la libreria TensorFlow e Keras:
+
+```python
+import tensorflow as tf
+from tensorflow.keras import datasets, layers, models
+import matplotlib.pyplot as plt
+
+# Carichiamo il dataset MNIST utilizzando la funzione `load_data()` fornita da Keras. Questo restituisce due tuple: una per i dati di allenamento e l'altra per i dati di test. Ogni tupla contiene un array di immagini e un array di etichette corrispondenti.
+(train_images, train_labels), (test_images, test_labels) = datasets.mnist.load_data()
+
+# Normalizziamo le immagini dividendo tutti i valori dei pixel per 255.0. Questo porta i valori dei pixel nell'intervallo [0, 1], semplificando così l'allenamento della rete.
+train_images, test_images = train_images / 255.0, test_images / 255.0
+
+# Qui viene creato il modello di rete neurale utilizzando Keras. Il modello sequenziale è una sequenza lineare di strati. La funzione `Flatten` trasforma l'immagine 28x28 in un vettore di 784 elementi. Successivamente, abbiamo uno strato nascosto con 128 neuroni e attivazione ReLU, seguito da uno strato di dropout per prevenire l'overfitting e infine uno strato di output con 10 neuroni (uno per ogni cifra) e attivazione softmax.
+model = models.Sequential([
+    layers.Flatten(input_shape=(28, 28)),   # Flatten l'immagine 28x28 in un vettore di 784 elementi
+    layers.Dense(128, activation='relu'),    # Strato nascosto con 128 neuroni e attivazione ReLU
+    layers.Dropout(0.2),                     # Dropout per prevenire l'overfitting
+    layers.Dense(10, activation='softmax')   # Strato di output con 10 neuroni per le 10 cifre e attivazione softmax
+])
+
+# Qui compiliamo il modello specificando l'ottimizzatore ('adam' in questo caso), la funzione di perdita (`sparse_categorical_crossentropy` che è adatta per problemi di classificazione con etichette intere) e la metrica da monitorare durante l'allenamento (accuratezza).
+model.compile(optimizer='adam',
+              loss='sparse_categorical_crossentropy',
+              metrics=['accuracy'])
+
+# Alleniamo il modello utilizzando i dati di allenamento per 5 epoche. In ogni epoca, il modello cerca di migliorare la sua capacità di fare predizioni.
+model.fit(train_images, train_labels, epochs=5)
+
+# Valutazione del modello
+test_loss, test_acc = model.evaluate(test_images,  test_labels, verbose=2)
+print(f'\nTest accuracy: {test_acc}')
+
+# Facciamo un esempio di predizione su una singola immagine di test. Espandiamo le dimensioni dell'immagine per adattarle al formato richiesto dalla rete neurale. Stampiamo la predizione e l'etichetta reale, e visualizziamo l'immagine usando Matplotlib.
+image_index = 0
+img = test_images[image_index]
+img = (np.expand_dims(img,0))  # Aggiunge una dimensione per la batch
+predictions = model.predict(img)
+
+# Stampa la predizione
+predicted_label = np.argmax(predictions[0])
+print(f"Predicted label: {predicted_label}")
+print(f"True label: {test_labels[image_index]}")
+
+# Visualizza l'immagine
+plt.imshow(test_images[image_index], cmap='gray')
+plt.show()
+```
+
+Questo esempio utilizza una semplice rete neurale con un singolo strato nascosto per classificare le cifre del dataset MNIST. La rete viene allenata per 5 epoche, e alla fine viene valutata sulla base del set di test. Infine, viene mostrato un esempio di predizione su una singola immagine di test.
+
+

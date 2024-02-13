@@ -15,3 +15,9 @@ Le aree più comuni incluse nella Wheel of Life sono:
 In genere, la persona che utilizza la Wheel of Life assegna un punteggio a ciascuna area in base a quanto si sente soddisfatta in quel settore. I risultati vengono rappresentati su un grafico a forma di ruota, consentendo di visualizzare visivamente gli squilibri o le aree che richiedono maggiore attenzione. Successivamente, si può pianificare un'azione mirata per migliorare le aree meno soddisfacenti e creare un equilibrio più completo nella vita quotidiana.
 
 ![[wheel-of-life.jpg]]
+
+## Ali Abdaal
+Ali Abdall in [questo video](https://www.youtube.com/watch?v=c_DOG_mXz5w) consiglia una Wheel of life un po' diversa: ci sono tre categorie principali "Work", "Health" e "Relationship" che si dividono a loro volta in 3 sottocategorie ognuna, in particolare "Soul", "Body" e "Mind" per la categoria "Health"; "Romance", "Family" e "Friends" per la categoria "Relationship" e infine "Mission", "Body" e "Growth" per la categoria "Work".
+
+
+![[Pasted image 20231226000757.png]]

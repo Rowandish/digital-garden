@@ -5,6 +5,9 @@ Da qualche tempo mi sono appassionato al gioco degli [[Chess|scacchi]]: ciò che
 Il gioco non si limita alla scacchiera, ma si estende oltre, stimolando la concentrazione, l'analisi critica e la pazienza.
 È un'arte che mi offre non solo intrattenimento, ma un'opportunità per crescere, imparare e affinare la mia abilità nel pensiero strategico.
 
+## Meditazione
+Uno dei temi che voglio approfondire nel 2024 è la [[meditazione]].
+
 ## Burocrazia
 
 In Italia, la gestione della vita amministrativa e fiscale richiede familiarità con una serie di concetti e procedure.

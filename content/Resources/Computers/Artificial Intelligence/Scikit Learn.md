@@ -22,43 +22,6 @@ encoder = LabelEncoder()
 X_encoded = encoder.fit_transform(X)
 ```
 
-### `train_test_split`
-
-^63440e
-
-Questo algoritmo è utilizzato per suddividere un dataset in due parti distinte, [[Train set e Test set]].
-Questa suddivisione è ==essenziale per valutare le prestazioni di un modello di machine learning e verificarne l'efficacia senza utilizzare gli stessi dati con cui è stato addestrato==. Ecco una descrizione dell'algoritmo `train_test_split`:
-
-**Input:**
-- `X`: Un array (o dataframe) contenente le caratteristiche o le variabili indipendenti del dataset.
-- `y`: Un array contenente le etichette o le variabili dipendenti del dataset.
-- `test_size`: La proporzione di dati da assegnare al set di test. Ad esempio, se `test_size` è impostato su 0.2, il 20% dei dati sarà nel set di test.
-- `random_state`: Un seme casuale per garantire la riproducibilità dei risultati.
-- Altri parametri opzionali per controllare la suddivisione, come `shuffle` e `stratify`.
-
-**Output:**
-- `X_train`: Il set di addestramento contenente le caratteristiche.
-- `X_test`: Il set di test contenente le caratteristiche.
-- `y_train`: Il set di addestramento contenente le etichette.
-- `y_test`: Il set di test contenente le etichette.
-
-**Funzionamento:**
-1. I dati iniziali sono suddivisi in due gruppi: il set di addestramento e il set di test. La dimensione di ciascun set è determinata dalla proporzione specificata con `test_size`.
-2. Se `shuffle` è impostato su `True`, i dati sono mischiati casualmente prima della suddivisione. Questo è utile per garantire che i dati siano distribuiti in modo casuale nei set di addestramento e test.
-3. Se il parametro `stratify` è impostato, la suddivisione viene effettuata in modo da mantenere la stessa distribuzione delle classi tra il set di addestramento e il set di test. Questo è utile in problemi di classificazione per evitare che uno dei set contenga una percentuale sbilanciata di campioni da diverse classi.
-4. I dati suddivisi vengono restituiti sotto forma di quattro array o dataframe: `X_train`, `X_test`, `y_train`, e `y_test`, che rappresentano il set di addestramento e il set di test delle caratteristiche e delle etichette, rispettivamente.
-
-Ecco un esempio di utilizzo di `train_test_split` in Python:
-```python
-from sklearn.model_selection import train_test_split
-
-X = ...  # Caratteristiche del dataset
-y = ...  # Etichette del dataset
-
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-```
-Una volta completata la suddivisione, è possibile utilizzare `X_train` e `y_train` per addestrare il modello e `X_test` e `y_test` per valutarne le prestazioni.
-
 ## 2. Selezione del modello
 Scikit-learn offre una vasta gamma di algoritmi di apprendimento automatico per affrontare problemi di classificazione, regressione, clustering e altro ancora. È possibile selezionare il modello più adatto ai dati e al problema che si sta affrontando.
 

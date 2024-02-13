@@ -4,10 +4,6 @@ tags:
   - CreationalDesignPattern
   - PublishedPosts
 ---
-
-
-## Introduzione
-
 Il **Factory Method** è uno dei design pattern fondamentali per l'implementazione del concetto di **factories**. Come altri pattern creazionali, esso **indirizza il problema della creazione di oggetti senza specificarne l'esatta classe**.
 L'idea è utilizzare un **metodo factory** che ritorna una interfaccia dell'oggetto che voglio creare invece di utilizzare direttamente il costruttore della classe.
 In questo modo la superclasse o il chiamante utilizzerà l'oggetto senza saperne il suo tipo specifico ma solo la sua interfaccia.
@@ -46,6 +42,9 @@ internal class B : A
 }
 ```
 ### Abstract Factory
+
+^458139
+
 ```csharp
 internal abstract class A
 {

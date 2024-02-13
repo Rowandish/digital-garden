@@ -38,6 +38,7 @@ Quindi se oggi vivo nella casa che dichiaro nel quadro FC3 (riferito a 2 anni pr
 ## Scala di equivalenza
 
 La scala di equivalenza (SE) è il valore con cui dividere l'ISE per ottenere l'ISEE; questo valore dipende dal numero di componenti nel nucleo famigliare.
+
 | Numero di componenti | Parametro |
 | -------------------- | --------- |
 | 1                    | 1         |

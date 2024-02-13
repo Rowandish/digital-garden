@@ -93,7 +93,7 @@ Questo principio ci aiuta ad evitare l'anello di dipendenze, per cui se una clas
 Nel principio di Hollywood permettiamo ai componenti di basso livello di agganciarsi a dei componenti di alto livello, **ma saranno loro a decidere quando questi sono necessari e come** (che spiega la frase "non chiamarmi, ti chiamo io").
 Esempi di pattern che seguono questo principio sono il `Factory`, l'`Observer` e il `Template`.
 
-## 9.Principio di singola responsabilità
+## 9.Principio di [[Principi SOLID. Single responsibility|singola responsabilità]]
 Un modo alternativo per definire questo principio è: **una classe deve avere un solo motivo per cambiare**.
 Il principio afferma che è necessario **assegnare ad ogni classe una ed una sola responsabilità, nel senso che si deve occupare solo di una cosa, un'azione o un oggetto**.
 In un sistema ben strutturato, al momento del cambiamento, ogni oggetto cambia per solo un aspetto, non di più.

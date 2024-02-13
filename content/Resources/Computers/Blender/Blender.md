@@ -2,8 +2,9 @@
 tags:
   - Blender
 ---
-Blender è un programma per la modellazione di oggetti 3D.
+Blender è un programma per la modellazione di oggetti 3D.g
 In particolare permette di definire l'[[Lighting|illuminazione]] della scena, i [[Materials|materiali]] degli oggetti, lo [[world|sfondo]] e permette di esportare un'immagine o un [[Esportare un video|video]] della scena in questione.
+Gli oggetti di una scena possono anche essere facilmente [[animations|animati]].
 Il processo di renderizzazione viene personalizzato tramite le [[render properties]] e avviene con un motore chiamato [[render engines]].
 La creazione degli oggetti avviene tramite il processo di modellizzazione che può avvenire a mano libera oppure tramite una [[Modellizzare con immagine di reference|immagine di reference]].
 ## Modifier

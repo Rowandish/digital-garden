@@ -180,4 +180,65 @@ Una volta addestrato il modello, PyTorch offre strumenti come TorchScript per es
  4. **Applicazioni Popolari:**
     - **Keras:** Keras è ampiamente utilizzato per applicazioni aziendali e di produzione, specialmente quando è integrato in TensorFlow.        
     - **PyTorch:** PyTorch è molto popolare nella ricerca accademica e nell'esperimento con nuove idee, ed è spesso scelto da ricercatori e sviluppatori per la sua flessibilità.
-        
+
+## PyTorch Hub
+
+[PyTorch Hub](https://pytorch.org/hub/) è una libreria che facilita il reutilizzo di modelli preaddestrati e componenti di modelli all'interno della piattaforma PyTorch.
+==Consente agli utenti di accedere a una vasta gamma di modelli già addestrati e pronti all'uso==, compresi modelli per la visione artificiale, il trattamento del linguaggio naturale (NLP), la generazione di immagini e altro ancora.
+
+Ecco un esempio di implementazione di PyTorch Hub utilizzando un modello preaddestrato per il riconoscimento delle immagini:
+
+```python
+import torch
+import torchvision.transforms as transforms
+import torchvision.models as models
+import torch.nn.functional as F
+from PIL import Image
+
+# Caricamento del modello preaddestrato da PyTorch Hub
+model = torch.hub.load('pytorch/vision:v0.9.0', 'resnet18', pretrained=True)
+model.eval()  # Impostare il modello in modalità valutazione
+
+# Trasformazioni per preprocessare l'immagine
+preprocess = transforms.Compose([
+    transforms.Resize(256),
+    transforms.CenterCrop(224),
+    transforms.ToTensor(),
+    transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
+])
+
+# Funzione per predire l'etichetta dell'immagine
+def predict_image(image_path, model, preprocess):
+    image = Image.open(image_path)
+    input_tensor = preprocess(image)
+    input_batch = input_tensor.unsqueeze(0)  # Aggiungi batch dimension
+    with torch.no_grad():
+        output = model(input_batch)
+    probabilities = F.softmax(output[0], dim=0)
+    return probabilities
+
+# Esempio di utilizzo
+image_path = 'example.jpg'
+probabilities = predict_image(image_path, model, preprocess)
+print(probabilities)
+```
+
+In questo esempio, stiamo utilizzando il modello ResNet-18 preaddestrato disponibile in PyTorch Hub per classificare un'immagine di input. La funzione `predict_image` carica un'immagine, la preprocessa, la passa attraverso il modello e restituisce le probabilità predette per ciascuna classe di output.
+
+### YOLO
+Per esempio anche la [[YOLO]] è presente su PyTorch Hub e si può utilizzare nel seguente modo:
+```python
+import torch
+
+# Model loading
+model = torch.hub.load("ultralytics/yolov5", "yolov5s")  # Can be 'yolov5n' - 'yolov5x6', or 'custom'
+
+# Inference on images
+img = "https://ultralytics.com/images/zidane.jpg"  # Can be a file, Path, PIL, OpenCV, numpy, or list of images
+
+# Run inference
+results = model(img)
+
+# Display results
+results.print()  # Other options: .show(), .save(), .crop(), .pandas(), etc.
+```
