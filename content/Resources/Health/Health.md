@@ -19,6 +19,9 @@ Nonostante l'[[adattamento edonistico]] e l'[[effetto Diderot]] influenzino temp
 
 Mi interesso di tecniche per migliorare il rapporto con gli altri e l'autostima, come l'[[eye gazing]].
 
+### Meditazione
+Uno dei temi che voglio approfondire nel 2024 è la [[Meditazione|meditazione]].
+
 ### Altro
 
 * [[legge dell'attrazione]]

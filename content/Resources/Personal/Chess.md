@@ -16,7 +16,7 @@ Di seguito quattro regole da seguire per vincere contro la maggior parte degli a
 
 ## Valore dei pezzi
 
-![[DALL·E 2023-11-18 23.41.02 - An artistic depiction of a chess pawn dressed as a poor person, gradually transforming into a beautiful queen, representing the concept of pawn promot.png|400]]
+![[DALL·E 2023-11-18 23.41.02 - An artistic depiction of a chess pawn dressed as a poor person, gradually transforming into a beautiful queen, representing the concept of pawn promot.png|320]]
 
 Negli scacchi ogni pezzo ha un valore numerico indicativo che può essere utile per capire se fare o meno delle trade eque.
 
@@ -50,9 +50,9 @@ Qualora abbia due pezzi che possono prendere un pezzo avversario difeso, convien
 * Se l'ultima traversa è senza pezzi e il re è arroccato dietro i pedoni sono sempre a rischio del matto del corridoio. Appena non abbiamo attacchi muoviamo in avanti un pedone, tipicamente quello sulla colonna h;
 * Quando un pedone sta andando a promozione è molto comodo difenderlo con una torre **dietro di esso**. Se invece dobbiamo difendere dobbiamo mettere un pezzo davanti ad esso, anche il re se necessario;
 * Se l'avversario ha dei pezzi al centro, tipicamente cavalli, che possono essere attaccati avanzando il pedone (senza che questa possa essere attaccato nuovamente) farlo;
-* ![[Pasted image 20230412141739.png|200]]
+* ![[Pasted image 20230412141739.png|320]]
 * Se l'avversario gioca pedone in `a5` o `a6` noi rispondiamo spesso con pedone in `a4`. Il discorso non è invece analogo sul lato di re dato che muovere i pedoni davanti al re porta a indebolire la posizione
-![[Pasted image 20230301165212.png|300]]
+![[Pasted image 20230301165212.png|320]]
 
 ### Pawn hook
 
@@ -63,7 +63,7 @@ Un esempio tipico di "hook" è una pedone posta sulla quinta o sesta traversa, c
 
 Il concetto di "hook" è spesso associato a strategie offensive, poiché un pedone avanzato può diventare una minaccia potenziale per l'avversario, costringendolo a prendere decisioni difensive o a sottrarre risorse per proteggere i pedoni minacciati. 
 
-![[Pasted image 20230414154217.png|400]]
+![[Pasted image 20230414154217.png|320]]
 
 ## Alfieri e cavalli
 
@@ -81,10 +81,10 @@ Il concetto di "hook" è spesso associato a strategie offensive, poiché un pedo
 Spesso può capitare di avere due torri in colonna che attaccano un due pedoni, il primo che difende il secondo.
 Il pedone non difeso è difeso da una torre o pezzo pezzo pesante da dietro.
 
-![[Pasted image 20230726222306.png]]
+![[Pasted image 20230726222306.png|320]]
 In questo caso abbiamo la torre in `b5` che attacca sia il pedone in `b6` (che è difeso dalla torre in `b8`) che il pedone in `a5` (che è difeso dal pedone in `b6`).
 Il trick è con la torre in `b5` mangiare il pedone in `a5` in quanto, se l'avversario mangia la mia torre col pedone, perde la sua in `b8` in quanto non è difesa da nessuno.
-![[Pasted image 20230726222554.png]]
+![[Pasted image 20230726222554.png|320]]
 
 ## Tattica
 * Ogni mossa dell'avversario modifica la scacchiera e, ad ogni sua mossa dobbiamo chiederci sempre se ci sono (in questo ordine)
@@ -108,7 +108,7 @@ Il trick è con la torre in `b5` mangiare il pedone in `a5` in quanto, se l'avve
 
 Spesso capita di dover capire se effettuare delle trade di pezzi difesi solo da pedoni che verrebbero successivamente impilati.
 In questo caso l'alfiere attacca il cavallo difeso solo dal pedone; questo cavallo è difeso solo da `g7` e conseguentemente `Bxf6` porterebbe a `gxf6` impilando i pedoni sulla colonna f.
-![[Pasted image 20230426140905.png]]
+![[Pasted image 20230426140905.png|320]]
 Questo non è detto che sia un male sempre, potrebbe essere comodo aprire la colonna g per la torre.
 E' invece quasi sempre un male se **il re è dietro i pedoni in quanto ha effettuato l'arrocco**.
 Liberare la colonna g dai pedoni rende il re molto più debole.
@@ -142,8 +142,7 @@ Ricordo che le torri supportano bene il pedone che sta andando a promozione se s
 Dato un pedone e un re, il pedone riuscirà sicuramente a promuovere a regina se **quando tocca a lui a muovere** il re avversario si trova all'esterno del quadrato descritto dal pedone, come si vede nella figura sotto.
 In questo caso se tocca al bianco questo riesce a promuovere, se tocca al nero invece no.
 
-![[Pasted image 20230625223251.png]]
-
+![[Pasted image 20230625223251.png|320]]
 
 ### [[Opposizione]]
 
@@ -158,12 +157,12 @@ La sicurezza del re è importantissima, a volte basta che solo quella sia mancan
 
 Il computer valuta le posizioni con un numero che va da 0 a oltre 100: se negativo il nero è in vantaggio, se positivo il bianco.
 
-
 ## Bad habits
 
 * Quando facciamo una mossa pensiamo sempre a quale potrebbe essere la mossa migliore che può fare l'avversario per contrastarla. Ad ogni mossa bisogna pensare a che catture/scacchi/minacce può fare il mio avversario per opporsi a tale mossa. Questo permette di non giocare pensando solo a se stessi ma pensando anche a quello che potrebbe fare l'avversario in rapporto alle mie mosse. Spesso non farlo è una cattiva abitudine.
 * E' cattiva abitudine pensare solo alle proprie mosse e in particolare solo alla mossa successiva senza pensare al piano dell'avversario. Esempi sono attacchi in punti dove l'avversario può benissimo difendersi ma che vengono lo stesso fatti senza pensare a quello che può fare l'avversario o sperando che l'avversario sbagli.
 * Giocare senza un piano preciso ma solo una mossa alla volta: per esempio fare una mossa senza pensare alla conseguenze, l'avversario muove in modo ovvio e mi rimangio quanto pensato con la mossa precedente tornando indietro.
+
 ## Case deboli
 
 ### Casa f2/f7
@@ -180,9 +179,6 @@ Si questa debolezza si basa per esempio il [[Matto del barbiere]].
 Le celle `c7` e `c2` sono delle celle molto delicate in quanto, se non difese dalla donna, possono portare il cavallo e fare una forchetta con scacco al re mangiando la torre.
 ![[Pasted image 20230302013044.png|320]]
 
-
-
-
 ### Casa b2/g2
 
 La casa `b2` è tipicamente difesa solo dall'alfiere e, se la ragina cattura tale pedone può essere che riesca a catturare anche la torre in quanto intrappolata.
@@ -195,11 +191,8 @@ Se lui cattura tale alfiere con la regina questa non difende più `b2` o `g2` e 
 
 ![[Pasted image 20230414000755.png|320]]
 
-
-
-
 ## Blunders
-![[DALL·E 2023-11-19 00.12.13 - An artistic portrayal of a chess king, dressed as an 18th-century sovereign with a crown, in a state of despair, surrounded by pawns on a chessboard. .png|300]]
+![[DALL·E 2023-11-19 00.12.13 - An artistic portrayal of a chess king, dressed as an 18th-century sovereign with a crown, in a state of despair, surrounded by pawns on a chessboard. .png|320]]
 ### Pedone f6
 
 Il pedone in `f6` è il pedone che difende il re da un attacco sulla diagonale da parte della regina o dell'alfiere campo chiaro in `h5`.
@@ -221,7 +214,7 @@ Il problema di questa mossa è che il pedone in `g7` non può difendere sia la c
 ![[Pasted image 20230412191316.png|320]] ![[Pasted image 20230412191333.png|320]]
 
 ## Tactics
-![[DALL·E 2023-11-18 23.41.19 - An artistic interpretation of 'The Checkmate in the Corridor,' a concept blending the game of chess with a mysterious corridor setting. The scene feat 1.png|300]]
+![[DALL·E 2023-11-18 23.41.19 - An artistic interpretation of 'The Checkmate in the Corridor,' a concept blending the game of chess with a mysterious corridor setting. The scene feat 1.png|320]]
 
 * [[Inchiodatura]]
 * [[Dono greco]]
@@ -229,14 +222,14 @@ Il problema di questa mossa è che il pedone in `g7` non può difendere sia la c
 
 ## Openings
 
-![[DALL·E 2023-11-18 23.41.34 - A surreal image of a chess player in a nebula. The chess player, a focused and intelligent individual of indeterminate gender and race, is seated at a.png|400]]
+![[DALL·E 2023-11-18 23.41.34 - A surreal image of a chess player in a nebula. The chess player, a focused and intelligent individual of indeterminate gender and race, is seated at a.png|320]]
 * [[Apertura italiana]]
 * [[Difesa Scandinava]]
 * [[Gambetto Viennese]]
 * [[Difesa Siciliana]]
 
 ## Checkmates
-![[DALL·E 2023-11-18 23.41.26 - A dramatic illustration of a chess king piece experiencing checkmate. The scene captures the king in a heightened state of defeat, with the king piece.png|400]]
+![[DALL·E 2023-11-18 23.41.26 - A dramatic illustration of a chess king piece experiencing checkmate. The scene captures the king in a heightened state of defeat, with the king piece.png|320]]
 
 - [[Bishop and Knight mate]]
 - [[Checkmate 2 Bishops]]
@@ -255,4 +248,4 @@ In questo esempio ho M1 se Qg2 in quanto la casa g2 è difesa dall'alfiere.
 
 ![[Pasted image 20230306144412.png|320]] ![[Pasted image 20230306145240.png|320]]
 
-![[DALL·E 2023-11-18 23.41.14 - An artistic depiction of the 'Corridor Checkmate' in chess, where a castled king is checkmated by a rook on the back rank. The scene shows a dramatic .png|300]]
+![[DALL·E 2023-11-18 23.41.14 - An artistic depiction of the 'Corridor Checkmate' in chess, where a castled king is checkmated by a rook on the back rank. The scene shows a dramatic .png|320]]
