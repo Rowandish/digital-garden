@@ -4,15 +4,13 @@ tags:
   - SOLID
   - PublishedPosts
 ---
-
-
-Il Liskov Substitution Principle è il terzo principio di SOLID introdotti nel libro Clean Architecture di Robert Martin, tradotto anche in italiano da Apogeo.
+Il Liskov Substitution Principle è il terzo principio di SOLID introdotti nel libro Clean Architecture di Robert Martin.
 
 ## Definizione
 
 Il principio definisce che **gli oggetti della superclasse devono essere sostituibili con oggetti delle sue classi figlie senza rompere l'applicazione**. Questo significa che gli oggetti della sottoclasse devono comportarsi allo stesso modo della superclasse.
 
-Quindi ovunque nel mio codice ho uno `new ClassePadre()`, devo poter sostituire questo codice con `new ClasseFiglia()` senza che si rompa nulla nella mia applicazione.
+Quindi ovunque nel mio codice ho uno `new ClassePadre()`, devo poter sostituire questo codice con `new ClasseFiglia()` senza che si rompa nulla nella mia applicazione e tipicamente questo avviene se il tipo della classe istanziata è generico (esempio `IClasse c = new ClassePadre()` e non `ClassePadre c = new ClassePadre()`).
 
 **Questo principio limita l'utilizzo dell'ereditarietà a cose che si comportano in modo uguale, non che hanno le stesse proprietà.**
 

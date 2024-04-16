@@ -2,20 +2,30 @@
 tags:
   - MachineLearning
 ---
-Il "train set" e il "test set" sono due insiemi distinti di dati utilizzati nell'addestramento e nella valutazione di modelli di machine learning.
+## Train set (train_X) - Set di addestramento
 
-1. **Train Set (Insieme di Addestramento):** **Il train set è l'insieme di dati utilizzato per addestrare un modello di machine learning**. Questi dati vengono utilizzati per insegnare al modello come fare previsioni basate sulle feature fornite. Il modello cerca di apprendere relazioni e pattern nei dati di addestramento in modo da poter fare previsioni accurate sui dati futuri.
-2. **Test Set (Insieme di Test):** Il test set è un ==insieme separato di dati che non è stato utilizzato durante l'addestramento del modello. Viene utilizzato per valutare le prestazioni del modello e misurare la sua capacità di fare previsioni su dati non visti in precedenza==. Il test set serve a valutare se il modello è in grado di generalizzare correttamente dalle informazioni apprese durante l'addestramento.
+Il train set è l'insieme di dati utilizzato per addestrare un modello di machine learning. Questi dati vengono utilizzati per insegnare al modello come fare previsioni basate sulle feature fornite. Il modello cerca di apprendere relazioni e pattern nei dati di addestramento in modo da poter fare previsioni accurate sui dati futuri.
 
-Se dobbiamo dividere un dataset nei due dataset di addestramento e di test, dobbiamo tenere in considerazione che stiamo sottraendo informazioni preziose, di cui l’algoritmo di apprendimento potrebbe fare buon uso. Pertanto, non vogliamo allocare troppe informazioni nel set di test. Tuttavia, più piccolo è il set di test, più sarà imprecisa la stima dell’errore di generalizzazione. 
+## Validation set (val_X) - Set di convalida
+
+Questo set di dati è utilizzato per testare diverse configurazioni del modello e per ottimizzare i suoi [[iperparametri]].
+Ad esempio, se stiamo costruendo un modello di rete neurale, possiamo utilizzare il validation set per regolare il numero di strati nascosti o il tasso di apprendimento al fine di migliorare le prestazioni del modello.
+
+## Test set (test_X) - Set di test
+
+Viene utilizzato per valutare le prestazioni del modello e misurare la sua capacità di fare previsioni su dati non visti in precedenza.
+ Il test set serve a valutare se il modello è in grado di generalizzare correttamente dalle informazioni apprese durante l'addestramento.
+
+
+Se dobbiamo dividere un dataset nei tre dataset, dobbiamo tenere in considerazione che stiamo sottraendo informazioni preziose, di cui l’algoritmo di apprendimento potrebbe fare buon uso. Pertanto, non vogliamo allocare troppe informazioni nel set di test. Tuttavia, più piccolo è il set di test, più sarà imprecisa la stima dell’errore di generalizzazione. 
 Le divisioni più comunemente utilizzate sono 60:40, 70:30 o 80:20 a seconda delle dimensioni del dataset iniziale. Tuttavia, per grossi dataset, possono essere comuni e appropriate anche suddivisioni del tipo 90:10 o 99:1.
-Per vederne un esempio vedi la funzione [[Scikit Learn#^63440e|train_test_split]] di Scikit Learn.
+Per vederne un esempio vedi la funzione train_test_split di Scikit Learn.
 
 ## `train_test_split`
 
 **Input:**
-- `X`: Un array (o dataframe) contenente le caratteristiche o le variabili indipendenti del dataset.
-- `y`: Un array contenente le etichette o le variabili dipendenti del dataset.
+- `X`: Un dataframe contenente le features del dataset.
+- `y`: Un array contenente le etichette del dataset.
 - `test_size`: La proporzione di dati da assegnare al set di test. Ad esempio, se `test_size` è impostato su 0.2, il 20% dei dati sarà nel set di test.
 - `random_state`: Un seme casuale per garantire la riproducibilità dei risultati.
 - Altri parametri opzionali per controllare la suddivisione, come `shuffle` e `stratify`.

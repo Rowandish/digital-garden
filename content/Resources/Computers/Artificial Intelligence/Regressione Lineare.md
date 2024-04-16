@@ -132,7 +132,7 @@ Per comprendere la riga `modello.compile(optimizer='sgd', loss='mean_squared_err
    modello.compile(optimizer='adam', loss='mean_squared_error')
    ```
 3. `loss='mean_squared_error'`: L'argomento `loss` definisce la funzione di costo che il modello utilizzerà per valutare quanto bene si adatta ai dati durante l'addestramento. In questo caso, `'mean_squared_error'` (errore quadratico medio) è una comune funzione di costo per problemi di regressione. L'MSE calcola la discrepanza tra le previsioni del modello e i dati effettivi, elevando questa discrepanza al quadrato e calcolandone la media. L'errore quadratico medio misura la discrepanza tra le previsioni del modello e i valori reali dei dati. L'obiettivo dell'addestramento è minimizzare questa discrepanza.
-   - **Alternative alla funzione di costo**: A seconda del tipo di problema, è possibile utilizzare diverse funzioni di costo. Ad esempio, per la classificazione binaria, è comune utilizzare "binary_crossentropy", mentre per la classificazione multiclasse, si utilizza spesso "categorical_crossentropy". La scelta della funzione di costo è cruciale e dipende dal tipo di problema che si sta risolvendo.
+   - **Alternative alla funzione di costo**: A seconda del tipo di problema, è possibile utilizzare diverse funzioni di costo. Ad esempio, ==per la classificazione binaria, è comune utilizzare "binary_crossentropy", mentre per la classificazione multiclasse, si utilizza spesso "categorical_crossentropy"==. La scelta della funzione di costo è cruciale e dipende dal tipo di problema che si sta risolvendo.
    ```python
    # Esempio con un'altra funzione di costo (entropia incrociata categorica)
    modello.compile(optimizer='sgd', loss='categorical_crossentropy')

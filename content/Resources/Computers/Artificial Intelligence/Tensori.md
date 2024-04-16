@@ -3,7 +3,7 @@ tags:
   - MachineLearning
 ---
 In ambito di machine learning, un tensore è un ==tipo di struttura dati multidimensionale utilizzata per rappresentare dati==.
-I tensori sono essenziali nelle librerie di machine learning come [[PyTorch]] e TensorFlow, poiché consentono di ==rappresentare dati in forma di array multidimensionali e di eseguire operazioni matematiche su di essi==.
+I tensori sono essenziali nelle librerie di machine learning come PyTorch e TensorFlow, poiché consentono di ==rappresentare dati in forma di array multidimensionali e di eseguire operazioni matematiche su di essi==.
 In generale, un tensore può essere visto come una generalizzazione delle matrici, poiché può avere qualsiasi numero di dimensioni (ad esempio, scalari, vettori, matrici e tensori di ordine superiore).
 Esistono due tipi di tensori: statici e dinamici: i tensori statici sono più adatti per operazioni matematiche su dati con dimensioni fisse, mentre i tensori dinamici sono essenziali per la costruzione e l'addestramento di reti neurali che possono avere input di dimensioni variabili.
 

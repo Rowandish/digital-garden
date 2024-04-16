@@ -14,6 +14,9 @@ Una volta addestrato, il modello può essere utilizzato per fare previsioni su n
 * **Classificazione multiclasse**: l’insieme delle etichette delle classi non deve necessariamente avere una natura binaria ma multidimensionale.
 
 ## Algoritmi
+
+^84ab24
+
 La scelta di un algoritmo di classificazione appropriato per risolvere un determinato problema richiede pratica: nessuno dei classificatori opera al meglio in tutte le situazioni possibili.
 ### Machine Learning
 
@@ -22,7 +25,7 @@ Nel machine learning tradizionale, si utilizzano algoritmi più semplici e class
 * [[Decision tree]]
 * [[Random Forests]]
 * Naive Bayes
-* [[Apprendimento di insieme]]
+* [[Ensemble Learning]]
 * [[Regressione logistica]]. 
 
 ==Questi algoritmi si basano su regole matematiche e statistiche per separare i dati in diverse categorie in base alle loro caratteristiche==. Sono spesso utilizzati quando si ha un numero limitato di dati e quando le relazioni tra le caratteristiche e le etichette di classificazione sono relativamente semplici.
@@ -36,7 +39,7 @@ clf4 = XGBClassifier()
 
 ### Deep Learning
 
-Nel deep learning, si utilizzano [[reti neurali]] artificiali con molti strati di neuroni artificiali, che possono apprendere automaticamente rappresentazioni complesse dei dati.
+Nel deep learning, si utilizzano [[Reti neurali]] artificiali con molti strati di neuroni artificiali, che possono apprendere automaticamente rappresentazioni complesse dei dati.
 Le reti neurali profonde sono particolarmente efficaci nel trattare grandi quantità di dati, come immagini, testo o audio, e nel catturare relazioni complesse tra le caratteristiche e le etichette di classificazione.
 I tipi di reti neurali comuni includono
 * Reti neurali convenzionali (feedforward)

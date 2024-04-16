@@ -21,3 +21,14 @@ Ci sono diversi vantaggi nell'utilizzo di un algoritmo di Random Forest. In prim
 ## Svantaggi
 
 Tuttavia, ci sono anche alcune considerazioni da tenere presente. Ad esempio, il costo computazionale può essere più elevato rispetto a un singolo albero decisionale, poiché coinvolge la costruzione e la combinazione di molti alberi. Inoltre, la comprensione delle previsioni di una Random Forest può essere più complessa rispetto a un singolo albero, poiché coinvolge la considerazione di molteplici alberi e le loro interazioni.
+
+## Esempio
+
+Prendiamo [questo esempio](https://www.kaggle.com/code/alexisbcook/titanic-tutorial): dato un array di persone che sono state sul Titanic devo capire quali sono sopravvissuti a partire dalle loro caratteristiche (esempio il sesso, l'età, la classe e così via)
+Assumiamo di dover decidere se questo passeggero sopravviverà
+![[Pasted image 20240222175134.png]]
+In questo esempio costruisco 3 alberi decisionali di profondità 3 (nel mondo reale il loro numero e la loro profondità è molto maggiore ovviamente) con delle caratteristiche random.
+Per esempio il primo ham in ordine, Sex, SibSp e Parch, il secondo Pclass, SibSp e Parch mentre l'ultimo ha Sibsp, Sex e Pclass.
+Nel training del modello viene costruita lk'etichetta "Survived=1/0" associata ad ogni nodo.
+Nell'inferenza vengono dati in pasto i dati a questi alberi e quello con più voti vince.
+![[Pasted image 20240222175507.png]]

@@ -42,19 +42,6 @@ Esempi di dataset strutturati includono tabelle di database relazionali, fogli d
 
 Esempi di dataset non strutturati includono testi in linguaggio naturale, foto, video, tweet sui social media, registrazioni audio, e-mail e altro contenuto multimediale.
 
-## Utilizzo
-
-I dataset sono fondamentali in tutte le fasi del ciclo di vita del machine learning:
-
-1. **Raccolta e Preparazione dei Dati:** La raccolta di dati grezzi da diverse fonti e la loro trasformazione in un formato utilizzabile costituiscono una parte significativa del lavoro iniziale nel machine learning. I dataset (prima di essere utilizzati per l'addestramento) devono essere:
-	* puliti
-	* normalizzati
-	* pre-processati
-2. **Addestramento del Modello:** Per determinare se il nostro algoritmo di apprendimento automatico non solo si comporta bene sul set di addestramento, ma esegue generalizzazioni corrette sui nuovi dati, potremmo voler suddividere in modo casuale il dataset in due set distinti: [[Train set e Test set]]. Utilizziamo il set di addestramento per informare e ottimizzare il modello di apprendimento automatico, mentre teniamo da parte fino all’ultimo il set di test, per valutare il modello finale. 
-3. **Validazione e Ottimizzazione:** Dopo l'addestramento, è necessario ==validare il modello su un set di dati separato (set di validazione)== per valutare le prestazioni e ottimizzare i parametri del modello. Il dataset di validazione è essenziale per evitare l'[[Overfitting]].
-4. **Valutazione e Test Finale:** Dopo la fase di addestramento e validazione, il modello viene testato sul set di test indipendente per valutare le prestazioni reali. Questo offre una misura oggettiva delle capacità del modello.
-5. **Deployment in Produzione:** Una volta che il modello è stato addestrato e testato con successo, può essere distribuito in produzione per compiere previsioni o decisioni automatizzate.
-
 ## Pandas
 [[Pandas]] è la libreria fondamentale per Python per l'analisi di dati e quindi l'esplorazione dei dataset.
 

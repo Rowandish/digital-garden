@@ -19,10 +19,6 @@ Nonostante l'[[adattamento edonistico]] e l'[[effetto Diderot]] influenzino temp
 
 Mi interesso di tecniche per migliorare il rapporto con gli altri e l'autostima, come l'[[eye gazing]].
 
-### Consapevolezza
-
-L'obiettivo è vivere nel [[qui e ora]], apprezzando il momento presente senza preoccuparsi del passato o del futuro. Questa consapevolezza si unisce al [[memento mori]], ricordandoci la transitorietà della vita e l'inevitabilità della morte. Nonostante questa consapevolezza, cerchiamo di vivere pienamente ogni istante, apprezzando il tempo concesso e la vita stessa.
-
 ### Altro
 
 * [[legge dell'attrazione]]

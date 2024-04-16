@@ -2,7 +2,7 @@
 tags:
   - MachineLearning
 ---
-Un modo alternativo per ridurre la complessità del modello ed evitare il problema dell’[[overfitting]] è la riduzione della dimensionalità tramite la selezione delle caratteristiche, tecnica particolarmente utile per i modelli non [[L1 - L2 regularization|regolarizzati]].
+Un modo alternativo per ridurre la complessità del modello ed evitare il problema dell’[[overfitting]] è la riduzione della dimensionalità tramite la selezione delle caratteristiche, tecnica particolarmente utile per i modelli non [[Regolarizzazione|regolarizzati]].
 Vi sono due categorie principali di tecniche per la riduzione della dimensionalità: selezione della caratteristica ed estrazione della caratteristica. 
 
 ## Selezione della caratteristica

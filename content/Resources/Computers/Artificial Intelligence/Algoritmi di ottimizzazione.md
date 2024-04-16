@@ -3,7 +3,7 @@ tags:
   - DeepLearning
 ---
 Gli algoritmi di ottimizzazione svolgono un ruolo cruciale nel trovare i parametri ottimali di un modello, ==con l'obiettivo aggiornare i parametri del modello rappresentati da $W$ (pesi) e $b$ (bias) al fine di ridurre al minimo una funzione di perdita che misura la discrepanza tra le previsioni del modello e i dati reali==.
-Ad ogni iterazione della rete ([[Epoche|epoca]]) viene chiamato l'algoritmo in questione al fine di aggiustare i pesi e convergere al minimo della loss function.
+A partire da dei pesi assegnati casuialmente, ad ogni iterazione della rete ([[Epoche|epoca]]) viene chiamato l'algoritmo in questione al fine di aggiustare i pesi e convergere al minimo della loss function.
 ![[Pasted image 20231025115405.png|200]]![[Pasted image 20231025115427.png|200]]![[Pasted image 20231025115451.png|200]]
 
 Gli algoritmi di ottimizzazione possono essere suddivisi in diverse categorie, ognuna con le proprie caratteristiche e applicazioni. Le categorie principali includono:
@@ -43,6 +43,7 @@ Questo algorimo esegue il gradient descent su un numero determinato di esempi di
 ![[Pasted image 20240202154215.png]]
 Questo è l'algoritmo migliore. I valori consigliati di batch size sono 32, 64, 128, 256 e 512.
 
+Per approfondire vedi la pagina [[Batch size]].
 ## Altri
 
 1. **Ottimizzazione basata su gradiente con momenti**: Questi algoritmi introducono momenti o impulsi nella discesa del gradiente, consentendo un addestramento più veloce e stabile. Ad esempio, l'algoritmo del momento (Momentum) e l'ottimizzatore di Adam sono molto popolari.

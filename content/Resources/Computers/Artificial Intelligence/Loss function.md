@@ -20,7 +20,7 @@ Dove:
 Nel machine learning, l'MSE è ampiamente utilizzato come ==funzione di costo per la regressione, dove l'obiettivo è predire un valore continuo==, come ad esempio prevedere il prezzo di una casa basandosi su diverse caratteristiche.
 L'obiettivo dell'addestramento di un modello di regressione è quello di minimizzare l'MSE, ovvero ridurre l'errore quadratico medio tra le previsioni del modello e i dati effettivi.
 
-Ecco un esempio di utilizzo di [[Keras]] per addestrare un modello di regressione utilizzando l'errore quadratico medio come funzione di costo:
+Ecco un esempio di utilizzo di Keras per addestrare un modello di regressione utilizzando l'errore quadratico medio come funzione di costo:
 
 ```python
 from keras.models import Sequential

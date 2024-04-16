@@ -17,47 +17,9 @@ Pandas offre diverse caratteristiche che la rendono una libreria indispensabile 
 5. **Gestione di Dati Mancanti:** La libreria offre strumenti avanzati per la gestione dei dati mancanti, consentendo di riempire, rimuovere o sostituire i valori mancanti in modo efficace.
 6. **Integrazione con NumPy:** Pandas è integrato con NumPy, un'altra libreria fondamentale per l'analisi dei dati in Python. Ciò significa che è possibile utilizzare le funzionalità di NumPy all'interno di Pandas.
 
-## Installazione
 
-Pandas può essere installato facilmente utilizzando PIP, il gestore di pacchetti Python. Ecco come farlo:
 
-```bash
-pip install pandas
-```
-
-Dopo l'installazione, è possibile importare Pandas nel proprio codice Python utilizzando il seguente comando:
-
-```python
-import pandas as pd
-```
-
-## Series e DataFrame
-
-Un concetto fondamentale in Pandas è la differenza tra `Series` e `DataFrame`.
-Entrambi sono strutture dati fondamentali per l'analisi dei dati in Pandas, ma differiscono per la loro dimensionalità e utilizzo.
-
-### Series
-Una `Serie` in Pandas è una ==struttura dati unidimensionale che può contenere dati di qualsiasi tipo ma omogenei==, tra cui numeri interi, float, stringhe, oggetti complessi e altro. Come fosse un array di un linguaggio fortemente tipizzato.
-Ogni elemento in una Serie è associato a un'etichetta o un indice.
-Gli indici possono essere etichette personalizzate o interi predefiniti che iniziano da zero.
-Ecco alcune caratteristiche principali delle `Serie`:
-
-1. **Dati Omogenei:** Le Serie contengono dati omogenei, il che significa che tutti gli elementi devono essere dello stesso tipo di dati.
-2. **Etichette degli Indici:** Ogni elemento della Serie ha un'etichetta di indice che consente di accedere a un elemento specifico.
-3. **Operazioni Vettoriali:** Le operazioni su Serie in Pandas sono in genere vettoriali, il che significa che è possibile eseguire operazioni su tutta la Serie in modo efficiente.
-4. **Utilizzo:** Le Serie sono utilizzate per rappresentare una singola colonna di dati e sono spesso utilizzate in contesti in cui è necessario lavorare con una singola dimensione di dati, ad esempio le altezze di una lista di persone.
-
-Ecco come creare una Serie in Pandas:
-
-```python
-import pandas as pd
-
-# Creazione di una Serie
-serie = pd.Series([10, 20, 30, 40, 50])
-print(serie)
-```
-
-### `DataFrame`
+## DataFrame
 
 Un ==`DataFrame` è una struttura dati bidimensionale simile a una tabella o uno spreadsheet. È composto da righe e colonne, e ogni colonna può contenere dati di tipo diverso==.
 Un `DataFrame` è fondamentalmente una raccolta di `Serie`, dove ogni colonna rappresenta una Serie. Ecco alcune caratteristiche principali dei `DataFrame`:
@@ -73,26 +35,79 @@ Ecco come creare un DataFrame in Pandas:
 import pandas as pd
 
 # Creazione di un DataFrame da un dizionario
-data = {'Nome': ['Alice', 'Bob', 'Charlie', 'David', 'Eva'],
-        'Età': [25, 30, 35, 40, 45]}
-df = pd.DataFrame(data)
+df = pd.DataFrame({'Yes': [50, 21], 'No': [131, 2]})
 print(df)
 ```
 
 I `DataFrame` offrono una flessibilità incredibile nella gestione e nell'analisi dei dati: è possibile eseguire una vasta gamma di operazioni, tra cui filtraggio, selezione, raggruppamento, aggregazione, calcolo di statistiche, operazioni di join e molto altro.
 
+#### `read_csv`
+L'operazione più comune per creare un dataframe è tramite un csv tramite il comando `read_csv`
+```python
+wine_reviews = pd.read_csv("../input/wine-reviews/winemag-data-130k-v2.csv")
+```
+Qualora il csv contenga già una colonna per l'indice, per esempio un csv di una tabella compresa la colonna `id` possiamo utilizzare il parametro `index_col` per esplicitare la colonna contenente tale indice
+```python
+wine_reviews = pd.read_csv("../input/wine-reviews/winemag-data-130k-v2.csv", index_col=0)
+```
+
+#### Informazioni sul dataframe
+* `shape`: permette di sapere numero di righe e colonne
+* `describe`: offre panoramica dei dati, quindi, per ogni colonna, il numero di elementi, la media, la std e il numero di elementi al 25, 50 e 75 percentile, oltre che al numero più alto.
+
+
+### Indexing
+
+#### Index based
+
+Pandas permette di selezionare un dati a partire dalla loro posizione all'intero del dataframe usando la funzione `iloc` utilizzando l'indice di dove si trova il dato che mi serve.
+Attenzione che la notazione è prima la riga e successivamente la colonna e non il contrario come avviene in python classico.
+Alcuni esempi:
+* Ottenere la prima riga: `data.iloc[0]`
+* Ottenere la prima colonna: `data.iloc[:, 0]`
+* Ottieni le prime 3 righe della prima colonna: `data.iloc[:3, 0]`
+* Ottieni le ultime 5 righe della prima colonna: `data.iloc[-5:, 0]`
+* Ottieni la seconda e la terza riga della prima colonna: `data.iloc[1:3, 0]`
+
+`iloc` utilizza lo schema di indicizzazione stdlib di Python, in cui il primo elemento dell'intervallo è incluso e l'ultimo escluso. Quindi `0:10` selezionerà le voci `0,...,9`.
+
+#### Label based
+
+Pandas permette di selezionare un dati a partire dalla loro posizione all'intero del dataframe usando la funzione `loc` utilizzando la label di dove si trova il dato che mi serve.
+Per esempio se voglio ottenere il contenuto della cella della colonna `country` della prima riga di un dataframe scrivo `reviews.loc[0, 'country']`.
+Dato che spesso i dataset hanno label spesso è più comodo usare il metodo `loc`, per esempio qui seleziono solo un sottoinsieme di colonne identificate da un name: `reviews.loc[:, ['taster_name', 'taster_twitter_handle', 'points']]
+
+`loc`, indicizza in modo inclusivo a differenza di `iloc`. Quindi `0:10` selezionerà le voci `0,...,10.
+
+`loc` può essere usata anche insieme a dei filtraggi, per esempio per sapere tutti i vini italiani con punteggio maggiore di 90 posso fare `reviews.loc[(reviews.country == 'Italy') & (reviews.points >= 90)]`.
+Posso usare anche il metodo `isin` per scrivere un filtraggio in OR, per esempio questo comando fornisce tutti i vini italiani o francesi `reviews.loc[reviews.country.isin(['Italy', 'France'])]`.
+
+
 ### Operazioni Comuni
 
 Ecco alcune delle operazioni comuni eseguite su `Serie` e `DataFrame` in Pandas:
 
-**Selezione di Colonne:**
-
+#### Selezione di una colonna
+Una delle operazioni più comuni  è la selezione di una colonna, per esempio se voglio selezionare la colonna su cui voglio fare le predizioni.
+Esistono due notazioni per selezionare una colonna
 ```python
-# Selezione di una colonna in un DataFrame
-colonna = df['Nome']
+# Standard notation
+colonna = df["Nome"]
+# Dot notation
+colonna = df.Nome
+```
+e la più moderna è sicuramente la dot-notation.
+#### Selezione di una serie di colonne
+Qualora voglia considerare solo un sottoinsieme delle colonna del dataframe di partenza posso definire il sottoinsieme come una array di stringhe di nomi e poi usare la seguente sintassi:
+```python
+melbourne_features = ['Rooms', 'Bathroom', 'Landsize', 'Lattitude', 'Longtitude']
+# X contiene solo le colonne definite sopra
+X = melbourne_data[melbourne_features]
+```
 
-# Selezione di una colonna in una Serie
-elemento = serie[2]
+#### Primi n dati
+```python
+primi_5_record = df.head(5)
 ```
 
 **Filtraggio dei Dati:**
@@ -126,48 +141,47 @@ media_età_per_nome = df.groupby('Nome')['Età'].mean()
 **Unione di DataFrame:**
 
 ```python
-# Unione di due DataFrame per colonne
+# Concat (semplice)
+canadian_youtube = pd.read_csv("../input/youtube-new/CAvideos.csv")
+british_youtube = pd.read_csv("../input/youtube-new/GBvideos.csv")
+pd.concat([canadian_youtube, british_youtube])
+
+# Join (medio): combina dataframe che hanno un index in comune. Permette di aggiungere suffissi per le colonne comuni
+
+left = canadian_youtube.set_index(['title', 'trending_date'])
+right = british_youtube.set_index(['title', 'trending_date'])
+
+left.join(right, lsuffix='_CAN', rsuffix='_UK')
+
+# Merge (complesso)
 df1 = pd.DataFrame({'Chiave': ['A', 'B'], 'Valore1': [1, 2]})
 df2 = pd.DataFrame({'Chiave': ['B', 'C'], 'Valore2': [3, 4]})
 risultato = pd.merge(df1, df2, on='Chiave')
 ```
 
-## Lettura e Scrittura di Dati
 
-Pandas semplifica la lettura e la scrittura di dati da e verso vari formati. Ecco come è possibile importare un file CSV in un DataFrame:
+## Series
+Una `Serie` in Pandas è una ==struttura dati unidimensionale che può contenere dati di qualsiasi tipo ma omogenei==, tra cui numeri interi, float, stringhe, oggetti complessi e altro. Come fosse un array di un linguaggio fortemente tipizzato.
+Ogni elemento in una Serie è associato a un'etichetta o un indice.
+Gli indici possono essere etichette personalizzate o interi predefiniti che iniziano da zero.
+Ecco alcune caratteristiche principali delle `Serie`:
+
+1. **Dati Omogenei:** Le Serie contengono dati omogenei, il che significa che tutti gli elementi devono essere dello stesso tipo di dati.
+2. **Etichette degli Indici:** Ogni elemento della Serie ha un'etichetta di indice che consente di accedere a un elemento specifico.
+3. **Operazioni Vettoriali:** Le operazioni su Serie in Pandas sono in genere vettoriali, il che significa che è possibile eseguire operazioni su tutta la Serie in modo efficiente.
+4. **Utilizzo:** Le Serie sono utilizzate per rappresentare una singola colonna di dati e sono spesso utilizzate in contesti in cui è necessario lavorare con una singola dimensione di dati, ad esempio le altezze di una lista di persone.
+
+Ecco come creare una Serie in Pandas:
 
 ```python
-df = pd.read_csv('dati.csv')
+import pandas as pd
+
+# Creazione di una Serie
+serie = pd.Series([10, 20, 30, 40, 50])
+print(serie)
 ```
 
-Ecco come è possibile esportare un DataFrame in un file CSV:
 
-```python
-df.to_csv('dati_salvati.csv', index=False)
-```
-
-## Selezione e Indicizzazione
-
-Pandas offre molteplici opzioni per selezionare e indicizzare dati in un `DataFrame` o in una Serie.
-Ad esempio, è possibile selezionare colonne specifiche utilizzando il nome della colonna:
-
-```python
-nome_colonna = df['Nome']
-```
-
-Questa operazione è possibile in quanto pandas legge automaticamente la prima riga del csv e associa le varie colonne con il nome della colonna letta da csv.
-Qualora il CSV non abbia la prima riga che definisce le colonne oppure vogliamo definirne dei nomi diversi possiamo fare in questo modo
-
-```python
-```python
-df = pd.read_csv("tuofile.csv", header=None, names=["NomeColonna1", "NomeColonna2", "NomeColonna3"])
-```
-
-È possibile selezionare righe specifiche utilizzando l'indicizzazione:
-
-```python
-riga = df.iloc[2]  # Seleziona la terza riga
-```
 
 ## Operazioni
 
@@ -270,51 +284,17 @@ df = df.drop(['B', 'C'], axis=1)
 print(df)
 ```
 
-### [[Gestire dati mancanti con Pandas]]
-## Esempi
-
-Ecco alcuni esempi di analisi dati tipici utilizzando Pandas:
-
-**Calcolo delle Statistiche di Base:**
+#### Calcolo delle Statistiche di Base
 
 ```python
 media_età = df['Età'].mean()
 massima_età = df['Età'].max()
 minima_età = df['Età'].min()
-```
-
-**Visualizzazione dei Primi N Record:**
-
-```python
-primi_5_record = df.head(5)
-```
-
-**Conta delle Occorrenze:**
-
-```python
 conteggio_nomi = df['Nome'].value_counts()
 ```
 
-**Concatenazione di DataFrames:**
-
+#### Lettura e scrittura
 ```python
-df1 = pd.DataFrame({'A': ['A0', 'A1', 'A2'], 'B': ['B0', 'B1', 'B2']})
-df2 = pd.DataFrame({'A': ['A3', 'A4', 'A5'], 'B': ['B3', 'B4', 'B5']})
-risultato = pd.concat([df1, df2])
-```
-
-**Fusione di DataFrames:**
-
-```python
-df1 = pd.DataFrame({'chiave': ['A', 'B', 'C'], 'valore1': [1, 2, 3]})
-df2 = pd.DataFrame({'chiave': ['B', 'C', 'D'], 'valore2': [4, 5
-
-, 6]})
-risultato = pd.merge(df1, df2, on='chiave')
-```
-
-**Estrazione di Statistiche Descrittive:**
-
-```python
-statistiche_descrittive = df.describe()
+df = pd.read_csv('dati.csv')
+df.to_csv('dati_salvati.csv', index=False)
 ```

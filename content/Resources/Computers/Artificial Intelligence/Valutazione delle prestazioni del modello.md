@@ -19,41 +19,44 @@ Bias e varianza sono due concetti agli opposti in quanto per migliorare il primo
 ==L'obiettivo è trovare quindi un equilibrio dove il modello ha una complessità sufficiente da catturare le relazioni importanti nei dati (riducendo il bias) senza essere troppo sensibile alle fluttuazioni casuali nei dati di addestramento (riducendo la varianza)==.
 Un modello con un buon equilibrio tra bias e varianza avrà prestazioni ottimali sui dati di test, garantendo una buona capacità di generalizzazione su nuovi dati non visti.
 
+![[Pasted image 20240402103005.png]]
+
 #### Bias
 
-Il bias, la discrepanza, misura quanto distanti sono le previsioni rispetto ai valori corretti in generale, se ricostruiamo il modello più volte su dataset di addestramento differenti; il bias misura l’errore sistematico che non è legato alla casualità.
+Il bias, la discrepanza, misura quanto distanti sono le previsioni rispetto ai valori corretti in generale, se ricostruiamo il modello più volte su dataset di addestramento differenti; il bias misura ==l’errore sistematico che non è legato alla casualità==.
 Un modello con alto bias potrebbe non essere abbastanza complesso da catturare la complessità dei dati (underfitting), portando a una sottostima o una sovrastima sistematica delle previsioni rispetto alla realtà.
 Ridurre il bias di un modello implica aumentare la sua complessità, consentendo al modello di apprendere più dettagli dai dati di addestramento.
 
 #### Varianza 
 
-La varianza misura la sensibilità del modello alle fluttuazioni nei dati di addestramento. Indica quanto il modello è sensibile alle piccole variazioni nei dati di addestramento.
+La varianza misura la sensibilità del modello alla casualità nei dati di addestramento, in particolare la variazione nelle predizioni utilizzando diverse parti del dataset.
 Un modello con alta varianza è troppo complesso e tende ad adattarsi eccessivamente ai dettagli del set di addestramento, perdendo la capacità di generalizzare bene ai dati di test ([[Overfitting]]).
 Ridurre la varianza del modello implica ridurne la complessità, limitando la sua capacità di adattarsi troppo ai dati di addestramento.
 
-### Prestazioni rispetto ai dati di test
+### Prestazioni sui dati di test
 
-#### Errore
+#### Classificazione
+##### Errore
 
 L'errore è la percentuale di predizioni errate fatte dal modello.
 
-#### Accuratezza
+##### Accuratezza
 
 L'accuratezza è la percentuale di predizioni corrette fatte dal modello, quindi la proporzione tra le istanze classificate correttamente e quelle classificate in modo errato.
-#### Precisione
+##### Precisione
 
 La precisione è una misura della precisione del modello quando fa una predizione positiva. 
 Misura quindi ==la proporzione di predizioni positive corrette rispetto a tutte le predizioni positive fatte dal modello==.
 
-#### Recall
+##### Recall
 
 Il richiamo, o recall, è una misura della sensibilità del modello: misura la proporzione di predizioni positive corrette rispetto a tutte le istanze effettivamente positive nel dataset
 
-#### F1-score
+##### F1-score
 
 L'F1-score è una misura che tiene conto sia della precisione che del recall. È la media ponderata tra precisione e richiamo e fornisce una singola misura del bilanciamento tra precisione e recall.
 
-#### Esempio
+##### Esempio
 
 Supponiamo di avere un dataset di 1000 mail di cui vogliamo fare una classificazione binaria tra spam e non spam. Assumo una classificazione come vera positiva se è stata rilevata come spam e la mail era effettivamente spam.
 
@@ -100,6 +103,13 @@ $$
 Quindi, l'accuratezza del modello è del 95%.
 
 
+
+
+#### Regressione
+
+##### Mean Absolute Error
+
+La MAE (Mean Absolute Error) è una misura della discrepanza media tra le previsioni di un modello e i valori osservati nei dati di test. Calcola la media delle differenze assolute tra le previsioni e i valori reali, senza considerare la direzione degli errori.
 
 ## Algoritmi di valutazione delle prestazioni
 ### Convalida incrociata holdout
@@ -166,21 +176,27 @@ Può fornire migliori stime di bias e varianza, specialmente nei casi di proporz
 
 ### Curve di apprendimento
 
-Talvolta basta raccogliere più campioni di addestramento per ridurre il grado di overfitting. Tuttavia, all’atto pratico, spesso può essere molto costoso o addirittura impossibile raccogliere ulteriori dati. Tracciando la precisione di addestramento e convalida del modello come funzioni delle dimensioni del set di addestramento, possiamo individuare con maggiore facilità se il modello soffre di elevata varianza o elevato bias e se la raccolta di ulteriori dati possa aiutare a risolvere questo problema
+Talvolta basta raccogliere più campioni di addestramento per ridurre il grado di overfitting.
+Tuttavia, all’atto pratico, spesso può essere molto costoso o addirittura impossibile raccogliere ulteriori dati.
+Tracciando la precisione di addestramento e convalida del modello come funzioni delle dimensioni del set di addestramento, possiamo individuare con maggiore facilità se il modello soffre di elevata varianza o elevato bias e se la raccolta di ulteriori dati possa aiutare a risolvere questo problema
 
 ![[00422.jpeg]]
 
 #### Elevato bias
 
 Il grafico in alto a sinistra mostra un modello con elevato bias.
-Questo modello ha una scarsa accuratezza sia di addestramento sia di convalida incrociata: in pratica ha ha problemi di underfit sui dati di addestramento.
+Questo modello ha una scarsa accuratezza sia di addestramento sia di convalida incrociata (underfitting).
 ==Per risolvere questo problema, in genere si aumenta il numero di parametri del modello, per esempio raccogliendo o costruendo ulteriori caratteristiche e riducendo il grado di regolarizzazione==, per esempio nei classificatori SVM o a regressione logistica.
 
 #### Elevata varianza
 
 Il grafico in alto a destra mostra un modello che soffre di elevata varianza, il che è indicato dalla distanza troppo ampia fra l’accuratezza di addestramento e l’accuratezza di convalida incrociata.
-Per risolvere questo problema ([[overfitting]]), possiamo raccogliere più dati di addestramento oppure ridurre la complessità del modello, per esempio aumentando le dimensioni del parametro di regolarizzazione; per i modelli non regolarizzati, può essere utile anche ridurre il numero delle caratteristiche, tramite la loro selezione o la loro estrazione.
-Dobbiamo notare che la raccolta di una maggiore quantità di dati di addestramento riduce le probabilità di un overfitting. Tuttavia, non sempre questo potrebbe essere utile, per esempio quando i dati di addestramento sono estremamente rumorosi o il modello è già piuttosto vicino a quello ottimale.
+Questo è il problema dell'[[Overfitting]] e le tecniche per risolverlo sono discusse in tale pagina.
+
+#### Esempio
+Per esempio nella creazione di un [[Decision tree]] maggiore è la profondità dell'albero maggiore sarà l'aderenza di questo ultimo ai dati del modello, portando quindi a overfit. Se invece la profondità è troppo ridotta il sistema non funzionerà nemmeno con i dati del training, causando overfit.
+Quello che voglio è trovare il minimo nella curva di validazione come si vede dalla figura sotto.
+![[AXSEOfI.png]]
 
 ### Curve di convalida
 

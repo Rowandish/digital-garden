@@ -4,12 +4,10 @@ tags:
   - CreationalDesignPattern
   - PublishedPosts
 ---
-
-
 ## Introduzione
 
-Il design pattern Builder, come tutti i pattern creazionali, **separa la costruzione di un oggetto complesso dalla sua rappresentazione** cosicché il processo di costruzione stesso possa creare diverse rappresentazioni.
-In particolare questo pattern è utilizzato **quando l'oggetto deve essere creato mediante vari step ed è il builder che mantiene lo stato di tutti gli step**.
+Il design pattern Builder, come tutti i pattern creazionali, ==separa la costruzione di un oggetto complesso dalla sua rappresentazione== cosicché il processo di costruzione stesso possa creare diverse rappresentazioni.
+In particolare questo pattern è utilizzato ==quando l'oggetto deve essere creato mediante vari step ed è il builder che mantiene lo stato di tutti gli step==.
 Alla fine della creazione l'oggetto viene ritornato.
 Il pattern builder si può riconoscere in una classe che ha un solo metodo di creazione e vari metodi per configurare l'oggetto creato.
 Un'esempio classico è la classe `StringBuilder`, che permette di costruire una stringa mediante vari step e fornirla solo alla fine.

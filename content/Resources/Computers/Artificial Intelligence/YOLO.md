@@ -7,7 +7,7 @@ A rete YOLO (You Only Look Once) è un **algoritmo di rilevamento degli oggetti 
 
 YOLO utilizza una singola [[Rete neurale convoluzionale]] per **trovare le posizioni degli oggetti in un'immagine e classificarli contemporaneamente**. Ciò significa che l'algoritmo può ==individuare più oggetti in una sola volta==, senza la necessità di eseguire il processo più volte come avviene con altre tecniche.
 
-Il funzionamento della rete YOLO si basa su due componenti principali: la prima è la suddivisione dell'immagine in una griglia regolare, mentre la seconda consiste nella previsione delle caselle contenenti gli oggetti e delle relative etichette.
+Il funzionamento della rete YOLO si basa su due componenti principali: la prima è la suddivisione dell'immagine in una griglia regolare, mentre la seconda consiste nella previsione dei [[Bounding box]] contenenti gli oggetti e delle relative etichette.
 
 In pratica, **l'algoritmo divide l'immagine in celle rettangolari sovrapposte tra loro; ogni cella viene poi analizzata per determinare se contiene o meno un oggetto e quale sia la sua classe** (ad esempio persona, cane o macchina). Questo viene fatto attraverso l'utilizzo di filtri convoluzionali che scansionano ogni cella dell'immagine per identificare i tratti distintivi dei vari tipi di oggetti.
 

@@ -4,8 +4,6 @@ tags:
   - SOLID
   - PublishedPosts
 ---
-
-
 L'Interface Segregation Principle (ISP) è uno dei cinque principi fondamentali del paradigma SOLID per la programmazione orientata agli oggetti.
 L'ISP si concentra sulla struttura e l'organizzazione delle interfacce all'interno di un'applicazione, ==promuovendo l'uso di interfacce più piccole e specifiche invece di interfacce grandi e generiche==.
 

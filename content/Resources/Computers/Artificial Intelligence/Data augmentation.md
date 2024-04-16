@@ -18,4 +18,4 @@ Ci sono diverse tecniche implementative per la data augmentation:
 
 Inoltre è possibile combinare queste tecniche assieme oppure creandone delle proprie personalizzate.
 
-L'applicazione della data augmentation può essere fatta sia durante la fase di preprocessing dei dati che on-the-fly durante il training stesso attraverso librerie apposite come [[Keras]] `ImageDataGenerator` o [[PyTorch]] `torchvision.transforms` eccetera
+L'applicazione della data augmentation può essere fatta sia durante la fase di preprocessing dei dati che on-the-fly durante il training stesso attraverso librerie apposite come Keras `ImageDataGenerator` o PyTorch `torchvision.transforms` eccetera

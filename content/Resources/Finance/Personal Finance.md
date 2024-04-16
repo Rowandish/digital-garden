@@ -101,14 +101,14 @@ Di seguito tutte le tasse che bisogna conoscere quando si parla di strumenti fin
 3. **Redditi diversi:** queste sono le plusvalenze e minusvalenze. Se il ricavo meno il costo è positivo ho una plusvalenza altrimenti una minusvalenza.  Le plusvalenze sono tassate al 26%, ma possono essere ridotte utilizzando le minusvalenze generate da vendite in perdita. Le plusvalenze sono compensabili dalle minus anche se sono prodotti diversi, per esempio potrei usare una obbligazione per compensare una minusvalenza di un'azione e così via. Le minusvalenze sono certificabili, nel senso che se trasferisco i miei titoli da un broker all'altro posso portarmi dietro anche le minusvalenze. Attenzione che il rendimento delle obbligazioni Zero Coupon (anche se dovrebbe intuitivamente) in quanto per la tassazione di obbligazioni che non sono state emesse a 100 viene effettuato un calcolo ad hoc estremamente complicato, compensare le minus con obbligazioni invece funziona se queste sono state emesse a 100. Se per esempio ho una ZC emessa a 90 che ora quota 95 non posso usarla per compensare, se invece ho un'obbligazione normale emessa a 100 che ora quota 95 posso usarla per compensare.
 5. **Tassazione su ETF**: Gli ETF (solo ETF, non ETC, ETP, ETN) venduti in guadagno sono soggetti a tassazione come reddito da capitale (26%), mentre se venduti in perdita generano minusvalenze. Quindi le plusvalenze di ETF non compensano mai nulla. Se voglio quindi compensare delle minus sono purtroppo costretto a comprare azioni singole o ERC/ETN.
 
-#### Compensare le minusvalenze 
+### Compensare le minusvalenze 
 
 In questo momento in Italia ci sono 3 modi per compensare le minusvalenze:
 * compare azioni singole/ETC/ETN e sperare che salgano
 * comprare certificati (anche le cedole dei certificati compensano) 
 * comprare obbligazioni comprandole sotto 100 ma emesse a 100.
 
-#### Zainetto fiscale
+### Zainetto fiscale
 L'ammontare delle minusvalenze è detto Zainetto Fiscale e queste ultime possono essere utilizzate entro 4 anni dalla loro generazione (su Directa si trovano in Conto -> Zainetto Fiscale -> Minusvalenze accumulate).
 Lo zainetto fiscale non si aggiorna istantaneamente ma dopo 2 giorni lavorativi a mercati chiusi.
 ### Regimi di Tassazione in Italia
@@ -117,6 +117,12 @@ Esistono tre regimi principali:
    - **Regime di Risparmio Gestito:** Adatto a chi delegha completamente la gestione del proprio patrimonio.
    - **Regime Dichiarativo:** L'investitore gestisce personalmente il pagamento delle tasse attraverso la dichiarazione dei redditi.
 
+### Successione
+Tutte le cose che generano redditi da capitale (fondi, ETF, obbligazioni zero coupon per una certa quota) vengono trasmesse agli eredi aggiornando il prezzo di carico alla data della successione:
+* Se ho una minusvalenza, quindi il prezzo odierno è minore del prezzo medio di carico tale minusvalenza viene persa
+* Se ho una plusvalenza, quindi il prezzo odierno è maggiore del prezzo medio di carico questo ultimo viene aggiornato ma **gli eredi devono pagare il 26% della plusvalenza**, quindi come se l'asset fosse stato venduto e ricomprato subito dopo dagli eredi.
+Per gli strumenti che invece generano reddito diverso (azioni, ETP, ETN, ETC, obbligazioni non ZC...) il prezzo medio di carico viene comunque spostato alla data del decesso come sopra ma **non devo pagare alcuna tassa sulla plusvalenza**.
+Quindi potrebbe essere il caso addirittura di acquistare azioni singole e non ETF se si è avanti con l'età.
 ## Concetti utili
 ### La borsa
 La borsa è un luogo, fisico o virtuale, dove vengono scambiati titoli finanziari come azioni, obbligazioni e altri tipi di asset.

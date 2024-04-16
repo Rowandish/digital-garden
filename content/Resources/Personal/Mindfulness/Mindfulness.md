@@ -1,0 +1,3 @@
+L'obiettivo è vivere nel [[Qui e ora]], apprezzando il momento presente senza preoccuparsi del passato o del futuro. L'indispensabile strumento per migliorare tale consapevolezza è la [[Meditazione]].
+Questa consapevolezza si unisce al [[Memento mori]], ricordandoci la transitorietà della vita e l'inevitabilità della morte.
+Nonostante questa consapevolezza, cerchiamo di vivere pienamente ogni istante, apprezzando il tempo concesso e la vita stessa.

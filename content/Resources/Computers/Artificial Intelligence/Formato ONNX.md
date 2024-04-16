@@ -13,7 +13,7 @@ Questo era particolarmente problematico quando si dovevano utilizzare diversi fr
 
 ONNX risolve questo problema fornendo uno standard aperto per rappresentare modelli di machine learning: ciò significa che è ==possibile creare un modello con un framework, addestrarlo e poi convertirlo in un formato ONNX, rendendolo così facilmente utilizzabile con un altro framework o applicazione che supporti ONNX==. 
 
-Ora esamineremo come è possibile esportare e importare modelli ONNX utilizzando esempi di codice in Python e C#. Per prima cosa, vediamo come esportare un modello ONNX in Python, utilizzando il framework [[PyTorch]] con [[TorchVision]] come esempio.
+Ora esamineremo come è possibile esportare e importare modelli ONNX utilizzando esempi di codice in Python e C#. Per prima cosa, vediamo come esportare un modello ONNX in Python, utilizzando il framework PyTorch con TorchVision come esempio.
 
 **Esportazione di un modello PyTorch in formato ONNX:**
 

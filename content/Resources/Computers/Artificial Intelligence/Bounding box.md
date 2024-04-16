@@ -38,4 +38,4 @@ Ecco alcuni esempi di software:
 3. VGG Image Annotator (VIA): si tratta di uno strumento basato sul web gratuito sviluppato dal Visual Geometry Group dell'Università di Oxford . VIA consente agli utenti di annotare immagini con diverse forme geometriche come poligoni, rettangoli o cerchi ed associarli alle relative label .
 
 Queste applicazioni semplificano notevolmente il processo manuale richiesto dalla fase preliminari alla costruzione del [[GPT Model|modello]] AI , riducendo al minimo gli errori umani nella definizione delle aree d’interesse all’interno dell’immagine stessa.
-Inoltre questi tool offrono anche funzionalità avanzate come l’esportazione dei file creati in formato compatibile con i principali framework deep learning tra cui Tensorflow e [[PyTorch]].
+Inoltre questi tool offrono anche funzionalità avanzate come l’esportazione dei file creati in formato compatibile con i principali framework deep learning tra cui Tensorflow e PyTorch.

@@ -5,8 +5,6 @@ tags:
   - Memory
   - PublishedPosts
 ---
-
-
 ## Introduzione
 
 [SemaphoreSlim](https://docs.microsoft.com/en-us/dotnet/api/system.threading.semaphoreslim?view=net-6.0) è una classe che permette la sincronizzazione di _n_ thread che hanno una risorsa (scarsa) condivisa limitandone l'uso ad un numero massimo.

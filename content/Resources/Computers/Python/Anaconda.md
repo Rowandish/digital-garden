@@ -7,7 +7,6 @@ Anaconda è un ambiente di sviluppo e distribuzione open source ampiamente utili
 Anaconda è una distribuzione Python completa che comprende numerosi pacchetti, librerie e strumenti specificamente progettati per semplificare il lavoro degli scienziati dei dati e degli ingegneri.
 ==L'obiettivo principale di Anaconda è fornire un ambiente unificato in cui gli utenti possono gestire facilmente le dipendenze, condividere progetti e collaborare su applicazioni basate su Python.==
 Anaconda è ampiamente utilizzato nelle scienze dei dati e nell'analisi statistica grazie alla sua inclusione di pacchetti come NumPy, SciPy, pandas e scikit-learn. Questi pacchetti forniscono strumenti essenziali per l'elaborazione e l'analisi dei dati, nonché per la costruzione di modelli di machine learning.
-Inoltre, Anaconda offre un ambiente di sviluppo interattivo tramite [[Jupyter Notebook]], che consente agli utenti di creare documenti interattivi contenenti codice, grafici e testo narrativo.
 
 ## Conda
 

@@ -5,9 +5,11 @@ tags:
 > [!quote] Naval Ravikant
 > quote::“*In ogni dato momento, quando camminiamo per strada, una piccola parte del nostro cervello è focalizzata sul presente. La parte restante sta pianificando il futuro oppure rimpiangendo il passato; questo ci impedisce di avere un’esperienza meravigliosa. Ci impedisce di vedere la bellezza in ogni cosa e di essere grati per dove siamo. Possiamo letteralmente fare a pezzi la felicità se trascorriamo tutto il tempo a vivere nell’illusione di un futuro.*“
 
+> [!quote] Jon Kabat-Zinn
+> quote::“*Quando rinunciamo a desiderare che in un dato momento accada qualcos’altro, la nostra capacità di misurarci col presente compie un grande passo in avanti.*“
+
 Dio voleva che Mosè fosse sulla montagna per godersi il momento. Il che è impossibile quando siamo bloccati in uno stato di pianificazione perenne. O di perenne preoccupazione. O di qualunque cosa perenne. 
 Se ci fermiamo per un momento possiamo apprezzare quel momento. Richiede uno sforzo enorme raggiungere la cima di una montagna, quindi dovremmo fermarci a godercela, anche se solo per un attimo. La pausa è importante quanto l’azione. Senza di essa, stiamo semplicemente scorrendo in fretta un elenco di cose da fare.
-
 
 ### Tempo
 

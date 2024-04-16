@@ -6,7 +6,7 @@ Il gioco non si limita alla scacchiera, ma si estende oltre, stimolando la conce
 È un'arte che mi offre non solo intrattenimento, ma un'opportunità per crescere, imparare e affinare la mia abilità nel pensiero strategico.
 
 ## Meditazione
-Uno dei temi che voglio approfondire nel 2024 è la [[meditazione]].
+Uno dei temi che voglio approfondire nel 2024 è la [[Meditazione]].
 
 ## Burocrazia
 
