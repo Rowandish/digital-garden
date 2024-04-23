@@ -3,31 +3,8 @@ tags:
   - Learning
   - PublishedPosts
 ---
-## Introduzione
-Lo spaced repetition è una tecnica di memorizzazione che consiste di ripassare quanto imparato a intervalli variabili nel tempo in base a quanto si sa tale concetto.
-Questo approccio è l'opposto del "cramming" che consiste nel riempire il cervello di informazioni tutte insieme, magari i giorni prima di un test, per poi dimenticare tutto.
-A quanti di noi è successo di non sapere nulla di un determinato argomento dopo solo pochi mesi da un esame?
-Lo spaced repetition invece permette di memorizzare anche centinaia di migliaia di elementi (utilissimo per imparare lingue straniere per esempio) massimizzando il rapporto tempo/apprendimento puntando a spostare l'informazione dalla memoria a breve a quella a lungo termine.
-
-## Funzionamento
-Assumiamo di avere una parola in inglese da imparare, per esempio *awkward* e abbiamo un numero finito di volte in cui possiamo ripassarla (mettiamo 5).
-La parola sarà imparata davvero se distribuisco i 5 ripassi su un lungo periodo, per esempio settimane o mesi rispetto a utilizzare tutti i 5 ripassi nel giro di un giorno o due.
-Questo perché la [forgetting curve](https://en.wikipedia.org/wiki/Forgetting_curve) è un esponenziale decrescente, un po' come il decadimento di una sostanza radioattiva:
-
-![[forgetting-curve-stahl.jpg]]
-Se viene effettuato il ripasso (in inglese *recall*) dopo pochi giorni questa non serve a molto in quanto l'informazione è ancora nel cervello, la memoria non è deteriorata molto.
-
-Il momento migliore del recall è poco prima che tale informazione sia dimenticata.
-
-Il punto è: come faccio a ricordarmi di ripassare un concetto se me lo sto dimenticando? Posso rivedere solo cose che ho in memoria, e che quindi non le sto dimenticando.
-**La soluzione è delegare un computer nei calcoli di quando farmi fare il recall del concetto.**
-
-Questa è la base di tutti i software di spaced repetition: delegargli il calcolo degli intervalli di tempo crescenti ai quali fornirmi le informazioni da ripassare; all'inizio la recall verrà effettuata frequentemente per fissare il concetto, e poi aumentare a settimane e anche mesi.
-Una volta che l'informazione è passata dalla memoria a breve termine a quella a lungo termine basta una recall occasionale per fissare il concetto.
-
-## Spaced repetition con Obsidian
 [Obsidian](https://obsidian.md/) è un tool fantastico, credo farò altri articoli perchè negli ultimi mesi mi sono veramente innamorato: permette di organizzarsi, imparare, gestire task, fare da CRM, costruirsi una second brain... Guardatelo.
-Tra i vari community plugin disponibili ce ne è [uno dedicato proprio alla spaced repetition](https://github.com/st3v3nmw/obsidian-spaced-repetition) il quale permette di creare degli insiemi (chiamati *deck*) di microconcetti (chiamati *flashcards*) da imparare.
+Tra i vari community plugin disponibili ce ne è [uno](https://github.com/st3v3nmw/obsidian-spaced-repetition)  dedicato alla [[Spaced repetition]] il quale permette di creare degli insiemi (chiamati *deck*) di microconcetti (chiamati *flashcards*) da imparare.
 La review delle cards o dei concetti avviene in modo incrementale in base a quanto conosco il concetto (conosco bene, prossima review lontana, conosco male, prossima review vicina) e quanto tempo fa ho effettuato la precedente review.
 In particolare dopo la review di ogni concetto questo viene marcato come:
 - `Hard`: non ricordo la risposta (prossima recall a breve)

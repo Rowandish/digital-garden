@@ -23,8 +23,6 @@ Sono istituiti da banche o assicurazioni private. In questo caso il contributo d
 
 Sono gestiti solo da assicurazioni e sono sempre e solo individuali. Sono molto costosi ma con capitale spesso assicurato, possono avere senso in prossimità alla pensione per non rischiare di perdere soldi.
 
-
-
 ## Soldi nel fondo
 
 Dentro un fondo pensione possono andare due cose:
@@ -37,11 +35,6 @@ Qualora nei primi 5 anni di lavoro si sia versato meno dei 5164€ nei successiv
 Ogni anno però puoi andare oltre i 5164€ di massimo 2582,29€ quindi in totale fa 7746€.
 Esempio: i primi 5 anni di lavoro ho versato 2k€ all'anno, che in totale fanno 10k€ ma avevo diritto a $5164*4=25820€$. Quindi $25820-10000=15820€$ di "cassetto fiscale". Questi soldi li posso versare nei successivi anni spalmati anno per anno basta che ogni anno non superi i  7746€.
 L'idea è che se all'inizio non guadagni tanto ti danno la possibilità di versarli nel fondo pensione gli anni successivi quando auspicabilmente i redditi sono maggiori.
-
-
-
-
-
 
 ## Costi e rendimenti
 
@@ -129,8 +122,11 @@ Nel fondo pensione c'è una tassazione composta:
 Quindi non è che il montante cresce e dopo 30 anni pago su tutto il 9%, esempio, ma dovrà calcolarne il 9% su quanto ho versato io e il 20% sulle plusvalenze e ottenere così la cifra finale netta.
 ### Anzianità
 
-L'anzianità di ingresso alla previdenza complementare è riferita alla persona e non al singolo conto: quindi che io apra 10 fondi diversi sono tutti legati alla prima data di prima adesione alla previdenza complementare indipendentemente dal fondo. Questo valore è indispensabile per il calcolo della tassazione, maggiore è l'anzianità più le tasse si riducono, dopo 35 anni di iscrizione alla previdenza complementare le tasse sono al 9%.
+L'anzianità di ingresso alla previdenza complementare è riferita alla persona e non al singolo conto: quindi che io apra 10 fondi diversi sono tutti legati alla prima data di prima adesione alla previdenza complementare indipendentemente dal fondo.
+Dal 2024 l'agenzia delle entrate ha fatto una modifica che prevede che la data di adesione alla previdenza complementare si può spostare solo al momento dello spostamento da un fondo ad un altro: quindi se io sono su Allianz e mi trasferisco su Fon.Te, esempio, allora is porta anche la data; mentre se ho entrambi i fondi aperti in parallelo il secondo fondo non avrà la data di adesione di Allianz.
+Questo valore è indispensabile per il calcolo della tassazione, maggiore è l'anzianità più le tasse si riducono, dopo 35 anni di iscrizione alla previdenza complementare le tasse sono al 9%.
 Nel mio caso tale data è: 20/01/2016 con un fondo pensione di Generali (numero COVIP 5095). In data 06/09/2018 ho trasferito il montante ad Allianz Previdenza.
+In data 28/03/2024 ho aperto anche il fondo Fon.Te in parallelo ad Allianz Previdenza.
 
 ### Trasferimento ad un altro fondo pensione
 Il trasferimento del montante ad un altro fondo pensione è possibile dopo 2 anni dalla sottoscrizione del fondo stesso e tipicamente avviene senza costi o quasi.

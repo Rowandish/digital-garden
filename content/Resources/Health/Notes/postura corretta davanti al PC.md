@@ -2,7 +2,7 @@
 tags:
   - Posture
 ---
-La [[postura]] si riferisce alla posizione e all'allineamento del suo corpo, inclusi la collocazione della testa, delle spalle, della schiena e delle gambe mentre è in piedi, seduto o in movimento.
+La postura si riferisce alla posizione e all'allineamento del suo corpo, inclusi la collocazione della testa, delle spalle, della schiena e delle gambe mentre è in piedi, seduto o in movimento.
 
 ## Postura corretta
 ![[Pasted image 20221110113927.png]]

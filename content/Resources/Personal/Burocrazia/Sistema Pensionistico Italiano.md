@@ -23,24 +23,7 @@ Possiamo dividere la pensione in pilastri un po' come avviene in Svizzera:
 Si può andare in pensione secondo due condizioni:
 * **Vecchiaia**: Per accedere alla pensione di vecchiaia è necessario aver raggiunto una certa età (ad oggi intorno ai 67 anni sia maschi che femmine). Questo requisito continua ad aumentare (in teoria in relazione alla speranza di vita, indicativamente ogni 2 anni aumenta di 3 mesi)
 * **Anni di contributi (pensione anticipata)**: la pensione anticipata può essere richiesta prima dell'età pensionabile standard, a patto di avere un numero sufficiente di anni di contributi (ad esempio, 42 anni e 10 mesi per gli uomini e 41 anni e 10 mesi per le donne).
-* **Anticipata contributiva**: si va in pensione a 64 anni invece che 67 qualora si abbia una pensione abbastanza alta (ad oggi 3 volte l'assegno sociale)
-
-## Riscatto laurea
-Il [[Riscatto laurea]] permette, pagando una certa somma all'INPS, di fare in modo come se si avesse lavorato durante gli anni della laurea.
-Questo avviene versando una certa somma all'INPS per ogni anno di laurea, questa andrà sul montante e farà cumulo.
-Attenzione che non è detto che questo porterà ad avere una pensione maggiore: è vero che aumenta il montante ma aumenta anche il numero di anni lavorati, quindi questo montante va a diluirsi di più (non sono sicuro, da approfondire).
-In particolare con il riscatto agevolato (quindi pago 5k€ all'anno per ogni anno di laurea) verso all'INPS meno di quanto avrei versato se fossi stato un normale dipendente, quindi è come se avessi lavorato 5 anni sottopagato, non è quindi nemmeno detto che mi porti ad avere una pensione maggiore (non sono sicuro, da approfondire).
-Riscattare la laurea conviene quindi solo se:
-* Si ha lavorato molto presto (24 anni o prima)
-* Se durante la propria carriera si assume di non avere buchi contributivi (lavorare sempre, nessun periodo sabbatico)
-* Se, dopo aver fatto i calcoli, risulta che questo non va ad abbassarmi la pensione nonostante abbia versato minimo 5k\*5 anni= 25k€.
-### Mio riscatto laurea
-
-Io ho iniziato a lavorare a 25 anni nel 2015, riscattando la laurea è come se avessi iniziato a 20 anni nel 2010.
-L'idea è riuscire ad andare in pensione con l'anticipata, quindi per anni di contributi che per gli uomini sono 42 anni e 10 mesi.
-Quindi 20 anni + 42 e 10 mesi fa 62 anni e 10 mesi che è inferiore a 67 anni.
-Assumendo quindi di non smettere mai di lavorare, e quindi non smettere mai di versare i contributi fino ai 62 anni e 10 mesi il riscatto della laurea mi conviene.
-Se invece, esempio, non verso i contributi per qualche anno (esempio con la RITA o perché smetto di lavorare) raggiungerò dopo i 42 anni di contributi e tali anni mi andranno quindi a "mangiare" i vantaggi del riscatto degli anni di laurea.
+* **Anticipata contributiva**: si va in pensione a 64 anni invece che 67 qualora si abbia una pensione abbastanza alta (ad oggi 3 volte l'assegno sociale), ad oggi 1603€ lordi di pensione (ad oggi corrispondenti a 2500€ lordi di ultimo stipendio).
 
 ## Fattore di conversione e tasso di sostituzione
 

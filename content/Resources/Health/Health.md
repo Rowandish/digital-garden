@@ -12,30 +12,26 @@
 
 ## Mentale
 
-Mi affascinano i [[mental model]], strumenti che aiutano a comprendere la realtà e a evitare giudizi influenzati dai [[bias]].
-Studio le [[abitudine|abitudini]] e come si formano, considerando la [[legge del minimo sforzo]], il [[principio di Premack]] e la [[legge di Yerkes e Dodson]], per evitare di dipendere solo dalla limitata forza di volontà nel tempo. La [[dopamina]] può ingannare offrendo piacere limitato nel tempo, preferisco invece un approccio a lungo termine.
-
-Nonostante l'[[adattamento edonistico]] e l'[[effetto Diderot]] influenzino temporaneamente il benessere e le aspettative, la [[piramide di Maslow]] indica che l'autorealizzazione e la crescita personale sono chiavi per una soddisfazione duratura. Questi concetti riflettono la complessità del benessere psicologico e la ricerca di realizzazioni più profonde per una felicità duratura.
-
-Mi interesso di tecniche per migliorare il rapporto con gli altri e l'autostima, come l'[[eye gazing]].
-
-### Meditazione
-Uno dei temi che voglio approfondire nel 2024 è la [[Meditazione|meditazione]].
-
-### Altro
-
-* [[legge dell'attrazione]]
-* [[legge di Goodhart]]
+* [[Meditazione]]
+* [[mental model|Mental models]]
+* [[bias|Bias]]
+* [[abitudine|Abitudini]]
+* [[Effetto Diderot]]
+* [[Piramide di Maslow]]
+* [[eye gazing|Eye gazing]]
+* [[Legge dell'attrazione]]
 * [[effetto Zeigarnik]]
 
 ## Fisica
 
-Questa sezione offre informazioni utili per la salute e il benessere personale. Il mio lavoro al PC ha influenzato le note sulla [[postura corretta davanti al PC]] e gli esercizi per [[migliorare la postura]], anche seguendo il [[Metodo Egoscue]].
-Troverai anche suggerimenti su come affrontare problematiche come il [[Compulsive Picking Disorder]] e abitudini salutari da adottare, come la [[doccia fredda]], la [[skincare]] e il [[NoSurf]], soprattutto di sera.
-Ho scritto una nota sullo sull'[[immersione totale]] prendendo spunto dal libro 4 hour body di Tim Ferriss.
-
-Per migliorare la condizione fisica, condivido informazioni sul [[digiuno intermittente]], la [[dieta slow carb]] di Tim Ferriss e altre nozioni utili, come la [[Dose Minima Efficace]].
-Questi approcci mirano a ottenere la massima [[ricomposizione]] corporea con il minor sforzo possibile, offrendo strategie pratiche per migliorare la salute generale e il benessere fisico.
+* [[migliorare la postura|Postura]]
+* [[Compulsive Picking Disorder]]
+* [[NoSurf]]
+* [[Skincare]]
+* [[Doccia fredda]]
+* [[Immersione totale]]
+* [[Digiuno intermittente]]
+* [[dieta slow carb]]
 
 ### Hack
 
@@ -54,7 +50,7 @@ Per migliorare il sonno si può usare il metodo del "3,2,1":
 Numerosi studi hanno dimostrato che fare 10000 passi al giorno è fondamentale per ridurre il rischio di numerose malattie e problematiche sul lungo termine.
 Per fare di modo di fare sempre 10000 passi al giorno indipendentemente da tutto si può usare un tapis roulant, comodissimo quello portatile da mettere sotto la standing desk (lui utilizza il [questo](https://www.amazon.it/dp/B09F2QWWB8?keywords=treadmill%20desk%20walking%20pad%20c2&geniuslink=true)).
 
-#### Meditazione
+#### [[Meditazione]]
 Quando nella nostra vita siamo circondati di cose da fare e non riusciamo mai a stare fermi abbiamo sicuramente dei marker dello stress molto alti, anche se non ce ne accorgiamo.
 Numerosi studi hanno dimostrato che meditare porta a numerosi benefici per la salute e riduce notevolmente lo stress.
 

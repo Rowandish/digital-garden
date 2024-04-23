@@ -2,7 +2,7 @@
 tags:
   - Learning
 ---
-ANKI è un software open-source progettato per aiutare gli utenti a memorizzare informazioni attraverso il metodo di [[spaced repetition]]. Questo metodo si basa sull'idea che ==la memoria di lungo termine può essere migliorata attraverso la ripetizione graduale di informazioni nel tempo==.
+ANKI è un software open-source progettato per aiutare gli utenti a memorizzare informazioni attraverso il metodo di [[Spaced repetition]]. Questo metodo si basa sull'idea che ==la memoria di lungo termine può essere migliorata attraverso la ripetizione graduale di informazioni nel tempo==.
 ANKI utilizza un algoritmo che determina quando ripetere specifiche informazioni in base alla facilità con cui l'utente le ricorda.
 Le carte ANKI (chiamate flashcards) sono gli elementi fondamentali del sistema. Ogni ==flashcard contiene una coppia di domanda-risposta o un concetto e il suo significato==.
 ⬆️⬇️⬆️

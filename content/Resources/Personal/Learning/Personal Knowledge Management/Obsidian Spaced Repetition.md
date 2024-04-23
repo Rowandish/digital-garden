@@ -3,7 +3,7 @@ tags:
   - PersonalKnowledgeManagement
   - Learning
 ---
-Questo plugin permette di implementare le tecniche di [[spaced repetition]] per la memorizzazione in Obsidian.
+Questo plugin permette di implementare le tecniche di [[Spaced repetition]] per la memorizzazione in Obsidian.
 L'idea è creare dei deck i quali sono dei contenitori di flashcards. Ogni flashcards è un concetto da memorizzare e di cui deve esserne fatto il recall.
 La review delle cards o dei concetti avviene in modo incrementale in base a quanto conosco il concetto (conosco bene, prossima review lontana, conosco male, prossima review vicina) e quanto tempo fa ho effettuato la precedente review.
 In particolare dopo la review di ogni concetto questo viene marcato come:

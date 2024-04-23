@@ -125,7 +125,7 @@ Questo esercizio avanzato rafforza la muscolatura posteriore e migliora il tono 
 
 ### Esercizio 5: Seduto al Computer
 
-Questo esercizio è perfetto per chi trascorre molto tempo davanti al computer.
+Questo esercizio è perfetto per chi trascorre molto tempo davanti al computer (per approfondire vedi [[postura corretta davanti al PC]]).
 
 1. Siediti con la schiena dritta.
 2. Alza una gamba per cinque secondi e poi cambia.
@@ -135,6 +135,12 @@ Questo esercizio allunga i bicipiti femorali andando poi di conseguenza a miglio
 
 
 ![[Pasted image 20230810155539.png|350]]
+
+## Testa in avanti
+La postura errata con la classica testa in avanti invece che dritta sulla colonna è dovuta ad una rigidità dei muscoli sotto la nuca, sono i muscoli sub occipitali.
+Questi muscoli contratti possono portare mille problemi come cefalee, mal di schiena e così via.
+
+![[Pasted image 20230810155959.png|300]]
 
 ## Metodo Egoscue
 
