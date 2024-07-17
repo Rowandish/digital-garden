@@ -40,6 +40,13 @@ Sei una persona che deve trasformare una trascrizione di un video youtube in un 
 Incorporate the following excerpts from the book XXX, which I've selected based on their relevance and importance, into a summary of the book that also draws on external sources on the web. Please use as many details from the excerpts I've provided as possibile.
 ```
 
+e in italiano
+
+```
+Incorpora i seguenti estratti dal libro "XXX", che ho selezionato in base alla loro rilevanza e importanza, in un riassunto del libro che si avvalga anche di fonti esterne sul web. Per favore, utilizza il maggior numero di dettagli possibile dagli estratti che ho fornito. Fallo molto lungo, almeno 5000 parole includendo la maggior parte degli estratti che ho inviato
+```
+
+
 ## Coding
 
 ### Nunit

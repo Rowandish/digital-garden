@@ -16,7 +16,7 @@ Possiamo dividere la pensione in pilastri un po' come avviene in Svizzera:
 * 2° Pilastro: il [[TFR]] (che hanno solo i dipendenti)
 * 3° Pilastro: i versamenti volontari o del datore di lavoro
 
-==Il secondo è terzo pilastro vanno in un calderone unico chiamato [[Fondi pensione|Fondo pensione]]== regolato dalla legge sui fondi pensione
+Il secondo è terzo pilastro vanno in un calderone unico chiamato [[Fondi pensione|Fondo pensione]] regolato dalla legge sui fondi pensione
 
 ## Età pensionabile
 

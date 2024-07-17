@@ -18,6 +18,9 @@ Posso anche calcolare il valore attuale di una somma che ho ricevuto nel passato
 $$ValoreAttuale = \frac{C}{(1+i)^n}$$
 
 ## Tasso di sconto
+
+^dc9ed7
+
 Il valore di $i$ viene detto *tasso di sconto* ed è un tasso che viene deciso da chi fa i calcoli e indica quanto, per noi, il denaro si valuta ogni anno, quindi quanto sono in grado di far rendere il denaro.
 Se sono una persona che spende tutto quello che guadagna il mio tasso di sconto sarà uguale a 0, se ho startup molto profittevole magari è anche il 10% o più.
 Questo strumento è molto interessante in quanto permette di confrontare valori attuali con valori del passato o del futuro in base al proprio tasso.

@@ -26,6 +26,7 @@ Di seguito una categorizzazione di tutte le note che ho preso negli anni sui var
 ## Tools
 * [[Git]]
 * [[Blender]]
+* [[Excel - Spreadsheet]]
 ## Operating system
 
 * [[Windows]]
@@ -35,7 +36,7 @@ Di seguito una categorizzazione di tutte le note che ho preso negli anni sui var
 * [[Azure]]
 
 ## Container
-* [[Container]]
+* [[Docker]]
 ## Web
 * [[Scss]]
 * [[Elementor]]

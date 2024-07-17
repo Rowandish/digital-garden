@@ -4,11 +4,10 @@ tags:
   - CreationalDesignPattern
   - PublishedPosts
 ---
-
-
 Questo pattern è uno dei pattern creazionali più usati che ha lo scopo di garantire che di una determinata classe venga **creata una e una sola istanza**, e di fornire un punto di accesso globale a tale istanza.
 E' un pattern estremamente semplice nella sua struttura in quanto è formato da una sola classe, che è la classe in questione.
-La classe singleton **ha un unico costruttore privato, in modo da impedire l’istanziazione diretta della classe**. La classe fornisce inoltre un metodo “getter” statico che restituisce una istanza della classe (sempre la stessa), creandola preventivamente o alla prima chiamata del metodo, e memorizzandone il riferimento in un attributo privato anch’esso statico.
+La classe singleton **ha un unico costruttore privato, in modo da impedire l’istanziazione diretta della classe**.
+La classe fornisce inoltre un metodo “getter” statico che restituisce una istanza della classe (sempre la stessa), creandola preventivamente o alla prima chiamata del metodo, e memorizzandone il riferimento in un attributo privato anch’esso statico.
 Ogni linguaggio possiede dei trucchi per poter scrivere una classe singleton, il codice indicato qui (preso da http://www.dofactory.com/net/singleton-design-pattern) è ottimizzato per .NET, utilizzando le feature che lo contraddistinguono.
 
 
@@ -61,3 +60,9 @@ return _instance;
 }
 }
 ```
+
+## Problemi
+Il problema del pattern singleton è che porta a codice non testabile: come faccio a modificare l'istanza in questione nei test se questa e una e immutabile?
+L'utilizzo di tale pattern porta spesso a dei code smell simili a quelli di utilizzare classi statiche o variabili globali.
+La soluzione è utilizzare la DI per iniettare a costruttore delle classi normali ed è nella DI che dichiaro tale classe come singleton o meno.
+In questo modo posso testare la classe che riceve l'oggetto singleton semplicemente modificando la DI con una nuova istanza da costruire.

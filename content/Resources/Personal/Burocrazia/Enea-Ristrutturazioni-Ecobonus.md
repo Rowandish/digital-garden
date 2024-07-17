@@ -25,11 +25,3 @@ Questi interventi possono usufruire di detrazioni dal 50 al 90%.
 ## Fattura e bonifico parlante
 
 Per poter accedere alle detrazioni è necessario: - Fattura indicante quantità e qualità dei beni in questione - Pagamento mediante **bonifico parlante** in cui è indicata numero fattura, causale, partita iva del ricevente, codice fiscale dell’intestatario della fattura e se ristrutturazione o eco bonus (con relativa legge).
-
-### Esempio di bonifico parlante per ristrutturazione edilizia
-
-![[Bonifico_parlante.pdf]]
-
-### Esempio di bonifico parlante per eco bonus
-
-![[bonifico_parlante2.pdf]]

@@ -1,4 +1,4 @@
-Per essere un buon programmatore è per prima cosa seguire i [[principi di buona programmazione]] e, in secondo luogo, conoscere i pattern e i principi SOLID.
+Per essere un buon programmatore è per prima cosa seguire i [[Principi di buona programmazione]] e, in secondo luogo, conoscere i pattern e i principi SOLID.
 
 ## Design Pattern
 I design pattern sono spesso divisi in tre categorie (vedi *Gamma Categorization*)

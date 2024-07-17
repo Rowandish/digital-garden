@@ -20,18 +20,18 @@ Di seguito indichiamo un esempio di un metodo asincrono (come da documentazione)
 // - Il nome del metodo termina con "Async"
 async Task<int> AccessTheWebAsync()
 { 
-// GetStringAsync ritorna un Task<string>. Questo significa che quando il processo sarà terminato, avrò una stringa
-Task<string> getStringTask = new HttpClient().GetStringAsync("http://msdn.microsoft.com");
-
-// Parallelamente al processo di reperimento della stringa getStringTask, posso eseguire dell'altro
-DoOtherIndependentWork();
-
-// L'operatore await ferma l'esecuzione del metodo fino a che non ho ottenuto la string getStringTask.
-// Mentre il metodo "aspetta£, il controllo del codice passa al chiamante di AccessTheWebAsync e ritorna qui quando la stringa getStringTask è arrivata correttamente
-string urlContents = await getStringTask;
-
-// Una volta ottenuta la stringa, posso fornirne la sua lunghezza, come se fosse un normale metodo sincrono
-return urlContents.Length;
+	// GetStringAsync ritorna un Task<string>. Questo significa che quando il processo sarà terminato, avrò una stringa
+	Task<string> getStringTask = new HttpClient().GetStringAsync("http://msdn.microsoft.com");
+	
+	// Parallelamente al processo di reperimento della stringa getStringTask, posso eseguire dell'altro
+	DoOtherIndependentWork();
+	
+	// L'operatore await ferma l'esecuzione del metodo fino a che non ho ottenuto la string getStringTask.
+	// Mentre il metodo "aspetta£, il controllo del codice passa al chiamante di AccessTheWebAsync e ritorna qui quando la stringa getStringTask è arrivata correttamente
+	string urlContents = await getStringTask;
+	
+	// Una volta ottenuta la stringa, posso fornirne la sua lunghezza, come se fosse un normale metodo sincrono
+	return urlContents.Length;
 }
 ```
 Spesso non ho alcuna operazione che intercorre tra la chiamata di `GetStringAsync` e il suo completamento, posso quindi semplificare il codice chiamando l'istruzione singola seguente e rimanendo in attesa.

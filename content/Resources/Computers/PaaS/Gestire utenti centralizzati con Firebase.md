@@ -3,8 +3,8 @@ tags:
   - PaaS
   - Firebase
   - ImagoLearning
-Date: 2023-10-30
-Done: false
+Date: 2024-05-20
+Done: true
 ---
 Google Firebase permette di gestire sul cloud gli utenti di una determinata applicazione o servizio.
 In questo modo si delega tutta la parte di salvataggio utenti, recupero pwd, blocchi e analytics.

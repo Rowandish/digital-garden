@@ -87,6 +87,3 @@ Questa retta divide lo spazio delle caratteristiche in due regioni, una in cui i
 Tuttavia, se si hanno più di una variabile indipendente (un problema di classificazione multivariata), la retta di decisione diventa un iperpiano o una curva decisionale, a seconda della complessità del modello.
 
 La retta di decisione è fondamentale per la capacità di classificazione del modello di regressione logistica, poiché determina come le diverse osservazioni vengono assegnate a una delle due classi. La scelta dei coefficienti $\beta_0$ e $\beta_1$ influenzerà la posizione e l'orientamento di questa retta di decisione.
-
-## Esempio
-![[Regressione logistica con Keras.ipynb]]

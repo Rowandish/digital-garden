@@ -44,6 +44,13 @@ Per esempio in questo momento il mio fondo pensione è Allianz n° Albo 4 tutto 
 ![[Pasted image 20231120175603.png]]
 ## Riscatto
 
+### Anticipazioni
+E' possibile prelevare i soldi dal fondo pensione prima di essere arrivati alla pensione effettiva ma a delle condizioni:
+* **Spese mediche**: fino al 75% del montante a fronte di una spesa medica. La tassazione è agevolata, quindi dal 15 al 9% come quella che si ha una volta arrivati alla pensione;
+* 
+
+### Alla pensione
+
 Una volta arrivato alla pensione ci sono tre tipologie di prestazioni pensionistiche:
 * 100% rendita;
 * Massimo 50% di capitale e il rimanente in rendita vitalizia;
@@ -55,7 +62,7 @@ Non sempre è possibile prendere il montante come 100% capitale, in particolare 
 Oggi (2024) l'assegno sociale è di 6947.33€ e quindi il 50% è 3473.66€.
 Per esempio assumiamo di avere 100k€ di montante, il 70% è 70k€. A questa cifra applico il coefficiente di conversione per rendita vitalizia normale per la mia età che, seguendo l'esempio dell'immagine sotto di Allianz Previdenza è 0.04458 a 67 anni.
 70k€ * 0.04458 = 3120€.
-Questa cifra è inferiore alla metà dell'assegno sociale (3473€)? Se sì posso avere 100% capitale
+Questa cifra è inferiore alla metà dell'assegno sociale (3473€)? Se sì posso avere 100% capitale.
 
 Il valora di montante per andare a breakeven si chiama **montante soglia**.
 Attenzione che questo valore è per **singolo fondo pensione**, quindi se io ho 3 fondi pensione con meno di 100k (che è un montante soglia verosimile) l'uno posso prelevare tutto. Per ridurre il montante di un fondo pensione posso usare il trucco della RITA.

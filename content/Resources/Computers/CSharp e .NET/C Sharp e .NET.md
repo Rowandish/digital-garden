@@ -22,11 +22,18 @@ LIST FROM #WebDevelopment
 - [[Modificatori di accesso]]
 - [[Passaggio di parametri]]
 - [[Yield Return]]
+- [[Il blocco using]]
 - [[Come usare l’interfaccia ICloneable]]
-
-### Strumenti e ottimizzazioni:
-- [[Come compilare in x64 e x86 con Visual Studio]]
 - [[Documentazione in .NET]]
+
+## Macro argomenti
+* [[Logging in .NET]]
+* [[Unit Testing in .NET]]
+
+## Tools
+
+* [[JetBrains Rider]]
+
 
 ## Memory
 
@@ -43,14 +50,9 @@ LIST FROM #WebDevelopment
 - [[Ottenere puntatori a strutture dati di librerie esterne senza boxing]]
 - [[Span e ReadOnlySpan]]
 - [[Stackalloc]]
-
-### Strumenti e tecniche per l'analisi della memoria
+- [[Bit Fragging]]
 - [[DotMemory]]
 - [[DotMemory - Unit Tests]]
-
-### Gestione delle risorse e sincronizzazione
-- [[Il blocco using]]
-- [[SemaphoreSlim]]
 
 ## Multithreading
 
@@ -62,6 +64,7 @@ Dopo l'introduzione in [[Programmazione asincrona con .NET]] vediamo vari comand
 - [[SpinLock]]
 - [[SpinWait]]
 - [[Thread]]
+- [[SemaphoreSlim]]
 
 #### Tecniche di sincronizzazione
 - [[Blocking vs Spinning]]
@@ -73,11 +76,6 @@ Dopo l'introduzione in [[Programmazione asincrona con .NET]] vediamo vari comand
 
 * [[Come velocizzare il ToString() degli enum]]
 * [[Quanto sono veloci le reflection]]
-
-## Testing
-
-* [[Naming dei test]]
-* [[Testare gli eventi]]
 
 ## .NET
 * [[Storia del framework .NET]]

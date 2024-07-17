@@ -5,14 +5,12 @@ tags:
   - Memory
   - PublishedPosts
 ---
-
-
 L'istruzione `using` fornisce una sintassi utile che garantisce l'utilizzo corretto degli oggetti `IDisposable`.
 Cominciamo con un esempio:
 ```csharp
 using (Font font1 = new Font("Arial", 10.0f)) 
 {
-byte charset = font1.GdiCharSet;
+	byte charset = font1.GdiCharSet;
 }
 ```
 `Font` (come `File`) è un classico esempio di un tipo *managed* che accede a risorse *unmanaged*, come handle di file o contesti di dispositivo.
@@ -35,12 +33,12 @@ Il codice indicato sopra che utilizza il blocco `using` è esattamente analogo a
 Font font1 = new Font("Arial", 10.0f);
 try
 {
-byte charset = font1.GdiCharSet;
+	byte charset = font1.GdiCharSet;
 }
 finally
 {
 if (font1 != null)
-((IDisposable)font1).Dispose();
+	((IDisposable)font1).Dispose();
 }
 }
 ```

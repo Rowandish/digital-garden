@@ -11,7 +11,7 @@ Nei casi classici del debito (il primo $C$ positivo e poi tutti gli altri positi
 
 ## Utilizzo
 
-Questa funzione permette quindi, dato un generico flusso di cassa, di fornire il  di **rendimento annuale**.
+Questa funzione permette quindi, dato un generico flusso di cassa, di fornire il **rendimento annuale**.
 Questo strumento permette quindi di **paragonare qualsiasi rendimento** che sia a debito o a credito, che abbia date e flussi di cassa differenti e così via, l'importante è che questi flussi di cassa siano certi.
 Per esempio è utilissimo per confrontare debiti (mutui con durata e interessi diversi) o crediti (acquisto di [[Obbligazioni]] con determinate cedole).
 Non funziona invece quando i flussi di cassa non sono certi, esempio principe l'investimento in azioni.

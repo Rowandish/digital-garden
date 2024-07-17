@@ -5,8 +5,6 @@ tags:
   - Basics
   - PublishedPosts
 ---
-
-
 Questo articolo è una traduzione di quanto riportato nel libro _Thinking in C#_ di Larry O’Brien e Bruce Eckel.
 ## 1.Introduzione
 C# è stato progettato in modo che il codice e la documentazione siano nativamente nello stesso luogo, in particolare che la documentazione venga generata automaticamente dai commenti al codice.

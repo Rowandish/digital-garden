@@ -172,9 +172,6 @@ La riga di codice `modello.predict(np.array([6]))` specifica l'input da dare al 
    input_data = np.array([3, 5, 8, 10])
    modello.predict(input_data)
    ```
-## Esempio 2
-Un altro esempio che viene dal corso di Udemy è il seguente.
-![[Regressione lineare con Keras.ipynb]]
 
 # Regressione lineare multipla
 ![[Pasted image 20231025154343.png]]

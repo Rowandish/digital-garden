@@ -13,7 +13,8 @@ Questa classe può essere utile nel caso in cui abbia un metodo che richiede del
 
 Di fatto è un [[ManualResetEvent]] che gestisce l'accesso ad un metodo ad _n_ thread invece che a solo uno.
 
-Pensiamo ad una giostra: su questa possono salire massimo _n_ persone, quando una di queste scende una altra può entrare e così via.
+Per capire facciamo un esempio: un `SemaphoreSlim` è come una scatola che contiene *n* chiavi per accedere al bagno.
+Se la scatola è vuota significa che tutte le chiavi sono prese e di conseguenza bisogna aspettare che qualcuno esca dal bagno per mettere una chiave nella scatola (metodo `Release()`). Quando definisco un `SemaphoreSlim` a costruttore passo il numero di chiavi che sono presenti inizialmente nella scatola.
 
 ## Sintassi
 
