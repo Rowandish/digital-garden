@@ -5,7 +5,6 @@ I temi trattati sono:
     - [[Come prendere decisioni importanti]]
     - [[OKRs (Objective and Key Results)]]
     - [[Sindrome dell'impostore]]
-- **[[Work-Life Balance]]**
 - **Ruoli e Responsabilità**:
     - [[Program Manager]]
 - **[[Project Management]]**

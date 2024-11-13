@@ -4,17 +4,13 @@ tags:
   - SOLID
   - PublishedPosts
 ---
-
-
-L'open-closed principle è il secondo principio di SOLID.
-
 Questo è probabilmente il principio più forte, che racchiude tutti gli altri.
-
 ## Definizione
 
 Il principio di open-closed afferma che "**una classe dovrebbe essere aperta alle estensioni e chiusa alle modifiche**".
 
 Questo significa che uno software dovrebbe poter permettere **estensioni del suo comportamento senza dover andare a modificare le classi già esistenti**.
+Ciò è particolarmente utile nei team di grandi dimensioni in cui più sviluppatori lavorano sulla stessa codebase. Seguendo l'OCP, gli sviluppatori possono aggiungere funzionalità senza intralciarsi a vicenda.
 
 Qualora una piccola modifica ai requisiti porti una notevole rivoluzione nel software sottostante, significa che questo principio non è stato rispettato.
 
@@ -66,3 +62,46 @@ Come procedere quindi? Di seguito qualche suggerimento:
 - Scrivi test automatizzati: i test hanno il vantaggio che, oltre a verificare il funzionamento del codice, permettono di capire il codice dal punto di vista dell'utilizzatore e non solo del programmatore. Se il tuo codice contiene dei metodi difficilmente testabili, tipicamente questi violano l'OCP. In questi casi l'introduzione di astrazioni sarà naturale. Scrivi sempre codice che sia 100% testabile.
 - Il downcasting (castare una astrazione in una classe concreta) e sintomo di violazione dell'OCP.
 - L'operatore "_is"_ è analogamente sintomo di violazione dell'OCP
+
+## Esempio
+In questo esempio, aggiungendo nuove implementazioni della classe ReportGenerator non modifichiamo il codice esistente ma piuttosto aggiungiamo nuovi tipi quando necessario.
+
+```csharp
+// Violates OCP
+public class ReportGenerator
+{
+    public void GenerateReport(string reportType)
+    {
+        if (reportType == "PDF")
+        {
+            // Generate PDF report
+        }
+        else if (reportType == "Excel")
+        {
+            // Generate Excel report
+        }
+    }
+}
+
+// Adheres to OCP
+public abstract class ReportGenerator
+{
+    public abstract void GenerateReport();
+}
+
+public class PdfReportGenerator : ReportGenerator
+{
+    public override void GenerateReport()
+    {
+        // Generate PDF report
+    }
+}
+
+public class ExcelReportGenerator : ReportGenerator
+{
+    public override void GenerateReport()
+    {
+        // Generate Excel report
+    }
+}
+```

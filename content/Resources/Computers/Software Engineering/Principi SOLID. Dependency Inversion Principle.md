@@ -4,12 +4,14 @@ tags:
   - SOLID
   - PublishedPosts
 ---
-Il principio di inversione delle dipendenze (DIP) è un principio di progettazione del software che mira a ==ridurre l'accoppiamento tra le classi e a promuovere una struttura di codice più modulare==. L'idea di base è quella di invertire le dipendenze tra classi ad alto e basso livello, in modo che entrambe dipendano da astrazioni invece che da implementazioni concrete.
+Il principio di inversione delle dipendenze (DIP) è un principio di progettazione del software che mira a ==ridurre l'accoppiamento tra le classi e a promuovere una struttura di codice più modulare==. L'idea di base è quella di invertire le dipendenze tra classi ad alto e basso livello, in modo che entrambe ==dipendano da astrazioni invece che da implementazioni concrete==.
 
 Il DIP può essere sintetizzato in due asserzioni principali:
 
 1. ==Le classi ad alto livello non dovrebbero dipendere dalle classi a basso livello==. Entrambe dovrebbero dipendere dalle astrazioni.
 2. ==Le astrazioni non dovrebbero dipendere dai dettagli==. I dettagli dovrebbero dipendere dalle astrazioni.
+
+Dipendendo dalle astrazioni anziché dalle implementazioni concrete, .
 
 ## Perché è importante
 
@@ -19,7 +21,8 @@ Il DIP è importante perché aiuta a ridurre l'accoppiamento tra i moduli, migli
 2. **Ridotta testabilità:** I moduli strettamente accoppiati possono rendere difficile isolare e testare singole parti del software, poiché i test potrebbero richiedere la configurazione e l'esecuzione di numerosi moduli dipendenti.
 3. **Rigidità nell'architettura:** Un'elevata dipendenza tra i moduli può rendere difficile la sostituzione o l'estensione di parti del software senza influenzare altri moduli, limitando la flessibilità dell'architettura.
 
-Applicando il DIP, si promuove una struttura di dipendenze più flessibile e adattabile, facilitando la manutenzione, la testabilità e l'estensibilità del software.
+Dipendendo dalle astrazioni anziché dalle implementazioni concrete, si promuove l'uso di dependency injection e di inversion of control (IoC) containers. Ciò rende la tua codebase più adattabile alle modifiche, poiché puoi facilmente sostituire le implementazioni senza modificare le classi dipendenti.
+DIP facilita anche migliori unit test, poiché le dipendenze possono essere facilmente mockate.
 
 ## Come applicarlo
 
@@ -38,7 +41,9 @@ Per applicare il principio di inversione delle dipendenze, segui questi passaggi
 4. **Difficoltà nella gestione delle dipendenze**: L'applicazione del DIP implica la ==gestione di un maggior numero di astrazioni e dipendenze nel sistema==. Questo può complicare la gestione delle dipendenze, in particolare quando si utilizzano framework o librerie esterne. Gli sviluppatori devono prestare attenzione a come le dipendenze vengono iniettate e organizzate tra le varie classi e interfacce, il che può richiedere uno sforzo maggiore nella progettazione e manutenzione del sistema.
 5. **Potenziale riduzione delle prestazioni**: In alcuni casi, l'uso di astrazioni e l'inversione delle dipendenze può comportare una **leggera riduzione delle prestazioni del sistema**. L'uso di interfacce e classi astratte può introdurre un overhead aggiuntivo a causa dell'indirezione e del dispatching dinamico dei metodi. Tuttavia, questo impatto sulle prestazioni è generalmente trascurabile e i benefici che ne derivano in termini di manutenibilità e modularità del codice superano di gran lunga questo svantaggio.
 
-## Esempio
+## Esempi
+
+### Esempio 1
 
 Ecco un esempio in C# per illustrare il concetto:
 
@@ -115,3 +120,52 @@ public static void Main()
 ```
 
 In questo esempio, abbiamo seguito il Dependency Inversion Principle creando un'interfaccia comune `INotificationService` e facendo **dipendere la classe ad alto livello `Application` dall'interfaccia, invece che dalle implementazioni concrete**. Inoltre, abbiamo utilizzato l'iniezione di dipendenza per passare un'implementazione concreta dell'interfaccia alla classe `Application`.
+
+### Esempio 2
+
+```csharp
+// Violates DIP
+public class User
+{
+    private SqlContext _context;
+
+    public User(SqlContext context)
+    {
+        _context = context;
+    }
+
+    public void Add(string userName)
+    {
+        _context.AddUser(userName);
+    }
+}
+
+// Adheres to DIP
+public interface IContext
+{
+    void AddUser(string userName);
+}
+
+public class SqlContext : IContext
+{
+    public void AddUser(string userName)
+    {
+        // Add user to SQL database
+    }
+}
+
+public class User
+{
+    private IContext _context;
+
+    public User(IContext context)
+    {
+        _context = context;
+    }
+
+    public void Add(string userName)
+    {
+        _context.AddUser(userName);
+    }
+}
+```

@@ -9,15 +9,13 @@ Di seguito una categorizzazione di tutte le note che ho preso negli anni sui var
 * [[Regexp]]
 ## Database
 
+### DBMS
+* [[SQL Server]]
 ### Basics
-* [[COALESCE]]
 * [[Transazioni]]
 * [[Indici]]
+* [[Trigger]]
 * [[Window function]]
-
-### DBMS
-
-* [[SQL Server]]
 
 ### Scalability
 

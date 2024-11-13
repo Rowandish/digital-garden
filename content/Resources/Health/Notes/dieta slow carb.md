@@ -11,7 +11,7 @@ Chi ha più successo in una dieta dimagrante, che voglia mettere su massa muscol
 ### Non bevete calorie
 Bevete grandi quantità d’acqua, tè o caffè non zuccherati a volontà
 ### Non mangiate frutta
-Gli esseri umani non hanno bisogno di mangiare frutta sei giorni alla settimana e di certo non per tutto l’anno.
+Gli esseri umani non hanno bisogno di mangiare frutta sei giorni alla settimana e di certo non per tutto l’anno  (Fruttosio → glicerolo fosfato → grasso corporeo, più o meno).
 Uniche eccezioni alla regola sono pomodori e avocado, e quest’ultimo andrebbe consumato con moderazione (non più di una tazza o di un pasto al giorno).
 evitare la frutta per sei giorni alla settimana è la linea di condotta più affidabile. 
 ### Concedetevi un giorno libero a settimana

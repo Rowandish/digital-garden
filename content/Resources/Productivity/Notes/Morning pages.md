@@ -4,6 +4,8 @@ tags:
 ---
 Le morning pages sono una tecnica di journaling che ==consiste nel scrivere tre pagine di testo a mano al mattino, subito dopo essersi svegliati==.
 Questa pratica è stata introdotta dall'autrice Julia Cameron nel suo libro "The Artist's Way" e ha guadagnato popolarità come strumento per liberare la mente dalle preoccupazioni e dai blocchi creativi.
+Le pagine del mattino non devono risolvere i vostri problemi. Servono solo a toglierveli dalla testa, dove altrimenti resteranno a rimbalzare tutto il giorno come un proiettile impazzito tra le pareti del vostro cranio.
+Si tratta solo di 3 pagine che devi riempire scrivendo a mano, a qualsiasi costo. Niente censura, zero correzioni. È quanto di più simile alla magia che io conosca. E se lo fai davvero ogni giorno, con grande disciplina, allora ti succede qualcosa nel subconscio e riesci a raggiungere le vette della creatività.
 
 Le morning pages possono essere utili in diversi modi:
 

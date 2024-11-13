@@ -7,8 +7,6 @@ tags:
 
 L'open-closed principle è il primo principio di SOLID.
 
-La mia idea è scrivere un articolo per ognuno dei 5 principi, iniziamo oggi con il primo, il principio di Single responsibility.
-
 ## Definizione
 
 Il principio di single responsibility afferma che "**una classe deve avere uno e uno solo motivo per cambiare**" o anche "**una classe deve essere responsabile di un unico attore**". Genericamente una classe dovrebbe avere una sola responsabilità completamente incapsulata al suo interno, dedicarsi esclusivamente a quella e conseguentemente cambiare solo se tale responsabilità cambia e per nessun altro motivo.
@@ -43,7 +41,9 @@ Ci sono varie euristiche per capire se una classe viola il SRP:
 * Presenta dei metodi privati che si applicano solo ad un piccolo sottoinsieme di metodi della classe;
 * La classe non è [[Clean Code#^b19092|coesa]];
 
-## Esempio
+## Esempi
+
+### Esempio 1
 
 Assumiamo di avere una classe "Dipendente" con tre metodi:
 
@@ -57,4 +57,39 @@ Avendo i tre metodi nella stessa classe che dipendono da attori diversi può cap
 
 Per esempio qualora il metodo `ReportHours` e `CalcolaPaga` utilizzino lo stesso metodo sottostante per calcolare il numero di ore lavorate, una modifica a questo metodo richiesta dall'ufficio paghe porta, di riflesso, ad una modifica non richiesta al metodo `ReportHours` gestito dall'ufficio risorse umane.
 
-La soluzione è porre ogni metodo in una sua classe dedicata e la classe Dipendente conterrà solo le interfacce di queste classi, senza quindi alcuna riga di codice al suo interno. Il calcolo delle ore lavorate sarà quindi completamente scorporato
+La soluzione è porre ogni metodo in una sua classe dedicata e la classe Dipendente conterrà solo le interfacce di queste classi, senza quindi alcuna riga di codice al suo interno. Il calcolo delle ore lavorate sarà quindi completamente scorporato.
+
+### Esempio 2
+
+```csharp
+// Violates SRP
+public class UserService
+{
+    public void AddUser(string userName)
+    {
+        // Add user to the database
+    }
+
+    public void SendEmail(string email)
+    {
+        // Send an email to the user
+    }
+}
+
+// Adheres to SRP
+public class UserService
+{
+    public void AddUser(string userName)
+    {
+        // Add user to the database
+    }
+}
+
+public class EmailService
+{
+    public void SendEmail(string email)
+    {
+        // Send an email
+    }
+}
+```

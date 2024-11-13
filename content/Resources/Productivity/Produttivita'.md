@@ -47,10 +47,13 @@ Non è necessario complicare e scomporre gli obiettivi in migliaia di passaggi d
 
 In una frase: quali sono le attività che devo fare ogni settimana per fare progressi relativamente al mio obiettivo?
 
-La fase di [[pianificazione]] avviene tipicamente la mattina, come per esempio scrivendo delle [[Morning pages]] o facendo [[Journaling]].
+#### Pianificazione
+
+La fase di pianificazione avviene tipicamente la mattina per esempio facendo [[Journaling]].
 Una volta sgombrata la mente si guarda il mio calendario e le liste di cose da fare nell'ottica di capire cosa fare effettivamente durante il giorno, e quindi al mattino sto stabilendo l'intenzione per il resto della giornata.
 Bisogna sempre fare attenzione che quanto si definisce di voler fare sia coerente con i nostri [[Orizzonti di Focus]], sia sul brevissimo termine (orizzonte 1) ma anche sul medio lungo termine.
 In questo modo apprezzeremo sempre una crescita personale nel lungo periodo.
+Può essere un'idea decidere di fare una cosa "extra" in base al [tema del mese corrente](https://www.youtube.com/watch?v=NVGuFdX5guE).
 
 #### Calendario
 
@@ -58,7 +61,7 @@ In questo modo apprezzeremo sempre una crescita personale nel lungo periodo.
 > quote::“*"A volte le persone chiedono perché mi preoccupo di pianificare in modo così dettagliato. La mia risposta è semplice: genera una quantità enorme di produttività. Una settimana lavorativa di 40 ore pianificata a blocchi di tempo, stimo, produce la stessa quantità di produzione di una settimana lavorativa di 60 ore seguita senza una struttura"*“
 
 Il calendario ha un ruolo fondamentale nella pianificazione della giornata, l'ottimo sarebbe di fare solo le cose che sono state pianificate a calendario.
-E' il calendario che deve dirci cosa dobbiamo fare.
+==E' il calendario che deve dirci cosa dobbiamo fare==.
 Appena si ha idea di un evento o di qualcosa che dobbiamo fare è buona norma inserirlo nel calendario: questo ci da consapevolezza del tempo che abbiamo e come lo allochiamo. Questa tecnica, chiamata [[Time blocking]] è forse la tecnica fondamentale per la produttività.
 
 > [!tip]
@@ -166,7 +169,7 @@ La gestione delle mail è importante, soprattutto per chi ne riceve tante. Per p
 
 Lato organizzativo l'attività più importante è sicuramente la review delle proprie giornate/settimane/mesi.
 E' importante fermarsi spesso a riflettere per capire se si sta andando nella direzione giusta, cosa sta funzionando e cosa no.
-La review può essere fatta con il [[Journaling]] o nella sua versione [[Il metodo Bullet Journal|bullet journal]] e si distingue tra giornaliera, settimanale, mensile e annuale.
+
 
 #### Daily review
 
@@ -238,5 +241,7 @@ Come fare quindi per trovare qualcosa che sia veramente *meaningful* per noi?
 
 
 ## Systems
-Ogni persona ha il suo ecosistema che cerca di rispondere alle varie problematiche evidenziate qui sopra.
-Il metodo più completo, basato su Notion, è il [[Pillars Pipelines and Vaults]] che sto cercando di implementare.
+
+### [[P.A.R.A]]
+### [[Pillars Pipelines and Vaults]]
+

@@ -7,9 +7,8 @@ tags:
 _ _ _
 Il contenuto di questo articolo è una traduzione dell'articolo di Erland Sommarskog trovabile [qui](http://www.sommarskog.se/dyn-search.html).
 _ _ _
-
 ## 1.Introduzione
-E' molto comune dover scrivere query dove la ricerca viene eseguita secondo un diverso numerod i criteri diversi a seconda dei parametri in ingresso.
+E' molto comune dover scrivere query dove la ricerca viene eseguita secondo un diverso numero di criteri diversi a seconda dei parametri in ingresso.
 Quando bisogna implementare tali funzionalità è necessario porre attenzione a due cose principalmente:
 - Produrre i risultati corretti
 - Buone performance

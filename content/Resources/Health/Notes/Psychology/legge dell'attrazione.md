@@ -9,3 +9,7 @@ La legge dell'attrazione ci invita a prendere consapevolezza del potere dei nost
 Se pensiamo in modo positivo e nutriamo emozioni positive come gratitudine, gioia e amore, attireremo nella nostra vita esperienze positive e persone che ci aiuteranno a crescere e ad evolvere.
 Al contrario, se nutriamo pensieri negativi e emozioni distruttive come rabbia, paura e tristezza, attireremo nella nostra vita esperienze negative e persone che ci causeranno dolore e sofferenza.
 La legge dell'attrazione ci insegna che siamo i creatori della nostra realtà e che possiamo scegliere di vivere una vita piena di felicità, successo e prosperità, se impariamo ad utilizzare il nostro potere interiore in modo positivo.
+
+## Scrivere cosa si vuole essere 
+
+Scott Adams quando sceglie un obiettivo lo scrive 15 volte al giorno in forma di una frase molto specifica, come: “Io, Scott Adams, diventerò un astronauta”, per esempio. E lo fai ogni giorno. A quel punto, ti sembrerà che l’universo ti faccia piovere addosso occasioni una dietro l’altra. Ti dirai che sono solo coincidenze, magari, ma che lo siano o no è meno rilevante del fatto che continuano a presentarsi.

@@ -37,15 +37,40 @@ Le carte di credito possono avere costi annuali e altre commissioni. Alcune offr
 Sono simili alle carte di debito, ma non sono collegate direttamente a un conto corrente. Si ricaricano manualmente e sono utili per controllare la spesa o per dare un limite di spesa a terzi, come i minori.
 
 ### Fondo di emergenza
+Un video estremamente chiaro a riguardo è: https://www.youtube.com/watch?v=x-lUoQQB6Vs
+
 Il fondo di emergenza sono quei soldi che sono essenziale per coprire spese impreviste come guasti alla macchina o perdita del lavoro.
 Questo conto permette di evitare di disinvestire i soldi del conto di investimento (lungo termine) in caso di necessità.
-L'ammontare necessario in questo fondo varia 
-In genere si consiglia dalle 6 alle 12 mensilità di stile di vita anche se dipende dalla seconda della situazione individuale: ad esempio, una persona che vive con genitori anziani che la supportano finanziariamente potrebbe non averne bisogno, mentre qualcuno con responsabilità familiari più ampie potrebbe richiedere un fondo significativamente maggiore.
-Per il fondo di emergenza di sono tre opzioni:
-* **Conto corrente**: questa è la soluzione più semplice, anche se spesso non genera interessi. Tuttavia, alcuni conti correnti offrono tassi di interesse, come l'esempio del conto BBVA che offre il 4% di interesse. Bisogna considerare le tasse sugli interessi (26% in Italia) e la "tassina" sulle giacenze medie superiori a 5.000 euro.
-* **Conto deposito**: solitamente offre un interesse più alto rispetto ai conti correnti. Esistono diverse tipologie di conti deposito: totalmente svincolati, vincolati e svincolabili. Per il fondo di emergenza conviene utilizzare quelli svincolabili, permettendo di ritirare subito i fondi in caso di necessità, perdendo al massimo solo gli interessi maturati. Per trovare il miglior conto deposito c'è un [excel di Finanza Online](https://forum.finanzaonline.com/forums/banking-carte-di-credito-conti-deposito-e-corren.7/).
-* **Obbligazioni a breve durata**: un esempio sono i BOT (Buoni Ordinari del Tesoro): avendo una scadenza breve con zero coupon **il loro prezzo cresce linearmente dal prezzo odierno a 100 alla scadenza**: anche se dovessi venderli prima della scadenza perché mi serve il contante è quasi impossibile venderli in perdita (a meno di attacchi speculativi all'Italia). La grande differenza rispetto ai conti deposito è la tassazione: il guadagno è tassato al 12,5% contro un 26% del conto deposito.
-* **ETF monetari**: è un ETF il cui rendimento è in linea con i tassi correnti di mercato. Per esempio se acquistato nel 2020 e i tassi erano negativi, anche il suo rendimento è negativo ![[Pasted image 20231124103536.png]] mentre invece se acquistato nel 2023, per esempio, ha un rendimento positivo in linea con i tassi. Un esempio è [questo](https://www.justetf.com/en/etf-profile.html?isin=LU0290358497#chart). Ha senso acquistare questi strumenti per il fondo di emergenza quando i tassi sono alti, se sono a 0 a sto punto li tengo sul conto corrente.
+L'ammontare necessario in questo fondo varia, in genere si consiglia dalle 6 alle 12 mensilità di stile di vita anche se dipende dalla seconda della situazione individuale: ad esempio, una persona che vive con genitori anziani che la supportano finanziariamente potrebbe non averne bisogno, mentre qualcuno con responsabilità familiari più ampie potrebbe richiedere un fondo significativamente maggiore.
+
+### Conti Correnti con Interesse
+
+Questa è la soluzione più semplice, anche se spesso non genera interessi. Tuttavia, alcuni conti correnti offrono tassi di interesse, come l'esempio del conto BBVA che offre il 4% di interesse. Bisogna considerare le tasse sugli interessi (26% in Italia) e la "tassina" sulle giacenze medie superiori a 5.000 euro.
+
+#### Conti Deposito
+
+I conti deposito sono strumenti che offrono un tasso di interesse fisso in cambio del deposito della liquidità per un certo periodo.
+I conti deposito sono suddivisi in diverse categorie: liberi (dove i soldi possono essere ritirati in qualsiasi momento), vincolati (dove i soldi sono bloccati per un periodo definito) e semi-liberi (dove è possibile ritirare i fondi con un preavviso, solitamente di 32 giorni).
+ Per il fondo di emergenza conviene utilizzare quelli svincolabili, permettendo di ritirare subito i fondi in caso di necessità, perdendo al massimo solo gli interessi maturati. Per trovare il miglior conto deposito c'è un [excel di Finanza Online](https://forum.finanzaonline.com/forums/banking-carte-di-credito-conti-deposito-e-corren.7/).
+
+#### Obbligazioni a Brevissimo Termine
+
+Un esempio sono i BOT (Buoni Ordinari del Tesoro) o i CCT (Certificati Credito del Tesoro): avendo una scadenza breve con zero coupon **il loro prezzo cresce linearmente dal prezzo odierno a 100 alla scadenza**: anche se dovessi venderli prima della scadenza perché mi serve il contante è quasi impossibile venderli in perdita (a meno di attacchi speculativi all'Italia). La grande differenza rispetto ai conti deposito è la tassazione: il guadagno è tassato al 12,5% contro un 26% del conto deposito.
+Alternativa sono i **BTP a breve termine**, che sono simili ai BOT in termini di rendimento e tassazione, ma con la possibilità di ricevere cedole periodiche. Per un'anomalia fiscale i **BTP Zero Coupon** non permettono di compensare minsuvalenze, mentre permettono ciò i BTP con 0% di cedola, emessi durante il COVID. 
+Ulteriore opzione sono i **CCT (Certificati di Credito del Tesoro)**, obbligazioni a tasso variabile che si adattano alle variazioni dei tassi di mercato, quindi il loro prezzo è per definizione sempre intorno a 100. I CCT sono considerati una buona alternativa in periodi di incertezza sui tassi, poiché il loro prezzo è relativamente stabile e il rendimento varia in base ai tassi di riferimento.
+
+#### ETF monetari
+![[Pasted image 20231124103536.png]]
+Gli ETF monetari sono come prodotti che cercano di replicare il rendimento dei tassi vigenti (ad esempio, i tassi della BCE o l’Euribor) attraverso due possibili approcci:
+
+1. **Acquisto di obbligazioni a brevissimo termine**: queste obbligazioni sono sensibili alle variazioni dei tassi d’interesse. Quando i tassi salgono, i prezzi delle obbligazioni scendono, il che può portare a una diminuzione dei rendimenti nel breve periodo. Tuttavia, nel lungo periodo, la situazione tende a stabilizzarsi.   
+2. **Investimenti alternativi gestiti**: in questo caso, il fondo non investe direttamente nelle obbligazioni a brevissimo termine ma stipula contratti swap con controparti che garantiscono un rendimento legato ai tassi di riferimento.
+
+Per esempio l’ETF **Xtrackers II Euro Overnight Rate Swap UCITS ETF (XEON)** replica l’indice Solactive STR + 8,5 punti base (0,085%), che rappresenta i depositi a brevissimo termine in euro. Il rendimento attuale dell'ETF, considerando anche le spese di gestione, si attesta attorno al 3,58% lordo, con un TER (Total Expense Ratio) dello 0,10%. Notare che l’ETF non investa direttamente in obbligazioni a brevissimo termine, ma utilizzi swap per garantire il rendimento.
+
+Altri esempi sono **LEONIA** (Amundi EUR Overnight Return UCITS ETF Acc) e **SMART** (Lyxor Smart Overnight Return UCITS ETF C-EUR), ETF simili ma con piccole differenze di rendimento e gestione. Questi strumenti possono essere una scelta relativamente sicura in periodi di tassi stabili o decrescenti, ma divengono meno appetibili quando i tassi si avvicinano allo zero, dove in quel caso il loro rendimento è perfino negativo.
+Per esempio se acquistati nel 2020 quando i tassi erano negativi, il loro rendimento è stato negativo.
+
 
 ### Spese prevedibili
 

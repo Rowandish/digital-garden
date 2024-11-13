@@ -11,8 +11,6 @@
 > quote::“*La forma fisica non è solo la chiave per un corpo sano; è anche la base per un’attività intellettuale dinamica e creativa*“
 
 ## Mentale
-
-* [[Meditazione]]
 * [[mental model|Mental models]]
 * [[bias|Bias]]
 * [[abitudine|Abitudini]]
@@ -21,7 +19,11 @@
 * [[eye gazing|Eye gazing]]
 * [[Legge dell'attrazione]]
 * [[effetto Zeigarnik]]
+### Mindfulness
 
+* [[Meditazione]]
+* [[Memento mori]]
+* [[Qui e ora]]
 ## Fisica
 
 * [[migliorare la postura|Postura]]

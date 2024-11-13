@@ -4,7 +4,6 @@ tags:
   - SOLID
   - PublishedPosts
 ---
-L'Interface Segregation Principle (ISP) è uno dei cinque principi fondamentali del paradigma SOLID per la programmazione orientata agli oggetti.
 L'ISP si concentra sulla struttura e l'organizzazione delle interfacce all'interno di un'applicazione, ==promuovendo l'uso di interfacce più piccole e specifiche invece di interfacce grandi e generiche==.
 
 L'ISP è stato introdotto da Robert C. Martin e afferma che "==le classi che implementano interfacce non dovrebbero essere costrette a implementare metodi di cui non hanno bisogno==". In altre parole, le interfacce dovrebbero essere suddivise in componenti più piccoli e specifici per garantire che le classi che le implementano abbiano solo le funzionalità di cui hanno effettivamente bisogno.
@@ -28,7 +27,9 @@ Questo principio è strettamente legato agli altri principi SOLID, in particolar
 4. **Difficoltà nella gestione delle dipendenze**: Sebbene l'ISP riduca l'accoppiamento tra le classi, la gestione di un gran numero di interfacce può complicare la gestione delle dipendenze all'interno del sistema. Gli sviluppatori potrebbero dover prestare maggiore attenzione a come le dipendenze sono organizzate e iniettate tra le classi, il che potrebbe richiedere un investimento maggiore di tempo e sforzo nella progettazione del sistema.
 5. **Potenziale ridondanza del codice**: L'adozione dell'ISP potrebbe portare a una potenziale ridondanza del codice in alcuni casi. Quando diverse interfacce hanno funzionalità simili o condividono metodi comuni, gli sviluppatori potrebbero finire per duplicare il codice tra diverse classi che implementano tali interfacce. Questo può rendere il codice meno efficiente e aumentare il rischio di errori e inconsistenze.
 
-## Esempio
+## Esempi
+
+### Esempio 1
 
 Immaginiamo di avere un sistema che gestisce diversi tipi di stampanti, alcune delle quali supportano anche la scansione.
 Un approccio non conforme all'ISP potrebbe utilizzare un'interfaccia generale come questa:
@@ -84,3 +85,74 @@ public class AllInOnePrinter : IPrinter, IScanner
 
 In questo esempio, possiamo vedere come l'ISP renda il codice più pulito e flessibile. Le classi `Printer` e `Scanner` implementano solo le interfacce pertinenti alle loro funzionalità, evitando l'implementazione di metodi inutili.
 La classe `AllInOnePrinter`, che supporta sia la stampa che la scansione, implementa entrambe le interfacce.
+
+### Esempio 2
+
+In questo caso, stiamo suddividendo l'interfaccia più grande in parti più piccole e più specifiche per garantire che le nostre classi implementino solo ciò di cui hanno effettivamente bisogno.
+
+```csharp
+// Violates ISP
+public interface IWorker
+{
+    void Work();
+    void Eat();
+}
+
+public class HumanWorker : IWorker
+{
+    public void Work()
+    {
+        // Working
+    }
+
+    public void Eat()
+    {
+        // Eating in the break
+    }
+}
+
+public class RobotWorker : IWorker
+{
+    public void Work()
+    {
+        // Working much more efficiently
+    }
+
+    public void Eat()
+    {
+        throw new NotImplementedException("Robots do not eat.");
+    }
+}
+
+// Adheres to ISP
+public interface IWork
+{
+    void Work();
+}
+
+public interface IEat
+{
+    void Eat();
+}
+
+public class HumanWorker : IWork, IEat
+{
+    public void Work()
+    {
+        // Working
+    }
+
+    public void Eat()
+    {
+        // Eating in the break
+    }
+}
+
+public class RobotWorker : IWork
+{
+    public void Work()
+    {
+        // Working much more efficiently
+    }
+}
+```

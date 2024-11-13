@@ -11,6 +11,7 @@ Il Liskov Substitution Principle è il terzo principio di SOLID introdotti nel l
 Il principio definisce che **gli oggetti della superclasse devono essere sostituibili con oggetti delle sue classi figlie senza rompere l'applicazione**. Questo significa che gli oggetti della sottoclasse devono comportarsi allo stesso modo della superclasse.
 
 Quindi ovunque nel mio codice ho uno `new ClassePadre()`, devo poter sostituire questo codice con `new ClasseFiglia()` senza che si rompa nulla nella mia applicazione e tipicamente questo avviene se il tipo della classe istanziata è generico (esempio `IClasse c = new ClassePadre()` e non `ClassePadre c = new ClassePadre()`).
+Ciò garantisce che il codice rimanga coerente e prevedibile poiché le classi derivate aderiscono al comportamento previsto delle rispettive classi base.
 
 **Questo principio limita l'utilizzo dell'ereditarietà a cose che si comportano in modo uguale, non che hanno le stesse proprietà.**
 
@@ -35,3 +36,49 @@ Dovrò introdurre una altra interfaccia che indichi una figura con larghezza che
 Per rispettare l'LSP spesso è necessaria l'introduzione di numerose classi e non sempre questo ne vale la pena.
 
 Questo ultimo può infatti diventare un anti-pattern quando, per rispettarlo, devo riempire il mio codice di astrazioni confusionarie che non aggiungono nulla tranne la complicazione.
+
+## Esempio
+
+Nel nostro esempio stiamo introducendo un'interfaccia IFlyable per separare gli uccelli in volo da quelli non in volo, garantendo la corretta eredità del comportamento.
+
+```csharp
+// Violates LSP
+public class Bird
+{
+    public virtual void Fly()
+    {
+        // Implementation to fly
+    }
+}
+
+public class Penguin : Bird
+{
+    public override void Fly()
+    {
+        throw new NotImplementedException("Penguins cannot fly.");
+    }
+}
+
+// Adheres to LSP
+public abstract class Bird
+{
+}
+
+public class FlyingBird : Bird, IFlyable
+{
+    public void Fly()
+    {
+        // Implementation to fly
+    }
+}
+
+public class Penguin : Bird
+{
+    // Penguin does not inherit Fly() method
+}
+
+public interface IFlyable
+{
+    void Fly();
+}
+```

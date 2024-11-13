@@ -2,10 +2,14 @@
 tags:
   - Productivity
 ---
+> [!quote]
+> quote::“*Non sforzatevi di trovare il tempo. Programmate il tempo.*“
+
 ## Definizione
 
 Consiste nel ==bloccare un certo ammontare di tempo in modo che, quando arriva quel momento, siamo obbligati a rispettare la schedule==.
 È un metodo pensato per concentrare la vostra attenzione su qualcosa in particolare permettendovi di focalizzarvi su quel qualcosa per un periodo di tempo prestabilito.
+Per le cose davvero importanti, non bisogna “trovare” il tempo. Va messo in agenda
 
 Avere un buco nel proprio calendario può portare a non sapere effettivamente cosa fare tra le varie e questo porta ad un peggioramento nella produttività.
 
