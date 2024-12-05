@@ -86,36 +86,11 @@ SELECT * FROM fn_dialog(NULL, NULL)
 
 SQL Server ha due grosse categorie di database:
 * **Database di sistema**
+	* **master**: database di sistema che deve necessariamente esistere che include varie informazioni di sistema, tra le quali: gli account di accesso, i server collegati e le impostazioni di configurazione di sistema. Vengono anche registrare le posizioni di tutti gli altri db collegati e le informazioni di inizializzazione di SQL Server.
+	* **tempdb**: database temporaneo utilizzato non solo quando finisce la RAM ma anche per caching o operazioni particolari. Viene ricreato ad ogni riavvio di SQL Server.
+	* **model**: database modello che viene utilizzato quando creo un nuovo database.
+	* **msdb**: sono contenuti tutti i [[T-SQL - Jobs|Jobs]], alert e procedure automatiche avviate dall'agent.
 * **Database utente**
-
-* **master**: database di sistema che deve necessariamente esistere che include varie informazioni di sistema, tra le quali: gli account di accesso, i server collegati e le impostazioni di configurazione di sistema. Vengono anche registrare le posizioni di tutti gli altri db collegati e le informazioni di inizializzazione di SQL Server.
-* **tempdb**: database temporaneo utilizzato non solo quando finisce la RAM ma anche per caching o operazioni particolari. Viene ricreato ad ogni riavvio di SQL Server.
-* **model**: database modello che viene utilizzato quando creo un nuovo database.
-* **msdb**: sono contenuti tutti i [[T-SQL - Jobs|Jobs]], alert e procedure automatiche avviate dall'agent.
-
-## Oggetti in un database
-
-In un DB sono contenuti diversi oggetti:
-
-* **Tables**: Memorizzano i dati che inseriamo nel nostro database, sono tra loro in relazione reciproca. Sono fatte da colonne e da righe. Una tabella può avere fino a 1024 colonne e 8092 bytes per riga.
-* **Data Type**: Definiscono i tipi di dati che possono essere inseriti nelle colonne, possono essere definiti dall’utente.
-* **Constraint**: Servono a rafforzare l’integrità del database.
-* **Default**: Assegna valori predefiniti ad una determinata colonna.
-* **Rule**: Definiscono vincoli ai dati che vengono inseriti, servono a rafforzare l’integrità del database.
-* **Indici**: Servono ad ottimizzare l’accesso ai dati contenuti nelle tabelle.
-* **Viste**: Sono tabelle generate con colonne prese da una o più tabelle.
-* **Stored Procedures**: Sono set di istruzioni T-SQL, sono dei veri e propri programmi per i databases.
-* **Trigger**: Sono procedure memorizzate che si attivano in modo autonomo in base allo scatenarsi di determinati eventi come INSERT, UPDATE, DELETE.
-
-L’insieme degli oggetti di database che costituiscono il database prende il nome di SCHEMA. La progettazione di tutti questi oggetti rappresenta il modello di dati.
-
-Le informazioni che descrivono gli oggetti del database sono chiamate **metadati**.
-
-Ricordiamoci che il creatore del database ne diventa proprietario cioè: database owner (dbo).
-
-Quando facciamo un riferimento ad uno specifico oggetto di un database, abbiamo diversi modi per identificarlo in modo corretto. La stringa di identificazione completa è:
-
-`server.database.propietario.oggetto`
 
 ## Tipi di dati
 ### Dati carattere
@@ -154,20 +129,12 @@ I dati più utilizzati sono `int` per gli interi e `decimal` per i numeri reali.
 | bit      | 0 or 1                | 1 bit                                      | 1 bit                                                   |
 | decimal  | -10^38 +1 to 10^38 -1 | Fino a 38 cifre decimali (18,6 più usato). | Da 5 a 17 byte (dipende dalla precisione). Più usato 9. |
 
-dec(18,6): 18 cifre totali di cui 5 sono la mantissa.
-
-### Dati speciali
-* **cursor**: sono usati come variabili in stored proc oppure come parametri di OUTPUT sempre in stored proc, fanno riferimento ai [[T-SQL - Cursori|cursori]]. Possono essere nulli e non possono essere usati con le istruzioni CREATE TABLE.
-* **binary[(n)]**: ha una lunghezza fissa e può contenere fino ad 8000 bytes di dati binari
-* **UNIQUEIDENTIFIER (GUID)**: E’ un identificatore unico a livello globale di 16 byte di lunghezza chiamato anche GUID. E’ generato (molto lentamente) automaticamente da SQL Server.
-
 ## Comandi comodi
 
 * [[T-SQL - Cursori]]
 * [[T-SQL - Common Table Expression]]
 * [[T-SQL - Merge]]
 * [[T-SQL - Rollup]]
-
  * `SET ROWCOUNT`
   - Limita il numero di righe restituite da una query in SQL Server.
   - Sintassi: `SET ROWCOUNT number`
@@ -275,16 +242,15 @@ Le **viste** in SQL Server sono query salvate che agiscono come tabelle virtuali
 
 ## Stored Procedure
 
-Le **stored procedure** sono blocchi di codice SQL salvati nel database che possono essere eseguiti come un singolo comando. Sono usate per eseguire operazioni complesse, come inserimenti, aggiornamenti, cancellazioni e selezioni di dati, con la possibilità di includere logica condizionale (come `IF` e `WHILE`) e parametri di input/output. Le stored procedure migliorano la sicurezza e le prestazioni, poiché il codice è compilato e salvato nel database, e facilitano la riusabilità e la manutenzione del codice SQL.
+Le **stored procedure** sono blocchi di codice SQL salvati nel database che possono essere eseguiti come un singolo comando. Sono usate per eseguire operazioni complesse, come inserimenti, aggiornamenti, cancellazioni e selezioni di dati, con la possibilità di includere logica condizionale (come `IF` e `WHILE`) e parametri di input/output.
+Sono utilizzate su database importanti in quanto sono estremamente più veloci di scrivere codice utilizzando magari un Orm per accedere al DB.
+Quindi **non sono il male assoluto** come può sembrare, ma devono essere utilizzate con ragionevolezza nei casi in cui siano indispensabili per avere ottime performance su enormi basi di dati.
+Il loro svantaggio è che sono difficilmente versionabili e mantenibili ma se utilizzate con razionalità permettono di ottenere delle performance incredibili, soprattutto su basi di dati importanti.
+Esempi:
+* Script che girano di notte che sistemano dati e mandano mail nel caso di errori;
+* Script che fanno polling su tabelle temp e in base a quello che leggono fanno cose;
 
-### Procedure di sistema
-- **`sp_help`**: Fornisce informazioni su una procedura (uso, tipo di parametri, ecc.). `EXEC sp_help nome_della_procedura`
-- **`sp_helptext`**: Visualizza il testo di una procedura, funzione o vista. `EXEC sp_helptext nome_della_procedura`
-- **`sp_depends`**: Mostra le dipendenze di una procedura (quali oggetti la usano o quali usa). `EXEC sp_depends nome_della_procedura`
-- **`sp_rename`**: Rinomina una procedura o un altro oggetto di database. `EXEC sp_rename 'vecchio_nome', 'nuovo_nome'`
-- **`sp_executesql`**: Esegue una stringa SQL dinamica o riutilizzabile con parametri. `EXEC sp_executesql @sql_string, N'@param1 tipo, @param2 tipo', @param1 = 'foo', @param2 = 'bar'`
-
-### Utilizzare i valori di ritorno di una Stored Procedure
+### Utilizzare i valori di ritorno
 
 Di default una stored procedure fornisce come codice di uscita 0, se invece si verifica un errore il valore sarà diverso da 0 ovviamente.
 Anche noi possiamo assegnare dei valori all’istruzione RETURN, ad esempio RETURN(-100) esce dalla procedura con codice di errore uguale a -100.
@@ -347,15 +313,6 @@ Questo metodo risolve entrambe le limitazioni dei metodi precedenti in quanto:
 
 Questo approccio necessità della creazione della tabella temporanea **anche se viene ritornato un solo record**.
 
-
-
-
-
-
-
-
-
-TODO CORSO ARRIVATI QUI
 ## Variabili
 ### Dichiarazione
 Ogni variabile utilizzata all’interno di una stored procedure (o di un batch) deve essere *dichiarata assieme al suo datatype* attraverso una istruzione **DECLARE** ed in seguito possiamo assegnarle un valore attraverso una istruzione **SET** o **SELECT**.
@@ -370,8 +327,10 @@ DECLARE
 @VARIABILE_TESTO AS CHAR(300),
 @ VARIABILE_TESTOUNICODE NVARCHAR(500)
 ```
-In T-SQL le variabili debbono interdersi come *variabili locali*, cioè hanno significato *solo all’interno del batch* (gruppo o sequenza di istruzioni T-SQL) o della stored procedure nella quale vengono dichiarate , fuori da questo contesto perdono significato. E’ possibile passare variabili da una procedura ad un’altra.
-###Assegnamento
+In T-SQL le variabili debbono interdirsi come *variabili locali*, cioè hanno significato *solo all’interno del batch* (gruppo o sequenza di istruzioni T-SQL) o della stored procedure nella quale vengono dichiarate , fuori da questo contesto perdono significato. E’ possibile passare variabili da una procedura ad un’altra.
+
+### Assegnamento
+
 Per assegnare un valore ad una variabile dopo averla dichiarata dobbiamo usare una istruzione **SET** o **SELECT**, la cui sintassi è la seguente:
 ```sql
 SELECT { @ variabile_locale = espressione } [ ,...n ]
@@ -413,6 +372,10 @@ Alcuni comandi richiedono un batch dedicato per funzionare correttamente. Ad ese
 - **`DROP TABLE` e `CREATE TABLE`** (se usati sullo stesso nome).
 - Comandi come `CREATE/ALTER PROCEDURE` o `ADD COLUMN` devono essere i primi nel loro batch.
 
+## Profiler
+Esiste un profiler che permette di visualizzare tutte le query che vengono effettuate su un determinato database.
+Si accede tramite `Tools -> Sql Server Profiler`.
+Per debuggare i tempi di esecuzione di una query posso fare `Query -> Include Execution Plan` che aggiunge una terza tab dopo l'esecuzione di una query che mostra ogni operazione della query quanto tempo ci mette.
 
 ## Trick
 

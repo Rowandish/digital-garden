@@ -22,5 +22,5 @@ Quando l'albero decisionale è stato costruito, può essere utilizzato per fare 
 
 Gli alberi decisionali offrono diversi vantaggi nel contesto del machine learning. Sono relativamente facili da interpretare e visualizzare, il che li rende utili per capire come vengono prese le decisioni. Possono anche gestire sia dati categorici che numerici e sono abbastanza robusti rispetto ai dati rumorosi o mancanti.
 
-Tuttavia, gli alberi decisionali possono anche essere suscettibili all'[[overfitting]], specialmente se non vengono controllati adeguatamente. L'overfitting si verifica quando l'albero si adatta troppo ai dati di addestramento e non generalizza bene ai nuovi dati, per esempio quando è troppo profondo.
+Tuttavia, gli alberi decisionali possono anche essere suscettibili all'[[Overfitting]], specialmente se non vengono controllati adeguatamente. L'overfitting si verifica quando l'albero si adatta troppo ai dati di addestramento e non generalizza bene ai nuovi dati, per esempio quando è troppo profondo.
 Un metodo banale per limitare la profondità dell'albero è usare il parametro `max_leaf_nodes` di `DecisionTreeRegressor` ma un metodo sicuramente più veloce è passare al [[Random Forests]].

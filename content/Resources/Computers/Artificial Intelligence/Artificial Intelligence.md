@@ -3,21 +3,28 @@
 
 ![[public_images_1605842918803-AI+vs+ML+vs+DL.png|600]]
 
-L'intelligenza artificiale è un campo dell'informatica che si occupa di sviluppare algoritmi e sistemi in grado di eseguire compiti che richiedono solitamente l'intelligenza umana, come il riconoscimento di pattern, il ragionamento, la pianificazione e l'apprendimento automatico.
-Il Machine Learning è una branca dell'Intelligenza Artificiale che si concentra sull'idea di ==far imparare ai computer attraverso l'esperienza==, piuttosto che essere esplicitamente programmati per compiere un compito specifico. Invece di seguire regole specifiche, i modelli di machine learning sono in grado di migliorare le loro prestazioni man mano che vengono esposti a più dati.
-Il Deep Learning è un sottoinsieme del Machine Learning che si basa su [[Reti neurali]] artificiali con molti strati (profondi) di neuroni. Questi modelli sono in grado di apprendere direttamente dai dati, e sono particolarmente efficaci nel riconoscere modelli complessi e fare previsioni in una vasta gamma di domini, come il riconoscimento di immagini, il riconoscimento del linguaggio naturale e altro ancora.
-Gli algoritmi di machine learning si basano tutti sull'apprendimento a partire da un [[dataset]], in particolare questo viene tipicamente diviso in [[Train, test e validation set]] in modo da avere dei dati per la costruzione del modello e altri per la valutazione dello stesso.
+L'**intelligenza artificiale** è un campo dell'informatica che si occupa di sviluppare algoritmi e sistemi in grado di eseguire compiti che richiedono solitamente l'intelligenza umana, come il riconoscimento di pattern, il ragionamento, la pianificazione e l'apprendimento automatico.
+Il **Machine Learning** è una branca dell'Intelligenza Artificiale che si concentra sull'idea di ==far imparare ai computer attraverso l'esperienza==, piuttosto che essere esplicitamente programmati per compiere un compito specifico. Invece di seguire regole specifiche, i modelli di machine learning sono in grado di migliorare le loro prestazioni man mano che vengono esposti a più dati.
+Data una funzione $y=f(x)$ nella programmazione classica "esplicita" il programmatore programma $f$ con le istruzioni passo a passo per ottenere $y$ a partire da $x$.
+Nel Machine Learning il programmatore fornisce alla macchina degli esempi di $x$ e relativa $y$ e lascia che sia la macchina a costruirsi la sua $f$ a partire da tali esempi tramite quello che viene definito *training* o *addestramento*. La $f$ in questo caso viene detto *modello*.
+Il **Deep Learning** è un sottoinsieme del Machine Learning che si basa su [[Reti neurali]] artificiali con molti strati (profondi) di neuroni. Questi modelli sono in grado di apprendere direttamente dai dati, e sono particolarmente efficaci nel riconoscere modelli complessi e fare previsioni in una vasta gamma di domini, come il riconoscimento di immagini, il riconoscimento del linguaggio naturale e altro ancora.
+Tipologie di reti per il Deep Learning:
+* [[Rete neurale convoluzionale|Reti neurali convoluzionali]]: le CNN sono particolarmente efficaci nell'elaborazione di dati strutturati come le immagini.
+* [[Reti neurali ricorrenti]]: le RNN sono progettate per lavorare con sequenze di dati, come il linguaggio naturale o le serie temporali.
+* Generative Adversarial Networks (GAN): le GAN sono composti da due reti neurali, una che genera dati e l'altra che cerca di discriminare tra dati generati e reali.
 
 ## Tipologie
 
 ### Apprendimento supervisionato
 
-L'apprendimento supervisionato è un approccio in cui il modello viene allenato su un set di dati etichettato, il che significa che ogni esempio nel set di dati è accompagnato dalla risposta corretta (etichetta). L'obiettivo è quello di apprendere una funzione che, data un'entrata, può predire l'etichetta di uscita.
+Gli algoritmi di machine learning supervisionati si basano tutti sull'apprendimento a partire da un [[Dataset]] etichettato il che significa che ogni esempio nel set di dati (*features*) è accompagnato dalla risposta corretta (*target*).
+Questo viene tipicamente diviso in [[Train, validation e test set]] in modo da avere dei dati per la costruzione del modello e altri per la valutazione dello stesso.
+L'obiettivo è quello di apprendere una funzione che, data un'entrata, può predire l'etichetta di uscita.
 Le due macrocategorie di problemi per l'apprendimento supervisionato sono:
-- **[[Classificazione]]:** L’obiettivo è quello di prevedere le etichette di categoria delle classi per le nuove istanze, sulla base delle osservazioni compiute nel passato.. Ad esempio, determinare se un'email è spam o no.
-- **[[Regressione]]** Implica la previsione di un valore numerico continuo basato su variabili indipendenti. Un esempio è la previsione del prezzo di una casa in base alle sue caratteristiche.    
+- **[[Classificazione]]:** L’obiettivo è quello di **prevedere le etichette di categoria** delle classi per le nuove istanze, sulla base delle osservazioni compiute nel passato.. Ad esempio, determinare se un'email è spam o no.
+- **[[Regressione]]**: Implica la previsione di un **valore numerico continuo** basato su variabili indipendenti. Un esempio è la previsione del prezzo di una casa in base alle sue caratteristiche.    
 
-### Apprendimento Non Supervisionato (Unsupervised Learning)
+### Apprendimento non Supervisionato
 
 L'apprendimento non supervisionato coinvolge la modellazione di dati non etichettati. Il modello cerca di comprendere la struttura dei dati senza etichette predefinite.
 Le categorie questo apprendimento sono:
@@ -42,13 +49,6 @@ Algoritmi comuni includono:
 - DQN (Deep Q-Network): Combina Q-Learning con reti neurali profonde.
 - A3C (Asynchronous Advantage Actor-Critic): Utilizza più copie dell'agente che lavorano in parallelo.
 
-### Deep Learning
-
-Il deep learning è un sottoinsieme del machine learning in cui vengono utilizzate reti neurali con diverse strati nascosti.
-
-* [[Rete neurale convoluzionale|Reti neurali convoluzionali]]: le CNN sono particolarmente efficaci nell'elaborazione di dati strutturati come le immagini.
-* [[Reti neurali ricorrenti]]: le RNN sono progettate per lavorare con sequenze di dati, come il linguaggio naturale o le serie temporali.
-* Generative Adversarial Networks (GAN): le GAN sono composti da due reti neurali, una che genera dati e l'altra che cerca di discriminare tra dati generati e reali.
 
 ### [[Ensemble Learning]]
 L'apprendimento ensemble combina le previsioni di più modelli per migliorare l'affidabilità e l'accuratezza.
@@ -68,7 +68,7 @@ Questo processo è cruciale per garantire che i dati siano adatti per l'addestra
 1. **[[Selezione delle features]]**
 2. **[[Algoritmi di encoding|Encoding]] delle [[Variabili categoriche e non|Variabili Categoriche]]**:
    - Le variabili categoriche, come il genere o il colore preferito, devono essere convertite in una forma numerica in modo che il modello possa utilizzarle.
-   - Le tecniche di encoding comuni includono l'[[One-Hot Encoding]], il [[Label Encoding]] e il Target Encoding.
+   - Le tecniche di encoding comuni includono l'[[One-hot encoding]], il [[Label Encoding]] e il Target Encoding.
 3. **[[Normalizzazione dei dati]]**:
    - La normalizzazione dei dati consiste nel ridurre la scala dei dati in modo che tutte le caratteristiche abbiano lo stesso ordine di grandezza.
    - Questo è particolarmente importante per algoritmi basati sulla distanza, come k-Nearest Neighbors (K-NN) o [[Support Vector Machines (SVM)]].
@@ -90,9 +90,9 @@ Posso concatenare le varie fasi del pre-processing usando l'oggetto [[Pipeline]]
 Esistono numerosissimi algoritmi e l'abilità della persona sta nel scegliere, o trovare il modo di scegliere quello corretto per il problema che deve affrontare.
 Per esempio per un problema di classificazione vi sono [[Classificazione#^84ab24|questi algoritmi]].
 
-
 ### Addestramento (Fit)
 L'addestramento è dove vengono rilevati dal modello i pattern rilevanti nel dataset.
+Indipendentemente dal modello utilizzato al punto precedente questa operazione avviene tramite il metodo `model.fit(X, y)`.
 
 ### [[Valutazione delle prestazioni del modello]]
 In questo step vengono fatte le previsioni su dei nuovi dati non usati nell'addestramento (validation data) al fine di capire se il modello è ok o deve essere ottmizzato.
@@ -103,16 +103,14 @@ In base alle performance sopra si possono ottimizzare gli iperparametri del mode
 ### Inferenza
 Una volta che il modello è addestrato e ottimizzato, è possibile utilizzarlo per effettuare previsioni su nuovi dati.
 
-
 ## Applicazioni di Deep Learning
 ### Computer Vision
 
 L'intelligenza artificiale ha rivoluzionato il campo della computer vision, introducendo strumenti e tecniche che hanno notevolmente migliorato la capacità delle macchine di interpretare e interagire con il mondo visivo.
 Rivoluzionarie per la computer vision sono le [[Rete neurale convoluzionale|reti neurali convoluzionali]] e la loro più famosa applicazione che è la [[YOLO]].
-
 #### Preprocessing
 
-Due tecniche essenziali per l'ottimizzazione dei modelli di intelligenza artificiale sono la [[Normalizzazione pixel|normalizzazione dei pixel]] e la [[data augmentation]]: la normalizzazione dei pixel, un processo che modifica i valori dei pixel per una distribuzione più uniforme e quindi cruciale per migliorare prestazioni e velocità dei modelli di apprendimento profondo, evitando l'influenza di variazioni di luminosità o colore irrilevanti, si affianca alla data augmentation, una tecnica che accresce varietà e quantità dei dati di addestramento attraverso modifiche come rotazioni, traslazioni, zoom e variazioni cromatiche, migliorando così la capacità del modello di generalizzare e operare efficacemente in scenari reali.
+Due tecniche essenziali per l'ottimizzazione dei modelli di intelligenza artificiale sono la [[Normalizzazione pixel|normalizzazione dei pixel]] e la [[Data augmentation]]: la normalizzazione dei pixel, un processo che modifica i valori dei pixel per una distribuzione più uniforme e quindi cruciale per migliorare prestazioni e velocità dei modelli di apprendimento profondo, evitando l'influenza di variazioni di luminosità o colore irrilevanti, si affianca alla data augmentation, una tecnica che accresce varietà e quantità dei dati di addestramento attraverso modifiche come rotazioni, traslazioni, zoom e variazioni cromatiche, migliorando così la capacità del modello di generalizzare e operare efficacemente in scenari reali.
 
 ### Large Language Models
 

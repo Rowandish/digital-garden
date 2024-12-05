@@ -2,6 +2,11 @@ Le caratteristiche, o "features", sono le informazioni che il modello utilizza p
 La selezione delle caratteristiche consiste ==nel scegliere le variabili più rilevanti e informative dai dati disponibili per addestrare il modello==. Questo processo è cruciale perché influisce direttamente sulla capacità del modello di generalizzare correttamente su nuovi dati e di ottenere prestazioni ottimali.
 
 Per convenzione le caratteristiche scelte del dataset che voglio fornire al modello sono definite dalla lettera `X` (`y` invece è la caratteristica che voglio predire).
+Nei dataset di `sklearn` le feature sono in `data` mentre il target è in `target`, tipicamente quello che si fa è:
+```python
+X = dataset['data']  
+y = dataset['target']
+```
 
 Esistono diverse tecniche per operare la selezione delle caratteristiche:
 

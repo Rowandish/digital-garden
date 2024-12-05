@@ -21,14 +21,13 @@ La scelta di un algoritmo di classificazione appropriato per risolvere un determ
 ### Machine Learning
 
 Nel machine learning tradizionale, si utilizzano algoritmi più semplici e classici come
+* [[Regressione logistica]]: il più semplice e classico
 * [[Support Vector Machines (SVM)]]
 * [[Decision tree]]
 * [[Random Forests]]
 * Naive Bayes
-* [[Ensemble Learning]]
-* [[Regressione logistica]]. 
 
-==Questi algoritmi si basano su regole matematiche e statistiche per separare i dati in diverse categorie in base alle loro caratteristiche==. Sono spesso utilizzati quando si ha un numero limitato di dati e quando le relazioni tra le caratteristiche e le etichette di classificazione sono relativamente semplici.
+Questi algoritmi si basano su regole matematiche e statistiche per separare i dati in diverse categorie in base alle loro caratteristiche. Sono spesso utilizzati quando si ha un numero limitato di dati e quando le relazioni tra le caratteristiche e le etichette di classificazione sono relativamente semplici.
 Ecco alcuni esempi di algoritmi di machine learning.
 ```python
 clf1 = GradientBoostingClassifier()
@@ -36,11 +35,5 @@ clf2 = RandomForestClassifier(class_weight='balanced')
 clf3 = LGBMClassifier(class_weight='balanced')
 clf4 = XGBClassifier()
 ```
-
-### Deep Learning
-
-Nel deep learning, si utilizzano [[Reti neurali]] artificiali con molti strati di neuroni artificiali, che possono apprendere automaticamente rappresentazioni complesse dei dati.
-Le reti neurali profonde sono particolarmente efficaci nel trattare grandi quantità di dati, come immagini, testo o audio, e nel catturare relazioni complesse tra le caratteristiche e le etichette di classificazione.
-I tipi di reti neurali comuni includono
-* Reti neurali convenzionali (feedforward)
-* [[Rete neurale convoluzionale|Reti neurali convoluzionali]] (CNN) per le immagini e le recurrent neural networks (RNN) per i dati sequenziali come il testo.
+Tipicamente non si usa solo un classificatore ma, per lo stesso problema, si provano vari classificatori al fine di capire quello che funziona meglio.
+Esistono anche tecniche di [[Ensemble Learning|ensambling]] per combinare diversi classificatori e metterli insieme tramite votazione.

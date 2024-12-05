@@ -2,7 +2,7 @@
 tags:
   - MachineLearning
 ---
-Nell'ambito del machine learning, l'inferenza si riferisce al processo attraverso il quale ==un modello già addestrato viene utilizzato per fare previsioni su nuovi dati==. In altre parole, dopo che un modello è stato allenato (o "addestrato") su un set di dati noto (il [[Train, test e validation set|train set]]), l'inferenza implica l'applicazione di questo modello a dati che non ha mai visto prima (spesso denominati test set o dati di produzione) per generare output utili.
+Nell'ambito del machine learning, l'inferenza si riferisce al processo attraverso il quale ==un modello già addestrato viene utilizzato per fare previsioni su nuovi dati==. In altre parole, dopo che un modello è stato allenato (o "addestrato") su un set di dati noto (il [[Train, validation e test set|train set]]), l'inferenza implica l'applicazione di questo modello a dati che non ha mai visto prima (spesso denominati test set o dati di produzione) per generare output utili.
 
 Durante la fase di addestramento, un modello impara a identificare pattern, relazioni e caratteristiche all'interno del set di dati. Questo apprendimento viene successivamente messo alla prova durante l'inferenza. Ad esempio, in un modello di machine learning per il riconoscimento delle immagini, la fase di addestramento comporta l'apprendimento delle caratteristiche visive che distinguono le varie categorie. Durante l'inferenza, il modello viene poi presentato con nuovi dati e deve prevedere o "inferire" le loro categorie basandosi su ciò che ha appreso.
 

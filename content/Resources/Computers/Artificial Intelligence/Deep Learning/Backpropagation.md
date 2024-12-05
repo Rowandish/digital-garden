@@ -7,7 +7,7 @@ La backpropagation è un algoritmo per regolare i pesi delle connessioni tra i n
 
 Ecco come funziona in breve:
 
-1. **Forward Propagation**: Durante la fase di forward propagation, i dati di input vengono passati attraverso la rete neurale, uno strato dopo l'altro, fino a quando non viene generata un'output. Durante questo processo, i neuroni combinano i loro input utilizzando i pesi delle connessioni tra di loro e applicando una [[funzione di attivazione]].
+1. **Forward Propagation**: Durante la fase di forward propagation, i dati di input vengono passati attraverso la rete neurale, uno strato dopo l'altro, fino a quando non viene generata un'output. Durante questo processo, i neuroni combinano i loro input utilizzando i pesi delle connessioni tra di loro e applicando una [[Funzione di attivazione]].
 2. **Calcolo dell'Errore**: Dopo aver generato un'output, viene calcolato l'errore confrontando l'output previsto dalla rete con l'output desiderato usando una [[Loss function]].
 3. **Backward Propagation**: Durante la fase di backward propagation, ==l'errore calcolato viene propagato all'indietro attraverso la rete, calcolando quanto ogni peso contribuisce all'errore complessivo. Quindi, i pesi delle connessioni vengono aggiornati in base a questo calcolo per ridurre l'errore complessivo==.
 4. **Aggiornamento dei Pesi**: Infine, i pesi delle connessioni vengono aggiornati utilizzando un [[Algoritmi di ottimizzazione|algoritmo di ottimizzazione]] come la discesa del gradiente, che utilizza i gradienti calcolati durante la backpropagation per modificare i pesi in modo da ridurre l'errore complessivo.

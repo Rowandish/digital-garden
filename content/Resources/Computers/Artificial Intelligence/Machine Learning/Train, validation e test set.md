@@ -8,18 +8,20 @@ Il train set è l'insieme di dati utilizzato per addestrare un modello di machin
 
 ## Validation set (val_X) - Set di convalida
 
-Questo set di dati è utilizzato per testare diverse configurazioni del modello e per ottimizzare i suoi [[iperparametri]].
+Questo set di dati è utilizzato per testare diverse configurazioni del modello e per ottimizzare i suoi [[Iperparametri]].
 Ad esempio, se stiamo costruendo un modello di rete neurale, possiamo utilizzare il validation set per regolare il numero di strati nascosti o il tasso di apprendimento al fine di migliorare le prestazioni del modello.
+
+![[Pasted image 20241126153420.png]]
 
 ## Test set (test_X) - Set di test
 
 Viene utilizzato per valutare le prestazioni del modello e misurare la sua capacità di fare previsioni su dati non visti in precedenza.
- Il test set serve a valutare se il modello è in grado di generalizzare correttamente dalle informazioni apprese durante l'addestramento.
+Il test set serve a valutare se il modello è in grado di generalizzare correttamente dalle informazioni apprese durante l'addestramento.
 
 
 Se dobbiamo dividere un dataset nei tre dataset, dobbiamo tenere in considerazione che stiamo sottraendo informazioni preziose, di cui l’algoritmo di apprendimento potrebbe fare buon uso. Pertanto, non vogliamo allocare troppe informazioni nel set di test. Tuttavia, più piccolo è il set di test, più sarà imprecisa la stima dell’errore di generalizzazione. 
 Le divisioni più comunemente utilizzate sono 60:40, 70:30 o 80:20 a seconda delle dimensioni del dataset iniziale. Tuttavia, per grossi dataset, possono essere comuni e appropriate anche suddivisioni del tipo 90:10 o 99:1.
-Per vederne un esempio vedi la funzione train_test_split di Scikit Learn.
+Per vederne un esempio vedi la funzione `train_test_split` di `Scikit Learn`.
 
 ## `train_test_split`
 

@@ -1,7 +1,7 @@
 ![[_47b3a56b-73c8-46d6-bc27-282aa58d4111.jpg]]
 
 L'obiettivo di ogni investimento è massimizzare il [[ROI (Return On Investment)]] (nel caso di un finanziamento di una banca il [[ROE]]) cercando di ridurre il più possibile il [[Rischio]] e allo stesso tempo massimizzare l'[[Expected value]] assumendo di essere in un [[Mercato efficiente]].
-Io seguo la filosofia per cui i soldi non vanno allocati in base a percentuali predefinite (60-40, all weather...) ma solo all'orizzonte temporale.
+Io seguo la filosofia per cui i soldi non vanno allocati in base a percentuali predefinite (60-40, all weather...) ma solo in base all'orizzonte temporale.
 Ritengo inoltre che la tolleranza al rischio abbia poco senso: se tanto devo ritirare i soldi fra 10 anni a cosa serve guardare i grafici ogni 3 mesi e eventualmente vendere tutto se crolla? Evidentemente non era vero che il mio orizzonte era 10 anni.
 Ricordiamoci sempre che l'obiettivo degli investimenti è proteggerci dall'inflazione e che invece è molto difficile che questi, da soli, mi portino a [[Investing Won't Make You Rich (Probably)|diventare ricco]] e che generino un'enorme [[The Passive Income Scam|entrata passiva]] come molti invece vogliono farci credere.
 Inoltre più che su dove investire il focus assoluto deve essere ad aumentare il [[Saving rate]], quindi aumentare gli ingressi senza che aumenti conseguentemente le uscite ([[Luxury Vehicles and Happiness|lifestyle inflation]]).

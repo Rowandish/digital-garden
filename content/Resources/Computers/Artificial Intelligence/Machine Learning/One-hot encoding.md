@@ -15,7 +15,53 @@ Immagina di avere una colonna chiamata "Colore" con tre categorie: Rosso, Verde 
 - Se una riga ha il colore "Verde", la colonna "Verde" conterrà un 1 e le altre colonne conterranno 0: (0, 1, 0)
 - Se una riga ha il colore "Blu", la colonna "Blu" conterrà un 1 e le altre colonne conterranno 0: (0, 0, 1)
 
-## Esempio
+## Esempi
+
+### Scikit learn
+
+```python
+from sklearn.compose import ColumnTransformer
+from sklearn.preprocessing import OneHotEncoder
+import numpy as np
+
+# Dataset d'esempio
+# Ogni riga rappresenta [Età, Città]
+data = np.array([
+    [25, 'Milano'],
+    [30, 'Roma'],
+    [22, 'Napoli'],
+    [35, 'Milano']
+])
+
+# Indici delle colonne
+colonna_categorica = [1]  # Colonna "Città"
+colonna_numerica = [0]    # Colonna "Età"
+
+# Creazione del ColumnTransformer
+preprocessor = ColumnTransformer(
+    transformers=[
+        ('onehot', OneHotEncoder(), colonna_categorica),  # One-hot encoding per "Città"
+        ('passthrough', 'passthrough', colonna_numerica)  # Lascia invariata "Età"
+    ]
+)
+
+# Applicazione del ColumnTransformer
+data_trasformato = preprocessor.fit_transform(data)
+
+# Output del risultato
+print(data_trasformato)
+```
+
+### Output:
+
+```plaintext
+[[ 1.  0.  0. 25.]
+ [ 0.  0.  1. 30.]
+ [ 0.  1.  0. 22.]
+ [ 1.  0.  0. 35.]]
+```
+
+### Pandas
 
 Un modo comodo per creare queste caratteristiche fittizie tramite la codifica one-hot consiste nell’utilizzare il metodo `get_dummies` implementato nei pandas.
 Ecco un esempio di come gestire un `DataFrame` rappresentante magliette con le colonne "Taglia", "Colore" e "Prezzo" in modo che sia facilmente gestibile da un algoritmo di machine learning utilizzando Pandas.

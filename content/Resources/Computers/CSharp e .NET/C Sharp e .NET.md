@@ -33,8 +33,6 @@ LIST FROM #WebDevelopment
 ## Tools
 
 * [[JetBrains Rider]]
-
-
 ## Memory
 
 ### Gestione della memoria e ottimizzazione
@@ -56,9 +54,7 @@ LIST FROM #WebDevelopment
 
 ## Multithreading
 
-Dopo l'introduzione in [[Programmazione asincrona con .NET]] vediamo vari comandi e tecniche utili in un contesto di multithreading.
-
-#### Gestione dei thread e concorrenza
+### Gestione dei thread e concorrenza
 - [[Interlocked]]
 - [[Lock]]
 - [[SpinLock]]
@@ -66,11 +62,10 @@ Dopo l'introduzione in [[Programmazione asincrona con .NET]] vediamo vari comand
 - [[Thread]]
 - [[SemaphoreSlim]]
 
-#### Tecniche di sincronizzazione
+### Tecniche di sincronizzazione
 - [[Blocking vs Spinning]]
 - [[ManualResetEvent vs ManualResetEventSlim]]
 - [[SpinLock e SpinWait]]
-
 
 ## Performance
 
@@ -81,8 +76,7 @@ Dopo l'introduzione in [[Programmazione asincrona con .NET]] vediamo vari comand
 * [[Storia del framework .NET]]
 * [[ASP.NET]]
 
-### WPF
-
+## WPF
 * [[WPF]]
 * [[Blend  - Visual Studio]]
 * [[Command su eventi non standard]]

@@ -1,6 +1,6 @@
-Anche se lavoro nell'ambito del [[Digital Image Processing]] mi occupo principalmente di scrivere codice pulito, manutenibile e scalabile usando tecniche di [[Software Engineering]].
-Nell'ultimo anno sto sempre più studiando il mondo del [[Machine Learning]], sia lato visione industriale che modelli di linguaggio e aiuto alla produttività.
-Di seguito una categorizzazione di tutte le note che ho preso negli anni sui vari ambiti che ho approfondito.
+## General
+* [[Software Engineering]]
+* [[Artificial Intelligence]]
 ## Languages
 
 * [[C Sharp e .NET]]
@@ -8,37 +8,51 @@ Di seguito una categorizzazione di tutte le note che ho preso negli anni sui var
 * [[Ruby On Rails]]
 * [[Regexp]]
 ## Database
-
-### DBMS
-* [[SQL Server]]
 ### Basics
 * [[Transazioni]]
 * [[Indici]]
 * [[Trigger]]
 * [[Window function]]
 
-### Scalability
-
-* [[Database sharding]]
+### DBMS
+* [[SQL Server]]
+### Visualizations
+* [[PowerBI]]
 
 ## Tools
 * [[Git]]
 * [[Blender]]
 * [[Excel - Spreadsheet]]
-## Operating system
-
-* [[Windows]]
-* [[Linux]]
+## System Administration
+* [[Database sharding]]
+* [[Iptables]]
+* [[Grep, awk e sed]]
+* [[Come rimuovere definitivamente una applicazione in linux]]
+* [[Cambio di permessi su file]]
+* [[Sostituire un hard-disk]]
 ## PaaS
 * [[Firebase]]
 * [[Azure]]
-
+* [[AWS Services]]
+## Design and Software Architecture
+* [[Clean Architecture]]
 ## Container
 * [[Docker]]
 ## Web
 * [[Scss]]
 * [[Elementor]]
-## Hacking
+
+## Digital Image Processing
+* [[Thresholding]]
+* [[Normalizzazione e equalizzazione]]
+* [[Filtraggi digitali]]
+* [[Edge detection con Canny]]
+* [[La trasformata di Hough]]
+* [[Gli operatori morfologici]]
+* [[Algoritmi di labelling]]
+* [[Pattern matching]]
+
+## Hacking & Tricks
 
 * [[PicoCTF]]
 * [[Perché non dovresti usare md5]]

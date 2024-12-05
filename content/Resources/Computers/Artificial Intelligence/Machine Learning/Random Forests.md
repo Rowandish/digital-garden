@@ -16,7 +16,7 @@ Una volta addestrati tutti gli alberi decisionali, vengono utilizzati per fare p
 
 ## Vantaggi
 
-Ci sono diversi vantaggi nell'utilizzo di un algoritmo di Random Forest. In primo luogo, è meno suscettibile all'[[overfitting]] rispetto a un singolo albero decisionale, poiché la combinazione di molteplici alberi riduce la varianza complessiva del modello. In secondo luogo, è in grado di gestire un gran numero di caratteristiche e può essere utilizzato efficacemente anche con dati rumorosi o mancanti. Inoltre, è relativamente semplice da implementare e può essere parallelizzato per velocizzare il processo di addestramento su grandi dataset.
+Ci sono diversi vantaggi nell'utilizzo di un algoritmo di Random Forest. In primo luogo, è meno suscettibile all'[[Overfitting]] rispetto a un singolo albero decisionale, poiché la combinazione di molteplici alberi riduce la varianza complessiva del modello. In secondo luogo, è in grado di gestire un gran numero di caratteristiche e può essere utilizzato efficacemente anche con dati rumorosi o mancanti. Inoltre, è relativamente semplice da implementare e può essere parallelizzato per velocizzare il processo di addestramento su grandi dataset.
 
 ## Svantaggi
 

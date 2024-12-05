@@ -3,6 +3,8 @@ tags:
   - CSharp
   - DotNET
 ---
+Questa nota prende a piene mani dal corso [From Zero to Hero: Logging in .NET](https://courses.dometrain.com/courses/take/from-zero-to-hero-logging-in-net).
+
 L'interfaccia `ILogger` è il cuore del sistema di logging in .NET ed essa fornisce i metodi fondamentali per registrare i messaggi di log.
 
 ## Creazione del logger

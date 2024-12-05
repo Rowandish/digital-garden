@@ -36,13 +36,15 @@ Ridurre la varianza del modello implica ridurne la complessità, limitando la su
 ### Prestazioni sui dati di test
 
 #### Classificazione
-##### Errore
-
-L'errore è la percentuale di predizioni errate fatte dal modello.
 
 ##### Accuratezza
 
 L'accuratezza è la percentuale di predizioni corrette fatte dal modello, quindi la proporzione tra le istanze classificate correttamente e quelle classificate in modo errato.
+E' la metrica più utilizzata.
+##### Errore
+
+L'errore è la percentuale di predizioni errate fatte dal modello.
+
 ##### Precisione
 
 La precisione è una misura della precisione del modello quando fa una predizione positiva. 
@@ -102,14 +104,12 @@ $$
 
 Quindi, l'accuratezza del modello è del 95%.
 
-
-
-
 #### Regressione
 
 ##### Mean Absolute Error
 
 La MAE (Mean Absolute Error) è una misura della discrepanza media tra le previsioni di un modello e i valori osservati nei dati di test. Calcola la media delle differenze assolute tra le previsioni e i valori reali, senza considerare la direzione degli errori.
+E' la metrica più semplice ed utilizzata per i classificatori.
 
 ## Algoritmi di valutazione delle prestazioni
 ### Convalida incrociata holdout
@@ -122,7 +122,7 @@ Immagina di avere un insieme di dati che vuoi utilizzare per addestrare un model
 Il set di addestramento è utilizzato per addestrare il modello. Qui, il modello impara dai dati, cerca di individuare i modelli e le relazioni nei dati per fare previsioni in futuro. Questo set di dati dovrebbe rappresentare una buona rappresentazione di tutti i possibili scenari che il modello potrebbe incontrare.
 
 **Set di Convalida:**
-Il set di convalida è utilizzato per ==valutare le prestazioni del modello e ottimizzare i suoi [[iperparametri]]==. Gli iperparametri sono come "impostazioni" del modello che possono essere regolati per migliorarne le prestazioni.
+Il set di convalida è utilizzato per ==valutare le prestazioni del modello e ottimizzare i suoi [[Iperparametri]]==. Gli iperparametri sono come "impostazioni" del modello che possono essere regolati per migliorarne le prestazioni.
 Ad esempio, nel caso di un algoritmo di [[Classificazione]], un iperparametro potrebbe essere il numero di alberi in un modello di [[Random Forests]]. Utilizzando il set di convalida, possiamo ==testare diverse configurazioni di questi iperparametri e scegliere quella che offre le migliori prestazioni==.
 
 **Set di Test:**

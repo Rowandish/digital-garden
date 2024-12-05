@@ -48,7 +48,7 @@ print("Accuracy:", accuracy)
 In questo esempio, stiamo costruendo una pipeline per la classificazione utilizzando il dataset Iris. La pipeline include tre passaggi:
 
 1. `StandardScaler`: questo passaggio [[Standardizzazione dei dati|standardizza]] le caratteristiche rimuovendo la media e riducendo la varianza in modo che tutte le caratteristiche abbiano una varianza unitaria. Questo è importante quando si utilizzano algoritmi sensibili alla scala delle caratteristiche, come le SVM.
-2. `PCA`: questo passaggio esegue la [[riduzione della dimensionalità]] utilizzando l'analisi delle componenti principali (PCA) per proiettare i dati in un nuovo spazio di dimensioni inferiori. In questo esempio, stiamo riducendo la dimensionalità a 2 per facilitare la visualizzazione, ma in pratica il numero di componenti principali potrebbe essere scelto in modo più accurato.
+2. `PCA`: questo passaggio esegue la [[Riduzione della Dimensionalità]] utilizzando l'analisi delle componenti principali (PCA) per proiettare i dati in un nuovo spazio di dimensioni inferiori. In questo esempio, stiamo riducendo la dimensionalità a 2 per facilitare la visualizzazione, ma in pratica il numero di componenti principali potrebbe essere scelto in modo più accurato.
 3. `SVC`: infine, applichiamo un modello di classificazione Support Vector Machine (SVM) per fare previsioni sul dataset.
 
 Con la pipeline definita, possiamo addestrare il modello chiamando il metodo `fit` e valutarlo chiamando il metodo `score` utilizzando i dati di test. La pipeline si occupa automaticamente di eseguire tutte le trasformazioni di dati necessarie prima di addestrare il modello, rendendo il flusso di lavoro molto più pulito e organizzato.

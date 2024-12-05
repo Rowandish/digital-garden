@@ -11,35 +11,27 @@ Questo articolo segue direttamente quanto indicato sulla documentazione ufficial
 Un cursore offre la possibilità di elaborare un set di dati (quindi il risultato di una `SELECT`) una riga alla volta.  
 Le istruzioni principali sono le seguenti:
 
--   **DECLARE CURSOR**: definisce gli attributi di un cursore del server Transact-SQL, ad esempio lo scorrimento e la query utilizzata per compilare il set di risultati su cui agisce il cursore.
--   **OPEN**: esegue il popolamento del set di risultati e l'istruzione `FETCH` restituisce una riga dal set di risultati.
--   **CLOSE**: rilascia il set di risultati corrente associato al cursore.
--   **DEALLOCATE** rilascia le risorse utilizzate dal cursore.
+- **DECLARE CURSOR**: definisce gli attributi di un cursore del server Transact-SQL, ad esempio lo scorrimento e la query utilizzata per compilare il set di risultati su cui agisce il cursore.
+- **OPEN**: esegue il popolamento del set di risultati e l'istruzione `FETCH` restituisce una riga dal set di risultati.
+- **CLOSE**: rilascia il set di risultati corrente associato al cursore.
+- **DEALLOCATE** rilascia le risorse utilizzate dal cursore.
 
 Tipicamente la dichiarazione di un cursore segue questo pattern:
 ```sql
 DECLARE @var1 VARCHAR(max);
 DECLARE @var2 VARCHAR(max);
 
-DECLARE Cursor_name CURSOR
-FOR
-SELECT var1
-    , var2
-FROM tabel_name
+DECLARE Cursor_name CURSOR FOR SELECT var1, var2 FROM tabel_name
 
 OPEN Cursor_name;
 
-FETCH NEXT
-FROM Cursor_name
-INTO @var1
-    , @var2;
+FETCH NEXT FROM Cursor_name INTO @var1, @var2;
 
 WHILE @@FETCH_STATUS = 0
 BEGIN
     FETCH NEXT
     FROM Cursor_name
-    INTO @var1
-        , @var2;
+    INTO @var1, @var2;
 END;
 
 CLOSE Cursor_name;
@@ -89,16 +81,12 @@ In cui _select statement_ è l'istruzione `SELECT` standard che definisce il set
 
 _Apre un cursore_ server Transact-SQL e popola il cursore mediante l'istruzione Transact-SQL specificata nell'istruzione `DECLARE CURSOR` o `SET cursor_variable`.
 
-OPEN cursor_name
-
 ### `FETCH`
 
 Recupera una riga specifica da un cursore server Transact-SQL.  
 Solitamente viene usato nel seguente modo:
 ```sql
-FETCH NEXT
-FROM cursor_name
-INTO @variable_name
+FETCH NEXT FROM cursor_name INTO @variable_name
 ```
 
 -   `NEXT`: restituisce la riga del set di risultati successiva alla riga corrente e imposta la riga corrente sulla riga restituita.

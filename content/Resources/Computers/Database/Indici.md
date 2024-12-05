@@ -8,10 +8,15 @@ tags:
 Gli indici progettati in modo non corretto e la mancanza di indici costituiscono le cause principali dei colli di bottiglia delle applicazioni di database. La progettazione di indici efficienti è fondamentale per ottenere buone prestazioni del database e dell'applicazione.
 
 Un indice è una struttura su disco associata a una tabella o a una vista che consente di recuperare in modo rapido le righe della tabella o della vista. L'indice contiene chiavi costituite da una o più colonne della tabella o della vista. Queste chiavi vengono archiviate in una struttura (albero binario) che consente a SQL Server di individuare con rapidità ed efficienza la riga o le righe associate ai valori di chiave.
+Tipicamente sono aggiunti sulle colonne utilizzate nella clausola `WHERE`.
+
+Gli indici sono continuamente soggetti alla frammentazione mano a mano che i dati vengono inseriti, modificati o eliminati.
+E' necessario pianificare una ricostruzione periodica degli indici ogni tanto (un po' come il vecchio defrag di Windows) per migliorare le performance e le dimensioni del DB.
+Su Sql Server quando si ricostruiscono gli indici è buona norma ricostruire anche le statistiche.
 
 La selezione degli indici adatti a un database e al relativo carico di lavoro è un'operazione complessa che comporta la ricerca di un equilibrio tra velocità delle query e costi di aggiornamento. Gli **indici limitati**, ovvero con poche colonne nella chiave di indice, richiedono meno spazio su disco e overhead di gestione. Gli **indici estesi**, d'altra parte, coprono più query. Potrebbe essere necessario sperimentare diverse soluzioni prima di trovare l'indice più efficiente.
 
-Il mondo della progettazione degli indici migliori per le tabelle di un databse è molto complesso, in questo articolo ci limitiamo a descrivere i due principali tipi di indici: clustered e non-clustered, seguendo [questo articolo](https://www.mssqltips.com/sqlservertip/1206/understanding-sql-server-indexing).
+Il mondo della progettazione degli indici migliori per le tabelle di un database è molto complesso, in questo articolo ci limitiamo a descrivere i due principali tipi di indici: clustered e non-clustered, seguendo [questo articolo](https://www.mssqltips.com/sqlservertip/1206/understanding-sql-server-indexing).
 
 Nella sua definizione più semplice, un indice *clustered* è un indice che **immagazzina i dati (valore)** mentre un indice *non-clustered* è solo un insieme di **puntatori a tale dato (riferimento)**.
 Una tabella può avere un solo indice *clustered* e fino a 249 indici non-clustered.
