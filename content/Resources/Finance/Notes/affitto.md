@@ -13,7 +13,7 @@ Nei contratti di locazione a canone libero la durata legale minima del contratto
 
 ## Imposte
 
--   l’aliquota (cedolare secca) è pari al 21% del canone di locazione annuo;
+-   l’aliquota ([[Cedolare secca|cedolare secca]]) è pari al 21% del canone di locazione annuo;
 -   Imponibile irpef, IMU, TASI e quant’altro tutte a prezzo pieno
 
 ## Canone

@@ -58,7 +58,7 @@ Tra le rotture di scatole includiamo il fatto che bisogna sapere un sacco di cos
 * I contratti vanno registrati entro tot tempo
 * Ogni anno vanno registrati nuovamente
 * Va registrato anche lo scioglimento
-* Se sono in regime di cedolare secca bisogna mandare ogni tot tempo una raccomandata all'inquilino per comunicargli che non si ha intenzione di alzare l'affitto
+* Se sono in regime di [[Cedolare secca|cedolare secca]] bisogna mandare ogni tot tempo una raccomandata all'inquilino per comunicargli che non si ha intenzione di alzare l'affitto
 
 ### Rendimento affitto
 

@@ -2,6 +2,7 @@
 tags:
   - CSharp
   - DotNET
+  - Dometrain
 ---
 ## Tipologie di test
 
@@ -293,9 +294,6 @@ Se per un qualsiasi motivo voglio invece che tutti i test, indipendentemente dal
 ```csharp
 [assembly: CollectionBehavior(DisableTestParallelization = true)]
 ```
-
-
-
 ### Testare le date
 Testare una classe che utilizza `DateTime` non è banale in quanto l'esito del test dipende da quando questo viene lanciato e non c'è modo per iniettare la data e l'ora corrente in base a quello che ci serve per i test.
 Per esempio il seguente metodo non è testabile in quanto  non ho modo di modificare la data corrente

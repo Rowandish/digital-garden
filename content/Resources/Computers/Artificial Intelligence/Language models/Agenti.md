@@ -1,0 +1,16 @@
+
+### Cosa sono gli agenti di intelligenza artificiale?
+
+==Gli agenti non sono altro che sistemi che combinano un **modello di machine learning**, come una rete neurale, con un software tradizionale.==
+Il modello è il cuore del sistema, responsabile di elaborare input come testo o immagini per restituire output dello stesso tipo. Tuttavia, è il software che si occupa di "incapsulare" questo modello e di trasformare l'input dell'utente nel prompt migliore possibile e l'output della rete in azioni concrete.
+Per esempio, se chiedi a un assistente virtuale di accendere la luce, ci sarà un software che aggiunge alla tua query detta a voce con tutti i comandi possibili creando un prompt in cui l'LLM dovrà solo scegliere l'opzione corretta. Una volta che il modello linguistico suggerisce un comando come _Light on_ (esempio), è il software a inviare l'istruzione al dispositivo reale.
+
+Questa capacità di integrazione tra rete neurale e software consente agli agenti di interagire con il mondo reale, rendendoli strumenti versatili in teoria, ma spesso instabili o inefficaci nella pratica.
+
+### Perché gli agenti sono ancora immaturi?
+Gli agenti di intelligenza artificiale, nonostante il loro grande potenziale, sono ancora considerati "immaturi" sul mercato per diversi motivi, che derivano sia da limiti tecnologici intrinseci che da una cultura ancora acerba nel settore. Ma andiamo per gradi.
+
+**1. Complessità tecnica e stabilità** Uno dei principali problemi è l'instabilità. Gli agenti spesso funzionano su una logica di interazione tra più modelli o librerie. Ad esempio, si può avere un sistema con diversi "mini-agenti", ognuno dei quali ha un compito specifico, e che comunicano tra loro. Tuttavia, senza un controllo rigoroso, questi sistemi possono divergere rapidamente, generando errori e risultati non previsti. Questo è particolarmente vero per approcci come i modelli "reactive", dove l'agente itera continuamente su un prompt aggiornandolo dinamicamente.
+La questione diventa ancora più critica quando si cercano applicazioni nel mondo reale, dove precisione e affidabilità sono fondamentali. I modelli statistici, per quanto avanzati, non garantiscono mai il 100% di controllo, creando un’esigenza di supervisione umana costante, il cosiddetto **Human in the Loop**. Questo approccio è indispensabile in settori dove la sicurezza e la responsabilità sono prioritarie.
+**2. Mancanza di competenze diffuse** Un altro ostacolo è la scarsa comprensione di come funzionano realmente gli agenti. Costruire un agente funzionante richiede una grande quantità di "plumbing", cioè di lavoro infrastrutturale: validazione, sicurezza, integrazione con sistemi esterni e gestione del feedback umano.
+**3. Necessità di una progettazione modulare** Le aziende più avanzate, come Microsoft con il suo **[Copilot Studio](https://www.microsoft.com/it-it/microsoft-copilot/microsoft-copilot-studio)** o Google con **[Agent Space](https://cloud.google.com/products/agentspace)**, stanno affrontando il problema con un approccio più realistico. Invece di promettere automazione totale, offrono piattaforme che suddividono le funzionalità in agenti modulari, ciascuno dei quali è configurabile e supervisionabile. Questo approccio punta a bilanciare automazione e controllo umano, riducendo il rischio di errori e creando un sistema più affidabile.

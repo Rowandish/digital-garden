@@ -16,6 +16,9 @@
 
 ### DBMS
 * [[SQL Server]]
+
+### NoSQL
+* [[DynamoDB]]
 ### Visualizations
 * [[PowerBI]]
 
@@ -31,9 +34,10 @@
 * [[Cambio di permessi su file]]
 * [[Sostituire un hard-disk]]
 ## PaaS
+* [[AWS Web Services]]
 * [[Firebase]]
 * [[Azure]]
-* [[AWS Services]]
+
 ## Design and Software Architecture
 * [[Clean Architecture]]
 ## Container

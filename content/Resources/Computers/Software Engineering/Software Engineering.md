@@ -3,7 +3,7 @@ Per essere un buon programmatore è per prima cosa seguire i [[Principi di buona
 ## Design Pattern
 I design pattern sono spesso divisi in tre categorie (vedi *Gamma Categorization*)
 ### Creazionali
-Si occupano della costruzione di oggetti, si dividono in espliciti (costruttori) o impliciti ([[Dependency Injection|DI]], Reflection) e in *wholesale* (una singola istruzione) e *piecewise* (step-by step).
+Si occupano della costruzione di oggetti, si dividono in espliciti (costruttori) o impliciti ([[Dependency Injection Framework|DI]], Reflection) e in *wholesale* (una singola istruzione) e *piecewise* (step-by step).
 
 * [[Pattern Builder]]
 * [[Pattern Prototype]]
@@ -43,4 +43,4 @@ Si occupano genericamente del comportamento di classi; sono tutti diversi, non h
 * [[Principi SOLID. Dependency Inversion Principle|Dependency Inversion Principle]]
 
 ## Altro
-* [[Dependency Injection]]
+* [[Dependency Injection Framework]]

@@ -240,6 +240,129 @@ Le **viste** in SQL Server sono query salvate che agiscono come tabelle virtuali
 * Non è possibile fare riferimento a tabelle temporanee o variabili tabella
 * Non è possibile nascondere la definizione di una vista
 
+## Linked Server
+
+Un **linked server** in SQL Server è una funzionalità che consente di collegare il server SQL a un altro server di database (che può essere un altro SQL Server, PostgreSQL, Oracle, MySQL, ecc.) e accedervi come se fosse una parte dello stesso server.
+Con un linked server, puoi eseguire query distribuite che combinano dati provenienti da più database server.
+Vantaggi:
+- **Accesso remoto ai dati**: Consente di accedere a dati di un altro server senza la necessità di trasferirli manualmente.
+- **Facilità di query**: Puoi utilizzare T-SQL per interrogare dati su server remoti come se fossero locali.
+- **Integrazione**: Ideale per sistemi che richiedono l'integrazione tra più database.
+
+### Installazione
+
+#### ODBC
+
+1. **Installare un driver ODBC per PostgreSQL**:    
+    - Installa il driver [PostgreSQL ODBC](https://www.postgresql.org/ftp/odbc/) (es. `psqlODBC`).
+    - Configura un DSN (Data Source Name) sul sistema con le credenziali e il database PostgreSQL.: apri `ODBC Data Source Administrator (x64)` -> `System DSN` -> `PostgreSQL ANSI (x64)`
+		- **Data Source**: Postgres
+		- **Database**: mhiradb
+		- **Server**: localhost
+		- **User Name**: postgres
+		- **Password**: (campo riempito, non visibile il valore esatto)
+		- **SSL Mode**: disable
+		- **Port**: (campo vuoto)
+2. **Abilitare la funzionalità Linked Server in SQL Server**:
+    - Assicurati che la funzionalità sia abilitata e che SQL Server abbia i permessi per utilizzare provider esterni.
+
+#### Creare il Linked Server tramite SSMS
+1. Apri SSMS e connettiti al tuo server SQL Server.
+2. Espandi la cartella **Server Objects**.
+3. Fai clic destro su **Linked Servers** e scegli **New Linked Server**.
+4. Compila i campi come segue:
+    - **Linked server**: Un nome rappresentativo (es. `PostgreSQL_LinkedServer`).
+    - **Provider**: Seleziona `Microsoft OLE DB Provider for ODBC Drivers`.
+    - **Data source**: Inserisci il DSN configurato per PostgreSQL.
+##### Step 2: Configurare la Sicurezza
+1. Nella scheda **Security**, seleziona "Be made using this security context".
+2. Fornisci il nome utente e la password dell'utente che verrà utilizzato da Sql Server per fare le query.
+
+### Utilizzo del Linked Server
+
+Posso fare sia quelle query come se fossero in locale (alcuni ODBC convertono il dialetto, per esempio in PostgreSql il `TOP 1` viene convertito in un `LIMIT 1` automaticamente) oppure scrivere le query direttamente come stringhe usando la sintassi `OPENQUERY`
+```sql
+-- Query diretta tramite OPENQUERY se ODBC
+SELECT * FROM OPENQUERY(PostgreSQL_LinkedServer, 'SELECT * FROM public.users');
+
+-- Query distribuita
+SELECT * FROM PostgreSQL_LinkedServer.public.users;
+```
+
+### Sinonimi
+I **sinonimi** in SQL Server sono un alias per un oggetto database, come una tabella, una vista, una procedura memorizzata o una funzione.
+Quando utilizzati con i **linked server**, i sinonimi offrono numerosi vantaggi in termini di leggibilità, manutenzione e flessibilità del codice.
+Vantaggi:
+1. **Maggiore leggibilità e semplicità del codice**: Quando si lavora con i linked server, il nome completo di un oggetto può diventare lungo e complesso, poiché include il nome del server, del database, dello schema e della tabella:        
+```sql
+SELECT * FROM [LinkedServer].[Database].[Schema].[Table];
+```
+Utilizzando un sinonimo, puoi semplificare il riferimento all'oggetto remoto:
+```sql
+SELECT * FROM SynonymForRemoteTable;
+```
+2. **Facilità di manutenzione**: se il nome del linked server cambia (ad esempio, perché l'ambiente di sviluppo, test o produzione utilizza server diversi), puoi aggiornare il sinonimo senza dover modificare ogni query o procedura memorizzata che fa riferimento al linked server.
+	* Esempio: Cambi il sinonimo che punta a un nuovo linked server, e tutte le query che lo utilizzano continuano a funzionare senza modifiche.
+3. **Astrazione**: I sinonimi nascondono la complessità del server remoto. Gli sviluppatori possono scrivere query come se stessero lavorando con oggetti locali senza preoccuparsi della struttura del linked server.
+
+```sql
+CREATE SYNONYM SynonymForRemoteUsers
+FOR [PostgreSQL_LinkedServer].[DatabaseName].[SchemaName].[users];
+```
+
+Dopo aver creato il sinonimo, puoi usarlo nelle query senza specificare il linked server:
+
+```sql
+-- Invece di:
+SELECT * FROM [PostgreSQL_LinkedServer].[DatabaseName].[SchemaName].[users];
+
+-- Usa:
+SELECT * FROM SynonymForRemoteUsers;
+```
+### Utilizzo
+Un esempio di utilizzo è avere uno script che di notte va a prendere dati da vari linked server di varia natura e porta tali dati all'interno di tabelle di Sql Server.
+Da queste tabelle che creo poi posso creare delle visualizzazioni ad hoc usando, per esempio, [[PowerBI]].
+In questo modo non vado a toccare tutti i server originali e le rispettive tabelle ma le utilizzo solo in interrogazione per popolare il mio database con cui poter fare tutte le viste che voglio.
+
+## Importare e Sincronizzare un Database
+
+### Importare un database da un altro DBMS
+
+1. **Creare il DBMS come Linked Server**    
+    - Configurare l’altro database come un linked server in SQL Server utilizzando SQL Server Management Studio (SSMS). Questo permette a SQL Server di comunicare con il database esterno come se fosse locale.
+2. **Creare le tabelle nel database SQL Server**    
+    - Nel database SQL Server, crea le tabelle che rispecchiano la struttura (schema) del database esterno. Puoi farlo manualmente in SSMS oppure automatizzarlo se hai script SQL che descrivono le tabelle.
+3. **Importare i dati con una query**    
+    - Utilizza una query SQL per copiare i dati dal database esterno al database SQL Server. Ad esempio:        
+        ```sql
+        SELECT * INTO NomeTabella
+        FROM OPENQUERY(LinkedServerName, 'SELECT * FROM NomeTabellaRemota');
+        ```
+### Sincronizzare i dati con nuovi aggiornamenti
+1. **Identificare le righe nuove**    
+    - Una volta che la tabella è stata creata in SQL Server, puoi sincronizzarla con i nuovi dati generati nel database remoto. Per fare ciò, utilizza un identificatore univoco, come un ID incrementale o un timestamp, per sapere fino a dove sono stati importati i dati.
+2. **Creare una stored procedure per l'aggiornamento**    
+    - Scrivi una stored procedure che esegua una query sul database remoto per identificare e importare solo le righe nuove. Ad esempio:        
+        ```sql
+        CREATE PROCEDURE SincronizzaDati
+        AS
+        BEGIN
+            DECLARE @UltimoID INT;
+        
+            -- Trova l'ultimo ID sincronizzato nel database locale
+            SELECT @UltimoID = MAX(ID) FROM NomeTabella;
+        
+            -- Importa solo le righe con ID maggiori di @UltimoID
+            INSERT INTO NomeTabella (Colonna1, Colonna2, Colonna3)
+            SELECT Colonna1, Colonna2, Colonna3
+            FROM OPENQUERY(LinkedServerName, 
+                'SELECT * FROM NomeTabellaRemota WHERE ID > ' + CAST(@UltimoID AS NVARCHAR(10)) + '');
+        END;
+        ```
+        
+3. **Automatizzare l'esecuzione della stored procedure**    
+    - Utilizza SQL Server Agent per pianificare l’esecuzione della stored procedure a intervalli regolari (ad esempio ogni notte). In questo modo, il database SQL Server sarà costantemente aggiornato con i nuovi dati provenienti dal database remoto.
+
 ## Stored Procedure
 
 Le **stored procedure** sono blocchi di codice SQL salvati nel database che possono essere eseguiti come un singolo comando. Sono usate per eseguire operazioni complesse, come inserimenti, aggiornamenti, cancellazioni e selezioni di dati, con la possibilità di includere logica condizionale (come `IF` e `WHILE`) e parametri di input/output.

@@ -94,6 +94,63 @@ Dopo aver progettato il report in Power BI Desktop, il passaggio successivo è l
 ### Accesso e Visualizzazione
 
 Gli utenti possono accedere ai report pubblicati nel cloud tramite un browser o l'app Power BI Mobile. I report sono organizzati all'interno delle workspace aziendali e possono essere condivisi tramite link diretti. Durante la visualizzazione, è possibile interagire con i grafici, applicare filtri e analizzare i dati nei dettagli, rendendo le informazioni accessibili in modo chiaro e dinamico.
+
+## Report e modello semantico
+
+==Un file di **report** è una combinazione di dati e visualizzazioni==. Contiene sia il modello dati (le tabelle, le relazioni tra di esse, le trasformazioni applicate ai dati, le misure create con DAX) sia le pagine di report dove sono presenti grafici, tabelle e altri elementi visivi che rappresentano quei dati in modo analitico e interattivo. Il report, quindi, è pensato per essere un prodotto completo che consente agli utenti di esplorare e analizzare i dati direttamente.
+
+D'altra parte, ==un **modello semantico** è un file che si concentra esclusivamente sul modello dati, senza includere alcun tipo di visualizzazione==. Il suo scopo è fornire un ==modello dati centralizzato e condiviso che può essere utilizzato da più report==. Quando pubblichi un modello semantico nel servizio Power BI, diventa un dataset che può essere riutilizzato da altri utenti o team per costruire i loro report. Questo approccio è particolarmente utile in ambienti aziendali, dove la coerenza tra i report è fondamentale, poiché garantisce che tutti utilizzino gli stessi dati, trasformazioni e regole aziendali.
+
+## Pagina drill-through
+Una **pagina drill-through** in Power BI è una pagina di report progettata per fornire un livello di dettaglio più approfondito su uno specifico elemento o categoria presente in un'altra pagina del report.
+==Di solito, queste pagine sono tenute nascoste== o comunque non sono direttamente accessibili all'utente, ma diventano visibili quando qualcuno decide di approfondire un aspetto particolare dei dati.
+
+Il concetto chiave è che, ==quando si accede a una pagina drill-through, tutti i filtri e i contesti applicati sull'elemento selezionato nella pagina principale vengono automaticamente trasferiti alla pagina di dettaglio==.
+Ad esempio, se stai visualizzando un riepilogo delle vendite per regione e vuoi vedere i dettagli relativi a una specifica regione, cliccando su quella regione puoi accedere alla pagina drill-through che mostra informazioni più granulari, come i prodotti venduti, i clienti coinvolti o le tendenze temporali.
+
+## Drill-up e drill-down
+
+Il **drill-down** e il **drill-up** in Power BI sono funzionalità che permettono di navigare attraverso diversi livelli di dettaglio in una gerarchia di dati, direttamente all’interno di una visualizzazione, come un grafico o una tabella.
+
+Con il **drill-down**, puoi scendere a un livello più specifico all'interno della gerarchia. Ad esempio, se stai guardando le vendite totali per anno, puoi fare drill-down per vedere le vendite per trimestre, mese o giorno. Questo ti consente di analizzare i dati in modo più granulare, partendo da una visione generale e arrivando fino ai dettagli più minuti.
+
+Al contrario, il **drill-up** ti permette di risalire verso livelli più alti della gerarchia. Se stavi esaminando le vendite per mese e vuoi tornare a una visione più sintetica, puoi fare drill-up per vedere i totali per trimestre o per anno. È il modo per tornare a una prospettiva più ampia dopo aver esplorato i dettagli.
+
 ## Best Practices
 
 Per utilizzare Power BI in modo efficiente, è consigliabile centralizzare tutti i dati in un unico DBMS (ad esempio SQL Server) ed evitare connessioni multiple a basi dati diverse, specialmente in presenza di grandi volumi. È preferibile eseguire calcoli e trasformazioni complesse direttamente nel database tramite viste ad hoc, demandando a Power BI esclusivamente la visualizzazione dei dati. Inoltre, è utile pianificare aggiornamenti notturni per garantire che i report siano sempre aggiornati senza impattare sulle performance operative.
+
+## Utilizzare Power BI per visualizzare report dei dati raccolti da macchine di produzione
+
+### Fase 1: Raccolta dei dati dalle macchine
+- **Generazione dei dati:**  
+    Le macchine di produzione scrivono i dati in un database esterno. Questi dati devono essere discretizzati, ossia campionati in momenti significativi, per ridurre il volume complessivo. L'idea è disaccoppiare il db locale con il db remoto in modo che uno non dipenda dall'altro; lo schema dei due db è diverso e tipicamente sono gestiti da due team diversi.
+- **Posizione del database:**  
+    Il database può essere interno all’azienda (on-premises) oppure in cloud.
+### Fase 2: Configurazione del collegamento a Power BI
+- **Installazione del Gateway dei dati:**
+    - Per permettere a Power BI di accedere ai dati del database, è necessario installare il **Gateway dei Dati** sulla macchina che ospita il database (o che ha accesso al database).
+    - **Modalità di funzionamento del gateway:**
+        1. **Modalità Standard:** Consente al gateway di accedere a percorsi di rete, come database SQL Server, PostgreSQL o MySQL. Questa modalità è consigliata per i database centralizzati.
+        2. **Modalità Personale:** Funziona solo con file locali, come Excel o CSV, ma è meno adatta a questo scenario poiché non supporta connessioni di rete.
+    - **Nota importante:**  
+        Se il gateway rimane offline per un lungo periodo, Power BI potrebbe considerarlo non più utilizzabile, costringendo a una riconfigurazione completa.
+### Fase 3: Configurazione di Power BI per i report
+- **Creazione dell’area di lavoro su Power BI Service:**  
+    In Power BI Service (l’interfaccia web), crea una **nuova area di lavoro** (se non esiste già per quel cliente).
+- **Preparazione del file report locale:**  
+    Sul computer dove gira l'applicazione del cliente locale del cliente, scarica **Power BI Desktop**, metti il nostro report e aggiorna la sorgente dati in modo che punti al database corretto.
+- **Pubblicazione su Power BI Service:**  
+    Accedi con l’account amministratore e pubblica il report dalla versione desktop di Power BI sull’area di lavoro dedicata al cliente. Durante la pubblicazione, Power BI caricherà:    
+    - Il **modello semantico**, che definisce la struttura dei dati.
+    - Il **report**, che contiene le visualizzazioni.
+### Fase 4: Configurazione dell’app per il cliente
+- **Creazione di un’app dedicata:**  
+    Una volta che i report sono pubblicati nell’area di lavoro, utilizza Power BI Service per creare una nuova **app**. L’app è un contenitore che consente al cliente di accedere facilmente ai report.    
+    - Puoi configurare l’app in modo che includa solo i report e i dataset pertinenti per il cliente.
+    - L’app viene condivisa con l’utente tramite un link.
+- **Licenza del cliente:**  
+    Il cliente può accedere all’app utilizzando un account Power BI con licenza **Pro** (circa 8 euro al mese per utente). Questo consente loro di visualizzare i report pubblicati.    
+### Fase 5: Automazione e manutenzione
+- **Aggiornamenti automatici:**  
+    Configura il refresh automatico dei dati in Power BI Service. In questo modo, i report verranno aggiornati periodicamente con i dati più recenti dal database.    
