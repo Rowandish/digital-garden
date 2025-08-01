@@ -5,8 +5,6 @@ tags:
   - Memory
   - PublishedPosts
 ---
-
-
 `Span` è un nuovo tipo introdotto in C#7.2 e supportato dal .NET Core 2.1 in poi ed è utilizzato per ==ottenere un puntatore type-safe ad una area contigua di memoria== (che sia sullo [[Heap]], [[Stack]] o anche unmanaged).
 
 Utilizzando lo `Span` è possibile effettuare delle elaborazioni su tale oggetto in memoria 100% sullo stack senza passare dallo heap, risparmiando quindi memoria e facendo risparmiare tempo al [[Garbage Collector]].

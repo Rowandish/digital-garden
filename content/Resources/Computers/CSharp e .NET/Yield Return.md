@@ -5,8 +5,6 @@ tags:
   - Basics
   - PublishedPosts
 ---
-
-
 L'utilizzo della parola chiave [`yield` `return`](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/yield) in C# da spesso adito a dubbi in quanto il suo comportamento è peculiare: tale parola chiave indica che l'oggetto che sto ritornando (tipicamente un _IEnumerable_) si comporta come un iteratore e non come un normale oggetto.
 
 Essendo tale oggetto un iteratore significa che l'oggetto non viene effettivamente creato ma **il metodo viene chiamato solo quando l'oggetto viene iterato in un foreach** (o in una query LINQ).

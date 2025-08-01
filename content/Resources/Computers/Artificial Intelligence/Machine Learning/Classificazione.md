@@ -3,6 +3,10 @@ tags:
   - MachineLearning
 ---
 Un problema di classificazione è un tipo di problema nell'ambito del machine learning dove l'obiettivo è quello di ==assegnare un'etichetta o una classe a una determinata osservazione in base alle sue caratteristiche==. In altre parole, il compito consiste nel creare un modello che possa imparare a distinguere tra diverse categorie o classi.
+Dal punto di vista geometrico, un classificatore suddivide lo **spazio degli input** in regioni, assegnando a ciascuna di esse una categoria.
+
+![[Pasted image 20250207144555.png]]
+
 
 Per esempio, immagina di avere un insieme di dati che contengono informazioni su vari tipi di frutta come mele, banane e arance. Ogni frutto ha diverse caratteristiche come colore, forma, dimensioni e peso. Un problema di classificazione consisterebbe nel creare un modello di machine learning che possa guardare queste caratteristiche e decidere a quale categoria appartiene ciascun frutto.
 

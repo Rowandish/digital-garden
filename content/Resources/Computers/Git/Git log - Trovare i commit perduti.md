@@ -1,4 +1,3 @@
-## Git log - Trovare i commit perduti
 #Coding #Git #PublishedPosts
 
 Quante volte è successo di voler recuperare un commit ma non ricordarsi quando o chi lo ha effettuato? **Git log** viene in aiuto! Questo comando permette di ottenere una lista di commit filtrati secondo una determinata condizione.

@@ -124,7 +124,7 @@ Per avere 1000€ al mese di aiuto alla pensione bisognerebbe avere come montant
 Nel fondo pensione c'è una tassazione composta:
 * Dal 15% al 9% sul capitale versato in base all'anzianità
 * Il 12,5% sulle rendite da obbligazioni
-* Il 20% (invece che il 26%) sulle rendite azionarie.
+* Il 20% (invece che il 26%) sulle rendite azionarie. Attenzione che per legge questo 20% viene applicato ogni anno e non alla fine del periodo, ammazzando i rendimenti.
 
 Quindi non è che il montante cresce e dopo 30 anni pago su tutto il 9%, esempio, ma dovrà calcolarne il 9% su quanto ho versato io e il 20% sulle plusvalenze e ottenere così la cifra finale netta.
 ### Anzianità

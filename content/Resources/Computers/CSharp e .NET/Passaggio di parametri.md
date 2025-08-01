@@ -27,7 +27,6 @@ In C# esistono quattro differenti tipologie passaggio di parametri:
 
 Per un approfondimento sui parametri di metodo vedi [questo articolo](http://ilprogrammatorepigro.tumblr.com/post/135479024392/i-parametri-di-metodo).
 
-
 ### 1.1 Tipi per referenza e per valore
 In C# esistono due insiemi di tipi di variabili: i *tipi per referenza* e i *tipi per valore*.
 **Classi, oggetti ed array sono tipi per referenza, tipi semplici, struct ed enum sono tipi per valore**.
@@ -93,7 +92,6 @@ Change(arr);
 // arr[0] ora è uguale a 888, la modifica all'interno del metodo ha effetti anche globali
 }
 ```
-
 ## 3. Passaggio per riferimento
 Questo meccanismo permette alla funzione invocata di ricevere come parametro **il puntatore** (valore dell'indirizzo di memoria) **all'oggetto effettivo**. Se la funzione chiamata modifica il parametro passato per riferimento, allora **la modifica sarà visibile anche alla funzione chiamante**.
 In C# gli oggetti complessi (come le classi) sono **sempre passati per riferimento e mai per valore**. Come suggerito da Jon Skeet questa affermazione non è completamente corretta, infatti egli afferma che la frase corretta sarebbe "**i riferimenti agli oggetti sono passati per valore di default**"

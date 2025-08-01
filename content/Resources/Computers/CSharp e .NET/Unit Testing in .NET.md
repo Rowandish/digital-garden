@@ -1,20 +1,10 @@
 ---
 tags:
-  - CSharp
-  - DotNET
   - Dometrain
 ---
-## Tipologie di test
-
-![[the-test-pyramid.png]]
-
-* Uni testing:
-* Component testing (functional testing o narrow integration testing):
-* Integration test
-* End to end test
+Questa nota riguarda come scrivere e strutturare al meglio gli [[Tipologie di test|unit test]] in .NET.
 
 ## Librerie di test
-
 * Testing library: la libreria che effettivamente lancia i test
 	* **xunit**: è la libreria più popolare
 	* **nunit**
@@ -28,47 +18,11 @@ tags:
 	* **Shouldly**
 
 ## Naming
-Assumiamo di avere un progetto chiamato `MyMathLibrary` che contiene una classe chiamata `MyMath` di funzioni matematiche custom della mia applicazione.
+Il progetto di test avrà nome `MyProject.Tests.Unit` e i metodi seguiranno lo stile  `Method_Should_When`. Vedi [[Naming nei test]].
 
-### Naming del progetto
-
-Per prima cosa è importante sottolineare che tutti i progetti di test devono essere raggruppati in una cartella ad hoc, in modo che non siano confusi con il codice effettivo; è una buona idea collocare il proprio codice in una cartella `src` e i test in una cartella in `test`.
-
-Una volta creata la cartella è necessario creare il progetto di test per `` `MyMathLibrary` ``, in particolare il nome deve dipendere dalla tipologia di test:
-
-| Tipologia di test | Nome                             |
-| ----------------- | -------------------------------- |
-| Unit              | `MyMathLibraryTests.Unit`        |
-| Integration       | `MyMathLibraryTests.Integration` |
-| End to End        | `MyMathLibrary.Tests.E2E`        |
-Come si vede il progetto di test è estremamente parlante in quanto indica il progetto testato e la tipologia di test che possiamo trovare al suo interno.
-
-### Naming della classe
-
-La classe di test si chiamerà con lo stesso nome della classe originale con la stringa `Tests` in fondo, quindi nel caso di `MyMath` questa si chiamerà `MyMathTests`.
-
-### Naming del test
-
-Il nome del test deve seguire lo stile `Method_Should_When`", in particolare dovrà quindi indicare dopo lo `Should` cosa dovrebbe fare e dopo il `When` in che caso dovrebbe fare quanto indicato.
-
-Assumiamo che all'interno della mia classe `MyMath` vi sia il metodo `Log` che fa un logaritmo; il test sarà così scritto.
-```csharp
-[Fact]  
-public void Log_ShouldCalculateLogOfANumber_WhenIntegerNumberIsGiven()  
-{  
-    // Test  
-}
-```
-
-### System Under Test
-Per convenzione l'oggetto che viene testato si chiama "System Under Test", abbreviato con `sut`.
-```csharp
-private readonly ClassToTest _sut = new();
-```
 ## Arrange, Act, Assert
 
 I test dovrebbero essere strutturati secondo la regola "Arrange, Act, Assert": `Arrange` prepara l'ambiente, `Act` esegue l'azione da testare, e `Assert` verifica che il risultato sia corretto.
-
 ```csharp
 [TestMethod]
 public void TestAdd()
@@ -84,7 +38,19 @@ public void TestAdd()
     Assert.AreEqual(3, result);
 }
 ```
+Non è obbligatorio scrivere effettivamente i commenti, posso anche lasciare un newline dopo ogni blocco: dipende come lo sviluppatore si trova meglio.
+Nel test inoltre non dovrei nascondere nessuna informazione importante, sopratutto nell'`Act`: per nascondere intendo utilizzare parametri di default nel costruttore, o magic number, che influenzano il test.
+Per esempio non scriverò `new Calculator(2,3)` ma `new Calculator(firstNumber:2, secondNumber:3)` in modo che sia esplicito quello che sto facendo.
 
+## 1 Assertion per test
+L'idea è che un test dovrebbe corrispondere ad un solo comportamento e un comportamento ad un solo Assertion.
+Per `Assert` non si intende una sola riga con l'assert o il `Should()` ma che tali devono essere tutte riferite ad un singolo comportamento.
+In `FluentAssertion` posso definire un `AssertionScope()` che permette di raggruppare vari righe di assertion che vengono sempre lanciate tutte anche se una da errore, a differenza della modalità classica dove il test si ferma al primo errore.
+```csharp
+using (new AssertionScope()){
+...
+}
+```
 
 ## Testare metodi non public
 
@@ -163,7 +129,6 @@ public class LoggerAdapter<TType> : ILoggerAdapter<TType>
 La classe `LoggerAdapter`, essendo una classe normale senza extension ne roba statica, può essere testata come al solito.
 Ovviamente la classe del codice dovrà usare tale adapter e non il logger effettivo.
 
-
 ## Mocking
 Il mocking sono quelle tecniche che prevedono la "sostituzione" di una dipendenza con una sua versione "semplificata" che si comporta in modo prevedibile.
 L'idea è che se devo testare una classe potrei non voler istanziare anche le sue dipendenze, soprattutto se queste fanno operazioni pesanti come scritture su disco, letture da file e così via.
@@ -173,44 +138,16 @@ Prerequisiti:
 * La classe non deve istanziare la classe concreta ma deve ricevere l'istanza dall'esterno (Dependency Inversion), tipicamente da costruttore (in modo da poter fare comodamente Dependency Injection)
 Le due librerie principali sono `Moq` e `NSubstitute`.
 
-
-
 ## xUnit
 
 ### Setup e TearDown
 In xUnit il `Setup` è il costruttore della classe mentre il `TearDown` è il metodo `Dispose` (la classe di test dovrà ereditare da `IDisposable`).
+Questo in quanto in xUnit viene creata una nuova istanza della classe di test per ogni singolo test, conseguentmente il costruttore viene creato prima del lancio del test e il `Dispose` alla fine.
 
 #### Async code
-Può succedere, tipicamente negli integration test, di avere del codice asincrono da aggiungere nei metodi `Setup` e `TearDown`.
+Può succedere, tipicamente negli integration test, di avere del codice asincrono da aggiungere nel costruttore o nel Dispose.
 In questo caso devo ereditare dall'interfaccia `IAsyncLifetime` che ha i metodi `InitializeAsync` e `DisposeAsync` e mettere il codice corrispondente nei due metodi.
 Se ho codice sincrono e asincrono posso usare il costruttore per il codice sincrono e il metodo `InitializeAsync` per il codice asincrono tenendo a mente che **il costruttore viene chiamato prima di `InitializeAsync`**.
-
-
-### Execution Model
-==xUnit crea una nuova istanza della classe di test per ogni singolo test==.
-Quindi se la classe di test ha un costruttore e un metodo `Dispose`, questi vengono chiamati **per ogni singolo test**.
-Se la classe ha una `IClassFixture` come shared context, il costruttore di questo ultimo viene invece chiamato una sola volta prima di tutti i test.
-
-### `ITestOutputHelper`
-Questa classe permette di printare dei dati su console durante l'esecuzione dei test. Questo è utile per diagnosticare problemi, verificare lo stato di variabili e funzioni durante l'esecuzione del test, e documentare il flusso di esecuzione del test.
-La classe viene passata automaticamente alla classe di test se definita a costruttore.
-```csharp
-public class CalculatorTests
-{
-    private readonly ITestOutputHelper _output;
-
-    public CalculatorTests(ITestOutputHelper output)
-    {
-        _output = output;
-    }
-
-    [Fact]
-    public void Add_ReturnsCorrectSum()
-    {
-        _output.WriteLine($"This string will be printed to Console");
-    }
-}
-```
 
 ### OneTimeSetup e OneTimeTearDown
 Se voglio scrivere del codice che venga eseguito una sola volta prima di tutti i test di una classe, e analogamente del codice che venga eseguito una sola volta solo alla fine, devo creare una classe `Fixture` che rappresenta uno `shared context` tra i vari metodi di test della mia classe.
@@ -243,9 +180,37 @@ public class ClassFixtureBehaviorTests : IClassFixture<MyClassFixture>
 
 ```
 Qualora la classe `Fixture` fosse utilizzata in più di una classe di test, il costruttore viene chiamato comunque una sola volta per tutte, stessa cosa per il `Dispose`.
+### Execution Model
+==xUnit crea una nuova istanza della classe di test per ogni singolo test==.
+Quindi se la classe di test ha un costruttore e un metodo `Dispose`, questi vengono chiamati **per ogni singolo test**.
+Se la classe ha una `IClassFixture` come shared context, il costruttore di questo ultimo viene invece chiamato una sola volta prima di tutti i test.
+
+### `ITestOutputHelper`
+Questa classe permette di printare dei dati su console durante l'esecuzione dei test. Questo è utile per diagnosticare problemi, verificare lo stato di variabili e funzioni durante l'esecuzione del test, e documentare il flusso di esecuzione del test.
+La classe viene passata automaticamente alla classe di test se definita a costruttore.
+```csharp
+public class CalculatorTests
+{
+    private readonly ITestOutputHelper _output;
+
+    public CalculatorTests(ITestOutputHelper output)
+    {
+        _output = output;
+    }
+
+    [Fact]
+    public void Add_ReturnsCorrectSum()
+    {
+        _output.WriteLine($"This string will be printed to Console");
+    }
+}
+```
 
 ### Shared context
-Spesso, soprattutto negli integration tests e e3e tests voglio condividere tra varie classi di test una determinata `Fixture`, in particolare condividere esattamente la stessa istanza.
+
+^6684e0
+
+Spesso, soprattutto negli integration tests e e2e tests voglio condividere tra varie classi di test una determinata `Fixture`, in particolare condividere esattamente la stessa istanza.
 A livello di flusso voglio il costruttore della `Fixture`, i costruttori delle classi di test in cui la `Fixture` è sempre la stessa chiamato uno per ogni metodo di test (ricordo che per ogni metodo xUnit istanzia una nuova classe) e infine il `Dispose` della classe `Fixture`.
 Questo esatto comportamento avviene con il concetto di `CollectionFixture`.
 Per fare questo devo prima definire una classe vuota con attributo `CollectionDefinition` che serve solo come aggregatore, esempio

@@ -4,6 +4,8 @@ tags:
 ---
 La regressione è la previsione di un valore numerico *target* a partire da una serie di variabili di input (*features*).
 I modelli di regressione cercano di stabilire una relazione matematica tra le variabili indipendenti e la variabile dipendente in modo da fare previsioni o stime.
+Fa quindi una interpolazione con i dati in ingresso per fornire una funzione generica:
+![[Pasted image 20250207142833.png]]
 
 Ci sono diversi tipi di modelli di regressione, tra cui i principali sono:
 

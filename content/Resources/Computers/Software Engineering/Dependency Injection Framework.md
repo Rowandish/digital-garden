@@ -100,12 +100,128 @@ builder.Services.Add(openWeatherServiceDescriptor);
 ```
 Questo strumento più a basso livello permette di customizzare l'IoC Container con cose custom fighe come `Interceptors`, `Decorators` e così via.
 
-## Note
+## Ottenimento condizionale di istanze
+Spessissimo vi è la necessità di ottenere delle istanze diverse in base a determinate condizioni, per esempio qualcosa come:
+```csharp
+if (condizione)
+    return istanzaA;
+else
+    return istanzaB;
+```
+Assumendo che sia `istanzaA` che `istanzaB` siano entrambe correttamente registrate nella DI, come faccio a ottenere una rispetto all'altra usando la DI?
+Ovviamente entrambe devono ereditare dalla stessa interfaccia, nell'esempio sotto `IHandler`.
+Poi ci sono vari metodi, un trucco è usare una classe `Orchestrator` che si memorizza un dizionario `<string, Type>` con `string` la stringa che identifica la condizione dell'`if`.
+Potrebbe essere un `enum` o qualsiasi cosa.
+Per popolare tale dizionario sfruttare un `Attribute` custom in modo da poter fare la scanning dell'assembly e registrare nella DI in modo automatico senza dover far tutto a mano.
+E infine sfruttare questo dizionario per ottenere il servizio richiesto.
+Di seguito la spiegazione passo passo con il codice.
+### 1. Definizione dell'Interfaccia e dell'Attributo Personalizzato
+Definiamo un'interfaccia comune e un attributo che verrà usato per mappare un comando a una specifica implementazione.
+
+```csharp
+// Interfaccia comune per tutti gli handler.
+public interface IHandler
+{
+	Task HandleAsync();
+}
+
+// Attributo per associare un nome di comando ad un handler.
+[AttributeUsage(AttributeTargets.Class)]
+public class CommandNameAttribute : Attribute
+{
+	public string CommandName { get; }
+	public CommandNameAttribute(string commandName)
+	{
+		CommandName = commandName;
+	}
+}
+```
+
+### 2. Implementazioni Concrete
+Creiamo due classi concrete che implementano `IHandler` e che vengono identificate da un attributo `CommandNameAttribute`.
+
+```csharp
+[CommandName("weather")]
+public class WeatherHandler : IHandler
+{
+	public async Task HandleAsync()
+	{
+		// Simulazione di una chiamata asincrona ad un servizio esterno.
+		await Task.Delay(100);
+		Console.WriteLine("Esecuzione dell'handler per il comando 'weather'.");
+	}
+}
+
+[CommandName("time")]
+public class TimeHandler : IHandler
+{
+	public Task HandleAsync()
+	{
+		Console.WriteLine("Esecuzione dell'handler per il comando 'time'.");
+		return Task.CompletedTask;
+	}
+}
+```
+
+### 3. Handler Orchestrator con Dependency Injection
+L'orchestratore è il componente che, dato un comando (una stringa), determina quale handler risolvere dal container DI. In questo esempio, usiamo il container per ottenere l'istanza corretta in base al tipo registrato.
+
+```csharp
+public class HandlerOrchestrator
+{
+	private readonly Dictionary<string, Type> _handlerTypes = new();
+	private readonly IServiceProvider _serviceProvider;
+
+	// Il service provider viene iniettato tramite DI.
+	public HandlerOrchestrator(IServiceProvider serviceProvider)
+	{
+		_serviceProvider = serviceProvider;
+		RegisterHandlers();
+	}
+
+	// Scansione dell'assembly per ottenere tutte le implementazioni di IHandler
+	// e mappare il comando definito dall'attributo.
+	private void RegisterHandlers()
+	{
+		var handlerTypes = Assembly.GetExecutingAssembly().GetTypes()
+			.Where(t => typeof(IHandler).IsAssignableFrom(t) && !t.IsInterface && !t.IsAbstract);
+
+		foreach (var type in handlerTypes)
+		{
+			var attribute = type.GetCustomAttribute<CommandNameAttribute>();
+			if (attribute != null)
+			{
+				_handlerTypes[attribute.CommandName] = type;
+			}
+		}
+	}
+
+	// Risolve l'istanza dell'handler basandosi sul comando.
+	public IHandler? GetHandler(string command)
+	{
+		if (_handlerTypes.TryGetValue(command, out var handlerType))
+		{
+			// Otteniamo l'istanza tramite il container DI
+			return (IHandler)_serviceProvider.GetRequiredService(handlerType);
+		}
+		return null;
+	}
+}
+```
+### 4. Configurazione del Container DI e Utilizzo
+Dove voglio ottenere l'istanza a partire da un parametro in ingresso basta scrivere qualcosa come.
+```csharp
+var orchestrator = serviceProvider.GetRequiredService<HandlerOrchestrator>();
+string command = "weather"; // generico parametro in ingresso per ottenere un handler condizionale
+var handler = orchestrator.GetHandler(command);
+if (handler != null)
+	await handler.HandleAsync();
+```
+## Tips & Tricks
+
 ### Devo rendere tutto interfaccia?
 Anche se uno un DI Framework ciò non significa che devo convertire ogni cosa in una interfaccia: tutti gli oggetti che non possono essere sostituiti *by definition* devono rimanere classi classiche.
 Anche se tecnicamente potrei iniettarle tramite interfacce a costruttore questo non ha senso.
-
-## Tips & Tricks
 
 ### Testare `ILogger`
 L'interfaccia `ILogger` di .NET (vedi [[Logging in .NET]]) è piena di extension methods ed estremamente difficile da testare.
@@ -171,3 +287,85 @@ Inoltre è buona norma (sopratutto per chi fornisce librerie come pacchetti nuge
 namespace Microsoft.Extensions.DependencyInjection;
 ```
 in modo tale che dall'esterno non debbia aggiungere uno `using` dedicato a tale extension.
+
+### Impementare decoration
+Assumiamo di volere misurare quanto tempo ci impiega una mia classe a fare una chiamata API, per esempio a ottenere il tempo mediante la classe `OpenWeatherService`.
+L'idea è creare una classe che wrappa `OpenWeatherService` in modo da circondare la sua chiamata API con uno `Stopwatch` e misurarne così il tempo senza sporcare la classe `OpenWeatherService`.
+Per farlo posso sfruttare la DI in questo modo: creo una classe `LoggedWeatherService` che riceve in ingresso un `IWeatherService` e che a sua volta è un `IWeatherService`.  
+```csharp
+public class LoggedWeatherService : IWeatherService
+{
+    private readonly IWeatherService _weatherService; //<-- OpenWeatherService
+    private readonly ILogger<IWeatherService> _logger;
+
+    public LoggedWeatherService(IWeatherService weatherService,
+        ILogger<IWeatherService> logger)
+    {
+        _weatherService = weatherService;
+        _logger = logger;
+    }
+
+    public async Task<WeatherResponse?> GetCurrentWeatherAsync(string city)
+    {
+        var sw = Stopwatch.StartNew();
+        try
+        {
+            return await _weatherService.GetCurrentWeatherAsync(city);
+        }
+        finally
+        {
+            sw.Stop();
+            _logger.LogInformation("Weather retrieval for city: {0}, took {1}ms",
+                city, sw.ElapsedMilliseconds);
+        }
+    }
+}
+```
+e quando definisco tali classi nella `ServiceCollection` scrivo:
+```csharp
+// Definisco OpenWeatherService as itself
+builder.Services.AddTransient<OpenWeatherService>();
+// Quando qualcuno chiede un IWeatherService forniscimelo wrappato nel LoggedWeatherService (per questo questo ultimo eredita da IWeatherService).
+builder.Services.AddTransient<IWeatherService>(provider =>
+    new LoggedWeatherService(provider.GetRequiredService<OpenWeatherService>(),
+        provider.GetRequiredService<ILogger<IWeatherService>>()));
+```
+Di fatto quindi scrivo "a mano" come risolvere `IWeatherService` in modo da poterlo wrappare.
+Un  modo più pulito di scrivere questo è usare il metodo `Decorate` del pacchetto nuget `Scrutor` in questo modo
+```csharp
+builder.Services.AddTransient<IWeatherService, OpenWeatherService>();  
+builder.Services.Decorate<IWeatherService, LoggedWeatherService>();
+```
+
+## Scrutor
+Scrutor è un pacchetto nuget che aggiunge delle extension a `ServiceCollection` in modo da poter fare delle operazioni aggiuntive.
+Esempio sono il `Decorate` visto sopra ma sopratutto lo scanning, quindi registrare le dipendenze in maniera automatica facendo lo scan dei tipi definiti in un assembly secondo regole specifiche.
+Per esempio sotto aggiungo alla DI come Singleton tutti i tipi nell'assembly che contiene `Program` che hanno l'attributo `[Singleton]` e così anche per gli altri scope.
+```csharp
+services.Scan(selector =>
+{
+    selector
+        .FromAssemblyOf<Program>()
+            .AddClasses(f => f.WithAttribute<SingletonAttribute>())
+                .AsImplementedInterfaces()
+                .WithSingletonLifetime()
+
+            .AddClasses(f => f.WithAttribute<TransientAttribute>())
+	            // Se il servizio già esiste throw exception (raccomandato) 
+                .UsingRegistrationStrategy(RegistrationStrategy.Throw)
+                .AsImplementedInterfaces()
+                .WithTransientLifetime()
+
+            .AddClasses(f => f.WithAttribute<ScopedAttribute>())
+                .AsImplementedInterfaces()
+                .WithScopedLifetime();
+});
+```
+Questo è solo un esempio ma rende l'idea di quando utilizzare `Scrutor` rispetto all'aggiunta manuale con il classico pacchetto nuget di Microsoft.
+Posso filtrare per:
+* Interface marking
+* Attribute marking
+* Namespace
+* Class name (per esempio `EndsWith`)
+* …
+Ovviamente lo scanning maschera moltissima logica e rende il codice sicuramente più conciso ma anche molto più difficile da capire e può portare a dei bug difficili da scoprire: lo scanning è quindi da usare con cautela.

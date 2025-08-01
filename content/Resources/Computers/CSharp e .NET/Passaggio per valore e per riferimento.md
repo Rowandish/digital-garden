@@ -5,8 +5,6 @@ tags:
   - Basics
   - PublishedPosts
 ---
-
-
 ## Introduzione
 
 In questo articolo approfondisco una parte fondamentale della programmazione: **il passaggio di parametri**, con particolare riferimento al linguaggio C#.

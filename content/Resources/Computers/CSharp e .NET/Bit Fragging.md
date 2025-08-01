@@ -4,7 +4,6 @@ tags:
   - CSharp
   - Memory
 ---
-
 Il BitFragging è una tecnica di ottimizzazione della memoria che sfrutta l'uso efficiente dei bit per memorizzare più informazioni in una singola unità di memoria.
 Questo approccio è particolarmente utile quando si gestiscono grandi quantità di dati con campi che occupano pochi bit ciascuno, come in applicazioni di programmazione di giochi, compressione dati, e trasmissione di segnali.
 ==Invece di utilizzare un'intera unità di memoria (come un byte o un intero) per ogni singola informazione, il BitFragging suddivide queste unità in bit più piccoli e impacchetta più informazioni insieme==. Questo consente di risparmiare memoria e, in alcuni casi, può anche migliorare le prestazioni.

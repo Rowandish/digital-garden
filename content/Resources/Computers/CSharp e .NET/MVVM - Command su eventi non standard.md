@@ -1,11 +1,8 @@
 ---
 tags:
-  - Coding
   - CSharp
+  - MVVM
   - WPF
-  - ImagoLearning
-Date: 2023-10-16
-Done: false
 ---
 Nell'MVVM si usa l'interfaccia `ICommand` per prendere un particolare evento e portarlo nel `ViewModel`.
 Il problema è che spesso non tutti gli eventi sono supportati, per esempio nel `Button` è supportato il `Click` ma se voglio fare un evento sul `LostFocus` di una `TextBox` (esempio) non ho modo di passare quell'evento al `ViewModel`.

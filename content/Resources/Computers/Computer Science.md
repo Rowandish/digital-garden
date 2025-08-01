@@ -7,21 +7,22 @@
 * [[Python]]
 * [[Ruby On Rails]]
 * [[Regexp]]
+## Design and Software Architecture
+* [[Solution Architecture]]
+* [[Clean Architecture]]
+* [[Event-Driven Architecture]]
 ## Database
 ### Basics
 * [[Transazioni]]
 * [[Indici]]
 * [[Trigger]]
 * [[Window function]]
-
 ### DBMS
 * [[SQL Server]]
-
 ### NoSQL
 * [[DynamoDB]]
 ### Visualizations
 * [[PowerBI]]
-
 ## Tools
 * [[Git]]
 * [[Blender]]
@@ -37,15 +38,10 @@
 * [[AWS Web Services]]
 * [[Firebase]]
 * [[Azure]]
-
-## Design and Software Architecture
-* [[Clean Architecture]]
 ## Container
 * [[Docker]]
 ## Web
-* [[Scss]]
 * [[Elementor]]
-
 ## Digital Image Processing
 * [[Thresholding]]
 * [[Normalizzazione e equalizzazione]]

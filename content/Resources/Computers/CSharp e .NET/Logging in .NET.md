@@ -2,6 +2,7 @@
 tags:
   - CSharp
   - DotNET
+  - Dometrain
 ---
 Questa nota prende a piene mani dal corso [From Zero to Hero: Logging in .NET](https://courses.dometrain.com/courses/take/from-zero-to-hero-logging-in-net).
 

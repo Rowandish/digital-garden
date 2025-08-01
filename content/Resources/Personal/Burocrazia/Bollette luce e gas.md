@@ -187,7 +187,7 @@ Nell'offerta di rinnovo troverete il nuovo prezzo bloccato e la nuova durata del
 
 In secondo luogo, l'offerta di rinnovo non è così "esplicita" come la racconto io. Il fornitore può sì mandarvi l'offerta per posta cartacea o elettronica, ma può anche semplicemente aggiungere una pagina ad una bolletta. Sì ok vi potrei dire "tenete d'occhio la bolletta nei 3-4 mesi precedenti alla scadenza", ma che balle.
 
-### Prezzo Variabile (o Indicizzato
+### Prezzo Variabile (o Indicizzato)
 
 Il prezzo varierà mensilmente e seguirà l'indice indicato in fase di stipula.
 
@@ -299,17 +299,14 @@ Ogni fornitore può aggiungere degli altri costi aggiuntivi, non ci sono regole.
 
 Per prima cosa è necessario utilizzare l’unico e solo comparatore ufficiale che è
 
-<aside>
 💡 [https://www.ilportaleofferte.it/portaleOfferte/](https://www.ilportaleofferte.it/portaleOfferte/)
-</aside>
 
+Prima di confrontare accedere con lo SPID in modo che prepopoli con già tutti i dati in tuo possesso. Inoltre puoi vedere al tua fornitura attiva con gli indici sintetici di prezzo.
 Questo fornisce già una buona scrematura ma non coglie tutte le "sfumature" delle offerte. Per esempio non potete filtrare per durata del prezzo bloccato, per presenza di una formula Abbonamento, etc. Potete scegliere tra prezzo fisso o variabile, monoraria o multioraria e poco altro.
 
 Inoltre il comparatore vi metterà davanti una stima di quanto andrete a pagare in totale, non il prezzo della materia prima, della commercializzazione, etc. E a noi questi valori servono per fare un confronto con l'offerta attuale, o meglio, con l'effettivo prezzo al kwh (quello che io chiamo "Prezzo Normalizzato"), che secondo me è il valore più significativo da guardare.
 
-<aside>
 💡 Conviene **usare il comparatore per trovare le 2-3 offerte con il prezzo finito più basso**, poi banalmente analizzerete la prima offerta per vedere se vi piace, e deciderete voi se è il caso di guardare bene anche le altre.
-</aside>
 
 ### Condizioni
 

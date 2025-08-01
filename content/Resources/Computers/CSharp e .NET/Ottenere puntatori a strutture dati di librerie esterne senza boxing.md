@@ -5,8 +5,6 @@ tags:
   - Memory
   - PublishedPosts
 ---
-
-
 Talvolta è necessario dover interagire con librerie non gestite (DLL esterne) e accedere a delle loro strutture dati che si trovano nella memoria unmanaged.
 Il metodo `PtrToStructure<T>` presentato qui fornisce un modo efficiente per ottenere una struct gestita di tipo `T` da un puntatore `IntPtr` alla memoria non gestita.
 Il framework fornisce già il metodo `Marshal.PtrToStructure<T>(IntPtr)` ma, nella sua implementazione interna, utilizza `object` e conseguentemente porta a del boxing con conseguente allocazione sullo [[Heap]].

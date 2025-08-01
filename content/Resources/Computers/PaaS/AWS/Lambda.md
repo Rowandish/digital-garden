@@ -4,6 +4,12 @@ AWS Lambda è un servizio [[Serverless vs Server|serverless]] che esegue del cod
 Gli sviluppatori possono caricare codice scritto in diversi linguaggi come Python, C#, JavaScript e Go, e Lambda si occupa del provisioning e della scalabilità.
 Queste funzioni sono il collante tra i vari servizi AWS in quanto possono essere triggerate in maniera automatica da eventi (esempio un nuovo evento in una [[SQS]] o [[SNS]], una modifica ad un dato in [[DynamoDB]] se ho abilitato gli streams e così via).
 Questo servizio è sempre gratis fino a 1M di richieste al mese.
+
+### Horizontal scaling
+AWS lambda scala in modo orizzontale in modo automatico: questo significa che ogni richiesta che viene ricevuta viene gestita da un istanza di un server diversa.
+Se ricevo 1000 richieste verranno gestite in parallelo da 1000 istanze.
+Questo permette alle lambda di essere sempre performanti anche a carichi elevati.
+
 ## CLI
 
 ### AWS

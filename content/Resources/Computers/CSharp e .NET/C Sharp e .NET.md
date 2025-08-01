@@ -1,41 +1,22 @@
-Di seguito una serie di articoli e note sul mondo C#, dalle basi, al multithreading fino alla gestione della memoria per una programmazione efficiente e performante.
-
-```dataview
-LIST FROM #WebDevelopment 
-```
 ## Basics
-### Basi del linguaggio
-- [[Classi astratte ed interfacce]]
 - [[Delegate]]
-- [[Indexed default property]]
 - [[Le stringhe in C Sharp]]
-- [[Tipi di dato primitivi]]
 - [[Passaggio per valore e per riferimento]]
 - [[Casting in .NET]]
-- [[Eventi]]
-- [[Catena di costruttori]]
-- [[I parametri di metodo]]
-- [[Closures]]
-- [[Concatenare stringhe in .NET]]
-- [[Linq]]
-- [[Modificabilità degli oggetti]]
-- [[Modificatori di accesso]]
 - [[Passaggio di parametri]]
-- [[Yield Return]]
 - [[Il blocco using]]
 - [[Come usare l’interfaccia ICloneable]]
-- [[Documentazione in .NET]]
+- [[Storia del framework .NET]]
 
-## Macro argomenti
-* [[Logging in .NET]]
-* [[Unit Testing in .NET]]
+## Advanced
+- [[Asynchronous Programming in .NET]]
+- [[Source Generators]]
+- [[Yield Return]]
+- [[Working with null]]
 
-## Tools
+### Memory
 
-* [[JetBrains Rider]]
-## Memory
-
-### Gestione della memoria e ottimizzazione
+#### Gestione della memoria e ottimizzazione
 - [[Stack e heap]]
 - [[Classe Memory]]
 - [[Copia di oggetti]]
@@ -52,9 +33,9 @@ LIST FROM #WebDevelopment
 - [[DotMemory]]
 - [[DotMemory - Unit Tests]]
 
-## Multithreading
+### Multithreading
 
-### Gestione dei thread e concorrenza
+#### Gestione dei thread e concorrenza
 - [[Interlocked]]
 - [[Lock]]
 - [[SpinLock]]
@@ -62,24 +43,30 @@ LIST FROM #WebDevelopment
 - [[Thread]]
 - [[SemaphoreSlim]]
 
-### Tecniche di sincronizzazione
+#### Tecniche di sincronizzazione
 - [[Blocking vs Spinning]]
 - [[ManualResetEvent vs ManualResetEventSlim]]
 - [[SpinLock e SpinWait]]
 
-## Performance
-
+### Performance
 * [[Come velocizzare il ToString() degli enum]]
 * [[Quanto sono veloci le reflection]]
 
-## .NET
-* [[Storia del framework .NET]]
-* [[ASP.NET]]
+## Testing
+* [[Logging in .NET]]
+* [[Unit Testing in .NET]]
+* [[Test Driven Development]]
+* [[Integration testing in ASP.NET]]
+
+## ASP.NET
+* [[REST APIs in .NET]]
+* [[Minimal API]]
 
 ## WPF
 * [[WPF]]
-* [[Blend  - Visual Studio]]
-* [[Command su eventi non standard]]
-* [[Debuggare crash rendering XAML nel designer]]
+* [[MVVM - Command su eventi non standard]]
 * [[WPF Binding]]
 * [[Animazioni in WPF]]
+
+## Tools
+* [[JetBrains Rider]]

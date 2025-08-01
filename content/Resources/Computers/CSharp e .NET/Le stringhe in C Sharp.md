@@ -5,8 +5,6 @@ tags:
   - Basics
   - PublishedPosts
 ---
-
-
 Il contenuto di questo articolo è una libera traduzione dell’articolo di Jon Skeet trovabile [qui](http://csharpindepth.com/Articles/General/Strings.aspx).
 * * *
 

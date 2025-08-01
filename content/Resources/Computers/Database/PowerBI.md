@@ -1,10 +1,19 @@
-Power BI è una piattaforma di **business intelligence** e analisi dati sviluppata da Microsoft, progettata per raccogliere, elaborare e visualizzare dati in modo intuitivo.
-Unisce le funzionalità di **SQL Server Reporting Services** e **Excel**, consentendo di creare report e dashboard interattivi. Gli utenti progettano i report localmente tramite **Power BI Desktop** e li pubblicano nel cloud attraverso il **Power BI Service**, dove possono essere condivisi e visualizzati.
+**Power BI**, uno strumento di business intelligence potente e versatile, ampiamente utilizzato a livello interno per trasformare dati complessi in **report intuitivi e dashboard interattive**.
+Esso consente alle organizzazioni di **collegarsi a una o più fonti di dati**, che siano database interni, file Excel, servizi cloud o altre piattaforme, e di **consolidare tutte queste informazioni in un'unica visione coerente**. Questo non solo semplifica l'analisi, ma permette anche di **identificare rapidamente trend, anomalie e opportunità**, fornendo ai team e alla direzione aziendale le basi per strategie basate sui fatti.
+Gli utenti progettano i report localmente tramite **Power BI Desktop** e li pubblicano nel cloud attraverso il **Power BI Service**, dove possono essere condivisi e visualizzati.
+Per utilizzare Power BI in modo efficiente, è consigliabile centralizzare tutti i dati in un unico DBMS (ad esempio SQL Server) ed evitare connessioni multiple a basi dati diverse, specialmente in presenza di grandi volumi. È preferibile eseguire calcoli e trasformazioni complesse direttamente nel database tramite viste ad hoc, demandando a Power BI esclusivamente la visualizzazione dei dati. Inoltre, è utile pianificare aggiornamenti notturni per garantire che i report siano sempre aggiornati senza impattare sulle performance operative.
 ## Versioni e Licenze
 
 Power BI è disponibile in due versioni principali.
 La **versione gratuita** offre funzionalità limitate, rendendola poco adatta per utilizzi aziendali. La **versione PRO**, al costo di **9,40€ al mese per utente**, permette il caricamento e l'aggiornamento automatico dei report, la condivisione interna e offre un limite di **1 GB di RAM per modello**.
 La licenza è legata a una singola email, consentendo però l’accesso da più dispositivi.
+
+## Report e modello semantico
+
+==Un file di **report** è una combinazione di dati e visualizzazioni==. Contiene sia il modello dati (le tabelle, le relazioni tra di esse, le trasformazioni applicate ai dati, le misure create con DAX) sia le pagine di report dove sono presenti grafici, tabelle e altri elementi visivi che rappresentano quei dati in modo analitico e interattivo. Il report, quindi, è pensato per essere un prodotto completo che consente agli utenti di esplorare e analizzare i dati direttamente.
+
+D'altra parte, ==un **modello semantico** è un file che si concentra esclusivamente sul modello dati, senza includere alcun tipo di visualizzazione==. Il suo scopo è fornire un ==modello dati centralizzato e condiviso che può essere utilizzato da più report==. Quando pubblichi un modello semantico nel servizio Power BI, diventa un dataset che può essere riutilizzato da altri utenti o team per costruire i loro report. Questo approccio è particolarmente utile in ambienti aziendali, dove la coerenza tra i report è fondamentale, poiché garantisce che tutti utilizzino gli stessi dati, trasformazioni e regole aziendali.
+
 
 ## Acquisizione Dati
 
@@ -38,29 +47,34 @@ Power BI offre strumenti avanzati per trasformare e modellare i dati:
 
 È inoltre possibile aggiungere colonne personalizzate, definite da formule, con la funzionalità **Custom Column**. Il tipo di dato generico assegnato può essere modificato manualmente per esigenze specifiche.
 
-
 ### Date
 
 Power BI richiede che le tabelle di date rispettino i seguenti criteri per funzionare correttamente nei modelli di dati, specialmente per creare visualizzazioni temporali o gestire relazioni tra tabelle:
 1. **Date senza buchi**: Ogni giorno deve essere presente, senza interruzioni (ad esempio, dal 1 gennaio al 31 dicembre di un anno, tutte le date devono essere rappresentate).
 2. **Date uniche**: Non devono esistere date duplicate nella colonna di riferimento.
+3. Date senza tempo, quindi con solo la parte di `Date`.
 
-Per soddisfare questi requisiti, è consigliabile utilizzare una tabella calendario dedicata che funge da base per analisi temporali.
+Per soddisfare questi requisiti, è consigliabile utilizzare una nuova tabella (`modelling -> new table`) con una colonna date che risponde alle caratteristiche di cui sopra.
+Per creare tale colonna ho due opzioni: `CALENDAR` e `CALENDARAUTO`.
+Una volta creata questa tabella devo collegarla a tutte le colonne data su cui vorrò lavorare, per farlo colonna a sinistra, terzo pulsante dove si visualizza lo schema ER del db: drag and drop della data nella colonna (n.b. colonna solo data senza time, creata sopra) e lui creerà un collegamento fittizio togliendo il tipo data nella tabella originale.
 #### 1. `CalendarAuto`
 La funzione **`CalendarAuto`** genera automaticamente una tabella calendario basandosi sui dati già presenti nel modello. Essa determina la **prima data** e l’**ultima data** disponibili nel modello e crea un intervallo continuo.
 Non permette di specificare un intervallo personalizzato (utilizza esclusivamente le date esistenti nei dati).
 ```dax
 CalendarTable = CALENDARAUTO()
 ```
-
+Attenzione che se nel modello ho una colonna di tipo `Time` la funzione `CALENDARAUTO` fornirà date dal 1899.
 #### 2. `Calendar`
-La funzione **`Calendar`** consente di specificare un intervallo personalizzato definendo manualmente la data di inizio e la data di fine. È utile quando si vuole analizzare un periodo temporale che va oltre l'intervallo dei dati presenti (ad esempio, includendo anni futuri).
+La funzione **`Calendar`** consente di specificare un intervallo personalizzato definendo manualmente la data di inizio e la data di fine. È utile quando si vuole analizzare un periodo temporale che va oltre l'intervallo dei dati presenti (ad esempio, includendo anni futuri) oppure se nel modello sono presenti colonne solo `Time` in quanto, in quel caso, `CALENDARAUTO` fornirà date dal 1899, cosa che ovviamente non ha senso.
 ```dax
 Calendario =
 VAR dataMin = MIN(Orders[OrderDate]) -- Trova la data più piccola nella tabella Orders
 VAR dataMax = MAX(Orders[OrderDate]) -- Trova la data più grande nella tabella Orders
 RETURN CALENDAR(dataMin, dataMax)
 ```
+### Date vs Datetime
+PowerBi lavora male con le colonne datetime, quindi quando ho una colonna di questo tipo che vorrò analizzare (non tutte le colonne quindi) conviene creare una colonna aggiuntiva calcolata (formula `Date.From([nome colonna])`.
+La colonna così creata sarà di tipo generico, convertirla in tipo `Date`.
 
 ### Misure vs Colonne calcolate
 Le **misure** in Power BI sono calcoli dinamici che aggregano o manipolano i dati in base al contesto della visualizzazione in cui vengono utilizzate.
@@ -83,8 +97,7 @@ PrezzoTotale = Sales[Quantity] * Sales[Price]
 | **Contesto**    | Dipendente dal contesto di filtro e di righe nella visualizzazione | Indipendente dal contesto, calcolata riga per riga              |
 | **Utilizzo**    | Utilizzata per aggregazioni, calcoli complessi, indicatori KPI     | Utilizzata per calcoli riga per riga o colonne aggiuntive       |
 | **Prestazioni** | Efficiente per grandi dataset                                      | Può rallentare il modello con dataset molto grandi              |
-
-
+|                 |                                                                    |                                                                 |
 ## Report
 
 Una volta che i dati sono stati acquisiti e preparati, Power BI consente di creare report altamente interattivi con **oggetti visivi** predefiniti o personalizzabili tramite linguaggi come Python, R o React. Tra gli strumenti più utili c’è lo **Slicer**, che permette di filtrare dinamicamente i dati in base a parametri come date (con slider) o categorie (con checkbox).
@@ -93,13 +106,10 @@ Dopo aver progettato il report in Power BI Desktop, il passaggio successivo è l
 
 ### Accesso e Visualizzazione
 
-Gli utenti possono accedere ai report pubblicati nel cloud tramite un browser o l'app Power BI Mobile. I report sono organizzati all'interno delle workspace aziendali e possono essere condivisi tramite link diretti. Durante la visualizzazione, è possibile interagire con i grafici, applicare filtri e analizzare i dati nei dettagli, rendendo le informazioni accessibili in modo chiaro e dinamico.
+Gli utenti possono accedere ai report pubblicati nel cloud tramite un browser o l'app Power BI Mobile. I report sono organizzati all'interno delle workspace aziendali e possono essere condivisi tramite link diretti.
+Per pubblicare una dashboard dinamica tramite link public fare così:
+![[Pasted image 20250403145641.png]]
 
-## Report e modello semantico
-
-==Un file di **report** è una combinazione di dati e visualizzazioni==. Contiene sia il modello dati (le tabelle, le relazioni tra di esse, le trasformazioni applicate ai dati, le misure create con DAX) sia le pagine di report dove sono presenti grafici, tabelle e altri elementi visivi che rappresentano quei dati in modo analitico e interattivo. Il report, quindi, è pensato per essere un prodotto completo che consente agli utenti di esplorare e analizzare i dati direttamente.
-
-D'altra parte, ==un **modello semantico** è un file che si concentra esclusivamente sul modello dati, senza includere alcun tipo di visualizzazione==. Il suo scopo è fornire un ==modello dati centralizzato e condiviso che può essere utilizzato da più report==. Quando pubblichi un modello semantico nel servizio Power BI, diventa un dataset che può essere riutilizzato da altri utenti o team per costruire i loro report. Questo approccio è particolarmente utile in ambienti aziendali, dove la coerenza tra i report è fondamentale, poiché garantisce che tutti utilizzino gli stessi dati, trasformazioni e regole aziendali.
 
 ## Pagina drill-through
 Una **pagina drill-through** in Power BI è una pagina di report progettata per fornire un livello di dettaglio più approfondito su uno specifico elemento o categoria presente in un'altra pagina del report.
@@ -116,9 +126,7 @@ Con il **drill-down**, puoi scendere a un livello più specifico all'interno del
 
 Al contrario, il **drill-up** ti permette di risalire verso livelli più alti della gerarchia. Se stavi esaminando le vendite per mese e vuoi tornare a una visione più sintetica, puoi fare drill-up per vedere i totali per trimestre o per anno. È il modo per tornare a una prospettiva più ampia dopo aver esplorato i dettagli.
 
-## Best Practices
 
-Per utilizzare Power BI in modo efficiente, è consigliabile centralizzare tutti i dati in un unico DBMS (ad esempio SQL Server) ed evitare connessioni multiple a basi dati diverse, specialmente in presenza di grandi volumi. È preferibile eseguire calcoli e trasformazioni complesse direttamente nel database tramite viste ad hoc, demandando a Power BI esclusivamente la visualizzazione dei dati. Inoltre, è utile pianificare aggiornamenti notturni per garantire che i report siano sempre aggiornati senza impattare sulle performance operative.
 
 ## Utilizzare Power BI per visualizzare report dei dati raccolti da macchine di produzione
 
@@ -135,11 +143,13 @@ Per utilizzare Power BI in modo efficiente, è consigliabile centralizzare tutti
         2. **Modalità Personale:** Funziona solo con file locali, come Excel o CSV, ma è meno adatta a questo scenario poiché non supporta connessioni di rete.
     - **Nota importante:**  
         Se il gateway rimane offline per un lungo periodo, Power BI potrebbe considerarlo non più utilizzabile, costringendo a una riconfigurazione completa.
+    * Nella macchina dove gira il gateway è necessario installare il driver di postgresql (o del db che mi interessa) usando stackbuilder
 ### Fase 3: Configurazione di Power BI per i report
 - **Creazione dell’area di lavoro su Power BI Service:**  
     In Power BI Service (l’interfaccia web), crea una **nuova area di lavoro** (se non esiste già per quel cliente).
 - **Preparazione del file report locale:**  
-    Sul computer dove gira l'applicazione del cliente locale del cliente, scarica **Power BI Desktop**, metti il nostro report e aggiorna la sorgente dati in modo che punti al database corretto.
+    Sul computer dove gira l'applicazione del cliente locale del cliente, scarica **Power BI Desktop**, metti il nostro report e aggiorna la sorgente dati in modo che punti al database corretto (deve essere visibile ovviamente).
+- **Crea la dashboard PowerBi**  
 - **Pubblicazione su Power BI Service:**  
     Accedi con l’account amministratore e pubblica il report dalla versione desktop di Power BI sull’area di lavoro dedicata al cliente. Durante la pubblicazione, Power BI caricherà:    
     - Il **modello semantico**, che definisce la struttura dei dati.
@@ -153,4 +163,29 @@ Per utilizzare Power BI in modo efficiente, è consigliabile centralizzare tutti
     Il cliente può accedere all’app utilizzando un account Power BI con licenza **Pro** (circa 8 euro al mese per utente). Questo consente loro di visualizzare i report pubblicati.    
 ### Fase 5: Automazione e manutenzione
 - **Aggiornamenti automatici:**  
-    Configura il refresh automatico dei dati in Power BI Service. In questo modo, i report verranno aggiornati periodicamente con i dati più recenti dal database.    
+    Configura il refresh automatico dei dati in Power BI Service. In questo modo, i report verranno aggiornati periodicamente con i dati più recenti dal database.
+Per abilitare la sincronizzazione è necessario configurare un data gateway e successivamente impostarlo nelle impostazioni del semantic model della dashboard.
+![[SemanticModel-Abilitare sincronizzazioone 2.png]]
+
+
+
+### Tips & Tricks
+
+* le colonne id cliccarci sopra -> column tools -> summarization -> count
+* se asse x è tempo non è capace da solo  di fare rappamenti per ora (o come voglio), devo creare colonne apposta (altrimenti alert con "i" indicando che ci sono troppi dati che non riesco a visulizzare)
+
+## Nuova misura
+
+Funzioni comode:
+* `SAMEPERIODLASTYEAR`
+* `PARALLELPERIOD`
+* `DATESBETWEEN`
+* `CALCULATE`
+
+Esempio formula che fornisce una misura con il confronto delle date con quelle del mese precedente filtrati solo per gli eventi di tipo allarme.
+```
+AllarmiMese-1:
+	var differenza = -1
+	var periodo = PARALLELPERIOD('Date[Date]', differenza, MONTH)
+	RETURN CALCULATE('public events'[event_id]', 'public events'[event_type]' in (11,12,13), periodo)
+```

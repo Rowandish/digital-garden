@@ -1,11 +1,8 @@
 Un'architettura **serverless** consente agli sviluppatori di concentrarsi sulla logica applicativa senza preoccuparsi della gestione dell'infrastruttura server.
 E' quindi banalmente del codice che funziona sulla rete senza che lo sviluppatore abbia pensato all'infrastruttura server dove questo gira.
-Un esempio è il processing di una chiamata API, o di un messaggio [[SQS]]/SNS, o il processing di un modifica ad un record in [[DynamoDB]] o, in generale, funzioni che vengono eseguite on-demand in risposta a eventi.
+Un esempio è il processing di una chiamata API, o di un messaggio [[SQS]]/[[SNS]], o il processing di un modifica ad un record in [[DynamoDB]] o, in generale, funzioni che vengono eseguite on-demand in risposta a eventi.
 In un sistema serverless, il cloud provider gestisce automaticamente l'infrastruttura, inclusi provisioning, scaling e manutenzione dei server: l'unica cosa che conosce lo sviluppatore è l'entry point, tutto il resto è delegato e trasparente.
-Gli sviluppatori scrivono .
-
 Esempi di servizi serverless:
-
 - [[Lambda|AWS Lambda]] (Amazon Web Services)
 - **Azure Functions** (Microsoft Azure)
 - **Google Cloud Functions** (Google Cloud)
@@ -29,9 +26,6 @@ Un'architettura serverless ha molto senso per l'esecuzione di task brevi ed even
 |Pieno accesso hardware e software|Necessità di manutenzione continua|
 |Adatto a task complessi e stateless|Scalabilità manuale|
 |Ecosistema flessibile|Maggior tempo per setup e configurazione|
-
----
-
 ### Esempio
 
 Un esempio comune è l'elaborazione di immagini caricate dagli utenti su un sito web. La funzione serverless può essere attivata dall'evento di caricamento di un'immagine su un bucket S3 (AWS).

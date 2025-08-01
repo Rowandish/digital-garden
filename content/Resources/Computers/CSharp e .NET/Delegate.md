@@ -5,8 +5,6 @@ tags:
   - Basics
   - PublishedPosts
 ---
-
-
 ## 1. Introduzione
 La parte introduttiva dell'articolo è presa direttamente dala [documentazione ufficiale MSDN](https://msdn.microsoft.com/it-it/library/ms173172.aspx).
 

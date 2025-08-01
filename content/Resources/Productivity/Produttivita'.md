@@ -233,7 +233,7 @@ Una idea potrebbe essere avere uno spreadsheet con le cose da fare in rosso con 
 
 Se il lavoro che si sta facendo è veramente senza significato per noi, nonostante tutti gli hack di cui sopra, non potremo mai essere veramente produttivi e felici.
  > [!quote]
-> quote::*there's no point climbing up a ladder* if the ladder is leaning against the wrong wall.
+> *quote::*there's no point climbing up a ladder if the ladder is leaning against the wrong wall.*
 
 Come fare quindi per trovare qualcosa che sia veramente *meaningful* per noi?
 

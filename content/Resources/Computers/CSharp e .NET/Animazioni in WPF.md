@@ -1,12 +1,9 @@
 ---
 tags:
   - WPF
-  - ImagoLearning
-Date: 2023-11-21
-Done: false
 ---
 Le animazioni in XAML consentono di aggiungere movimento, transizioni e interazioni visive alle tue applicazioni.
-Per definirle conviene utilizzare [[Blend  - Visual Studio]] invece del Classico Visual Studio in quanto è stato progettato proprio per descrivere il design e le animazioni del codice.
+Per definirle conviene utilizzare **Blend** invece del Classico Visual Studio in quanto è stato progettato proprio per descrivere il design e le animazioni del codice.
 
 ### Definire l'Elemento da Animare
 Per creare un'animazione, devi avere un elemento dell'interfaccia utente su cui applicarla. In questo esempio, utilizzeremo un semplice pulsante.

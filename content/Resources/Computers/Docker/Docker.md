@@ -1,6 +1,6 @@
 ---
 tags:
-  - PublishedPosts
+  - Dometrain
 ---
 Questa nota prende a piene mani dal corso ["From Zero to Hero: Docker for Developers" di Dan Clarke su Dometrain](https://dometrain.com/course/from-zero-to-hero-docker/).
 
@@ -10,7 +10,7 @@ Docker è una piattaforma progettata per semplificare la creazione, la distribuz
 ==I container consentono a uno sviluppatore di confezionare un'applicazione con tutte le parti di cui ha bisogno, come librerie e altre dipendenze, e di spedire il tutto come un unico pacchetto==.
 Questo processo si chiama containerization e permette a tale codice di funzionare su ogni infrastruttura.
 I container Docker sono leggeri ed efficienti. Condividono il kernel del sistema host isolando i processi dell'applicazione, riducendo i costi generali rispetto alle tradizionali macchine virtuali. Questa efficienza si traduce in tempi di avvio più rapidi, migliore utilizzo delle risorse e la possibilità di eseguire molti più container sullo stesso hardware.
-Un'altra caratteristica fondamentale di Docker è la sua integrazione con strumenti di orchestrazione dei container come Kubernetes. Questi strumenti forniscono una gestione automatizzata delle applicazioni in container, gestendo attività come il ridimensionamento, il load balancinig e l'auto-riparazione. Questa capacità di orchestrazione è fondamentale per le moderne architetture di microservices, in cui le applicazioni sono composte da più servizi interconnessi che devono essere gestiti in modo coeso.
+Un'altra caratteristica fondamentale di Docker è la sua integrazione con strumenti di orchestrazione dei container come Kubernetes. Questi strumenti forniscono una gestione automatizzata delle applicazioni in container, gestendo attività come il ridimensionamento, il load balancing e l'auto-riparazione. Questa capacità di orchestrazione è fondamentale per le moderne architetture di microservices, in cui le applicazioni sono composte da più servizi interconnessi che devono essere gestiti in modo coeso.
 
 ### Container vs Virtual Machines
 
@@ -389,6 +389,24 @@ done
 /opt/mssql-tools/bin/sqlcmd -S database -U sa -P Pwd -d master -i /CreateDatabaseAndSeed.sql
 ```
 
+### `HealthCheck`
+L'**`healthcheck`** è una configurazione che permette di definire un **controllo periodico sullo stato di salute di un container**, cioè un comando che verifica se il servizio al suo interno è effettivamente funzionante e reattivo, non solo "in esecuzione".
+Serve per monitorare lo stato reale del container e può essere utile, ad esempio, per far sì che altri servizi dipendenti aspettino che un servizio sia realmente pronto prima di partire, oppure per strumenti di orchestrazione o logging.
+Un esempio pratico: se hai un database che impiega qualche secondo ad avviarsi, puoi usare l'`healthcheck` per controllare quando sarà effettivamente pronto ad accettare connessioni.
+```yaml
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_PASSWORD: example
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+```
+
+In questo caso, Docker esegue il comando `pg_isready -U postgres` ogni 10 secondi. Se fallisce per 5 volte consecutive, il container verrà considerato "unhealthy". Se invece il test passa, Docker lo segnerà come "healthy".
 
 ## Port mapping
 Questa operazione permette di rendere pubblica la porta del container all'host ospitante. Per esempio lancio l'image di `nginx` e vado su `localhost` nel browser non vedo niente in quanto la porta di `nginx` non è esposta.
@@ -454,6 +472,18 @@ docker run `
   -v ${pwd}:/backup alpine sh `
   -c "cd /mydata && tar xvf /backup/backup.tar"
 ```
+
+#### Esempio: restore backup PostgreSQL nel container
+Assumiamo di avere un file che corrisponde ad un backup di un database nel file system del sistema operativo che ospita Docker e PostgreSQL che invece gira solo a richiesta solo come container.
+Vorrei fare il restore di tale file nel database all'interno del container. Per prima cosa devo lanciare il container  in modo che il file venga visto, quindi montare un `volume` apposito:
+```bash
+docker run -d --name my-postgres -v C:/path/completo/locale/cartella:/nome_cartella_in_docker -e POSTGRESQL_USERNAME=postgres -e POSTGRESQL_PASSWORD=XXX -e POSTGRESQL_DATABASE=YYY -p 5432:5432 bitnami/postgresql
+```
+Ora o tramite terminale (`docker exec -it my-postgres bash`) o all'interno della finestra `Exec` del container in `Docker Desktop` scrivo:
+```bash
+psql -U postgres -d YYY -f /backup/backupdb20250402.sql
+```
+Il restore verrà fatto correttamente in quanto il file verrà visto.
 
 ### Bind Mount
 I file in questa cartella sono sul file system del sistema operativo ospitante Docker.
@@ -667,40 +697,49 @@ Nella sezione Images posso vedere tutte le immagini che ho scaricato sul mio PC 
 ### Ricerca
 Posso cercare un'image e scaricarla con il pull o lanciarla direttamente.
 
-## Docker per unit test
+## Docker per test
+
+^02a678
 
 `dotnet.testcontainers` è una libreria per supportare i test con istanze usa e getta di container Docker.
+Tipicamente prima di lanciare i test viene creato e inizializzato il container, poi vengono lanciati i test su questo ultimo e infine viene eliminato.
 ==Questo approccio consente di eseguire test in un ambiente isolato e riproducibile==.
 ### Vantaggi
-
 * L'ambiente su cui girano i test è identico indipendentemente dal PC che sta lanciando tali test, che sia un PC locale o un sistema di CI/CD.
 * In caso di utilizzo per Database: non sporco il mio, eventuale, DBMS locale con database di test che poi devo pulire automaticamente (e sappiamo che non sempre succede…)
 * In caso di utilizzo per Database: posso avere test che girano contemporaneamente su istanze del DBMS con versioni diverse: per esempio se un cliente ha il suo DBMS versione X è corretto che i suoi test girino sul DBMS con tale versione e non un mio DBMS aggiornato, mentre, esempio,  test della mia applicazione standard devono funzionare col DBMS all'ultima versione.
 ### Funzionamento
-
 Una volta installato il pacchetto principale `dotnet.testcontainers` si possono aggiungere pacchetti aggiuntivi per delle immagini specifiche, per esempio per PostgreSQL c'è un pacchetto `Testcontainers.PostgreSql`.
 Il sistema scaricherà, solo la prima volta, le immagini che gli servono (sicuramente `testcontainers/ryuk` che è un'immagine che fornisce comandi comodi per eliminare containers/networks/volumes/images con un determinato filtro dopo un determinato delay) e le immagini che servono per i test.
 Una volta ottenute le immagini lancerà dei container usa e getta a partire da tali immagini.
 Nella classe di test si potranno utilizzare in modo trasparente, nessuno sa che sto comunicando con un container invece che con un servizio effettivo.
+Tipicamente viene creata un [[Unit Testing in .NET#^6684e0|TestFixture o TestCollection]] per creare il container usando il pacchetto nuget `TestContainer` e la classe fornirà al mondo esterno una `IDbConnectionFactory` che può essere utilizzata per ottenere la connection string con il metodo `CreateConnectionAsync` e fare così tutte le query che servono in un ambiente standard e ripetibile.  
 
 ### Esempio con PostgreSQL
-
 In questo esempio utilizzo un container PostgreSQL in una classe `Fixture` di `xunit` creando un container che comunica sempre a porta 61342 dall'esterno con database chiamato `label_tracking_test_db`.
 
 ```csharp
-public class LabelTrackingManagerFixture : IAsyncLifetime
+public class PostgreSqlFixture : IAsyncLifetime
 {
-    public PostgresDatabaseManagerTestable DatabaseManager { get; private set;}
-    public TrackingManager TrackingManager { get; private set; }
-    private const int PortNumber = 61342;
-    private const int DefaultPostgreSqlPort = 5432;
-    private const string DatabaseName = "label_tracking_test_db";
-    private readonly PostgreSqlContainer _postgreSqlContainer = new PostgreSqlBuilder().WithPortBinding(PortNumber, DefaultPostgreSqlPort).WithDatabase(DatabaseName).Build();
+    /// <summary>
+    ///     Creo un container di Docker con Postgres
+    /// </summary>
+    private readonly PostgreSqlContainer _postgreSqlContainer
+        = new PostgreSqlBuilder().Build();
+
+    /// <summary>
+    ///     Invede di fornire all'esterno una stringa ConnectionString fornisco direttamente la factory come interface, che è più pulita
+    /// </summary>
+    public IDbConnectionFactory ConnectionFactory;
 
     public async Task InitializeAsync()
     {
         await _postgreSqlContainer.StartAsync();
-        DatabaseManager = new PostgresDatabaseManagerTestable("127.0.0.1", "postgres", "postgres", PortNumber, DatabaseName);
+
+        ConnectionFactory = new NpgsqlConnectionFactory(_postgreSqlContainer.GetConnectionString());
+
+        // Migrazioni
+        await new DatabaseInitializer(ConnectionFactory).InitializeAsync();
     }
 
     public Task DisposeAsync()

@@ -1,3 +1,7 @@
+---
+tags:
+  - Dometrain
+---
 Questa nota prende a piene mani dal corso [Getting Started: Clean Architecture in .NET](https://courses.dometrain.com/courses/take/getting-started-clean-architecture-in-net)
 ## Introduzione
 
@@ -9,18 +13,8 @@ Analogamente ai design pattern della GoF esistono anche i pattern per quanto rig
 > [!quote] Richard Taylor
 > quote::“*Architectural pattern is a general, reusable resolution to a commonly occouring problem in software architecture within a given context.*“
 
-### Layered vs Domain Centric
-L'architettura a strati è quella classica in cui abbiamo i livello di interfaccia che dipende dalla Business Logic la quale dipende dal Data Access che tipicamente è il database.
-Anche se questo è l'approccio più comune e utilizzato ha un limite: tutte le frecce, quindi le dipendenze, sono sul database. Potenzialmente anche il lato applicativo dipende e può operare sul database, dipendendo da questo ultimo.
+Clean architecture è un'architettura [[Tipologie di architettura#^088b39|Domain Centric]].
 
-![[Pasted image 20241127111214.png]]Nelle architetture *Damain Centric* il focus viene spostato dal database alla *Business Logic*: tutte le frecce punteranno a quest'ultimo senza questa abbia dipendenze sul *Data Access Layer*.
-Nelle architetture *Domain Centric* posso modificare il database senza che questo abbia alcuna influenza sulla business logic.
-Esempi sono:
-* Clean Architecture
-* Hexagonal/Ports and Adapters Architecture
-* Onion Architecture
-![[Pasted image 20241127111907.png]]
-Come si nota in questo modo io posso sviluppare la parte di *Domain*, quindi la business logic della mia applicazione senza considerare ne la parte di *Presentation* ne quella di accesso al db, qui chiamata *Infrastructure*.
 > [!note] Definizione
 > Clean architecture separa il software in livelli in cui le dipendenza puntano tutte dall'esterno verso l'interno. I livelli interno contengono la business logic mentre i livelli esterni il database e le interazioni con il mondo esterno.
 ## Applicazione di esempio
@@ -84,6 +78,9 @@ Gym CreateGym(string name);
 ```
 è invalido in quanto essendo un metodo che manipola i dati deve ritornare `void`.
 ### Mediator
+
+^a1115b
+
 E' un pattern in cui invece di avere due oggetti che comunico direttamente tra di loro comunico tramite un mediator in mezzo tra i due.
 Questo per aumentare il disaccoppiamento tra due classi e renderle più indipendenti l'una dell'altra.
 

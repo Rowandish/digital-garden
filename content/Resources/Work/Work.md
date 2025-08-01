@@ -11,7 +11,7 @@ I temi trattati sono:
 - **[[Marketing]]**
 - Dialettica
 	- [[Critica sandwich]]
-- **[[Processo di selezione di un candidato|Processi di selezione]]**
+- **[[Cambio lavoro e recruiting]]**
 	- [[Coding interview]]
 - **[[Side Hustle]]**
 	- [[Youtuber]]
