@@ -13,6 +13,8 @@ I temi trattati sono:
 	- [[Critica sandwich]]
 - **[[Cambio lavoro e recruiting]]**
 	- [[Coding interview]]
+	- [[System Design interview]]
+	- [[Behavioural interview]]
 - **[[Side Hustle]]**
 	- [[Youtuber]]
 	- [[Dropshipping]]

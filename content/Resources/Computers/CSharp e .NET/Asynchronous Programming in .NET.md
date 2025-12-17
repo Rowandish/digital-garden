@@ -441,7 +441,7 @@ In questo caso, il `Task` parte in background e, quando l'eccezione viene genera
 Il .NET **non considera le eccezioni non osservate nei Task come fatali**, a meno che non venga attivata un'eventuale gestione globale degli errori (come `TaskScheduler.UnobservedTaskException`).
 
 ```csharp
-ExampleWithoutAwait();
+TaskWithException();
 Console.WriteLine("Il metodo termina senza rilevare errori.");
 
 static async Task TaskWithException()
@@ -477,7 +477,6 @@ static void ExampleAsyncVoid()
 }
 ```
 
-
 ## Non usare mai async void
 Per il motivo di cui sopra per cui è impossibile gestire le eccezioni di un metodo `async void` tali metodi devono [essere evitati il più possibile](https://johnthiriet.com/removing-async-void/) salvo dove non si ha altra scelta come in:
 - Lifecycle method
@@ -505,7 +504,7 @@ a così
 public void OnPrepareButtonClick(object sender, EventArgs e)
 {
     Button button = (Button)sender;
-    PrepareCoffeeAsync(button);
+    _ = PrepareCoffeeAsync(button);
 }
 
 public async Task PrepareCoffeeAsync(Button button)
@@ -628,9 +627,6 @@ async Task<int> GetNumberWithExceptionAsync()
     }  
 }
 ```
-Se l'unico punto nel codice di un mio metodo dove uso `await` è dove ho un return posso evitare di fare il metodo `async` e fare `return mioTask` invece che `return await mioTask`.
-Questo permette di risparmiare parecchio context switch inutile e migliorare così le prestazioni.
-Un'eccezione a questa regola è se il return con `await` è all'interno di un `try/catch` o `try/finally` o `using`: in quel caso se faccio return senza await non entrerò mai nel catch e quindi non posso farlo ma devo awaitarlo per forza.
 ## ValueTask
 
 `ValueTask<T>` è una struttura (`struct`) introdotta per ridurre l'allocazione di oggetti quando si restituisce un valore asincrono. A differenza di `Task<T>`, che è una classe e quindi causa un'allocazione sulla heap, `ValueTask<T>` può evitare questa allocazione se il risultato è già disponibile.
@@ -683,7 +679,7 @@ L'**ExecutionContext** è un concetto utilizzato per rappresentare tutte le info
 ## Note
 * Ogni metodo `async` aggiunge circa 80 byte in quanto, in release, ogni metodo async diventa una `struct`. Questo è molto poco a meno di lavorare in condizioni particolari dove lo spazio è importante come sistemi embedded.
 * Mai `.Result` o `.Wait()`: Sia `.Result` che `.Wait()` bloccheranno il thread corrente. Se il thread corrente è il **Main Thread** (noto anche come **UI Thread**), l'interfaccia utente si bloccherà fino al completamento del `Task`. Inoltre `.Result` e `.Wait()` rilanciano le eccezioni come `System.AggregateException`, rendendo più difficile individuare l'eccezione effettiva. Se vogliamo un codice sincrono usare `GetAwaiter().GetResult()` che è bloccante come sopra ma almeno non wrappa in `AggregateException`.
-* Ogni volta che si sviluppa un metodo `async Task` prevedere in ingresso un `CancellationToken` in modo che il chiamante possa avere modo di interrompere l'operazione asincrona.
+* Ogni volta che si sviluppa un metodo `async Task` è buona norma prevedere in ingresso un `CancellationToken` in modo che il chiamante possa avere modo di interrompere l'operazione asincrona.
 * `.WaitAsync(token)`: permette di aggiungere la possibilità di cancellare un `Task` tramite un `CancellationToken` anche ai metodi che non lo supportano nativamente. Per i metodi che invece ritornano `IAsyncEnumerable` ho a disposizione l'extension `WithCancellation(token)` che fa la stessa cosa.
 * Se devo lanciare un task "fire and forget", quindi senza nessuno che lo aspetta ma gestendo correttamente le eccezioni usare il metodo `SafeFireAndForget` del pacchetto nuget `AsyncAwaitBestPractices`
 * `ConfigureAwait(false)`: indica che il codice seguente l'await non deve essere eseguito sul thread chiamante ma su un altro thread in background usando il `ThreadPool`. Ha senso metterlo ovunque tranne quando le operazioni seguenti all'`await` devono essere eseguite sul thread dell'interfaccia. Per esempio se scrivo con pattern MVVM, solo nelle View non avrò `ConfigureAwait(false)`, in tutte le altri classi lo avrò sempre. Sotto al cofano viene effettuato impostando `SynchronizationContext` a null: .NET non trovando un `SynchronizationContext` da utilizzare prenderà un nuovo thread.

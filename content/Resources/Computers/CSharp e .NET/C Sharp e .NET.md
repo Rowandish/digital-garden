@@ -9,10 +9,12 @@
 - [[Storia del framework .NET]]
 
 ## Advanced
+* [[Dapper]]
 - [[Asynchronous Programming in .NET]]
 - [[Source Generators]]
 - [[Yield Return]]
 - [[Working with null]]
+- [[Collisioni in una HashTable]]
 
 ### Memory
 

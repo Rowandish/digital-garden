@@ -19,7 +19,7 @@ Questi soldi che vengono dedotti dalla busta paga in automatico sono comunque de
 
 Sono istituiti da banche o assicurazioni private. In questo caso il contributo del datore di lavoro sul fondo pensione può avvenire solo se c'è un accordo esplicito in azienda, altrimenti ci sono solo i contributi volontari. Le adesioni sono tipicamente volontarie ma possono essere anche collettive (una azienda può fare un accordo con un fondo aperto per i suoi dipendenti in modo da avere dei vantaggi simili a quelli del fondo chiuso). La differenza quindi con il FPN è che nel caso sopra il datore di lavoro **deve** versare un contributo mentre con i FPA il datore di lavoro **può** ma solo in caso di particolari accordi non scontati.
 
-### Piani Individuali Pensionistici Assicurativi
+### Piani Individuali Pensionistici Assicurativi (PIP)
 
 Sono gestiti solo da assicurazioni e sono sempre e solo individuali. Sono molto costosi ma con capitale spesso assicurato, possono avere senso in prossimità alla pensione per non rischiare di perdere soldi.
 

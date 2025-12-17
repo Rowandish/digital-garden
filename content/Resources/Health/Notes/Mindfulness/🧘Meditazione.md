@@ -37,6 +37,60 @@ Con l’esercizio prolungato la mente tende a fissarsi sempre meglio sulla respi
 
 Per migliorare la concentrazione, può essere utile mantenere nella mente l'immagine di una montagna durante la meditazione formale. Esplorare la sua utilità nell'intensificare la capacità di stare immobili, di fronte alle avversità, alle difficoltà, alle bufere o alla monotonia spirituale. Chiedersi cosa si impara da questo tipo di pratica.
 
+### Postura
+
+Questi appunti riguardano l'importanza della **postura** nella pratica meditativa, con un riferimento specifico alle **Sette (o Otto) Posture di Vairocana** (o "Punti di Vairocana"), indicazioni tradizionali del Buddismo Tibetano.
+
+#### 1. Principi Generali della Postura
+
+- **Comfort e Stabilità:** Sedersi in una posizione **confortevole**. Se la postura è scomoda, la mente sarà distratta dal dolore fisico.
+- **Supporto Consigliato:** Utilizzare un cuscino per sollevare il bacino in modo che il sedere sia **più in alto delle ginocchia**.
+    - _Sconsigliato il divano in quanto si tende ad affondare._
+- **Schiena:** La schiena deve essere **dritta ma non tesa**.
+    - Una schiena tesa porta a un'agitazione mentale.
+    - Una schiena incurvata favorisce il torpore mentale.
+- **Dignità:** La postura dovrebbe essere **rilassata ma con dignità**, non "svaccata", ma in qualche modo **fiera**.
+    
+#### 2. Le Sette (o Otto) Posture di Vairocana
+
+Questi "punti" sono le indicazioni specifiche sulla posizione del corpo da assumere durante la meditazione:
+
+|**Punto**|**Indicazione**|**Scopo/Dettaglio**|
+|---|---|---|
+|**1. Gambe**|Posizione del loto (completo o mezzo loto) o altra posizione stabile.|Favorisce naturalmente una **schiena dritta**.|
+|**2. Schiena**|Dritta, ma non rigida.|Immaginare un filo che tiene in alto. **Non tesa** (no petto in avanti) e **non incurvata**.|
+|**3. Spalle**|Rilassate, leggermente aperte.|Mantenere la parte superiore del corpo rilassata.|
+|**4. Mani**|Mudra della meditazione (destra sulla sinistra, pollici che si toccano).|All'altezza dell'ombelico. Le braccia non toccano il corpo, con i gomiti piegati.|
+|**5. Testa/Collo**|In linea con la colonna vertebrale.|Mento leggermente retratto.|
+|**6. Occhi**|Socchiusi o fissi su un punto a terra.|Non tenerli completamente chiusi per evitare il sonno (torpore mentale).|
+|**7. Bocca**|Posizione naturale.|La lingua tocca il palato e i denti non si toccano.|
+|**8. Respiro**|Naturale e addominale.|L'aria viene portata sotto l'ombelico; gradualmente si porta il respiro ad essere più profondo. L'attenzione è sulla **consapevolezza e osservazione del respiro**.|
+
+#### 3. Avvicinamento Progressivo alla Meditazione
+La meditazione è un'operazione di **rilassamento** e **non deve esserci sforzo** nel tentativo di non pensare o "fare" qualcosa.
+
+##### Step 1: Familiarizzare con lo Stare Fermi
+
+- Quando non si è abituati, è difficile stare immobili per lunghi periodi.
+- **Esercizio Iniziale:** Stare seduti immobili per circa mezz'ora al giorno, anche pensando ad altro, per abituarsi allo stare fermi.
+- **Gestione del Disagio:** Se arriva la voglia di grattarsi o si sente dolore:
+    - **Osservarla** e considerare che è **impermanente** ("fra un po' passa").
+    - Resistere al primo impulso: più ci si gratta, più l'impulso si diffonde.
+        
+
+##### Step 2: Iniziare a Meditare
+- Una volta familiarizzato con lo stare fermi, si può passare a familiarizzare con un oggetto di meditazione.
+- **Oggetto Base:** Il **respiro**.
+- **Gestione dei Pensieri:** Se arriva un nuovo pensiero, **osservarlo** e poi **lasciarlo andare senza aggrapparsi**.
+
+#### 4. Tecniche Utili
+
+- **Contare i Respiri:** Contare ogni respiro. Se si perde la concentrazione, si perde il conto, rendendo facile accorgersi della distrazione. In tal caso, si **ricomincia da 0**.
+- **Respiro come Strumento Veloce:** Una volta creata familiarità, sedersi e fare **3 respiri consapevoli** è sufficiente per calmare la mente e ritornare al momento presente.
+    - Questo strumento è "bellissimo" perché si può fare **ovunque**, senza cellulare o altro. È un'azione virtuosa al posto di prendere il cellulare.
+- **Gestione del Rumore:** Se c'è rumore ambientale, provare a **percepire i suoni solo come suoni**, senza attribuirgli un significato o giudizio.
+    - Ciò si ottiene dando importanza ai **sensi** (osservare l'udito, poi il tatto, ecc.).
+        
 ## Quando Meditare
 
 Un trucco per integrare la meditazione nella quotidianità è meditare quando si è a letto. Si può sperimentare una meditazione profonda oppure addormentarsi; in entrambi i casi, è una vittoria. Si suggerisce di meditare un'ora ogni mattina, perché un tempo più breve potrebbe non essere sufficiente per entrare in profondità. Per chi desidera sperimentare la meditazione, può essere utile provare per sessanta giorni, un'ora al giorno, come prima cosa al mattino. Dopo circa sessanta giorni, si potrebbe essere stanchi di ascoltare la propria mente, avendo risolto molte questioni o avendole ascoltate a sufficienza da riuscire ad affrontare le paure e i problemi sottostanti.

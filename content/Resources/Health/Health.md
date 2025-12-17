@@ -21,7 +21,7 @@
 * [[effetto Zeigarnik]]
 ### Mindfulness
 
-* [[Meditazione]]
+* [[🧘Meditazione]]
 * [[Memento mori]]
 * [[Qui e ora]]
 ## Fisica
@@ -52,7 +52,7 @@ Per migliorare il sonno si può usare il metodo del "3,2,1":
 Numerosi studi hanno dimostrato che fare 10000 passi al giorno è fondamentale per ridurre il rischio di numerose malattie e problematiche sul lungo termine.
 Per fare di modo di fare sempre 10000 passi al giorno indipendentemente da tutto si può usare un tapis roulant, comodissimo quello portatile da mettere sotto la standing desk (lui utilizza il [questo](https://www.amazon.it/dp/B09F2QWWB8?keywords=treadmill%20desk%20walking%20pad%20c2&geniuslink=true)).
 
-#### [[Meditazione]]
+#### [[🧘Meditazione]]
 Quando nella nostra vita siamo circondati di cose da fare e non riusciamo mai a stare fermi abbiamo sicuramente dei marker dello stress molto alti, anche se non ce ne accorgiamo.
 Numerosi studi hanno dimostrato che meditare porta a numerosi benefici per la salute e riduce notevolmente lo stress.
 

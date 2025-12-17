@@ -21,6 +21,9 @@
 * [[SQL Server]]
 ### NoSQL
 * [[DynamoDB]]
+## Communication
+* [[gRPC]]
+* [[GraphQL]]
 ### Visualizations
 * [[PowerBI]]
 ## Tools
@@ -55,4 +58,5 @@
 ## Hacking & Tricks
 
 * [[PicoCTF]]
+* [[Setup PC per Privacy]]
 * [[Perché non dovresti usare md5]]

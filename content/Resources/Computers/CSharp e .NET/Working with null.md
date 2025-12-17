@@ -36,12 +36,12 @@ Oppure nel singolo file C#:
 #nullable enable
 ```
 In particolare ora se un reference type non è dichiarato con il `?` il compilatore fornirà warning se non è gestito il fatto che questa variabile possa essere null.
-Il `?` su un reference type serve quindi solo per i developer e per il compilatore e indica che una variabile ci si aspetti che possa diventare null (`string?`) oppure che non dovrebbe mai essere null (`string`).
+==Il `?` su un reference type serve quindi solo per i developer e per il compilatore e indica che una variabile ci si aspetti che possa diventare null (`string?`) oppure che non dovrebbe mai essere null (`string`)==.
 L'obiettivo è fare in modo che il compilatore ti **aiuta a prevenire i NullReferenceException** segnalando dove potresti avere `null` non gestiti.
 Questa è una **verifica a livello di compilatore**, **non cambia il comportamento a runtime**: `string` può ancora essere `null` a runtime, sia che sia definito `string` che `string?`.
-
 ## Nullable value type vs nullable reference type
-La differenza tra un **nullable value type** e un **nullable reference type** in C# è sostanziale sia concettualmente che dal punto di vista dell’implementazione. Quando si parla di `int?`, cioè un tipo valore nullable, ci si riferisce in realtà a una struttura `Nullable<T>`, che internamente contiene due elementi: una proprietà `HasValue`, che indica se è presente un valore, e una proprietà `Value`, che rappresenta il valore effettivo. Anche quando il tipo è `null`, non si tratta di un riferimento assente, ma di una struct che contiene un flag per indicare l’assenza del valore.
+La differenza tra un **nullable value type** e un **nullable reference type** in C# è sostanziale sia concettualmente che dal punto di vista dell’implementazione.
+Quando si parla di `int?`, cioè un ==tipo valore nullable, ci si riferisce in realtà a una struttura `Nullable<T>`==, che internamente contiene due elementi: una proprietà `HasValue`, che indica se è presente un valore, e una proprietà `Value`, che rappresenta il valore effettivo. Anche quando il tipo è `null`, non si tratta di un riferimento assente, ma di una struct che contiene un flag per indicare l’assenza del valore.
 Al contrario, `Person?`, che rappresenta un **nullable reference type**, è semplicemente un riferimento che può essere null. Non c’è alcun wrapper o struttura a supporto: ==il tipo è lo stesso `Person`, ma il punto interrogativo viene usato esclusivamente per abilitare i controlli del compilatore introdotti con il nullable aware context==.
 A livello di runtime, `Person?` è del tutto identico a `Person`, con la differenza che il compilatore tiene traccia delle possibili assegnazioni null e genera warning se si tenta di usare un valore senza verificarne la presenza.
 Tecnicamente, i **nullable value types** vivono nello stack e solo in caso di boxing vengono allocati su heap. I **nullable reference types**, invece, sono normali riferimenti che possono semplicemente contenere `null`, senza alcuna struttura aggiuntiva. La gestione della nullabilità in questo caso è tutta a carico del compilatore, che segnala potenziali dereferenziazioni pericolose, ma non aggiunge alcuna protezione automatica a runtime.
@@ -145,3 +145,19 @@ La soluzione è controllare che `v != null` prima dell'accesso.
 ```csharp
 string color = v?.Color ?? defaultVehicle.Color;
 ```
+
+## Best Practice
+Utilizza **“non-nullable” di default**.
+Rendi “nullable” solo ciò che _può davvero mancare_ nel dominio. Questo aumenta la robustezza (meno NPE) e la pulizia (le intenzioni sono chiare).
+Preferisci `T` non-nullable; `T?` quando necessario e controlli con `?`, `!` con parsimonia.
+Questo in quanto:
+- **Fallimenti anticipati**: i compilatori/linters ti costringono a gestire i `null` dove servono, non ovunque.    
+- **Modello di dominio più chiaro**: se un campo è non-nullable, comunichi che è sempre presente.    
+- **Meno rami inutili**: riduci `if (x != null)` sparsi e codice rumoroso.
+    
+## Linee guida pratiche
+
+1. **Default non-nullable** in tutto il codice “interno” salvo eccezioni motivate.
+2. **Ai bordi**: accetta il caos (null/undefined), normalizza subito, e rientra nel mondo non-nullable.
+3. **Evita `null` per segnalare errori**: usa eccezioni controllate o `Result`.
+    
